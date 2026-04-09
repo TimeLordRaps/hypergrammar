@@ -1,0 +1,19 @@
+{
+  "name": "meta_rule_schema_metametagrammar",
+  "layer": "metametagrammar",
+  "target_layer": "metagrammar",
+  "universe_symbol": "U",
+  "ground_symbol": "$",
+  "closure_operator": "L",
+  "terminals": ["META_RULE", "META_PATTERN", "RULE", "VALID", "ε", "$", "U"],
+  "nonterminals": ["MR", "MP"],
+  "rules": [
+    {"lhs": "MR", "rhs": ["META_RULE", "META_PATTERN", "VALID"]},
+    {"lhs": "MP", "rhs": ["META_PATTERN", "RULE"]},
+    {"lhs": "MP", "rhs": ["ε"]}
+  ],
+  "derivation_chain": ["$", "L($)", "L(L($))"],
+  "metadata": {
+    "description": "Meta-meta schema validating metagrammar pattern forms"
+  }
+}
