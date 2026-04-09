@@ -99,6 +99,98 @@ Included required interfaces:
 - holographic all-to-all many-body relation data
 - Planck-scale parity filter with recursive branching
 
+## Concepts inside the scaffold (documentation-first walkthrough)
+
+If you ignore code syntax and read the scaffold as a system design, it is implementing the following conceptual pipeline.
+
+### 1) Ontological containers
+
+- **Body**: one local subsystem with a present-state vector.
+- **HyperKähler triplet surrogate**: a three-operator compatibility structure used as an internal geometric consistency check.
+- **RecursiveNowFrame**: the active now-frame containing:
+   - current many-body states,
+   - holographic all-to-all coupling field,
+   - enfolded trace,
+   - geometric consistency state,
+   - scale/tolerance controls.
+
+The key design choice is that **all variables are present-frame variables**. There is no explicit historical timeline object.
+
+### 2) Initialization logic
+
+Initialization establishes a non-degenerate coupled system:
+
+- validates many-body dimensional agreement,
+- starts from all-to-all relation coupling,
+- seeds trace from present-state aggregation,
+- seeds geometric triplet structure.
+
+Conceptually this means the model starts in a globally connected regime instead of sparse disconnected local islands.
+
+### 3) Planck-Scale Parity Filter as two-regime physics gate
+
+The filter enforces a regime split:
+
+- **Sub-Planck branch** ($D_{ij} < \ell_P$): recursive meta-mixing/composition of relations.
+- **Super-Planck branch** ($D_{ij} \ge \ell_P$): symmetric stable projection.
+
+So the same relation field is not treated with one universal update rule; it is branch-selected by scale.
+
+### 4) Corrective loop (Indelible Correctiveness engine)
+
+The corrective operator performs fixed-point-seeking updates over coupling + geometry:
+
+1. Build a curvature-like pressure from current coupling.
+2. Remove scalar-trace component (Ricci-flat proxy).
+3. Update relation field and re-filter through parity gate.
+4. Correct Hyperkähler surrogate compatibility.
+5. Compute a combined residual and iterate until bounded/converged.
+
+This is where the chapter's core claim is implemented: progression happens through **consistency correction**, not through curve-fitting historical data.
+
+### 5) Trace enfoldment (past-as-trace)
+
+Trace update is a compressed blending of present aggregate + global spectral hint from coupling.
+
+Interpretation: the past is represented only as structural residue embedded in the current frame, not as replayable event history.
+
+### 6) Structural update (future-as-unfolding)
+
+Body states are moved toward coupling-weighted consistency targets.
+
+No forecasting horizon, no autoregressive window, no linear extrapolator. The next frame is an unfolded correction of the present frame.
+
+### 7) Recursive unfold
+
+`unfold(depth)` composes:
+
+$$
+	ext{correct} \rightarrow \text{enfold trace} \rightarrow \text{structural update}
+$$
+
+repeatedly, producing a recursive now-to-now transition chain.
+
+### 8) Diagnostics and what they mean
+
+The report values are conceptually:
+
+- **correction residual**: how far from immediate fixed-point compatibility the frame remains,
+- **hologram drift**: relation-field movement under correction,
+- **hk residual**: geometric compatibility error,
+- **trace norm**: magnitude of enfolded structural residue.
+
+Persistent high residuals indicate contradiction, overconstraint, or incompatible assumptions in the active frame design.
+
+### 9) Concept summary
+
+The scaffold is a concrete implementation of three commitments:
+
+1. **Now-only ontology**
+2. **Past as enfolded trace**
+3. **Future as corrective unfolding**
+
+with scale-aware branch behavior and fixed-point diagnostics to keep the process auditable.
+
 ## Architectural guarantees
 
 1. No linear time-series predictor is called.
