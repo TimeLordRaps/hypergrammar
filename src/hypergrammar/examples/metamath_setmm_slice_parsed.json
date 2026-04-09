@@ -188,7 +188,11 @@
   "metadata": {
     "source_trail": {
       "source_url": "https://raw.githubusercontent.com/metamath/set.mm/develop/set.mm",
+      "source_raw_github_url": "https://github.com/metamath/set.mm/raw/refs/heads/develop/set.mm",
       "source_blob_url": "https://github.com/metamath/set.mm/blob/develop/set.mm",
+      "source_blob_line_url": "https://github.com/metamath/set.mm/blob/develop/set.mm#L360-L470",
+      "source_history_url": "https://github.com/metamath/set.mm/commits/develop/set.mm",
+      "source_branch": "develop",
       "slice_file": "src/hypergrammar/examples/source_trail/setmm_slice_360_470.mm",
       "line_range": [
         360,
@@ -219,17 +223,268 @@
         "idi.1",
         "idi"
       ],
+      "parser_file": "src/hypergrammar/parser.py",
+      "schema_builder": "src/hypergrammar/examples/build_metamath_slice_schema.py",
+      "schema_output": "src/hypergrammar/examples/metamath_setmm_slice_parsed.json",
       "accountability": {
         "parse_mode": "real_metamath_slice",
         "comment_handling": "ignore tokens between $( and $)",
-        "statement_extraction": "supports $c $v $d $f $e $a $p ${ $}"
+        "statement_extraction": "supports $c $v $d $f $e $a $p ${ $}",
+        "proof_segment_analysis": "extract theorem proof tokens after $= and classify compressed/uncompressed forms",
+        "disjoint_variable_analysis": "extract $d declarations and validate declared-variable discipline",
+        "theorem_linkage_analysis": "connect theorem proof-label references to in-scope $a/$p/$f/$e labels",
+        "compressed_payload_decoding": "decode compressed payload symbols and validate label-index expansion bounds",
+        "stack_execution_validation": "execute proof steps with substitution checks and theorem result-shape validation"
+      }
+    },
+    "metamath_constraints": {
+      "proof_segments": {
+        "theorem_count": 1,
+        "with_equals_segment_count": 1,
+        "compressed_count": 1,
+        "uncompressed_count": 0,
+        "missing_count": 0,
+        "malformed_count": 0,
+        "empty_proof_count": 0,
+        "all_well_formed": true,
+        "samples": [
+          {
+            "label": "idi",
+            "assertion_token_count": 2,
+            "proof_token_count": 3,
+            "has_equals_segment": true,
+            "proof_form": "compressed",
+            "well_formed": true,
+            "reference_source": "compressed_label_list",
+            "referenced_labels": [],
+            "referenced_labels_count": 0,
+            "placeholder_reference_count": 0,
+            "compressed_payload_token_count": 1
+          }
+        ],
+        "malformed_samples": []
+      },
+      "disjoint_variable_discipline": {
+        "declaration_count": 0,
+        "declared_variable_count": 12,
+        "pair_count": 0,
+        "redeclared_pair_count": 0,
+        "redeclared_pairs": [],
+        "undeclared_variable_count": 0,
+        "undeclared_variables": [],
+        "invalid_count": 0,
+        "all_valid": true,
+        "samples": [],
+        "invalid_samples": []
+      },
+      "theorem_linkage": {
+        "theorem_count": 1,
+        "available_label_count": 14,
+        "available_labels_by_kind": {
+          "$a": 0,
+          "$e": 1,
+          "$f": 12,
+          "$p": 1
+        },
+        "reference_count": 0,
+        "resolved_reference_count": 0,
+        "unresolved_reference_count": 0,
+        "placeholder_reference_count": 0,
+        "all_resolved": true,
+        "unresolved_labels": [],
+        "label_scope_sample": [
+          {
+            "label": "wph",
+            "kind": "$f"
+          },
+          {
+            "label": "wps",
+            "kind": "$f"
+          },
+          {
+            "label": "wch",
+            "kind": "$f"
+          },
+          {
+            "label": "wth",
+            "kind": "$f"
+          },
+          {
+            "label": "wta",
+            "kind": "$f"
+          },
+          {
+            "label": "wet",
+            "kind": "$f"
+          },
+          {
+            "label": "wze",
+            "kind": "$f"
+          },
+          {
+            "label": "wsi",
+            "kind": "$f"
+          },
+          {
+            "label": "wrh",
+            "kind": "$f"
+          },
+          {
+            "label": "wmu",
+            "kind": "$f"
+          },
+          {
+            "label": "wla",
+            "kind": "$f"
+          },
+          {
+            "label": "wka",
+            "kind": "$f"
+          },
+          {
+            "label": "idi.1",
+            "kind": "$e"
+          },
+          {
+            "label": "idi",
+            "kind": "$p"
+          }
+        ],
+        "samples": [
+          {
+            "label": "idi",
+            "proof_form": "compressed",
+            "well_formed": true,
+            "reference_source": "compressed_label_list",
+            "in_scope_label_count": 13,
+            "referenced_labels": [],
+            "resolved_references": [],
+            "unresolved_references": [],
+            "resolved_reference_kinds": {},
+            "reference_count": 0,
+            "unresolved_reference_count": 0,
+            "placeholder_reference_count": 0
+          }
+        ],
+        "unresolved_samples": []
+      },
+      "compressed_payload_decoding": {
+        "theorem_count": 1,
+        "compressed_theorem_count": 1,
+        "invalid_payload_count": 0,
+        "malformed_payload_count": 0,
+        "out_of_range_index_count": 0,
+        "unresolved_label_list_reference_count": 0,
+        "save_without_prior_step_count": 0,
+        "placeholder_reference_count": 0,
+        "all_valid": true,
+        "samples": [
+          {
+            "label": "idi",
+            "compressed": true,
+            "valid": true,
+            "payload_well_formed": true,
+            "expanded_label_count": 2,
+            "mandatory_hypothesis_count": 2,
+            "compressed_label_list_count": 0,
+            "decoded_index_count": 1,
+            "save_marker_count": 0,
+            "placeholder_reference_count": 0,
+            "unresolved_label_list_references": [],
+            "out_of_range_indices": [],
+            "save_without_prior_step_count": 0,
+            "decode_errors": [],
+            "mandatory_hypothesis_sample": [
+              "wph",
+              "idi.1"
+            ],
+            "expanded_label_sample": [
+              "wph",
+              "idi.1"
+            ]
+          }
+        ],
+        "invalid_samples": []
+      },
+      "stack_execution": {
+        "theorem_count": 1,
+        "executed_theorem_count": 1,
+        "invalid_theorem_count": 0,
+        "unknown_label_count": 0,
+        "stack_underflow_count": 0,
+        "substitution_conflict_count": 0,
+        "floating_type_mismatch_count": 0,
+        "essential_hypothesis_mismatch_count": 0,
+        "saved_reference_out_of_range_count": 0,
+        "placeholder_operation_count": 0,
+        "decode_error_count": 0,
+        "final_stack_shape_mismatch_count": 0,
+        "final_result_mismatch_count": 0,
+        "all_valid": true,
+        "samples": [
+          {
+            "label": "idi",
+            "proof_form": "compressed",
+            "valid": true,
+            "step_count": 1,
+            "final_stack_size": 1,
+            "final_result_matches_theorem": true,
+            "mandatory_hypothesis_count": 2,
+            "saved_subproof_count": 0,
+            "error_count": 0,
+            "errors": [],
+            "final_result": [
+              "|-",
+              "ph"
+            ],
+            "expected_result": [
+              "|-",
+              "ph"
+            ]
+          }
+        ],
+        "invalid_samples": []
       }
     },
     "reasoning": {
-      "1_source": "https://raw.githubusercontent.com/metamath/set.mm/develop/set.mm",
-      "2_slice": "src/hypergrammar/examples/source_trail/setmm_slice_360_470.mm",
-      "3_parse": "tokenize -> strip comments -> extract statements",
-      "4_schema": "emit metagrammar spec for hypergrammar constraints"
+      "1_source_selection": {
+        "claim": "The slice source is canonical set.mm on develop.",
+        "raw_url": "https://raw.githubusercontent.com/metamath/set.mm/develop/set.mm",
+        "raw_github_url": "https://github.com/metamath/set.mm/raw/refs/heads/develop/set.mm",
+        "blob_url": "https://github.com/metamath/set.mm/blob/develop/set.mm",
+        "line_range_url": "https://github.com/metamath/set.mm/blob/develop/set.mm#L360-L470",
+        "history_url": "https://github.com/metamath/set.mm/commits/develop/set.mm"
+      },
+      "2_slice_capture": {
+        "claim": "A local slice artifact preserves the parsed source window.",
+        "slice_file": "src/hypergrammar/examples/source_trail/setmm_slice_360_470.mm",
+        "line_range": [
+          360,
+          470
+        ]
+      },
+      "3_parser_accountability": {
+        "claim": "Parsing process is traceable to tokenizer and statement extraction implementation.",
+        "parser_file": "src/hypergrammar/parser.py",
+        "tokenizer_symbol": "_tokenize_metamath",
+        "statement_parser_symbol": "_parse_metamath_statements",
+        "supports_kinds": "$c $v $d $f $e $a $p ${ $}"
+      },
+      "4_schema_projection": {
+        "claim": "Extracted statements are projected into metagrammar schema consumed by constraints.",
+        "schema_builder": "src/hypergrammar/examples/build_metamath_slice_schema.py",
+        "schema_output": "src/hypergrammar/examples/metamath_setmm_slice_parsed.json",
+        "target_layer": "grammar"
+      },
+      "5_metamath_hardening": {
+        "claim": "Metamath-specific hardening checks evaluate proof-segment, disjoint-variable, theorem-linkage, compressed payload decoding, and stack-level execution discipline.",
+        "constraints_file": "src/hypergrammar/constraints.py",
+        "proof_segments": "metadata.metamath_constraints.proof_segments",
+        "disjoint_variable_discipline": "metadata.metamath_constraints.disjoint_variable_discipline",
+        "theorem_linkage": "metadata.metamath_constraints.theorem_linkage",
+        "compressed_payload_decoding": "metadata.metamath_constraints.compressed_payload_decoding",
+        "stack_execution": "metadata.metamath_constraints.stack_execution"
+      }
     }
   }
 }

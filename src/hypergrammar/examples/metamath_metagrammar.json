@@ -69,6 +69,22 @@
   "derivation_chain": ["$", "L($)", "L(L($))"],
   "metadata": {
     "source": "Metamath statement families and block delimiters",
-    "intent": "Test hypergrammar interpreter against a Metamath-style metagrammar"
+    "intent": "Test hypergrammar interpreter against a Metamath-style metagrammar",
+    "source_trail": {
+      "source_url": "https://raw.githubusercontent.com/metamath/set.mm/develop/set.mm",
+      "source_raw_github_url": "https://github.com/metamath/set.mm/raw/refs/heads/develop/set.mm",
+      "source_blob_url": "https://github.com/metamath/set.mm/blob/develop/set.mm",
+      "source_blob_line_url": "https://github.com/metamath/set.mm/blob/develop/set.mm#L360-L470",
+      "source_history_url": "https://github.com/metamath/set.mm/commits/develop/set.mm",
+      "slice_file": "src/hypergrammar/examples/source_trail/setmm_slice_360_470.mm",
+      "parser_file": "src/hypergrammar/parser.py",
+      "schema_builder": "src/hypergrammar/examples/build_metamath_slice_schema.py",
+      "mode": "modeled_statement_families"
+    },
+    "reasoning": {
+      "1_source": "https://raw.githubusercontent.com/metamath/set.mm/develop/set.mm",
+      "2_model_file": "src/hypergrammar/examples/metamath_metagrammar.json",
+      "3_scope": "manual family-level model, not full set.mm semantic proof replay"
+    }
   }
 }
