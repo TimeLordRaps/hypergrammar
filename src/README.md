@@ -38,5 +38,12 @@ From repo root:
 - `PYTHONPATH=src E:/real_repos/hyper-grammar/.venv/bin/python.exe -m hypergrammar.cli src/hypergrammar/examples/grammar.json --pretty`
 - `PYTHONPATH=src E:/real_repos/hyper-grammar/.venv/bin/python.exe -m hypergrammar.cli src/hypergrammar/examples/metagrammar.json --pretty`
 - `PYTHONPATH=src E:/real_repos/hyper-grammar/.venv/bin/python.exe -m hypergrammar.cli src/hypergrammar/examples/metametagrammar.json --pretty`
+- `PYTHONPATH=src E:/real_repos/hyper-grammar/.venv/bin/python.exe -m hypergrammar.cli src/hypergrammar/examples/metamath_metagrammar.json --pretty`
 
 Exit code is `0` when valid, `1` when errors are present.
+
+## Metamath trial (current result)
+
+The bundled spec `src/hypergrammar/examples/metamath_metagrammar.json` models core Metamath statement families (`$c`, `$v`, `$f`, `$e`, `$a`, `$p`, `$d`, block delimiters, comments) as a metagrammar targeting grammar.
+
+With the current closure chain input, it validates successfully under hypergrammar constraints.
