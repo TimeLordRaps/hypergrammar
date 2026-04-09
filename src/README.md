@@ -47,3 +47,30 @@ Exit code is `0` when valid, `1` when errors are present.
 The bundled spec `src/hypergrammar/examples/metamath_metagrammar.json` models core Metamath statement families (`$c`, `$v`, `$f`, `$e`, `$a`, `$p`, `$d`, block delimiters, comments) as a metagrammar targeting grammar.
 
 With the current closure chain input, it validates successfully under hypergrammar constraints.
+
+### What that means about Metamath specifically
+
+For this interpreter and this trial input, "Metamath validates" means:
+
+1. A Metamath-style **database schema** can be represented as a metagrammar in this model.
+2. The represented statement families are structurally compatible with current hypergrammar checks:
+   - layer compatibility (`metagrammar -> grammar`),
+   - rule-symbol domain coherence,
+   - closure/axiom checks on the supplied derivation chain.
+3. At this scope, Metamath appears as an embeddable external formal system at the **syntax/schema level**.
+
+### What this does **not** mean yet
+
+This does **not** currently prove that:
+
+- all Metamath databases (e.g., full `set.mm`) satisfy hypergrammar,
+- all Metamath proof objects are semantically equivalent to hypergrammar closure proofs,
+- Metamath's complete proof-checking semantics have been rederived in hypergrammar.
+
+So the current result is a **positive structural compatibility witness**, not a total semantic equivalence claim.
+
+### Next empirical hardening steps
+
+- Parse a real Metamath source slice into this schema (instead of hand-authored sample tokens).
+- Add constraints for compressed proof object structure (`$=` segments) and disjoint-variable discipline.
+- Validate larger theorem/hypothesis families with derivation chains generated from actual proof traces.
