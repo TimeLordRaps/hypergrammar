@@ -1,0 +1,235 @@
+{
+  "name": "metamath_slice_setmm_slice_360_470",
+  "layer": "metagrammar",
+  "target_layer": "grammar",
+  "universe_symbol": "U",
+  "ground_symbol": "$",
+  "closure_operator": "L",
+  "terminals": [
+    "$",
+    "$.",
+    "$=",
+    "$c",
+    "$e",
+    "$f",
+    "$p",
+    "$v",
+    "${",
+    "$}",
+    "&",
+    "(",
+    ")",
+    "-.",
+    "->",
+    "=>",
+    "B",
+    "EXPR",
+    "LABEL",
+    "PROOF",
+    "SYMBOL_SEQ",
+    "TYPECODE",
+    "U",
+    "VAR",
+    "VAR_SEQ",
+    "ch",
+    "et",
+    "ka",
+    "la",
+    "mu",
+    "ph",
+    "ps",
+    "rh",
+    "si",
+    "ta",
+    "th",
+    "wff",
+    "ze",
+    "|-",
+    "ε"
+  ],
+  "nonterminals": [
+    "DB",
+    "STMT",
+    "BLOCK",
+    "DECL_C",
+    "DECL_V",
+    "HYP_F",
+    "BLOCK_OPEN",
+    "HYP_E",
+    "THM_P",
+    "BLOCK_CLOSE"
+  ],
+  "rules": [
+    {
+      "lhs": "DB",
+      "rhs": [
+        "STMT",
+        "DB"
+      ],
+      "raw": "DB -> STMT DB"
+    },
+    {
+      "lhs": "DB",
+      "rhs": [
+        "STMT"
+      ],
+      "raw": "DB -> STMT"
+    },
+    {
+      "lhs": "BLOCK",
+      "rhs": [
+        "${",
+        "STMT",
+        "$}"
+      ],
+      "raw": "BLOCK -> ${ STMT $}"
+    },
+    {
+      "lhs": "STMT",
+      "rhs": [
+        "BLOCK"
+      ],
+      "raw": "STMT -> BLOCK"
+    },
+    {
+      "lhs": "DECL_C",
+      "rhs": [
+        "LABEL",
+        "$c",
+        "SYMBOL_SEQ",
+        "$."
+      ],
+      "raw": null
+    },
+    {
+      "lhs": "STMT",
+      "rhs": [
+        "DECL_C"
+      ],
+      "raw": "STMT -> DECL_C"
+    },
+    {
+      "lhs": "DECL_V",
+      "rhs": [
+        "LABEL",
+        "$v",
+        "VAR_SEQ",
+        "$."
+      ],
+      "raw": null
+    },
+    {
+      "lhs": "STMT",
+      "rhs": [
+        "DECL_V"
+      ],
+      "raw": "STMT -> DECL_V"
+    },
+    {
+      "lhs": "HYP_F",
+      "rhs": [
+        "LABEL",
+        "$f",
+        "TYPECODE",
+        "VAR",
+        "$."
+      ],
+      "raw": null
+    },
+    {
+      "lhs": "STMT",
+      "rhs": [
+        "HYP_F"
+      ],
+      "raw": "STMT -> HYP_F"
+    },
+    {
+      "lhs": "HYP_E",
+      "rhs": [
+        "LABEL",
+        "$e",
+        "EXPR",
+        "$."
+      ],
+      "raw": null
+    },
+    {
+      "lhs": "STMT",
+      "rhs": [
+        "HYP_E"
+      ],
+      "raw": "STMT -> HYP_E"
+    },
+    {
+      "lhs": "THM_P",
+      "rhs": [
+        "LABEL",
+        "$p",
+        "EXPR",
+        "$=",
+        "PROOF",
+        "$."
+      ],
+      "raw": null
+    },
+    {
+      "lhs": "STMT",
+      "rhs": [
+        "THM_P"
+      ],
+      "raw": "STMT -> THM_P"
+    }
+  ],
+  "derivation_chain": [
+    "$",
+    "L($)",
+    "L(L($))"
+  ],
+  "metadata": {
+    "source_trail": {
+      "source_url": "https://raw.githubusercontent.com/metamath/set.mm/develop/set.mm",
+      "source_blob_url": "https://github.com/metamath/set.mm/blob/develop/set.mm",
+      "slice_file": "src/hypergrammar/examples/source_trail/setmm_slice_360_470.mm",
+      "line_range": [
+        360,
+        470
+      ],
+      "statement_counts": {
+        "$c": 8,
+        "$v": 12,
+        "$f": 12,
+        "${": 1,
+        "$e": 1,
+        "$p": 1,
+        "$}": 1
+      },
+      "sample_labels": [
+        "wph",
+        "wps",
+        "wch",
+        "wth",
+        "wta",
+        "wet",
+        "wze",
+        "wsi",
+        "wrh",
+        "wmu",
+        "wla",
+        "wka",
+        "idi.1",
+        "idi"
+      ],
+      "accountability": {
+        "parse_mode": "real_metamath_slice",
+        "comment_handling": "ignore tokens between $( and $)",
+        "statement_extraction": "supports $c $v $d $f $e $a $p ${ $}"
+      }
+    },
+    "reasoning": {
+      "1_source": "https://raw.githubusercontent.com/metamath/set.mm/develop/set.mm",
+      "2_slice": "src/hypergrammar/examples/source_trail/setmm_slice_360_470.mm",
+      "3_parse": "tokenize -> strip comments -> extract statements",
+      "4_schema": "emit metagrammar spec for hypergrammar constraints"
+    }
+  }
+}

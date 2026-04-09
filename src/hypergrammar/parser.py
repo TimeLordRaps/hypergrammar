@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+import re
 from typing import Any
 
 from .models import GrammarLayer, HypergrammarSpec, Rule
@@ -101,6 +102,226 @@ def _load_hg(path: Path) -> HypergrammarSpec:
     )
 
 
+_METAMATH_LABELLED = {"$f", "$e", "$a", "$p"}
+_METAMATH_UNLABELLED = {"$c", "$v", "$d"}
+
+
+def _tokenize_metamath(text: str) -> list[str]:
+    raw_tokens = text.split()
+    tokens: list[str] = []
+    in_comment = False
+
+    for token in raw_tokens:
+        if in_comment:
+            if token == "$)":
+                in_comment = False
+            continue
+
+        if token == "$(":
+            in_comment = True
+            continue
+
+        tokens.append(token)
+
+    return tokens
+
+
+def _parse_metamath_statements(tokens: list[str]) -> list[dict[str, Any]]:
+    statements: list[dict[str, Any]] = []
+    i = 0
+    n = len(tokens)
+
+    while i < n:
+        token = tokens[i]
+
+        if token in {"${", "$}"}:
+            statements.append({"kind": token, "label": None, "body": [], "proof": []})
+            i += 1
+            continue
+
+        if token in _METAMATH_UNLABELLED:
+            kind = token
+            i += 1
+            body: list[str] = []
+            while i < n and tokens[i] != "$.":
+                body.append(tokens[i])
+                i += 1
+
+            if i >= n:
+                raise ValueError(f"Unterminated Metamath statement starting with {kind}")
+
+            i += 1
+            statements.append({"kind": kind, "label": None, "body": body, "proof": []})
+            continue
+
+        if i + 1 < n and tokens[i + 1] in _METAMATH_LABELLED:
+            label = token
+            kind = tokens[i + 1]
+            i += 2
+            body: list[str] = []
+            proof: list[str] = []
+
+            if kind == "$p":
+                while i < n and tokens[i] != "$=":
+                    body.append(tokens[i])
+                    i += 1
+                if i >= n:
+                    raise ValueError(f"Unterminated theorem statement for label {label}")
+                i += 1
+                while i < n and tokens[i] != "$.":
+                    proof.append(tokens[i])
+                    i += 1
+                if i >= n:
+                    raise ValueError(f"Unterminated theorem proof for label {label}")
+            else:
+                while i < n and tokens[i] != "$.":
+                    body.append(tokens[i])
+                    i += 1
+                if i >= n:
+                    raise ValueError(f"Unterminated statement for label {label}")
+
+            i += 1
+            statements.append({"kind": kind, "label": label, "body": body, "proof": proof})
+            continue
+
+        i += 1
+
+    return statements
+
+
+def _metamath_line_range_from_path(path: Path) -> tuple[int, int] | None:
+    match = re.search(r"(\d+)_(\d+)", path.stem)
+    if not match:
+        return None
+    return int(match.group(1)), int(match.group(2))
+
+
+def _load_metamath(path: Path) -> HypergrammarSpec:
+    text = path.read_text(encoding="utf-8")
+    tokens = _tokenize_metamath(text)
+    statements = _parse_metamath_statements(tokens)
+
+    kind_to_nonterminal = {
+        "$c": "DECL_C",
+        "$v": "DECL_V",
+        "$d": "DV_D",
+        "$f": "HYP_F",
+        "$e": "HYP_E",
+        "$a": "AX_A",
+        "$p": "THM_P",
+        "${": "BLOCK_OPEN",
+        "$}": "BLOCK_CLOSE",
+    }
+
+    statement_counts: dict[str, int] = {}
+    observed_nonterminals: list[str] = []
+    observed_terminals: set[str] = {
+        "LABEL",
+        "SYMBOL_SEQ",
+        "VAR_SEQ",
+        "TYPECODE",
+        "VAR",
+        "EXPR",
+        "PROOF",
+        "$.",
+        "$=",
+        "${",
+        "$}",
+        "$",
+        "U",
+        "ε",
+    }
+    sample_labels: list[str] = []
+
+    for stmt in statements:
+        kind = str(stmt["kind"])
+        statement_counts[kind] = statement_counts.get(kind, 0) + 1
+        observed_terminals.add(kind)
+        observed_terminals.update(str(token) for token in stmt["body"])
+        observed_terminals.update(str(token) for token in stmt["proof"])
+
+        nonterminal = kind_to_nonterminal.get(kind)
+        if nonterminal and nonterminal not in observed_nonterminals:
+            observed_nonterminals.append(nonterminal)
+
+        label = stmt.get("label")
+        if isinstance(label, str) and label and len(sample_labels) < 25:
+            sample_labels.append(label)
+
+    nonterminals: list[str] = ["DB", "STMT"]
+    if "BLOCK_OPEN" in observed_nonterminals or "BLOCK_CLOSE" in observed_nonterminals:
+        nonterminals.append("BLOCK")
+    nonterminals.extend(observed_nonterminals)
+
+    rules: list[Rule] = [
+        Rule(lhs="DB", rhs=("STMT", "DB"), raw="DB -> STMT DB"),
+        Rule(lhs="DB", rhs=("STMT",), raw="DB -> STMT"),
+    ]
+
+    if "BLOCK" in nonterminals:
+        rules.append(Rule(lhs="BLOCK", rhs=("${", "STMT", "$}"), raw="BLOCK -> ${ STMT $}"))
+        rules.append(Rule(lhs="STMT", rhs=("BLOCK",), raw="STMT -> BLOCK"))
+
+    if "DECL_C" in nonterminals:
+        rules.append(Rule(lhs="DECL_C", rhs=("LABEL", "$c", "SYMBOL_SEQ", "$.")))
+        rules.append(Rule(lhs="STMT", rhs=("DECL_C",), raw="STMT -> DECL_C"))
+    if "DECL_V" in nonterminals:
+        rules.append(Rule(lhs="DECL_V", rhs=("LABEL", "$v", "VAR_SEQ", "$.")))
+        rules.append(Rule(lhs="STMT", rhs=("DECL_V",), raw="STMT -> DECL_V"))
+    if "DV_D" in nonterminals:
+        rules.append(Rule(lhs="DV_D", rhs=("LABEL", "$d", "VAR_SEQ", "$.")))
+        rules.append(Rule(lhs="STMT", rhs=("DV_D",), raw="STMT -> DV_D"))
+    if "HYP_F" in nonterminals:
+        rules.append(Rule(lhs="HYP_F", rhs=("LABEL", "$f", "TYPECODE", "VAR", "$.")))
+        rules.append(Rule(lhs="STMT", rhs=("HYP_F",), raw="STMT -> HYP_F"))
+    if "HYP_E" in nonterminals:
+        rules.append(Rule(lhs="HYP_E", rhs=("LABEL", "$e", "EXPR", "$.")))
+        rules.append(Rule(lhs="STMT", rhs=("HYP_E",), raw="STMT -> HYP_E"))
+    if "AX_A" in nonterminals:
+        rules.append(Rule(lhs="AX_A", rhs=("LABEL", "$a", "EXPR", "$.")))
+        rules.append(Rule(lhs="STMT", rhs=("AX_A",), raw="STMT -> AX_A"))
+    if "THM_P" in nonterminals:
+        rules.append(Rule(lhs="THM_P", rhs=("LABEL", "$p", "EXPR", "$=", "PROOF", "$.")))
+        rules.append(Rule(lhs="STMT", rhs=("THM_P",), raw="STMT -> THM_P"))
+
+    line_range = _metamath_line_range_from_path(path)
+    source_url = "https://raw.githubusercontent.com/metamath/set.mm/develop/set.mm"
+    source_blob_url = "https://github.com/metamath/set.mm/blob/develop/set.mm"
+
+    metadata: dict[str, Any] = {
+        "source_trail": {
+            "source_url": source_url,
+            "source_blob_url": source_blob_url,
+            "slice_file": str(path).replace("\\", "/"),
+            "line_range": list(line_range) if line_range else None,
+            "statement_counts": statement_counts,
+            "sample_labels": sample_labels,
+            "accountability": {
+                "parse_mode": "real_metamath_slice",
+                "comment_handling": "ignore tokens between $( and $)",
+                "statement_extraction": "supports $c $v $d $f $e $a $p ${ $}",
+            },
+        },
+        "reasoning": {
+            "1_source": source_url,
+            "2_slice": str(path).replace("\\", "/"),
+            "3_parse": "tokenize -> strip comments -> extract statements",
+            "4_schema": "emit metagrammar spec for hypergrammar constraints",
+        },
+    }
+
+    return HypergrammarSpec(
+        name=f"metamath_slice_{path.stem}",
+        layer=GrammarLayer.METAGRAMMAR,
+        target_layer=GrammarLayer.GRAMMAR,
+        terminals=tuple(sorted(observed_terminals)),
+        nonterminals=tuple(_ordered_unique(nonterminals)),
+        rules=tuple(rules),
+        derivation_chain=("$", "L($)", "L(L($))"),
+        metadata=metadata,
+    )
+
+
 def load_spec(source: str | Path | dict[str, Any] | HypergrammarSpec) -> HypergrammarSpec:
     if isinstance(source, HypergrammarSpec):
         return source
@@ -115,6 +336,9 @@ def load_spec(source: str | Path | dict[str, Any] | HypergrammarSpec) -> Hypergr
     if path.suffix.lower() == ".hg":
         return _load_hg(path)
 
+    if path.suffix.lower() == ".mm":
+        return _load_metamath(path)
+
     if path.suffix.lower() == ".json":
         payload = json.loads(path.read_text(encoding="utf-8"))
         if not isinstance(payload, dict):
@@ -122,5 +346,5 @@ def load_spec(source: str | Path | dict[str, Any] | HypergrammarSpec) -> Hypergr
         return parse_spec(payload, name_hint=path.stem)
 
     raise ValueError(
-        f"Unsupported specification extension '{path.suffix}'. Use .json or .hg"
+        f"Unsupported specification extension '{path.suffix}'. Use .json, .hg, or .mm"
     )
