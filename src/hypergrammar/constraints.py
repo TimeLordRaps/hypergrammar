@@ -29,6 +29,9 @@ class HypergrammarConstraintEngine:
 
         result.metrics.setdefault("rule_count", len(spec.rules))
         result.metrics.setdefault("chain_length", len(spec.derivation_chain))
+        source_trail = spec.metadata.get("source_trail") if isinstance(spec.metadata, dict) else None
+        if source_trail is not None:
+            result.metrics.setdefault("source_trail", source_trail)
         result.checks.setdefault("has_rules", len(spec.rules) > 0)
 
         return result
@@ -124,7 +127,12 @@ class HypergrammarConstraintEngine:
 
         rhs_tokens = {token for rule in spec.rules for token in rule.rhs}
         if spec.layer == GrammarLayer.METAGRAMMAR:
-            if not any("RULE" in token.upper() or token.startswith("<rule") for token in rhs_tokens):
+            if not any(
+                "RULE" in token.upper()
+                or token.startswith("<rule")
+                or token in {"$c", "$v", "$d", "$f", "$e", "$a", "$p", "${", "$}"}
+                for token in rhs_tokens
+            ):
                 result.add_issue(
                     IssueSeverity.WARNING,
                     "layer.metagrammar.no_rule_tokens",

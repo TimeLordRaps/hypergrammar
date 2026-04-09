@@ -39,8 +39,25 @@ From repo root:
 - `PYTHONPATH=src E:/real_repos/hyper-grammar/.venv/bin/python.exe -m hypergrammar.cli src/hypergrammar/examples/metagrammar.json --pretty`
 - `PYTHONPATH=src E:/real_repos/hyper-grammar/.venv/bin/python.exe -m hypergrammar.cli src/hypergrammar/examples/metametagrammar.json --pretty`
 - `PYTHONPATH=src E:/real_repos/hyper-grammar/.venv/bin/python.exe -m hypergrammar.cli src/hypergrammar/examples/metamath_metagrammar.json --pretty`
+- `PYTHONPATH=src E:/real_repos/hyper-grammar/.venv/bin/python.exe src/hypergrammar/examples/build_metamath_slice_schema.py`
+- `PYTHONPATH=src E:/real_repos/hyper-grammar/.venv/bin/python.exe -m hypergrammar.cli src/hypergrammar/examples/source_trail/setmm_slice_360_470.mm --pretty`
 
 Exit code is `0` when valid, `1` when errors are present.
+
+## Real-source Metamath slice parse (implemented)
+
+This repository now parses a real Metamath source slice directly (`.mm`) into the interpreter schema.
+
+### Source-trail hyperlink accountability
+
+- Upstream source (raw): [set.mm raw](https://raw.githubusercontent.com/metamath/set.mm/develop/set.mm)
+- Upstream source (browse): [set.mm on GitHub](https://github.com/metamath/set.mm/blob/develop/set.mm)
+- Captured slice: [`./hypergrammar/examples/source_trail/setmm_slice_360_470.mm`](./hypergrammar/examples/source_trail/setmm_slice_360_470.mm)
+- Parser path: [`./hypergrammar/parser.py`](./hypergrammar/parser.py)
+- Schema builder: [`./hypergrammar/examples/build_metamath_slice_schema.py`](./hypergrammar/examples/build_metamath_slice_schema.py)
+- Generated parsed schema: [`./hypergrammar/examples/metamath_setmm_slice_parsed.json`](./hypergrammar/examples/metamath_setmm_slice_parsed.json)
+
+Reasoning chain is encoded in parsed schema metadata under `metadata.source_trail` and `metadata.reasoning`.
 
 ## Metamath trial (current result)
 
@@ -71,6 +88,5 @@ So the current result is a **positive structural compatibility witness**, not a 
 
 ### Next empirical hardening steps
 
-- Parse a real Metamath source slice into this schema (instead of hand-authored sample tokens).
 - Add constraints for compressed proof object structure (`$=` segments) and disjoint-variable discipline.
 - Validate larger theorem/hypothesis families with derivation chains generated from actual proof traces.

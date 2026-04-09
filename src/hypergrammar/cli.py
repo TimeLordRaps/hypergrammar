@@ -16,7 +16,7 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument(
         "spec",
-        help="Path to a specification file (.json or .hg)",
+        help="Path to a specification file (.json, .hg, or .mm)",
     )
     parser.add_argument(
         "--pretty",
