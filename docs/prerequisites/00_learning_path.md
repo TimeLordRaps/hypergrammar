@@ -10,6 +10,18 @@ This directory is the prerequisite track for understanding `hyper-grammar` from 
    - Classical grammar classes (Type-3 to Type-0), machine intuition, and inclusion chain.
 3. [`03_hyper_inversion.md`](./03_hyper_inversion.md)
    - How `hyper-grammar` reframes the classical ladder as loop cross-sections.
+4. [`04_degrees_of_freedom.md`](./04_degrees_of_freedom.md)
+   - Universal DoF intuition and the meaning of positive, zero, and negative DoF.
+5. [`05_recursive_now_frame.md`](./05_recursive_now_frame.md)
+   - Recursive Now-Frame architecture with a non-predictive structural scaffold.
+6. [`06_recursive_now_frame_expanded.md`](./06_recursive_now_frame_expanded.md)
+   - Expanded Recursive Now-Frame architecture with explicit fixed-point correction and Planck-scale parity filtering.
+7. [`07_transframe_ontology.md`](./07_transframe_ontology.md)
+   - No universal past/future in the accessible frame; recursive self-embedding prerequisite for transframe movement.
+8. [`08_corrective_time_syntropy.md`](./08_corrective_time_syntropy.md)
+   - Time as corrective neg-entropic ordering under uncertainty.
+9. [`09_mensaclaused_metaretrocausality.md`](./09_mensaclaused_metaretrocausality.md)
+   - Clausal metaretrocausal framing and future-ideal correction logic.
 
 ## Companion spec documents
 
@@ -22,7 +34,13 @@ This directory is the prerequisite track for understanding `hyper-grammar` from 
 1. Read the page.
 2. Re-derive one example by hand.
 3. Follow the links in `03_hyper_inversion.md` back to the exact source of each claim.
-4. If a definition appears inconsistent with `AGENTS.md`, log it in `TIME.md`.
+4. Use `04_degrees_of_freedom.md` to classify whether your current model is flexible, fixed, or overconstrained.
+5. Use `05_recursive_now_frame.md` to map these constraints into a recursive implementation frame.
+6. Use `06_recursive_now_frame_expanded.md` to apply the full expanded corrective architecture and scaffold.
+7. Use `07_transframe_ontology.md` to set transframe ontology assumptions.
+8. Use `08_corrective_time_syntropy.md` to formalize corrective-time ordering assumptions.
+9. Use `09_mensaclaused_metaretrocausality.md` to define clause-level future-ideal correction semantics.
+10. If a definition appears inconsistent with `AGENTS.md`, log it in `TIME.md`.
 
 ## Scope
 
