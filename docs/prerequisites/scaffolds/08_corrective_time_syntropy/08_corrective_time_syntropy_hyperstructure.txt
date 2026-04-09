@@ -1,0 +1,28 @@
+Corrective Time Syntropy Scaffold [08_corrective_time_syntropy]
+Previous: 07_transframe_ontology
+Previous signature: 8e6fa9a24034f1dafaaf0e1c94e2ed67582f0727b695dee18ff701f26342a29b
+Deterministic seed: 7b4ca32b0688c4472f6199a9a3d214f8e575596949f60e9c0de16c4013d32101
+Signature: 466f3b0e3596cf0f405fac4710d818c0ca79ee5bd77584d19d20bd1944138a50
+
+Constraints:
+- corrective ordering over prediction
+- residual non-increase under bounded oscillation
+- trace-only historical constraints
+- ideal-attractor planning under uncertainty
+
+Nodes:
+- H0: 08_corrective_time_syntropy hyperstructure (chapter)
+- H1: deterministic seed 7b4ca32b0688 (seed)
+- H2: inherits 8e6fa9a24034 (link)
+- H3: constraint manifold (constraint)
+- H4: future scaffold anchor (anchor)
+
+Edges:
+- H2 --[grounds]--> H0
+- H1 --[deterministically instantiates]--> H0
+- H0 --[encodes]--> H3
+- H3 --[provides coherent links for]--> H4
+
+Notes:
+- Deterministically extends transframe ontology scaffold.
+- Provides corrective ordering foundation for chapter 09 clause logic.

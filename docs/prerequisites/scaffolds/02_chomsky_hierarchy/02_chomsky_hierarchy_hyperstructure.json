@@ -1,0 +1,68 @@
+{
+  "chapter_id": "02_chomsky_hierarchy",
+  "chapter_title": "Chomsky Hierarchy Scaffold",
+  "chapter_number": 2,
+  "previous_chapter_id": "01_grammar_fundamentals",
+  "previous_signature": "f8e2ee70b239870456b2678b4de41eef246cbbc0e40451e2e805bb3cfaeea393",
+  "deterministic_seed": "e8b7eb20b392cf91e1de3716bf12476a15fbb5fce5d7444f96a84e7cbd9ecbd4",
+  "constraints": [
+    "strict class containment ordering",
+    "machine-intuition correspondence",
+    "expressivity-burden tradeoff tracking",
+    "type transition traceability"
+  ],
+  "nodes": [
+    {
+      "key": "H0",
+      "label": "02_chomsky_hierarchy hyperstructure",
+      "kind": "chapter"
+    },
+    {
+      "key": "H1",
+      "label": "deterministic seed e8b7eb20b392",
+      "kind": "seed"
+    },
+    {
+      "key": "H2",
+      "label": "inherits f8e2ee70b239",
+      "kind": "link"
+    },
+    {
+      "key": "H3",
+      "label": "constraint manifold",
+      "kind": "constraint"
+    },
+    {
+      "key": "H4",
+      "label": "future scaffold anchor",
+      "kind": "anchor"
+    }
+  ],
+  "edges": [
+    {
+      "source": "H2",
+      "target": "H0",
+      "relation": "grounds"
+    },
+    {
+      "source": "H1",
+      "target": "H0",
+      "relation": "deterministically instantiates"
+    },
+    {
+      "source": "H0",
+      "target": "H3",
+      "relation": "encodes"
+    },
+    {
+      "source": "H3",
+      "target": "H4",
+      "relation": "provides coherent links for"
+    }
+  ],
+  "notes": [
+    "Deterministically extends chapter 01 scaffold signature.",
+    "Provides class-order anchor for inversion framing in chapter 03."
+  ],
+  "signature": "79ca1e76aa1327e67540c9fd0dfc55bc4976a90871481baadbc0d4a3edfb79f1"
+}

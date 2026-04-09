@@ -53,6 +53,11 @@ interpreted as a recursive closure/fixed-point admissibility condition.
 
 This chapter records a modeling stance and postulate set, not an empirically closed theorem.
 
+## Deterministic scaffold
+
+- Script: [`07_transframe_ontology_scaffold.py`](./07_transframe_ontology_scaffold.py)
+- Artifact target: `./scaffolds/07_transframe_ontology/`
+
 ## Next step
 
 Continue to [`08_corrective_time_syntropy.md`](./08_corrective_time_syntropy.md) for time as corrective neg-entropic ordering.

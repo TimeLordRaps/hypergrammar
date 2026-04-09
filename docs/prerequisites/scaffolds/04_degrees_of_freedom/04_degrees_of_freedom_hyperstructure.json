@@ -1,0 +1,68 @@
+{
+  "chapter_id": "04_degrees_of_freedom",
+  "chapter_title": "Degrees of Freedom Scaffold",
+  "chapter_number": 4,
+  "previous_chapter_id": "03_hyper_inversion",
+  "previous_signature": "aa4832a9c1f34cee72e641819e69578cb0047461e4cedf0b9cba82ef4eec4e34",
+  "deterministic_seed": "5fd89038143b8974c16b1b4d31f286f9d5a5dd1bf09d9f5193b387dfbb8cb39e",
+  "constraints": [
+    "state-variable and constraint separability",
+    "DoF sign classification (positive/zero/negative)",
+    "overconstraint contradiction signaling",
+    "cross-domain constraint transferability"
+  ],
+  "nodes": [
+    {
+      "key": "H0",
+      "label": "04_degrees_of_freedom hyperstructure",
+      "kind": "chapter"
+    },
+    {
+      "key": "H1",
+      "label": "deterministic seed 5fd89038143b",
+      "kind": "seed"
+    },
+    {
+      "key": "H2",
+      "label": "inherits aa4832a9c1f3",
+      "kind": "link"
+    },
+    {
+      "key": "H3",
+      "label": "constraint manifold",
+      "kind": "constraint"
+    },
+    {
+      "key": "H4",
+      "label": "future scaffold anchor",
+      "kind": "anchor"
+    }
+  ],
+  "edges": [
+    {
+      "source": "H2",
+      "target": "H0",
+      "relation": "grounds"
+    },
+    {
+      "source": "H1",
+      "target": "H0",
+      "relation": "deterministically instantiates"
+    },
+    {
+      "source": "H0",
+      "target": "H3",
+      "relation": "encodes"
+    },
+    {
+      "source": "H3",
+      "target": "H4",
+      "relation": "provides coherent links for"
+    }
+  ],
+  "notes": [
+    "Produces deterministic diagnostic manifold for recursive-now chapters.",
+    "Acts as pre-constraint anchor before chapters 05 and 06."
+  ],
+  "signature": "7fc5c1862be5b7179c0a67e83656197d20cb827663320d5f807d75d3b8b79940"
+}

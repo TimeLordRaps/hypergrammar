@@ -1,0 +1,68 @@
+{
+  "chapter_id": "09_mensaclaused_metaretrocausality",
+  "chapter_title": "Mensaclaused Metaretrocausality Scaffold",
+  "chapter_number": 9,
+  "previous_chapter_id": "08_corrective_time_syntropy",
+  "previous_signature": "466f3b0e3596cf0f405fac4710d818c0ca79ee5bd77584d19d20bd1944138a50",
+  "deterministic_seed": "1924889ce5327301c5fa31113df61aade200b25e14f8c5813e84776ecf031ec7",
+  "constraints": [
+    "clausal corrective targeting",
+    "trace / ideal / resolver separation",
+    "parity-of-self persistence constraint",
+    "consistency-over-forecast evaluation"
+  ],
+  "nodes": [
+    {
+      "key": "H0",
+      "label": "09_mensaclaused_metaretrocausality hyperstructure",
+      "kind": "chapter"
+    },
+    {
+      "key": "H1",
+      "label": "deterministic seed 1924889ce532",
+      "kind": "seed"
+    },
+    {
+      "key": "H2",
+      "label": "inherits 466f3b0e3596",
+      "kind": "link"
+    },
+    {
+      "key": "H3",
+      "label": "constraint manifold",
+      "kind": "constraint"
+    },
+    {
+      "key": "H4",
+      "label": "future scaffold anchor",
+      "kind": "anchor"
+    }
+  ],
+  "edges": [
+    {
+      "source": "H2",
+      "target": "H0",
+      "relation": "grounds"
+    },
+    {
+      "source": "H1",
+      "target": "H0",
+      "relation": "deterministically instantiates"
+    },
+    {
+      "source": "H0",
+      "target": "H3",
+      "relation": "encodes"
+    },
+    {
+      "source": "H3",
+      "target": "H4",
+      "relation": "provides coherent links for"
+    }
+  ],
+  "notes": [
+    "Deterministically extends chapter 08 syntropic manifold.",
+    "Acts as computable precursor for necessity constraint extraction in chapter 10."
+  ],
+  "signature": "5d3b3a8432dc6ae9e4d1d0c235f9f57c299e1baba4ba6244b1e8bafd1ea3e45a"
+}

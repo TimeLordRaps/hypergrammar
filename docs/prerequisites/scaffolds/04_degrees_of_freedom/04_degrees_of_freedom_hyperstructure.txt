@@ -1,0 +1,28 @@
+Degrees of Freedom Scaffold [04_degrees_of_freedom]
+Previous: 03_hyper_inversion
+Previous signature: aa4832a9c1f34cee72e641819e69578cb0047461e4cedf0b9cba82ef4eec4e34
+Deterministic seed: 5fd89038143b8974c16b1b4d31f286f9d5a5dd1bf09d9f5193b387dfbb8cb39e
+Signature: 7fc5c1862be5b7179c0a67e83656197d20cb827663320d5f807d75d3b8b79940
+
+Constraints:
+- state-variable and constraint separability
+- DoF sign classification (positive/zero/negative)
+- overconstraint contradiction signaling
+- cross-domain constraint transferability
+
+Nodes:
+- H0: 04_degrees_of_freedom hyperstructure (chapter)
+- H1: deterministic seed 5fd89038143b (seed)
+- H2: inherits aa4832a9c1f3 (link)
+- H3: constraint manifold (constraint)
+- H4: future scaffold anchor (anchor)
+
+Edges:
+- H2 --[grounds]--> H0
+- H1 --[deterministically instantiates]--> H0
+- H0 --[encodes]--> H3
+- H3 --[provides coherent links for]--> H4
+
+Notes:
+- Produces deterministic diagnostic manifold for recursive-now chapters.
+- Acts as pre-constraint anchor before chapters 05 and 06.

@@ -1,0 +1,28 @@
+Mensaclaused Metaretrocausality Scaffold [09_mensaclaused_metaretrocausality]
+Previous: 08_corrective_time_syntropy
+Previous signature: 466f3b0e3596cf0f405fac4710d818c0ca79ee5bd77584d19d20bd1944138a50
+Deterministic seed: 1924889ce5327301c5fa31113df61aade200b25e14f8c5813e84776ecf031ec7
+Signature: 5d3b3a8432dc6ae9e4d1d0c235f9f57c299e1baba4ba6244b1e8bafd1ea3e45a
+
+Constraints:
+- clausal corrective targeting
+- trace / ideal / resolver separation
+- parity-of-self persistence constraint
+- consistency-over-forecast evaluation
+
+Nodes:
+- H0: 09_mensaclaused_metaretrocausality hyperstructure (chapter)
+- H1: deterministic seed 1924889ce532 (seed)
+- H2: inherits 466f3b0e3596 (link)
+- H3: constraint manifold (constraint)
+- H4: future scaffold anchor (anchor)
+
+Edges:
+- H2 --[grounds]--> H0
+- H1 --[deterministically instantiates]--> H0
+- H0 --[encodes]--> H3
+- H3 --[provides coherent links for]--> H4
+
+Notes:
+- Deterministically extends chapter 08 syntropic manifold.
+- Acts as computable precursor for necessity constraint extraction in chapter 10.

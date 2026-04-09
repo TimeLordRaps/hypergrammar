@@ -1,0 +1,28 @@
+Transframe Ontology Scaffold [07_transframe_ontology]
+Previous: 06_recursive_now_frame_expanded
+Previous signature: 352459bf36c00c9ca0112e6cde6cb950d1fbf92ef67e4c33cc64be5449894aef
+Deterministic seed: 3898824edc200915c0ed00c1c50fe02dd26efb5db0fcf63e3fd11c3eeb6a8f45
+Signature: 8e6fa9a24034f1dafaaf0e1c94e2ed67582f0727b695dee18ff701f26342a29b
+
+Constraints:
+- now-frame accessibility boundary
+- global transframe movement requirement
+- recursive self-embedding admissibility
+- non-local interpolation restriction
+
+Nodes:
+- H0: 07_transframe_ontology hyperstructure (chapter)
+- H1: deterministic seed 3898824edc20 (seed)
+- H2: inherits 352459bf36c0 (link)
+- H3: constraint manifold (constraint)
+- H4: future scaffold anchor (anchor)
+
+Edges:
+- H2 --[grounds]--> H0
+- H1 --[deterministically instantiates]--> H0
+- H0 --[encodes]--> H3
+- H3 --[provides coherent links for]--> H4
+
+Notes:
+- Deterministically links from chapter 06 via signature inheritance.
+- Sets ontology manifold for chapter 08 corrective-time scaffolding.

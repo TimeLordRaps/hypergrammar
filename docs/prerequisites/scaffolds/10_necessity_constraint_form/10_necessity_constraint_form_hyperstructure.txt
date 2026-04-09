@@ -1,0 +1,28 @@
+Necessity Constraint Form Scaffold [10_necessity_constraint_form]
+Previous: 09_mensaclaused_metaretrocausality
+Previous signature: 5d3b3a8432dc6ae9e4d1d0c235f9f57c299e1baba4ba6244b1e8bafd1ea3e45a
+Deterministic seed: 96b1d4cde2f1a7e3e25e5da1c7fa24c2ba564f88423cc775e65525daa3a9a470
+Signature: f71b92a2c4043ae156e624de6bbfc19b752c3bb657b8bc6892f833b2a25e0f18
+
+Constraints:
+- computable extraction from 01..09
+- closure return edge 10->01
+- dual status: derived yet presupposed
+- system closure as defined constraint
+
+Nodes:
+- H0: 10_necessity_constraint_form hyperstructure (chapter)
+- H1: deterministic seed 96b1d4cde2f1 (seed)
+- H2: inherits 5d3b3a8432dc (link)
+- H3: constraint manifold (constraint)
+- H4: future scaffold anchor (anchor)
+
+Edges:
+- H2 --[grounds]--> H0
+- H1 --[deterministically instantiates]--> H0
+- H0 --[encodes]--> H3
+- H3 --[provides coherent links for]--> H4
+
+Notes:
+- Deterministically inherits chapter 09 signature and closes prerequisite loop.
+- Future documentation scaffolds can link to this signature as closure anchor.

@@ -124,4 +124,9 @@ When analyzing any system with DoF:
 3. Estimate local DoF ($n-r$) and verify with actual solvability.
 4. Treat negative DoF as a model/debug signal, not a literal physical count.
 
+## Deterministic scaffold
+
+- Script: [`04_degrees_of_freedom_scaffold.py`](./04_degrees_of_freedom_scaffold.py)
+- Artifact target: `./scaffolds/04_degrees_of_freedom/`
+
 Next step: read [`05_recursive_now_frame.md`](./05_recursive_now_frame.md) to apply DoF diagnostics to a recursive non-predictive modeling frame.

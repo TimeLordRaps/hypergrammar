@@ -1,0 +1,68 @@
+{
+  "chapter_id": "03_hyper_inversion",
+  "chapter_title": "Hyper Inversion Scaffold",
+  "chapter_number": 3,
+  "previous_chapter_id": "02_chomsky_hierarchy",
+  "previous_signature": "79ca1e76aa1327e67540c9fd0dfc55bc4976a90871481baadbc0d4a3edfb79f1",
+  "deterministic_seed": "4bfce80823557e09da76493dbb0da2c90df05ce4a7eb5adc772da67d6d16071e",
+  "constraints": [
+    "ladder-to-loop reinterpretability",
+    "continuation closure diagnostics",
+    "relation filtration consistency (=, ≡, ~)",
+    "source-trail hyperlink accountability"
+  ],
+  "nodes": [
+    {
+      "key": "H0",
+      "label": "03_hyper_inversion hyperstructure",
+      "kind": "chapter"
+    },
+    {
+      "key": "H1",
+      "label": "deterministic seed 4bfce8082355",
+      "kind": "seed"
+    },
+    {
+      "key": "H2",
+      "label": "inherits 79ca1e76aa13",
+      "kind": "link"
+    },
+    {
+      "key": "H3",
+      "label": "constraint manifold",
+      "kind": "constraint"
+    },
+    {
+      "key": "H4",
+      "label": "future scaffold anchor",
+      "kind": "anchor"
+    }
+  ],
+  "edges": [
+    {
+      "source": "H2",
+      "target": "H0",
+      "relation": "grounds"
+    },
+    {
+      "source": "H1",
+      "target": "H0",
+      "relation": "deterministically instantiates"
+    },
+    {
+      "source": "H0",
+      "target": "H3",
+      "relation": "encodes"
+    },
+    {
+      "source": "H3",
+      "target": "H4",
+      "relation": "provides coherent links for"
+    }
+  ],
+  "notes": [
+    "Maps classical containment to loop cross-sections.",
+    "Creates deterministic anchor for DoF diagnostics in chapter 04."
+  ],
+  "signature": "aa4832a9c1f34cee72e641819e69578cb0047461e4cedf0b9cba82ef4eec4e34"
+}

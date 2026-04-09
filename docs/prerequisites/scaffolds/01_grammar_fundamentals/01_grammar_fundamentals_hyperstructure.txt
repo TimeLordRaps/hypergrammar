@@ -1,0 +1,28 @@
+Grammar Fundamentals Scaffold [01_grammar_fundamentals]
+Previous: none
+Previous signature: GENESIS
+Deterministic seed: 1b0ec12ecda7c7b50bb392e365045c643279eeddff1cd4cd90144d7e4c51fd54
+Signature: f8e2ee70b239870456b2678b4de41eef246cbbc0e40451e2e805bb3cfaeea393
+
+Constraints:
+- finite grammar tuple availability
+- symbol partition between terminals and nonterminals
+- rule-based derivability
+- parse-structure observability
+
+Nodes:
+- H0: 01_grammar_fundamentals hyperstructure (chapter)
+- H1: deterministic seed 1b0ec12ecda7 (seed)
+- H2: inherits GENESIS (link)
+- H3: constraint manifold (constraint)
+- H4: future scaffold anchor (anchor)
+
+Edges:
+- H2 --[grounds]--> H0
+- H1 --[deterministically instantiates]--> H0
+- H0 --[encodes]--> H3
+- H3 --[provides coherent links for]--> H4
+
+Notes:
+- Genesis scaffold for prerequisite sequence.
+- Produces deterministic base signature for chapter 02.

@@ -1,0 +1,28 @@
+Chomsky Hierarchy Scaffold [02_chomsky_hierarchy]
+Previous: 01_grammar_fundamentals
+Previous signature: f8e2ee70b239870456b2678b4de41eef246cbbc0e40451e2e805bb3cfaeea393
+Deterministic seed: e8b7eb20b392cf91e1de3716bf12476a15fbb5fce5d7444f96a84e7cbd9ecbd4
+Signature: 79ca1e76aa1327e67540c9fd0dfc55bc4976a90871481baadbc0d4a3edfb79f1
+
+Constraints:
+- strict class containment ordering
+- machine-intuition correspondence
+- expressivity-burden tradeoff tracking
+- type transition traceability
+
+Nodes:
+- H0: 02_chomsky_hierarchy hyperstructure (chapter)
+- H1: deterministic seed e8b7eb20b392 (seed)
+- H2: inherits f8e2ee70b239 (link)
+- H3: constraint manifold (constraint)
+- H4: future scaffold anchor (anchor)
+
+Edges:
+- H2 --[grounds]--> H0
+- H1 --[deterministically instantiates]--> H0
+- H0 --[encodes]--> H3
+- H3 --[provides coherent links for]--> H4
+
+Notes:
+- Deterministically extends chapter 01 scaffold signature.
+- Provides class-order anchor for inversion framing in chapter 03.

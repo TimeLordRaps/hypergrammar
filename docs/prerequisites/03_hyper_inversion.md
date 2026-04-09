@@ -103,4 +103,9 @@ Each claim below includes direct trace links.
 3. Read [Concepts](../../AGENTS.md#concepts), [Axioms](../../AGENTS.md#axioms), and [Continuation](../../AGENTS.md#continuation).
 4. Return to this inversion page and follow each link in the Link Map / Source Trail.
 
+## Deterministic scaffold
+
+- Script: [`03_hyper_inversion_scaffold.py`](./03_hyper_inversion_scaffold.py)
+- Artifact target: `./scaffolds/03_hyper_inversion/`
+
 If any mismatch between this page and [`../../AGENTS.md`](../../AGENTS.md) is found, log it in [`../../TIME.md`](../../TIME.md).

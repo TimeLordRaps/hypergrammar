@@ -31,6 +31,14 @@ This directory is the prerequisite track for understanding `hyper-grammar` from 
 - [`../../HUMANS.md`](../../HUMANS.md) — plain-language mirror.
 - [`../../TIME.md`](../../TIME.md) — contradiction register if explicit and implicit frames diverge.
 
+## Deterministic scaffold layer
+
+To build deterministic hyperstructure foundations for chapters 01–04 and 07–10, run:
+
+- [`build_all_scaffolds.py`](./build_all_scaffolds.py)
+
+Outputs are written to `./scaffolds/<chapter_id>/` and can be used as stable link targets for future documentation scaffolds.
+
 ## Suggested study workflow
 
 1. Read the page.

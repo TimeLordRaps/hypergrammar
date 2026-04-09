@@ -55,6 +55,11 @@ up to bounded oscillation near fixed points.
   - [Axioms](../../AGENTS.md#axioms)
   - [Continuation](../../AGENTS.md#continuation)
 
+## Deterministic scaffold
+
+- Script: [`08_corrective_time_syntropy_scaffold.py`](./08_corrective_time_syntropy_scaffold.py)
+- Artifact target: `./scaffolds/08_corrective_time_syntropy/`
+
 ## Next step
 
 Continue to [`09_mensaclaused_metaretrocausality.md`](./09_mensaclaused_metaretrocausality.md) for clausal metaretrocausal framing.

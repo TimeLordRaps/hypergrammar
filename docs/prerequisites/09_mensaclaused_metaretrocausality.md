@@ -61,6 +61,11 @@ See:
 - [`05_recursive_now_frame_scaffold.py`](./05_recursive_now_frame_scaffold.py)
 - [`08_corrective_time_syntropy.md`](./08_corrective_time_syntropy.md)
 
+## Deterministic scaffold
+
+- Script: [`09_mensaclaused_metaretrocausality_scaffold.py`](./09_mensaclaused_metaretrocausality_scaffold.py)
+- Artifact target: `./scaffolds/09_mensaclaused_metaretrocausality/`
+
 ## Transition note
 
 Chapter [`06_recursive_now_frame_expanded.md`](./06_recursive_now_frame_expanded.md)

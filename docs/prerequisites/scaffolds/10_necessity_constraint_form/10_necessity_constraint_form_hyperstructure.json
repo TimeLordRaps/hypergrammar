@@ -1,0 +1,68 @@
+{
+  "chapter_id": "10_necessity_constraint_form",
+  "chapter_title": "Necessity Constraint Form Scaffold",
+  "chapter_number": 10,
+  "previous_chapter_id": "09_mensaclaused_metaretrocausality",
+  "previous_signature": "5d3b3a8432dc6ae9e4d1d0c235f9f57c299e1baba4ba6244b1e8bafd1ea3e45a",
+  "deterministic_seed": "96b1d4cde2f1a7e3e25e5da1c7fa24c2ba564f88423cc775e65525daa3a9a470",
+  "constraints": [
+    "computable extraction from 01..09",
+    "closure return edge 10->01",
+    "dual status: derived yet presupposed",
+    "system closure as defined constraint"
+  ],
+  "nodes": [
+    {
+      "key": "H0",
+      "label": "10_necessity_constraint_form hyperstructure",
+      "kind": "chapter"
+    },
+    {
+      "key": "H1",
+      "label": "deterministic seed 96b1d4cde2f1",
+      "kind": "seed"
+    },
+    {
+      "key": "H2",
+      "label": "inherits 5d3b3a8432dc",
+      "kind": "link"
+    },
+    {
+      "key": "H3",
+      "label": "constraint manifold",
+      "kind": "constraint"
+    },
+    {
+      "key": "H4",
+      "label": "future scaffold anchor",
+      "kind": "anchor"
+    }
+  ],
+  "edges": [
+    {
+      "source": "H2",
+      "target": "H0",
+      "relation": "grounds"
+    },
+    {
+      "source": "H1",
+      "target": "H0",
+      "relation": "deterministically instantiates"
+    },
+    {
+      "source": "H0",
+      "target": "H3",
+      "relation": "encodes"
+    },
+    {
+      "source": "H3",
+      "target": "H4",
+      "relation": "provides coherent links for"
+    }
+  ],
+  "notes": [
+    "Deterministically inherits chapter 09 signature and closes prerequisite loop.",
+    "Future documentation scaffolds can link to this signature as closure anchor."
+  ],
+  "signature": "f71b92a2c4043ae156e624de6bbfc19b752c3bb657b8bc6892f833b2a25e0f18"
+}
