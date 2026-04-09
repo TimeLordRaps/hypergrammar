@@ -1,0 +1,19 @@
+{
+  "name": "rule_schema_metagrammar",
+  "layer": "metagrammar",
+  "target_layer": "grammar",
+  "universe_symbol": "U",
+  "ground_symbol": "$",
+  "closure_operator": "L",
+  "terminals": ["RULE", "NT", "T", "->", "|", "ε", "$", "U"],
+  "nonterminals": ["R", "ALT"],
+  "rules": [
+    {"lhs": "R", "rhs": ["RULE", "NT", "->", "ALT"]},
+    {"lhs": "ALT", "rhs": ["T", "ALT"]},
+    {"lhs": "ALT", "rhs": ["ε"]}
+  ],
+  "derivation_chain": ["$", "L($)", "L(L($))"],
+  "metadata": {
+    "description": "Meta-level schema over grammar rules"
+  }
+}

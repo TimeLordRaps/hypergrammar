@@ -1,0 +1,17 @@
+{
+  "name": "balanced_ab_grammar",
+  "layer": "grammar",
+  "universe_symbol": "U",
+  "ground_symbol": "$",
+  "closure_operator": "L",
+  "terminals": ["a", "b", "ε", "$", "U"],
+  "nonterminals": ["S"],
+  "rules": [
+    {"lhs": "S", "rhs": ["a", "S", "b"]},
+    {"lhs": "S", "rhs": ["ε"]}
+  ],
+  "derivation_chain": ["$", "L($)", "L(L($))"],
+  "metadata": {
+    "description": "Classic context-free grammar with explicit closure chain"
+  }
+}
