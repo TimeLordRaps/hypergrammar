@@ -1,0 +1,7 @@
+# Local tool metadata
+.serena/
+
+# Python cache artifacts
+__pycache__/
+.pytest_cache/
+*.py[cod]
