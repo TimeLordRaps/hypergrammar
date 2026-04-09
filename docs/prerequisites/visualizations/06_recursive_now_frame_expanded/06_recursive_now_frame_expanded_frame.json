@@ -1,0 +1,113 @@
+{
+  "doc_id": "06_recursive_now_frame_expanded",
+  "doc_title": "Expanded Recursive Now-Frame",
+  "purpose": "Visualize expanded corrective architecture with Hyperkähler consistency and branch-aware parity filtering.",
+  "nodes": [
+    {
+      "key": "NX",
+      "label": "Expanded Now-Frame N",
+      "kind": "state"
+    },
+    {
+      "key": "HK",
+      "label": "HyperKähler Triplet Surrogate K",
+      "kind": "state-component"
+    },
+    {
+      "key": "CUR",
+      "label": "Curvature-Like Pressure",
+      "kind": "derived-quantity"
+    },
+    {
+      "key": "RTF",
+      "label": "Ricci Trace-Free Projection",
+      "kind": "operator-detail"
+    },
+    {
+      "key": "PF",
+      "label": "Planck-Scale Parity Filter",
+      "kind": "operator"
+    },
+    {
+      "key": "SUB",
+      "label": "Sub-Planck Recursive Meta-Mix",
+      "kind": "branch"
+    },
+    {
+      "key": "SUP",
+      "label": "Super-Planck Stable Projection",
+      "kind": "branch"
+    },
+    {
+      "key": "COR",
+      "label": "Corrective Loop Φ",
+      "kind": "operator"
+    },
+    {
+      "key": "RES",
+      "label": "Residual Bundle",
+      "kind": "diagnostic"
+    },
+    {
+      "key": "REP",
+      "label": "Fixed-Point Report",
+      "kind": "artifact"
+    }
+  ],
+  "edges": [
+    {
+      "source": "NX",
+      "target": "HK",
+      "relation": "contains"
+    },
+    {
+      "source": "COR",
+      "target": "CUR",
+      "relation": "computes"
+    },
+    {
+      "source": "CUR",
+      "target": "RTF",
+      "relation": "projected to"
+    },
+    {
+      "source": "COR",
+      "target": "PF",
+      "relation": "routes relation updates through"
+    },
+    {
+      "source": "PF",
+      "target": "SUB",
+      "relation": "if D_ij < l_P"
+    },
+    {
+      "source": "PF",
+      "target": "SUP",
+      "relation": "if D_ij >= l_P"
+    },
+    {
+      "source": "COR",
+      "target": "RES",
+      "relation": "aggregates"
+    },
+    {
+      "source": "HK",
+      "target": "RES",
+      "relation": "contributes compatibility error"
+    },
+    {
+      "source": "RES",
+      "target": "REP",
+      "relation": "exported by"
+    },
+    {
+      "source": "COR",
+      "target": "NX",
+      "relation": "updates"
+    }
+  ],
+  "notes": [
+    "This visualization highlights the dual-branch parity logic as a first-class architectural split.",
+    "Residuals are interpreted as closure health signals for the active frame."
+  ]
+}

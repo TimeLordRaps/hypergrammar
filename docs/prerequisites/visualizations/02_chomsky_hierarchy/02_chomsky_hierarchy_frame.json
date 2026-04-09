@@ -1,0 +1,113 @@
+{
+  "doc_id": "02_chomsky_hierarchy",
+  "doc_title": "Chomsky Hierarchy",
+  "purpose": "Visualize containment chain, recognizer intuition, and expressivity-versus-proof-cost tradeoff.",
+  "nodes": [
+    {
+      "key": "T3",
+      "label": "Type-3 Regular",
+      "kind": "class"
+    },
+    {
+      "key": "T2",
+      "label": "Type-2 Context-Free",
+      "kind": "class"
+    },
+    {
+      "key": "T1",
+      "label": "Type-1 Context-Sensitive",
+      "kind": "class"
+    },
+    {
+      "key": "T0",
+      "label": "Type-0 Unrestricted",
+      "kind": "class"
+    },
+    {
+      "key": "FA",
+      "label": "Finite Automaton",
+      "kind": "machine"
+    },
+    {
+      "key": "PDA",
+      "label": "Pushdown Automaton",
+      "kind": "machine"
+    },
+    {
+      "key": "LBA",
+      "label": "Linear-Bounded Automaton",
+      "kind": "machine"
+    },
+    {
+      "key": "TM",
+      "label": "Turing Machine",
+      "kind": "machine"
+    },
+    {
+      "key": "EXP",
+      "label": "Expressivity",
+      "kind": "measure"
+    },
+    {
+      "key": "BUR",
+      "label": "Verification Burden",
+      "kind": "measure"
+    }
+  ],
+  "edges": [
+    {
+      "source": "T3",
+      "target": "T2",
+      "relation": "subset of"
+    },
+    {
+      "source": "T2",
+      "target": "T1",
+      "relation": "subset of"
+    },
+    {
+      "source": "T1",
+      "target": "T0",
+      "relation": "subset of"
+    },
+    {
+      "source": "T3",
+      "target": "FA",
+      "relation": "recognized by"
+    },
+    {
+      "source": "T2",
+      "target": "PDA",
+      "relation": "recognized by"
+    },
+    {
+      "source": "T1",
+      "target": "LBA",
+      "relation": "recognized by"
+    },
+    {
+      "source": "T0",
+      "target": "TM",
+      "relation": "recognized by"
+    },
+    {
+      "source": "T3",
+      "target": "EXP",
+      "relation": "lower"
+    },
+    {
+      "source": "T0",
+      "target": "EXP",
+      "relation": "higher"
+    },
+    {
+      "source": "EXP",
+      "target": "BUR",
+      "relation": "typically increases"
+    }
+  ],
+  "notes": [
+    "Containment is strict as a modeling heuristic unless proven otherwise.",
+    "Higher power usually raises parsing and verification costs."
+  ]
+}

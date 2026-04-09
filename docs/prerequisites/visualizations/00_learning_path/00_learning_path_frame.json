@@ -1,0 +1,189 @@
+{
+  "doc_id": "00_learning_path",
+  "doc_title": "Hyper-Grammar Prerequisites Learning Path",
+  "purpose": "Show chapter dependency order and closure return from chapter 10 back to chapter 01.",
+  "nodes": [
+    {
+      "key": "P00",
+      "label": "Prerequisites Directory",
+      "kind": "container"
+    },
+    {
+      "key": "P01",
+      "label": "01 Grammar Fundamentals",
+      "kind": "chapter"
+    },
+    {
+      "key": "P02",
+      "label": "02 Chomsky Hierarchy",
+      "kind": "chapter"
+    },
+    {
+      "key": "P03",
+      "label": "03 Hyper Inversion",
+      "kind": "chapter"
+    },
+    {
+      "key": "P04",
+      "label": "04 Degrees of Freedom",
+      "kind": "chapter"
+    },
+    {
+      "key": "P05",
+      "label": "05 Recursive Now-Frame",
+      "kind": "chapter"
+    },
+    {
+      "key": "P06",
+      "label": "06 Expanded Recursive Now-Frame",
+      "kind": "chapter"
+    },
+    {
+      "key": "P07",
+      "label": "07 Transframe Ontology",
+      "kind": "chapter"
+    },
+    {
+      "key": "P08",
+      "label": "08 Corrective Time Syntropy",
+      "kind": "chapter"
+    },
+    {
+      "key": "P09",
+      "label": "09 Mensaclaused Metaretrocausality",
+      "kind": "chapter"
+    },
+    {
+      "key": "P10",
+      "label": "10 Necessity Constraint Form",
+      "kind": "chapter"
+    },
+    {
+      "key": "P11",
+      "label": "AGENTS/HUMANS/TIME Governance",
+      "kind": "reference"
+    }
+  ],
+  "edges": [
+    {
+      "source": "P00",
+      "target": "P01",
+      "relation": "contains"
+    },
+    {
+      "source": "P00",
+      "target": "P02",
+      "relation": "contains"
+    },
+    {
+      "source": "P00",
+      "target": "P03",
+      "relation": "contains"
+    },
+    {
+      "source": "P00",
+      "target": "P04",
+      "relation": "contains"
+    },
+    {
+      "source": "P00",
+      "target": "P05",
+      "relation": "contains"
+    },
+    {
+      "source": "P00",
+      "target": "P06",
+      "relation": "contains"
+    },
+    {
+      "source": "P00",
+      "target": "P07",
+      "relation": "contains"
+    },
+    {
+      "source": "P00",
+      "target": "P08",
+      "relation": "contains"
+    },
+    {
+      "source": "P00",
+      "target": "P09",
+      "relation": "contains"
+    },
+    {
+      "source": "P00",
+      "target": "P10",
+      "relation": "contains"
+    },
+    {
+      "source": "P01",
+      "target": "P02",
+      "relation": "prerequisite for"
+    },
+    {
+      "source": "P02",
+      "target": "P03",
+      "relation": "prerequisite for"
+    },
+    {
+      "source": "P03",
+      "target": "P04",
+      "relation": "prerequisite for"
+    },
+    {
+      "source": "P04",
+      "target": "P05",
+      "relation": "prerequisite for"
+    },
+    {
+      "source": "P05",
+      "target": "P06",
+      "relation": "prerequisite for"
+    },
+    {
+      "source": "P06",
+      "target": "P07",
+      "relation": "prerequisite for"
+    },
+    {
+      "source": "P07",
+      "target": "P08",
+      "relation": "prerequisite for"
+    },
+    {
+      "source": "P08",
+      "target": "P09",
+      "relation": "prerequisite for"
+    },
+    {
+      "source": "P09",
+      "target": "P10",
+      "relation": "computably defines"
+    },
+    {
+      "source": "P10",
+      "target": "P01",
+      "relation": "presupposes (closure return)"
+    },
+    {
+      "source": "P11",
+      "target": "P03",
+      "relation": "formal anchor"
+    },
+    {
+      "source": "P11",
+      "target": "P10",
+      "relation": "closure language anchor"
+    },
+    {
+      "source": "P11",
+      "target": "P09",
+      "relation": "contradiction logging context"
+    }
+  ],
+  "notes": [
+    "Dependency chain becomes a closure cycle with 09→10→01.",
+    "Chapter 10 is late in computable order and prior in logical grounding.",
+    "Governance docs remain source-of-truth for contradictions and refinements."
+  ]
+}

@@ -1,0 +1,30 @@
+Expanded Recursive Now-Frame [06_recursive_now_frame_expanded]
+Purpose: Visualize expanded corrective architecture with Hyperkähler consistency and branch-aware parity filtering.
+
+Nodes:
+- NX: Expanded Now-Frame N (state)
+- HK: HyperKähler Triplet Surrogate K (state-component)
+- CUR: Curvature-Like Pressure (derived-quantity)
+- RTF: Ricci Trace-Free Projection (operator-detail)
+- PF: Planck-Scale Parity Filter (operator)
+- SUB: Sub-Planck Recursive Meta-Mix (branch)
+- SUP: Super-Planck Stable Projection (branch)
+- COR: Corrective Loop Φ (operator)
+- RES: Residual Bundle (diagnostic)
+- REP: Fixed-Point Report (artifact)
+
+Relations:
+- Expanded Now-Frame N --[contains]--> HyperKähler Triplet Surrogate K
+- Corrective Loop Φ --[computes]--> Curvature-Like Pressure
+- Curvature-Like Pressure --[projected to]--> Ricci Trace-Free Projection
+- Corrective Loop Φ --[routes relation updates through]--> Planck-Scale Parity Filter
+- Planck-Scale Parity Filter --[if D_ij < l_P]--> Sub-Planck Recursive Meta-Mix
+- Planck-Scale Parity Filter --[if D_ij >= l_P]--> Super-Planck Stable Projection
+- Corrective Loop Φ --[aggregates]--> Residual Bundle
+- HyperKähler Triplet Surrogate K --[contributes compatibility error]--> Residual Bundle
+- Residual Bundle --[exported by]--> Fixed-Point Report
+- Corrective Loop Φ --[updates]--> Expanded Now-Frame N
+
+Notes:
+- This visualization highlights the dual-branch parity logic as a first-class architectural split.
+- Residuals are interpreted as closure health signals for the active frame.

@@ -1,0 +1,24 @@
+flowchart TD
+  G["Grammar G=(V,Σ,P,S)"]
+  V["Nonterminals V"]
+  S["Start Symbol S"]
+  SIG["Alphabet Σ"]
+  TERM["Terminals"]
+  PROD["Productions P"]
+  DER["Derivation"]
+  TREE["Parse Tree"]
+  AMB["Ambiguity"]
+  LANG["Language L"]
+  VER["Verification Effort"]
+  G -- "contains" --> V
+  G -- "contains" --> SIG
+  G -- "contains" --> PROD
+  G -- "contains" --> S
+  SIG -- "supports terminal symbols" --> TERM
+  V -- "rewritten by" --> PROD
+  PROD -- "drives" --> DER
+  S -- "starting point" --> DER
+  DER -- "induces" --> TREE
+  DER -- "generates members of" --> LANG
+  TREE -- "may reveal" --> AMB
+  AMB -- "increases complexity of" --> VER

@@ -1,0 +1,34 @@
+Necessity Constraint Form [10_necessity_constraint_form]
+Purpose: Visualize dual status of chapter 10: computably extracted from 01–09 yet presupposing 01 as closure return.
+
+Nodes:
+- C1: Chapter 01 (chapter)
+- C2: Chapter 02 (chapter)
+- C3: Chapter 03 (chapter)
+- C4: Chapter 04 (chapter)
+- C5: Chapter 05 (chapter)
+- C6: Chapter 06 (chapter)
+- C7: Chapter 07 (chapter)
+- C8: Chapter 08 (chapter)
+- C9: Chapter 09 (chapter)
+- C10: Chapter 10 Necessity Constraint (constraint)
+- CLS: System Closure (criterion)
+
+Relations:
+- Chapter 01 --[defines basis for]--> Chapter 02
+- Chapter 02 --[enables]--> Chapter 03
+- Chapter 03 --[enables]--> Chapter 04
+- Chapter 04 --[constrains]--> Chapter 05
+- Chapter 05 --[expands]--> Chapter 06
+- Chapter 06 --[grounds]--> Chapter 07
+- Chapter 07 --[feeds]--> Chapter 08
+- Chapter 08 --[feeds]--> Chapter 09
+- Chapter 09 --[computably defines]--> Chapter 10 Necessity Constraint
+- Chapter 10 Necessity Constraint --[presupposes]--> Chapter 01
+- Chapter 10 Necessity Constraint --[is defined as]--> System Closure
+- System Closure --[re-enters system at]--> Chapter 01
+
+Notes:
+- Chapter 10 is discovered after 01–09 are computably defined.
+- Chapter 10 simultaneously acts as presupposed condition of chapter 01.
+- Closure is the system-level necessity constraint.

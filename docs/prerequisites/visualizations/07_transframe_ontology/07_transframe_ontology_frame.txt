@@ -1,0 +1,24 @@
+Transframe Ontology [07_transframe_ontology]
+Purpose: Visualize accessibility boundaries and closure conditions required for transframe movement.
+
+Nodes:
+- NOW: Accessible Now-Frame F_now (manifold)
+- EXT: Inaccessible Frame Coordinates F_ext (manifold)
+- U: Universe State Operator U (operator)
+- R: Recursive Self-Embedding R (operator)
+- CLS: Closure Condition R(U) ≈ U (criterion)
+- MOV: Transframe Movement (capability)
+- NLI: No Local Interpolation (constraint)
+- APP: Nearby but Incomplete Approximations (context)
+
+Relations:
+- Accessible Now-Frame F_now --[boundary of accessibility]--> Inaccessible Frame Coordinates F_ext
+- Universe State Operator U --[subject to]--> Recursive Self-Embedding R
+- Recursive Self-Embedding R --[evaluated by]--> Closure Condition R(U) ≈ U
+- Closure Condition R(U) ≈ U --[enables when satisfied]--> Transframe Movement
+- No Local Interpolation --[restricts method]--> Transframe Movement
+- Nearby but Incomplete Approximations --[motivates refinement]--> Transframe Movement
+
+Notes:
+- Only now-frame content is directly accessible in the active perspective.
+- Transframe movement is conditional and global, not local interpolation.

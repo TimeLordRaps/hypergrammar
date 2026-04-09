@@ -66,3 +66,7 @@ See:
 Chapter [`06_recursive_now_frame_expanded.md`](./06_recursive_now_frame_expanded.md)
 now carries the expanded explicit corrective frame. Chapters 07–09 provide the
 metaphysical and clause-theoretic layer that can sit above that implementation.
+
+Next step: [`10_necessity_constraint_form.md`](./10_necessity_constraint_form.md),
+which defines closure as the system-level necessity constraint and completes
+the cycle back to chapter 01.

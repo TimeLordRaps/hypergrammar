@@ -1,0 +1,24 @@
+flowchart TD
+  C1["Chapter 01"]
+  C2["Chapter 02"]
+  C3["Chapter 03"]
+  C4["Chapter 04"]
+  C5["Chapter 05"]
+  C6["Chapter 06"]
+  C7["Chapter 07"]
+  C8["Chapter 08"]
+  C9["Chapter 09"]
+  C10["Chapter 10 Necessity Constraint"]
+  CLS["System Closure"]
+  C1 -- "defines basis for" --> C2
+  C2 -- "enables" --> C3
+  C3 -- "enables" --> C4
+  C4 -- "constrains" --> C5
+  C5 -- "expands" --> C6
+  C6 -- "grounds" --> C7
+  C7 -- "feeds" --> C8
+  C8 -- "feeds" --> C9
+  C9 -- "computably defines" --> C10
+  C10 -- "presupposes" --> C1
+  C10 -- "is defined as" --> CLS
+  CLS -- "re-enters system at" --> C1

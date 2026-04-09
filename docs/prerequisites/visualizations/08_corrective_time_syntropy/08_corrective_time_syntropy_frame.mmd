@@ -1,0 +1,19 @@
+flowchart TD
+  NK["Current Now-Frame N_k"]
+  IK["Ideal Clauses I_k"]
+  C["Corrective Operator C"]
+  N1["Next State N_{k+1}"]
+  RHO["Residual Inconsistency ρ"]
+  SYN["Syntropic Ordering"]
+  UNC["Irreducible Uncertainty"]
+  PLAN["Ideal-Attractor Planning"]
+  TR["History as Trace Constraints"]
+  NK -- "input" --> C
+  IK -- "guides" --> C
+  C -- "produces" --> N1
+  NK -- "measured by" --> RHO
+  N1 -- "target non-increase" --> RHO
+  RHO -- "supports when decreasing" --> SYN
+  UNC -- "requires" --> PLAN
+  PLAN -- "defines" --> IK
+  TR -- "constrains without forecasting" --> C

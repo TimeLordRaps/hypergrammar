@@ -1,0 +1,118 @@
+{
+  "doc_id": "05_recursive_now_frame",
+  "doc_title": "Recursive Now-Frame",
+  "purpose": "Visualize present-only state evolution via corrective feedback, parity filtering, and unfolding.",
+  "nodes": [
+    {
+      "key": "NOW",
+      "label": "Now-Frame N",
+      "kind": "state"
+    },
+    {
+      "key": "B",
+      "label": "Many-Body Local States B",
+      "kind": "state-component"
+    },
+    {
+      "key": "H",
+      "label": "Holographic Coupling H",
+      "kind": "state-component"
+    },
+    {
+      "key": "T",
+      "label": "Enfolded Trace τ",
+      "kind": "state-component"
+    },
+    {
+      "key": "C",
+      "label": "Corrective Feedback C",
+      "kind": "operator"
+    },
+    {
+      "key": "RIC",
+      "label": "Ricci Trace-Free Projection",
+      "kind": "operator-detail"
+    },
+    {
+      "key": "PF",
+      "label": "Planck-Scale Parity Filter",
+      "kind": "operator-detail"
+    },
+    {
+      "key": "U",
+      "label": "Structural Update U",
+      "kind": "operator"
+    },
+    {
+      "key": "N2",
+      "label": "Next Now-Frame N'",
+      "kind": "state"
+    },
+    {
+      "key": "FP",
+      "label": "Fixed-Point Residual",
+      "kind": "diagnostic"
+    },
+    {
+      "key": "NF",
+      "label": "No Forecasting Rule",
+      "kind": "constraint"
+    }
+  ],
+  "edges": [
+    {
+      "source": "NOW",
+      "target": "B",
+      "relation": "contains"
+    },
+    {
+      "source": "NOW",
+      "target": "H",
+      "relation": "contains"
+    },
+    {
+      "source": "NOW",
+      "target": "T",
+      "relation": "contains"
+    },
+    {
+      "source": "C",
+      "target": "RIC",
+      "relation": "uses"
+    },
+    {
+      "source": "C",
+      "target": "PF",
+      "relation": "uses"
+    },
+    {
+      "source": "C",
+      "target": "FP",
+      "relation": "drives down"
+    },
+    {
+      "source": "C",
+      "target": "U",
+      "relation": "feeds"
+    },
+    {
+      "source": "U",
+      "target": "N2",
+      "relation": "produces"
+    },
+    {
+      "source": "T",
+      "target": "U",
+      "relation": "constrains"
+    },
+    {
+      "source": "NF",
+      "target": "C",
+      "relation": "governs"
+    }
+  ],
+  "notes": [
+    "Past is represented as trace only; no timeline replay object exists.",
+    "Future is unfolded through correction, not extrapolated from history windows."
+  ]
+}

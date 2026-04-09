@@ -1,0 +1,18 @@
+flowchart TD
+  T["Trace Constraints T"]
+  I["Future-Ideal Clauses I_future"]
+  R["Resolver Operator R_resolve"]
+  N1["Corrected Present N_{k+1}"]
+  AUD["Clause Audit Separation"]
+  PAR["Parity-of-Self Indelibility"]
+  MET["Consistency/Contradiction Metrics"]
+  NFR["No Forecast-Fit Requirement"]
+  ROL["Resolver-Role Hypothesis"]
+  T -- "constrains" --> R
+  I -- "targets" --> R
+  R -- "produces" --> N1
+  AUD -- "governs design" --> R
+  PAR -- "persists through updates" --> N1
+  N1 -- "evaluated by" --> MET
+  NFR -- "forbids time-series dependence" --> R
+  ROL -- "interpreted through" --> R

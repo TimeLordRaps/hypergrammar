@@ -1,0 +1,21 @@
+flowchart TD
+  NX["Expanded Now-Frame N"]
+  HK["HyperKähler Triplet Surrogate K"]
+  CUR["Curvature-Like Pressure"]
+  RTF["Ricci Trace-Free Projection"]
+  PF["Planck-Scale Parity Filter"]
+  SUB["Sub-Planck Recursive Meta-Mix"]
+  SUP["Super-Planck Stable Projection"]
+  COR["Corrective Loop Φ"]
+  RES["Residual Bundle"]
+  REP["Fixed-Point Report"]
+  NX -- "contains" --> HK
+  COR -- "computes" --> CUR
+  CUR -- "projected to" --> RTF
+  COR -- "routes relation updates through" --> PF
+  PF -- "if D_ij < l_P" --> SUB
+  PF -- "if D_ij >= l_P" --> SUP
+  COR -- "aggregates" --> RES
+  HK -- "contributes compatibility error" --> RES
+  RES -- "exported by" --> REP
+  COR -- "updates" --> NX

@@ -1,0 +1,27 @@
+Mensaclaused Metaretrocausality [09_mensaclaused_metaretrocausality]
+Purpose: Visualize clause-conditioned present correction using trace and future-ideal constraints.
+
+Nodes:
+- T: Trace Constraints T (constraint-set)
+- I: Future-Ideal Clauses I_future (constraint-set)
+- R: Resolver Operator R_resolve (operator)
+- N1: Corrected Present N_{k+1} (state)
+- AUD: Clause Audit Separation (architecture-rule)
+- PAR: Parity-of-Self Indelibility (constraint)
+- MET: Consistency/Contradiction Metrics (diagnostic)
+- NFR: No Forecast-Fit Requirement (constraint)
+- ROL: Resolver-Role Hypothesis (interpretation)
+
+Relations:
+- Trace Constraints T --[constrains]--> Resolver Operator R_resolve
+- Future-Ideal Clauses I_future --[targets]--> Resolver Operator R_resolve
+- Resolver Operator R_resolve --[produces]--> Corrected Present N_{k+1}
+- Clause Audit Separation --[governs design]--> Resolver Operator R_resolve
+- Parity-of-Self Indelibility --[persists through updates]--> Corrected Present N_{k+1}
+- Corrected Present N_{k+1} --[evaluated by]--> Consistency/Contradiction Metrics
+- No Forecast-Fit Requirement --[forbids time-series dependence]--> Resolver Operator R_resolve
+- Resolver-Role Hypothesis --[interpreted through]--> Resolver Operator R_resolve
+
+Notes:
+- Future-ideal clauses are corrective constraints, not deterministic predictions.
+- Evaluation uses consistency and contradiction incidence, not forecast error alone.

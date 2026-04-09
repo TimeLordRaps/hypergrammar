@@ -1,0 +1,22 @@
+flowchart TD
+  NOW["Now-Frame N"]
+  B["Many-Body Local States B"]
+  H["Holographic Coupling H"]
+  T["Enfolded Trace τ"]
+  C["Corrective Feedback C"]
+  RIC["Ricci Trace-Free Projection"]
+  PF["Planck-Scale Parity Filter"]
+  U["Structural Update U"]
+  N2["Next Now-Frame N'"]
+  FP["Fixed-Point Residual"]
+  NF["No Forecasting Rule"]
+  NOW -- "contains" --> B
+  NOW -- "contains" --> H
+  NOW -- "contains" --> T
+  C -- "uses" --> RIC
+  C -- "uses" --> PF
+  C -- "drives down" --> FP
+  C -- "feeds" --> U
+  U -- "produces" --> N2
+  T -- "constrains" --> U
+  NF -- "governs" --> C

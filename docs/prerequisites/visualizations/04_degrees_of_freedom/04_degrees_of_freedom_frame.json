@@ -1,0 +1,98 @@
+{
+  "doc_id": "04_degrees_of_freedom",
+  "doc_title": "Degrees of Freedom",
+  "purpose": "Visualize the n-r constraint lens and resulting positive/zero/negative regimes.",
+  "nodes": [
+    {
+      "key": "N",
+      "label": "State Variables n",
+      "kind": "quantity"
+    },
+    {
+      "key": "R",
+      "label": "Independent Constraints r",
+      "kind": "quantity"
+    },
+    {
+      "key": "DOF",
+      "label": "DoF ≈ n - r",
+      "kind": "computed-state"
+    },
+    {
+      "key": "POS",
+      "label": "Positive DoF (>0)",
+      "kind": "regime"
+    },
+    {
+      "key": "ZER",
+      "label": "Zero DoF (=0)",
+      "kind": "regime"
+    },
+    {
+      "key": "NEG",
+      "label": "Negative DoF (<0)",
+      "kind": "regime"
+    },
+    {
+      "key": "EXP",
+      "label": "Exploration Capacity",
+      "kind": "behavior"
+    },
+    {
+      "key": "FIX",
+      "label": "Fixed Solution",
+      "kind": "behavior"
+    },
+    {
+      "key": "CON",
+      "label": "Contradiction Signal",
+      "kind": "diagnostic"
+    }
+  ],
+  "edges": [
+    {
+      "source": "N",
+      "target": "DOF",
+      "relation": "adds freedom"
+    },
+    {
+      "source": "R",
+      "target": "DOF",
+      "relation": "removes freedom"
+    },
+    {
+      "source": "DOF",
+      "target": "POS",
+      "relation": "if > 0"
+    },
+    {
+      "source": "DOF",
+      "target": "ZER",
+      "relation": "if = 0"
+    },
+    {
+      "source": "DOF",
+      "target": "NEG",
+      "relation": "if < 0"
+    },
+    {
+      "source": "POS",
+      "target": "EXP",
+      "relation": "enables"
+    },
+    {
+      "source": "ZER",
+      "target": "FIX",
+      "relation": "implies"
+    },
+    {
+      "source": "NEG",
+      "target": "CON",
+      "relation": "indicates"
+    }
+  ],
+  "notes": [
+    "Negative DoF is a modeling alarm, not a literal negative knob count.",
+    "DoF diagnostics transfer directly into closure and contradiction analysis."
+  ]
+}

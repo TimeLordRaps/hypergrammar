@@ -1,0 +1,33 @@
+Grammar Fundamentals [01_grammar_fundamentals]
+Purpose: Visualize how symbols and rules produce derivations, languages, and verification burden.
+
+Nodes:
+- G: Grammar G=(V,Σ,P,S) (definition)
+- V: Nonterminals V (symbol-set)
+- S: Start Symbol S (symbol)
+- SIG: Alphabet Σ (symbol-set)
+- TERM: Terminals (symbol-set)
+- PROD: Productions P (rule-set)
+- DER: Derivation (process)
+- TREE: Parse Tree (structure)
+- AMB: Ambiguity (diagnostic)
+- LANG: Language L (result)
+- VER: Verification Effort (outcome)
+
+Relations:
+- Grammar G=(V,Σ,P,S) --[contains]--> Nonterminals V
+- Grammar G=(V,Σ,P,S) --[contains]--> Alphabet Σ
+- Grammar G=(V,Σ,P,S) --[contains]--> Productions P
+- Grammar G=(V,Σ,P,S) --[contains]--> Start Symbol S
+- Alphabet Σ --[supports terminal symbols]--> Terminals
+- Nonterminals V --[rewritten by]--> Productions P
+- Productions P --[drives]--> Derivation
+- Start Symbol S --[starting point]--> Derivation
+- Derivation --[induces]--> Parse Tree
+- Derivation --[generates members of]--> Language L
+- Parse Tree --[may reveal]--> Ambiguity
+- Ambiguity --[increases complexity of]--> Verification Effort
+
+Notes:
+- Grammar is a finite generative machine, not an explicit sentence list.
+- Ambiguity is structural, not merely stylistic.

@@ -1,0 +1,30 @@
+Chomsky Hierarchy [02_chomsky_hierarchy]
+Purpose: Visualize containment chain, recognizer intuition, and expressivity-versus-proof-cost tradeoff.
+
+Nodes:
+- T3: Type-3 Regular (class)
+- T2: Type-2 Context-Free (class)
+- T1: Type-1 Context-Sensitive (class)
+- T0: Type-0 Unrestricted (class)
+- FA: Finite Automaton (machine)
+- PDA: Pushdown Automaton (machine)
+- LBA: Linear-Bounded Automaton (machine)
+- TM: Turing Machine (machine)
+- EXP: Expressivity (measure)
+- BUR: Verification Burden (measure)
+
+Relations:
+- Type-3 Regular --[subset of]--> Type-2 Context-Free
+- Type-2 Context-Free --[subset of]--> Type-1 Context-Sensitive
+- Type-1 Context-Sensitive --[subset of]--> Type-0 Unrestricted
+- Type-3 Regular --[recognized by]--> Finite Automaton
+- Type-2 Context-Free --[recognized by]--> Pushdown Automaton
+- Type-1 Context-Sensitive --[recognized by]--> Linear-Bounded Automaton
+- Type-0 Unrestricted --[recognized by]--> Turing Machine
+- Type-3 Regular --[lower]--> Expressivity
+- Type-0 Unrestricted --[higher]--> Expressivity
+- Expressivity --[typically increases]--> Verification Burden
+
+Notes:
+- Containment is strict as a modeling heuristic unless proven otherwise.
+- Higher power usually raises parsing and verification costs.

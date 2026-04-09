@@ -1,0 +1,103 @@
+{
+  "doc_id": "08_corrective_time_syntropy",
+  "doc_title": "Corrective Time Syntropy",
+  "purpose": "Visualize corrective ordering where ideal clauses guide state updates under uncertainty.",
+  "nodes": [
+    {
+      "key": "NK",
+      "label": "Current Now-Frame N_k",
+      "kind": "state"
+    },
+    {
+      "key": "IK",
+      "label": "Ideal Clauses I_k",
+      "kind": "constraint-set"
+    },
+    {
+      "key": "C",
+      "label": "Corrective Operator C",
+      "kind": "operator"
+    },
+    {
+      "key": "N1",
+      "label": "Next State N_{k+1}",
+      "kind": "state"
+    },
+    {
+      "key": "RHO",
+      "label": "Residual Inconsistency ρ",
+      "kind": "diagnostic"
+    },
+    {
+      "key": "SYN",
+      "label": "Syntropic Ordering",
+      "kind": "behavior"
+    },
+    {
+      "key": "UNC",
+      "label": "Irreducible Uncertainty",
+      "kind": "condition"
+    },
+    {
+      "key": "PLAN",
+      "label": "Ideal-Attractor Planning",
+      "kind": "strategy"
+    },
+    {
+      "key": "TR",
+      "label": "History as Trace Constraints",
+      "kind": "constraint"
+    }
+  ],
+  "edges": [
+    {
+      "source": "NK",
+      "target": "C",
+      "relation": "input"
+    },
+    {
+      "source": "IK",
+      "target": "C",
+      "relation": "guides"
+    },
+    {
+      "source": "C",
+      "target": "N1",
+      "relation": "produces"
+    },
+    {
+      "source": "NK",
+      "target": "RHO",
+      "relation": "measured by"
+    },
+    {
+      "source": "N1",
+      "target": "RHO",
+      "relation": "target non-increase"
+    },
+    {
+      "source": "RHO",
+      "target": "SYN",
+      "relation": "supports when decreasing"
+    },
+    {
+      "source": "UNC",
+      "target": "PLAN",
+      "relation": "requires"
+    },
+    {
+      "source": "PLAN",
+      "target": "IK",
+      "relation": "defines"
+    },
+    {
+      "source": "TR",
+      "target": "C",
+      "relation": "constrains without forecasting"
+    }
+  ],
+  "notes": [
+    "Time is modeled as correction ordering, not deterministic future extrapolation.",
+    "Planning remains valid via ideal attractors under uncertainty."
+  ]
+}

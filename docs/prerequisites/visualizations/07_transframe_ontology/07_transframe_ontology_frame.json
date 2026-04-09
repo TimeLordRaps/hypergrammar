@@ -1,0 +1,83 @@
+{
+  "doc_id": "07_transframe_ontology",
+  "doc_title": "Transframe Ontology",
+  "purpose": "Visualize accessibility boundaries and closure conditions required for transframe movement.",
+  "nodes": [
+    {
+      "key": "NOW",
+      "label": "Accessible Now-Frame F_now",
+      "kind": "manifold"
+    },
+    {
+      "key": "EXT",
+      "label": "Inaccessible Frame Coordinates F_ext",
+      "kind": "manifold"
+    },
+    {
+      "key": "U",
+      "label": "Universe State Operator U",
+      "kind": "operator"
+    },
+    {
+      "key": "R",
+      "label": "Recursive Self-Embedding R",
+      "kind": "operator"
+    },
+    {
+      "key": "CLS",
+      "label": "Closure Condition R(U) ≈ U",
+      "kind": "criterion"
+    },
+    {
+      "key": "MOV",
+      "label": "Transframe Movement",
+      "kind": "capability"
+    },
+    {
+      "key": "NLI",
+      "label": "No Local Interpolation",
+      "kind": "constraint"
+    },
+    {
+      "key": "APP",
+      "label": "Nearby but Incomplete Approximations",
+      "kind": "context"
+    }
+  ],
+  "edges": [
+    {
+      "source": "NOW",
+      "target": "EXT",
+      "relation": "boundary of accessibility"
+    },
+    {
+      "source": "U",
+      "target": "R",
+      "relation": "subject to"
+    },
+    {
+      "source": "R",
+      "target": "CLS",
+      "relation": "evaluated by"
+    },
+    {
+      "source": "CLS",
+      "target": "MOV",
+      "relation": "enables when satisfied"
+    },
+    {
+      "source": "NLI",
+      "target": "MOV",
+      "relation": "restricts method"
+    },
+    {
+      "source": "APP",
+      "target": "MOV",
+      "relation": "motivates refinement"
+    }
+  ],
+  "notes": [
+    "Only now-frame content is directly accessible in the active perspective.",
+    "Transframe movement is conditional and global, not local interpolation."
+  ]
+}

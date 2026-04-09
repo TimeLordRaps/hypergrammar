@@ -77,4 +77,8 @@ Grammars are useful because they turn language acceptance into structural questi
 
 This framing connects naturally to formal proof and model checking workflows.
 
+Closure note: after completing chapters 02 through 09, read
+[`10_necessity_constraint_form.md`](./10_necessity_constraint_form.md)
+to reinterpret chapter 01 as presupposed by the computed closure constraint.
+
 Next step: read [`02_chomsky_hierarchy.md`](./02_chomsky_hierarchy.md).

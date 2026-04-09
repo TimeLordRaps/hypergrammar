@@ -1,0 +1,27 @@
+Degrees of Freedom [04_degrees_of_freedom]
+Purpose: Visualize the n-r constraint lens and resulting positive/zero/negative regimes.
+
+Nodes:
+- N: State Variables n (quantity)
+- R: Independent Constraints r (quantity)
+- DOF: DoF ≈ n - r (computed-state)
+- POS: Positive DoF (>0) (regime)
+- ZER: Zero DoF (=0) (regime)
+- NEG: Negative DoF (<0) (regime)
+- EXP: Exploration Capacity (behavior)
+- FIX: Fixed Solution (behavior)
+- CON: Contradiction Signal (diagnostic)
+
+Relations:
+- State Variables n --[adds freedom]--> DoF ≈ n - r
+- Independent Constraints r --[removes freedom]--> DoF ≈ n - r
+- DoF ≈ n - r --[if > 0]--> Positive DoF (>0)
+- DoF ≈ n - r --[if = 0]--> Zero DoF (=0)
+- DoF ≈ n - r --[if < 0]--> Negative DoF (<0)
+- Positive DoF (>0) --[enables]--> Exploration Capacity
+- Zero DoF (=0) --[implies]--> Fixed Solution
+- Negative DoF (<0) --[indicates]--> Contradiction Signal
+
+Notes:
+- Negative DoF is a modeling alarm, not a literal negative knob count.
+- DoF diagnostics transfer directly into closure and contradiction analysis.

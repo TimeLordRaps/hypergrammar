@@ -1,0 +1,31 @@
+Recursive Now-Frame [05_recursive_now_frame]
+Purpose: Visualize present-only state evolution via corrective feedback, parity filtering, and unfolding.
+
+Nodes:
+- NOW: Now-Frame N (state)
+- B: Many-Body Local States B (state-component)
+- H: Holographic Coupling H (state-component)
+- T: Enfolded Trace τ (state-component)
+- C: Corrective Feedback C (operator)
+- RIC: Ricci Trace-Free Projection (operator-detail)
+- PF: Planck-Scale Parity Filter (operator-detail)
+- U: Structural Update U (operator)
+- N2: Next Now-Frame N' (state)
+- FP: Fixed-Point Residual (diagnostic)
+- NF: No Forecasting Rule (constraint)
+
+Relations:
+- Now-Frame N --[contains]--> Many-Body Local States B
+- Now-Frame N --[contains]--> Holographic Coupling H
+- Now-Frame N --[contains]--> Enfolded Trace τ
+- Corrective Feedback C --[uses]--> Ricci Trace-Free Projection
+- Corrective Feedback C --[uses]--> Planck-Scale Parity Filter
+- Corrective Feedback C --[drives down]--> Fixed-Point Residual
+- Corrective Feedback C --[feeds]--> Structural Update U
+- Structural Update U --[produces]--> Next Now-Frame N'
+- Enfolded Trace τ --[constrains]--> Structural Update U
+- No Forecasting Rule --[governs]--> Corrective Feedback C
+
+Notes:
+- Past is represented as trace only; no timeline replay object exists.
+- Future is unfolded through correction, not extrapolated from history windows.

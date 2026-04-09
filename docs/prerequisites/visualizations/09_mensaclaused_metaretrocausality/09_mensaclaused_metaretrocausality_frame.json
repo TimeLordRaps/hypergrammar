@@ -1,0 +1,98 @@
+{
+  "doc_id": "09_mensaclaused_metaretrocausality",
+  "doc_title": "Mensaclaused Metaretrocausality",
+  "purpose": "Visualize clause-conditioned present correction using trace and future-ideal constraints.",
+  "nodes": [
+    {
+      "key": "T",
+      "label": "Trace Constraints T",
+      "kind": "constraint-set"
+    },
+    {
+      "key": "I",
+      "label": "Future-Ideal Clauses I_future",
+      "kind": "constraint-set"
+    },
+    {
+      "key": "R",
+      "label": "Resolver Operator R_resolve",
+      "kind": "operator"
+    },
+    {
+      "key": "N1",
+      "label": "Corrected Present N_{k+1}",
+      "kind": "state"
+    },
+    {
+      "key": "AUD",
+      "label": "Clause Audit Separation",
+      "kind": "architecture-rule"
+    },
+    {
+      "key": "PAR",
+      "label": "Parity-of-Self Indelibility",
+      "kind": "constraint"
+    },
+    {
+      "key": "MET",
+      "label": "Consistency/Contradiction Metrics",
+      "kind": "diagnostic"
+    },
+    {
+      "key": "NFR",
+      "label": "No Forecast-Fit Requirement",
+      "kind": "constraint"
+    },
+    {
+      "key": "ROL",
+      "label": "Resolver-Role Hypothesis",
+      "kind": "interpretation"
+    }
+  ],
+  "edges": [
+    {
+      "source": "T",
+      "target": "R",
+      "relation": "constrains"
+    },
+    {
+      "source": "I",
+      "target": "R",
+      "relation": "targets"
+    },
+    {
+      "source": "R",
+      "target": "N1",
+      "relation": "produces"
+    },
+    {
+      "source": "AUD",
+      "target": "R",
+      "relation": "governs design"
+    },
+    {
+      "source": "PAR",
+      "target": "N1",
+      "relation": "persists through updates"
+    },
+    {
+      "source": "N1",
+      "target": "MET",
+      "relation": "evaluated by"
+    },
+    {
+      "source": "NFR",
+      "target": "R",
+      "relation": "forbids time-series dependence"
+    },
+    {
+      "source": "ROL",
+      "target": "R",
+      "relation": "interpreted through"
+    }
+  ],
+  "notes": [
+    "Future-ideal clauses are corrective constraints, not deterministic predictions.",
+    "Evaluation uses consistency and contradiction incidence, not forecast error alone."
+  ]
+}

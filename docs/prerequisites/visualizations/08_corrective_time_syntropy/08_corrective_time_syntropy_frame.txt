@@ -1,0 +1,28 @@
+Corrective Time Syntropy [08_corrective_time_syntropy]
+Purpose: Visualize corrective ordering where ideal clauses guide state updates under uncertainty.
+
+Nodes:
+- NK: Current Now-Frame N_k (state)
+- IK: Ideal Clauses I_k (constraint-set)
+- C: Corrective Operator C (operator)
+- N1: Next State N_{k+1} (state)
+- RHO: Residual Inconsistency ρ (diagnostic)
+- SYN: Syntropic Ordering (behavior)
+- UNC: Irreducible Uncertainty (condition)
+- PLAN: Ideal-Attractor Planning (strategy)
+- TR: History as Trace Constraints (constraint)
+
+Relations:
+- Current Now-Frame N_k --[input]--> Corrective Operator C
+- Ideal Clauses I_k --[guides]--> Corrective Operator C
+- Corrective Operator C --[produces]--> Next State N_{k+1}
+- Current Now-Frame N_k --[measured by]--> Residual Inconsistency ρ
+- Next State N_{k+1} --[target non-increase]--> Residual Inconsistency ρ
+- Residual Inconsistency ρ --[supports when decreasing]--> Syntropic Ordering
+- Irreducible Uncertainty --[requires]--> Ideal-Attractor Planning
+- Ideal-Attractor Planning --[defines]--> Ideal Clauses I_k
+- History as Trace Constraints --[constrains without forecasting]--> Corrective Operator C
+
+Notes:
+- Time is modeled as correction ordering, not deterministic future extrapolation.
+- Planning remains valid via ideal attractors under uncertainty.

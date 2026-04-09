@@ -1,0 +1,108 @@
+{
+  "doc_id": "03_hyper_inversion",
+  "doc_title": "Hyper Inversion",
+  "purpose": "Visualize the reframe from Chomsky ladder progression to closure-loop cross-sections.",
+  "nodes": [
+    {
+      "key": "LAD",
+      "label": "Classical Inclusion Ladder",
+      "kind": "legacy-view"
+    },
+    {
+      "key": "SEC",
+      "label": "Cross-Sections",
+      "kind": "reinterpretation"
+    },
+    {
+      "key": "LOOP",
+      "label": "Closure Loop rooted at □",
+      "kind": "topology"
+    },
+    {
+      "key": "L",
+      "label": "Operator L",
+      "kind": "operator"
+    },
+    {
+      "key": "CONT",
+      "label": "Continuation",
+      "kind": "state"
+    },
+    {
+      "key": "CLOSE",
+      "label": "Closed Form",
+      "kind": "resolution"
+    },
+    {
+      "key": "OPEN",
+      "label": "Open Frame",
+      "kind": "resolution"
+    },
+    {
+      "key": "REL",
+      "label": "Relation Filtration (=, ≡, ~)",
+      "kind": "comparison"
+    },
+    {
+      "key": "HG",
+      "label": ".hg Proof Chain",
+      "kind": "artifact"
+    },
+    {
+      "key": "TRAIL",
+      "label": "Link Map / Source Trail",
+      "kind": "evidence"
+    }
+  ],
+  "edges": [
+    {
+      "source": "LAD",
+      "target": "SEC",
+      "relation": "reinterpreted as"
+    },
+    {
+      "source": "SEC",
+      "target": "LOOP",
+      "relation": "samples of"
+    },
+    {
+      "source": "LOOP",
+      "target": "L",
+      "relation": "advanced by"
+    },
+    {
+      "source": "L",
+      "target": "CONT",
+      "relation": "generates"
+    },
+    {
+      "source": "CONT",
+      "target": "CLOSE",
+      "relation": "if closes"
+    },
+    {
+      "source": "CONT",
+      "target": "OPEN",
+      "relation": "if non-closure"
+    },
+    {
+      "source": "REL",
+      "target": "LOOP",
+      "relation": "organizes comparisons within"
+    },
+    {
+      "source": "CLOSE",
+      "target": "HG",
+      "relation": "encoded as"
+    },
+    {
+      "source": "TRAIL",
+      "target": "SEC",
+      "relation": "grounds claim provenance"
+    }
+  ],
+  "notes": [
+    "The inversion changes geometry, not baseline literacy requirements.",
+    "Open frames are revelatory diagnostics, not silent failures."
+  ]
+}

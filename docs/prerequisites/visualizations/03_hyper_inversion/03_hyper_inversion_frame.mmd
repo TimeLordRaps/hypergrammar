@@ -1,0 +1,20 @@
+flowchart TD
+  LAD["Classical Inclusion Ladder"]
+  SEC["Cross-Sections"]
+  LOOP["Closure Loop rooted at □"]
+  L["Operator L"]
+  CONT["Continuation"]
+  CLOSE["Closed Form"]
+  OPEN["Open Frame"]
+  REL["Relation Filtration (=, ≡, ~)"]
+  HG[".hg Proof Chain"]
+  TRAIL["Link Map / Source Trail"]
+  LAD -- "reinterpreted as" --> SEC
+  SEC -- "samples of" --> LOOP
+  LOOP -- "advanced by" --> L
+  L -- "generates" --> CONT
+  CONT -- "if closes" --> CLOSE
+  CONT -- "if non-closure" --> OPEN
+  REL -- "organizes comparisons within" --> LOOP
+  CLOSE -- "encoded as" --> HG
+  TRAIL -- "grounds claim provenance" --> SEC

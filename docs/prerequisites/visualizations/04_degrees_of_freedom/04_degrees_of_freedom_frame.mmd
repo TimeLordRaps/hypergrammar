@@ -1,0 +1,18 @@
+flowchart TD
+  N["State Variables n"]
+  R["Independent Constraints r"]
+  DOF["DoF ≈ n - r"]
+  POS["Positive DoF (>0)"]
+  ZER["Zero DoF (=0)"]
+  NEG["Negative DoF (<0)"]
+  EXP["Exploration Capacity"]
+  FIX["Fixed Solution"]
+  CON["Contradiction Signal"]
+  N -- "adds freedom" --> DOF
+  R -- "removes freedom" --> DOF
+  DOF -- "if > 0" --> POS
+  DOF -- "if = 0" --> ZER
+  DOF -- "if < 0" --> NEG
+  POS -- "enables" --> EXP
+  ZER -- "implies" --> FIX
+  NEG -- "indicates" --> CON

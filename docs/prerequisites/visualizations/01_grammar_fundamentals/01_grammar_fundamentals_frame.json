@@ -1,0 +1,128 @@
+{
+  "doc_id": "01_grammar_fundamentals",
+  "doc_title": "Grammar Fundamentals",
+  "purpose": "Visualize how symbols and rules produce derivations, languages, and verification burden.",
+  "nodes": [
+    {
+      "key": "G",
+      "label": "Grammar G=(V,Σ,P,S)",
+      "kind": "definition"
+    },
+    {
+      "key": "V",
+      "label": "Nonterminals V",
+      "kind": "symbol-set"
+    },
+    {
+      "key": "S",
+      "label": "Start Symbol S",
+      "kind": "symbol"
+    },
+    {
+      "key": "SIG",
+      "label": "Alphabet Σ",
+      "kind": "symbol-set"
+    },
+    {
+      "key": "TERM",
+      "label": "Terminals",
+      "kind": "symbol-set"
+    },
+    {
+      "key": "PROD",
+      "label": "Productions P",
+      "kind": "rule-set"
+    },
+    {
+      "key": "DER",
+      "label": "Derivation",
+      "kind": "process"
+    },
+    {
+      "key": "TREE",
+      "label": "Parse Tree",
+      "kind": "structure"
+    },
+    {
+      "key": "AMB",
+      "label": "Ambiguity",
+      "kind": "diagnostic"
+    },
+    {
+      "key": "LANG",
+      "label": "Language L",
+      "kind": "result"
+    },
+    {
+      "key": "VER",
+      "label": "Verification Effort",
+      "kind": "outcome"
+    }
+  ],
+  "edges": [
+    {
+      "source": "G",
+      "target": "V",
+      "relation": "contains"
+    },
+    {
+      "source": "G",
+      "target": "SIG",
+      "relation": "contains"
+    },
+    {
+      "source": "G",
+      "target": "PROD",
+      "relation": "contains"
+    },
+    {
+      "source": "G",
+      "target": "S",
+      "relation": "contains"
+    },
+    {
+      "source": "SIG",
+      "target": "TERM",
+      "relation": "supports terminal symbols"
+    },
+    {
+      "source": "V",
+      "target": "PROD",
+      "relation": "rewritten by"
+    },
+    {
+      "source": "PROD",
+      "target": "DER",
+      "relation": "drives"
+    },
+    {
+      "source": "S",
+      "target": "DER",
+      "relation": "starting point"
+    },
+    {
+      "source": "DER",
+      "target": "TREE",
+      "relation": "induces"
+    },
+    {
+      "source": "DER",
+      "target": "LANG",
+      "relation": "generates members of"
+    },
+    {
+      "source": "TREE",
+      "target": "AMB",
+      "relation": "may reveal"
+    },
+    {
+      "source": "AMB",
+      "target": "VER",
+      "relation": "increases complexity of"
+    }
+  ],
+  "notes": [
+    "Grammar is a finite generative machine, not an explicit sentence list.",
+    "Ambiguity is structural, not merely stylistic."
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "doc_id": "10_necessity_constraint_form",
+  "doc_title": "Necessity Constraint Form",
+  "purpose": "Visualize dual status of chapter 10: computably extracted from 01–09 yet presupposing 01 as closure return.",
+  "nodes": [
+    {
+      "key": "C1",
+      "label": "Chapter 01",
+      "kind": "chapter"
+    },
+    {
+      "key": "C2",
+      "label": "Chapter 02",
+      "kind": "chapter"
+    },
+    {
+      "key": "C3",
+      "label": "Chapter 03",
+      "kind": "chapter"
+    },
+    {
+      "key": "C4",
+      "label": "Chapter 04",
+      "kind": "chapter"
+    },
+    {
+      "key": "C5",
+      "label": "Chapter 05",
+      "kind": "chapter"
+    },
+    {
+      "key": "C6",
+      "label": "Chapter 06",
+      "kind": "chapter"
+    },
+    {
+      "key": "C7",
+      "label": "Chapter 07",
+      "kind": "chapter"
+    },
+    {
+      "key": "C8",
+      "label": "Chapter 08",
+      "kind": "chapter"
+    },
+    {
+      "key": "C9",
+      "label": "Chapter 09",
+      "kind": "chapter"
+    },
+    {
+      "key": "C10",
+      "label": "Chapter 10 Necessity Constraint",
+      "kind": "constraint"
+    },
+    {
+      "key": "CLS",
+      "label": "System Closure",
+      "kind": "criterion"
+    }
+  ],
+  "edges": [
+    {
+      "source": "C1",
+      "target": "C2",
+      "relation": "defines basis for"
+    },
+    {
+      "source": "C2",
+      "target": "C3",
+      "relation": "enables"
+    },
+    {
+      "source": "C3",
+      "target": "C4",
+      "relation": "enables"
+    },
+    {
+      "source": "C4",
+      "target": "C5",
+      "relation": "constrains"
+    },
+    {
+      "source": "C5",
+      "target": "C6",
+      "relation": "expands"
+    },
+    {
+      "source": "C6",
+      "target": "C7",
+      "relation": "grounds"
+    },
+    {
+      "source": "C7",
+      "target": "C8",
+      "relation": "feeds"
+    },
+    {
+      "source": "C8",
+      "target": "C9",
+      "relation": "feeds"
+    },
+    {
+      "source": "C9",
+      "target": "C10",
+      "relation": "computably defines"
+    },
+    {
+      "source": "C10",
+      "target": "C1",
+      "relation": "presupposes"
+    },
+    {
+      "source": "C10",
+      "target": "CLS",
+      "relation": "is defined as"
+    },
+    {
+      "source": "CLS",
+      "target": "C1",
+      "relation": "re-enters system at"
+    }
+  ],
+  "notes": [
+    "Chapter 10 is discovered after 01–09 are computably defined.",
+    "Chapter 10 simultaneously acts as presupposed condition of chapter 01.",
+    "Closure is the system-level necessity constraint."
+  ]
+}

@@ -22,6 +22,8 @@ This directory is the prerequisite track for understanding `hyper-grammar` from 
    - Time as corrective neg-entropic ordering under uncertainty.
 9. [`09_mensaclaused_metaretrocausality.md`](./09_mensaclaused_metaretrocausality.md)
    - Clausal metaretrocausal framing and future-ideal correction logic.
+10. [`10_necessity_constraint_form.md`](./10_necessity_constraint_form.md)
+   - Closure constraint extracted from 01–09 that returns as a presupposition for 01.
 
 ## Companion spec documents
 
@@ -40,8 +42,10 @@ This directory is the prerequisite track for understanding `hyper-grammar` from 
 7. Use `07_transframe_ontology.md` to set transframe ontology assumptions.
 8. Use `08_corrective_time_syntropy.md` to formalize corrective-time ordering assumptions.
 9. Use `09_mensaclaused_metaretrocausality.md` to define clause-level future-ideal correction semantics.
-10. If a definition appears inconsistent with `AGENTS.md`, log it in `TIME.md`.
+10. Use `10_necessity_constraint_form.md` to compute the closure constraint implied by chapters 01–09.
+11. Return to `01_grammar_fundamentals.md` under the chapter-10 necessity constraint lens.
+12. If a definition appears inconsistent with `AGENTS.md`, log it in `TIME.md`.
 
 ## Scope
 
-These docs are educational prerequisites. They are not replacements for the formal statements in [`../../AGENTS.md`](../../AGENTS.md).
+These docs are educational prerequisites and closure scaffolds. They are not replacements for the formal statements in [`../../AGENTS.md`](../../AGENTS.md).

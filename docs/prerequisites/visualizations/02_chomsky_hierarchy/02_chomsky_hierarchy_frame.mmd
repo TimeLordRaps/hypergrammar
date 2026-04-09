@@ -1,0 +1,21 @@
+flowchart TD
+  T3["Type-3 Regular"]
+  T2["Type-2 Context-Free"]
+  T1["Type-1 Context-Sensitive"]
+  T0["Type-0 Unrestricted"]
+  FA["Finite Automaton"]
+  PDA["Pushdown Automaton"]
+  LBA["Linear-Bounded Automaton"]
+  TM["Turing Machine"]
+  EXP["Expressivity"]
+  BUR["Verification Burden"]
+  T3 -- "subset of" --> T2
+  T2 -- "subset of" --> T1
+  T1 -- "subset of" --> T0
+  T3 -- "recognized by" --> FA
+  T2 -- "recognized by" --> PDA
+  T1 -- "recognized by" --> LBA
+  T0 -- "recognized by" --> TM
+  T3 -- "lower" --> EXP
+  T0 -- "higher" --> EXP
+  EXP -- "typically increases" --> BUR
