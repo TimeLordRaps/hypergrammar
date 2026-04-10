@@ -1,6 +1,9 @@
 # Local tool metadata
 .serena/
 
+# Virtual environment
+.venv/
+
 # Python cache artifacts
 __pycache__/
 .pytest_cache/
