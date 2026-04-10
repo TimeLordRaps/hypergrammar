@@ -13,6 +13,7 @@ Nodes:
 - P08: 08 Corrective Time Syntropy (chapter)
 - P09: 09 Mensaclaused Metaretrocausality (chapter)
 - P10: 10 Necessity Constraint Form (chapter)
+- P12: 11 Fractal Hypergrammar Compression (chapter)
 - P11: AGENTS/HUMANS/TIME Governance (reference)
 
 Relations:
@@ -26,6 +27,7 @@ Relations:
 - Prerequisites Directory --[contains]--> 08 Corrective Time Syntropy
 - Prerequisites Directory --[contains]--> 09 Mensaclaused Metaretrocausality
 - Prerequisites Directory --[contains]--> 10 Necessity Constraint Form
+- Prerequisites Directory --[contains]--> 11 Fractal Hypergrammar Compression
 - 01 Grammar Fundamentals --[prerequisite for]--> 02 Chomsky Hierarchy
 - 02 Chomsky Hierarchy --[prerequisite for]--> 03 Hyper Inversion
 - 03 Hyper Inversion --[prerequisite for]--> 04 Degrees of Freedom
@@ -36,6 +38,8 @@ Relations:
 - 08 Corrective Time Syntropy --[prerequisite for]--> 09 Mensaclaused Metaretrocausality
 - 09 Mensaclaused Metaretrocausality --[computably defines]--> 10 Necessity Constraint Form
 - 10 Necessity Constraint Form --[presupposes (closure return)]--> 01 Grammar Fundamentals
+- 10 Necessity Constraint Form --[is observed and collapsed by]--> 11 Fractal Hypergrammar Compression
+- 11 Fractal Hypergrammar Compression --[seeds the next fractal loop of]--> 01 Grammar Fundamentals
 - AGENTS/HUMANS/TIME Governance --[formal anchor]--> 03 Hyper Inversion
 - AGENTS/HUMANS/TIME Governance --[closure language anchor]--> 10 Necessity Constraint Form
 - AGENTS/HUMANS/TIME Governance --[contradiction logging context]--> 09 Mensaclaused Metaretrocausality

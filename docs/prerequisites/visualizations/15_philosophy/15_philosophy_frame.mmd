@@ -1,0 +1,21 @@
+flowchart TD
+  L14["Ch14 Meta-Geometry (Closed)"]
+  PRESUP["Presupposition (hidden ground)"]
+  ANAL["Analytic Tradition (flat, curvature = 0)"]
+  CONT["Continental Tradition (curved)"]
+  EAST["Eastern Traditions (metric-free)"]
+  ARG["Argument = Derivation Chain"]
+  DED["Deduction (L-application)"]
+  IND["Induction (continuation)"]
+  ABD["Abduction (inverse-L)"]
+  PAR["Paradox = Open Frame"]
+  L14 -- "meta-geometry revealed hidden parameters; philosophy studies them" --> PRESUP
+  PRESUP -- "representational: thought represents reality" --> ANAL
+  PRESUP -- "constitutive: thought and reality co-produce" --> CONT
+  PRESUP -- "dissolvable: subject-object distinction dropped" --> EAST
+  ANAL -- "analytic tradition formalizes argument structure" --> ARG
+  ARG -- "general → specific, closure inherited" --> DED
+  ARG -- "specific → general, chain open until universal closure" --> IND
+  ARG -- "effect → best explanation, generates candidate closures" --> ABD
+  DED -- "self-referential deduction oscillates without closing" --> PAR
+  PAR -- "paradox reveals frame break in presupposition" --> PRESUP

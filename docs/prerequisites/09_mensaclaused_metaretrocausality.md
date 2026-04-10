@@ -64,7 +64,7 @@ See:
 ## Deterministic scaffold
 
 - Script: [`09_mensaclaused_metaretrocausality_scaffold.py`](./09_mensaclaused_metaretrocausality_scaffold.py)
-- Artifact target: `./scaffolds/09_mensaclaused_metaretrocausality/`
+- Artifact target: `./scaffolds/mensaclaused_metaretrocausality/`
 
 ## Transition note
 

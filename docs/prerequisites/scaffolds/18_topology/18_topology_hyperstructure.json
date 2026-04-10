@@ -1,0 +1,72 @@
+{
+  "chapter_id": "18_topology",
+  "chapter_title": "Topology",
+  "chapter_number": 18,
+  "previous_chapter_id": "17_geometric_philosophic_connectome",
+  "previous_signature": "a24d7ac56fad0b7cf1e80f2a9a1917b3a7aaf3342814119ca023a8fd2d402d28",
+  "deterministic_seed": "da2b8044601a32e98ca3a2cd93a016c5927218c29515a959476416834313312f",
+  "constraints": [
+    "topology = properties preserved under continuous deformation (no tearing, no gluing)",
+    "three axioms: empty/whole open, arbitrary unions open, finite intersections open",
+    "homeomorphism = topological equivalence; invariants = genus, π₁, χ, dimension",
+    "hierarchy: Set ⊃ Topology ⊃ Differential ⊃ Metric ⊃ Geometry",
+    "similarity ~ is the topological relation: neighborhoods, not distances"
+  ],
+  "nodes": [
+    {
+      "key": "H0",
+      "label": "18_topology hyperstructure",
+      "kind": "chapter"
+    },
+    {
+      "key": "H1",
+      "label": "deterministic seed da2b8044601a",
+      "kind": "seed"
+    },
+    {
+      "key": "H2",
+      "label": "inherits a24d7ac56fad",
+      "kind": "link"
+    },
+    {
+      "key": "H3",
+      "label": "constraint manifold",
+      "kind": "constraint"
+    },
+    {
+      "key": "H4",
+      "label": "future scaffold anchor",
+      "kind": "anchor"
+    }
+  ],
+  "edges": [
+    {
+      "source": "H2",
+      "target": "H0",
+      "relation": "grounds"
+    },
+    {
+      "source": "H1",
+      "target": "H0",
+      "relation": "deterministically instantiates"
+    },
+    {
+      "source": "H0",
+      "target": "H3",
+      "relation": "encodes"
+    },
+    {
+      "source": "H3",
+      "target": "H4",
+      "relation": "provides coherent links for"
+    }
+  ],
+  "notes": [
+    "Base formalism for meta-topologies (Ch19). Must precede, not follow.",
+    "Topology was implicitly present from Ch01: the loop □→L(□)→L(L(□))~□ is topological.",
+    "The filtration = ⊂ ≡ ⊂ ~ recapitulates Set⊃Topology⊃...⊃Geometry in reverse.",
+    "Classification of surfaces: genus determines closed orientable surface type.",
+    "Classification of derivations: closed (loop), open (curve), oscillating (paradox)."
+  ],
+  "signature": "785ba2ad9be377394817f7a866f76701117957614ce2e513dcdc9f59a5262dae"
+}

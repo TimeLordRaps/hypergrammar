@@ -1,0 +1,17 @@
+flowchart TD
+  L17["Ch17 Connectome (Closed)"]
+  OPEN["Open Sets (3 axioms)"]
+  CONT["Continuity (preimage of open is open)"]
+  HOMEO["Homeomorphism (topological equivalence)"]
+  INV["Invariants: genus, π₁, χ, dimension"]
+  HIER["Set ⊃ Topology ⊃ Differential ⊃ Metric ⊃ Geometry"]
+  SIM["Similarity ~ = Topological Relation"]
+  CLASS["Classification: closed/open/oscillating"]
+  L17 -- "connectome structure needs topological axioms stated" --> OPEN
+  OPEN -- "open sets define which maps preserve nearness" --> CONT
+  CONT -- "continuous bijection with continuous inverse" --> HOMEO
+  HOMEO -- "invariants distinguish non-homeomorphic spaces" --> INV
+  HIER -- "topology = coarsest layer; ~ is the topological relation" --> SIM
+  SIM -- "~ preserves topological invariants" --> INV
+  INV -- "derivation types classified by topological type" --> CLASS
+  CLASS -- "closed form = loop, open frame = curve, paradox = orbit" --> L17

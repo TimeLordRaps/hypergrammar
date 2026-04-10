@@ -1,0 +1,39 @@
+Meta-Closure: The Operator-Term Collapse [20_meta_closure]
+Purpose: Visualize meta-closure: □ as term+operator, reversed filtration (~ primary, = derived), the L/□ degenerate dichrome, dichrome hierarchy, and evanescence argument.
+
+Nodes:
+- SQ_TERM: □ as Term (ground state, fixed point) (concept)
+- SQ_OP: □ as Operator (closure operation) (concept)
+- COLLAPSE: Operator-Term Collapse: L(x) = □(x) (concept)
+- SIM: ~ Similarity (primary, survives evanescence) (criterion)
+- CONG: ≡ Congruence (outcome-based, depth-free) (criterion)
+- EQ: = Equality (derived, earned by closure) (criterion)
+- EVAN: Evanescence Argument (= presupposed → flat → nothing) (concept)
+- FILT: Reversed Filtration: ~ ⊃ ≡ ⊃ = (concept)
+- LQ_DICHR: L/□ Degenerate Dichrome (inseparable, 0-dim) (concept)
+- GP_DICHR: Geo/Phil Dichrome (separable, S², 7-dim) (chapter)
+- HIER: Dichrome Hierarchy: L/□ → Geo/Phil → Domain (concept)
+- META_CL: Meta-Closure: □(□) ~ □ (concept)
+
+Relations:
+- □ as Term (ground state, fixed point) --[same entity, two modes]--> Operator-Term Collapse: L(x) = □(x)
+- □ as Operator (closure operation) --[same entity, two modes]--> Operator-Term Collapse: L(x) = □(x)
+- Operator-Term Collapse: L(x) = □(x) --[self-application yields meta-closure]--> Meta-Closure: □(□) ~ □
+- Evanescence Argument (= presupposed → flat → nothing) --[evanescence selects ~ as only survivor]--> ~ Similarity (primary, survives evanescence)
+- ~ Similarity (primary, survives evanescence) --[~ plus structural coincidence]--> ≡ Congruence (outcome-based, depth-free)
+- ≡ Congruence (outcome-based, depth-free) --[≡ plus path coincidence (finest, derived)]--> = Equality (derived, earned by closure)
+- ~ Similarity (primary, survives evanescence) --[dependence runs downward from ~]--> Reversed Filtration: ~ ⊃ ≡ ⊃ =
+- Reversed Filtration: ~ ⊃ ≡ ⊃ = --[= is the reward for closure]--> = Equality (derived, earned by closure)
+- Operator-Term Collapse: L(x) = □(x) --[two modes of one entity = degenerate dichrome]--> L/□ Degenerate Dichrome (inseparable, 0-dim)
+- L/□ Degenerate Dichrome (inseparable, 0-dim) --[generates the possibility of separable dichromes]--> Geo/Phil Dichrome (separable, S², 7-dim)
+- Geo/Phil Dichrome (separable, S², 7-dim) --[topological level in hierarchy]--> Dichrome Hierarchy: L/□ → Geo/Phil → Domain
+- L/□ Degenerate Dichrome (inseparable, 0-dim) --[pre-topological level in hierarchy]--> Dichrome Hierarchy: L/□ → Geo/Phil → Domain
+- Meta-Closure: □(□) ~ □ --[the mechanism that makes closure possible]--> Operator-Term Collapse: L(x) = □(x)
+
+Notes:
+- Meta-closure: the closure of the closure operation itself.
+- L is □ in operator mode — not a separate concept.
+- Self-verification (□ = □) is zero-order. Meta-closure (□(□) ~ □) is generative.
+- L/□ is inseparable (no pure corners), unlike geo/phil (separable, has surface).
+- Pre-topological: operator required before open sets, before topology.
+- Sometimes you wonder. Why would you ever wonder?

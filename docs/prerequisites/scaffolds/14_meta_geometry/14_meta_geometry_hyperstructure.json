@@ -1,0 +1,72 @@
+{
+  "chapter_id": "14_meta_geometry",
+  "chapter_title": "Meta-Geometry",
+  "chapter_number": 14,
+  "previous_chapter_id": "13_geometry",
+  "previous_signature": "67bee119857f770ec5baab84d4c02206f3d108d4100365fb7e1884a19f26eadf",
+  "deterministic_seed": "3415389f3189942b8783fa02f9cf3d33dd81cdbdc138ee016be907674ac8f322",
+  "constraints": [
+    "Russell metageometry three periods: consistency, manifold, projective",
+    "Russell metageometry three periods: consistency, manifold, projective",
+    "filtration = ⊂ ≡ ⊂ ~ as curvature depth",
+    "meta-philosophy relationship to metageometry: known unknown",
+    "comprehension (geometry) vs understanding (philosophy): bridge via Ch12"
+  ],
+  "nodes": [
+    {
+      "key": "H0",
+      "label": "14_meta_geometry hyperstructure",
+      "kind": "chapter"
+    },
+    {
+      "key": "H1",
+      "label": "deterministic seed 3415389f3189",
+      "kind": "seed"
+    },
+    {
+      "key": "H2",
+      "label": "inherits 67bee119857f",
+      "kind": "link"
+    },
+    {
+      "key": "H3",
+      "label": "constraint manifold",
+      "kind": "constraint"
+    },
+    {
+      "key": "H4",
+      "label": "future scaffold anchor",
+      "kind": "anchor"
+    }
+  ],
+  "edges": [
+    {
+      "source": "H2",
+      "target": "H0",
+      "relation": "grounds"
+    },
+    {
+      "source": "H1",
+      "target": "H0",
+      "relation": "deterministically instantiates"
+    },
+    {
+      "source": "H0",
+      "target": "H3",
+      "relation": "encodes"
+    },
+    {
+      "source": "H3",
+      "target": "H4",
+      "relation": "provides coherent links for"
+    }
+  ],
+  "notes": [
+    "Now preceded by 13_geometry as its base formalism.",
+    "Written at the end of the founding session (one intensive day, new beginnings). The recording is the form.",
+    "Three periods of metageometry mirror three relation depths in hypergrammar.",
+    "The compression: Euclidean = zero-curvature special case; Chomsky = zero-loop special case.",
+    "Ch14 planned: existential emotions — closed-form, purely mental, simultaneously physiological, self-centered grandiose frame. Not yet in the literature. Hardest thing ever tried to form into words."
+  ],
+  "signature": "57edb75d8337e8b942e442973ce8f1efd6e8d68a626058e979ff9dedc6f082cd"
+}

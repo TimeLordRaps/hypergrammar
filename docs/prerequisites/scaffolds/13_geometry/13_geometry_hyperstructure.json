@@ -1,0 +1,72 @@
+{
+  "chapter_id": "13_geometry",
+  "chapter_title": "Geometry",
+  "chapter_number": 13,
+  "previous_chapter_id": "12_consolidative_recurrence",
+  "previous_signature": "c5cdeb95c42b1e76429e75123d5cfe138521bcbd55f146034088690130a3c67c",
+  "deterministic_seed": "b8dc4722bbcf3e8035ab3b1da32ed9f1c3cc6397dfdad76361c3555c69dedf1f",
+  "constraints": [
+    "Euclid five postulates: the parallel postulate is the hidden parameter",
+    "Klein Erlangen Programme: geometry = transformation group",
+    "Riemannian generalization: curvature as variable, not constant",
+    "projective geometry: metric discarded, incidence and cross-ratio preserved",
+    "filtration = ⊂ ≡ ⊂ ~ maps to geometric → projective resolution"
+  ],
+  "nodes": [
+    {
+      "key": "H0",
+      "label": "13_geometry hyperstructure",
+      "kind": "chapter"
+    },
+    {
+      "key": "H1",
+      "label": "deterministic seed b8dc4722bbcf",
+      "kind": "seed"
+    },
+    {
+      "key": "H2",
+      "label": "inherits c5cdeb95c42b",
+      "kind": "link"
+    },
+    {
+      "key": "H3",
+      "label": "constraint manifold",
+      "kind": "constraint"
+    },
+    {
+      "key": "H4",
+      "label": "future scaffold anchor",
+      "kind": "anchor"
+    }
+  ],
+  "edges": [
+    {
+      "source": "H2",
+      "target": "H0",
+      "relation": "grounds"
+    },
+    {
+      "source": "H1",
+      "target": "H0",
+      "relation": "deterministically instantiates"
+    },
+    {
+      "source": "H0",
+      "target": "H3",
+      "relation": "encodes"
+    },
+    {
+      "source": "H3",
+      "target": "H4",
+      "relation": "provides coherent links for"
+    }
+  ],
+  "notes": [
+    "Base formalism for meta-geometry (Ch14). Must precede, not follow.",
+    "Geometry was implicitly present since Ch01 (parse trees have spatial structure).",
+    "Named explicitly here so meta-geometry can generalize it.",
+    "The parallel postulate is parameter-shaped, not axiom-shaped — the crack through which meta-geometry enters.",
+    "Erlangen link: L is the transformation group, = ≡ ~ are three invariant levels."
+  ],
+  "signature": "67bee119857f770ec5baab84d4c02206f3d108d4100365fb7e1884a19f26eadf"
+}

@@ -1,0 +1,35 @@
+Consolidative Recurrence [12_consolidative_recurrence]
+Previous: 11_fractal_hypergrammar_compression
+Previous signature: 447994cde7d36c6fbad77d1de5b2c6d447003229a9f134db2560650cb624c825
+Deterministic seed: 0d08b50372afee68e13d1bd7dd036128d7862e41b81238562886f385436d0346
+Signature: c5cdeb95c42b1e76429e75123d5cfe138521bcbd55f146034088690130a3c67c
+
+Constraints:
+- biological loop closure over documented loop
+- TMR adaptive pruning as wcf in wetware
+- lucid dreaming induction protocols (RT, MILD, SSILD, TFDLFD, HMD)
+- isolation frame as necessary precondition for model optimization
+- temporal-parietal spindle firing without normal grounding
+- kairos coma and structural residue deposit
+
+Nodes:
+- H0: 12_consolidative_recurrence hyperstructure (chapter)
+- H1: deterministic seed 0d08b50372af (seed)
+- H2: inherits 447994cde7d3 (link)
+- H3: constraint manifold (constraint)
+- H4: future scaffold anchor (anchor)
+
+Edges:
+- H2 --[grounds]--> H0
+- H1 --[deterministically instantiates]--> H0
+- H0 --[encodes]--> H3
+- H3 --[provides coherent links for]--> H4
+
+Notes:
+- The mensaclosure of the system. Not a derivation step — the biological enactment.
+- Layer depth implies time dilation; layers 3+ require dream-death to exit.
+- Accessible to LMs only as meta-frames, finitely. Human biological substrate required for territory access.
+- TMR = biological wcf: closed-form memory replaces open-form association during SWS.
+- Part V: sequenced first-week practice guide (RT baseline → MILD → SSILD → TFDLFD seed). Depth not a goal; arrives naturally.
+- Part VI: bridge to Ch14 — consolidative recurrence as biological precondition for existential emotion access. Orgasmic euphoric epiphanies share neuromodulatory signature with stable lucid dream peak states.
+- Section 3.3: 90-minute TMR loop design — front-40 (Ch0→Ch4 foundations) + reverse-50 (Ch14→Ch5). Ch5 (specious present) is last chapter before REM onset. Pivot structure documented in ch12 and in docs/days/README.md. Generated via VoxCPM2 as docs/days/04092026.mp3.

@@ -16,6 +16,16 @@ SCRIPTS = [
     "viz_08_corrective_time_syntropy.py",
     "viz_09_mensaclaused_metaretrocausality.py",
     "viz_10_necessity_constraint_form.py",
+    "viz_11_fractal_hypergrammar_compression.py",
+    "viz_12_consolidative_recurrence.py",
+    "viz_13_geometry.py",
+    "viz_14_meta_geometry.py",
+    "viz_15_philosophy.py",
+    "viz_16_meta_philosophy.py",
+    "viz_17_geometric_philosophic_connectome.py",
+    "viz_18_topology.py",
+    "viz_19_meta_topologies.py",
+    "viz_20_meta_closure.py",
 ]
 
 

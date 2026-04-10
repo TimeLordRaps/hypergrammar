@@ -1,0 +1,121 @@
+{
+  "doc_id": "17_geometric_philosophic_connectome",
+  "doc_title": "The Geometric-Philosophic Connectome",
+  "purpose": "Visualize the quadfecta square: 4 corners, 4 edges, 2 diagonals, center = □, recursive isomorphism, VSM mapping.",
+  "nodes": [
+    {
+      "key": "GEO",
+      "label": "Geometry (base-geometric)",
+      "kind": "chapter"
+    },
+    {
+      "key": "PHIL",
+      "label": "Philosophy (base-philosophic)",
+      "kind": "chapter"
+    },
+    {
+      "key": "MGEO",
+      "label": "Meta-Geometry (expansion)",
+      "kind": "chapter"
+    },
+    {
+      "key": "MPHIL",
+      "label": "Meta-Philosophy (expansion)",
+      "kind": "chapter"
+    },
+    {
+      "key": "CENTER",
+      "label": "Center = □ (fixed point)",
+      "kind": "criterion"
+    },
+    {
+      "key": "DIAG1",
+      "label": "Diagonal: Geo↔Meta-Phil (Kant)",
+      "kind": "concept"
+    },
+    {
+      "key": "DIAG2",
+      "label": "Diagonal: Phil↔Meta-Geo (Gödel)",
+      "kind": "concept"
+    },
+    {
+      "key": "RISO",
+      "label": "Recursive Isomorphism (180° rotation)",
+      "kind": "concept"
+    },
+    {
+      "key": "VSM5",
+      "label": "VSM System 5 = □",
+      "kind": "concept"
+    }
+  ],
+  "edges": [
+    {
+      "source": "GEO",
+      "target": "PHIL",
+      "relation": "Edge 1: Geometric Philosophy"
+    },
+    {
+      "source": "PHIL",
+      "target": "GEO",
+      "relation": "Edge 2: Philosophical Geometry"
+    },
+    {
+      "source": "MGEO",
+      "target": "MPHIL",
+      "relation": "Edge 3: Meta-Geometric Philosophy"
+    },
+    {
+      "source": "MPHIL",
+      "target": "MGEO",
+      "relation": "Edge 4: Meta-Philosophical Geometry"
+    },
+    {
+      "source": "GEO",
+      "target": "MGEO",
+      "relation": "meta-leveling: geometry → meta-geometry"
+    },
+    {
+      "source": "PHIL",
+      "target": "MPHIL",
+      "relation": "meta-leveling: philosophy → meta-philosophy"
+    },
+    {
+      "source": "GEO",
+      "target": "MPHIL",
+      "relation": "Diagonal 1: synthetic a priori (Kant)"
+    },
+    {
+      "source": "PHIL",
+      "target": "MGEO",
+      "relation": "Diagonal 2: structural content (Gödel)"
+    },
+    {
+      "source": "DIAG1",
+      "target": "CENTER",
+      "relation": "diagonals intersect at □"
+    },
+    {
+      "source": "DIAG2",
+      "target": "CENTER",
+      "relation": "diagonals intersect at □"
+    },
+    {
+      "source": "RISO",
+      "target": "CENTER",
+      "relation": "rotation generates structure from fixed point"
+    },
+    {
+      "source": "CENTER",
+      "target": "VSM5",
+      "relation": "center = System 5 = identity/policy"
+    }
+  ],
+  "notes": [
+    "First irreducibly 2-dimensional structure in the prerequisites.",
+    "180° rotation: Geo↔Meta-Phil, Phil↔Meta-Geo. This IS ax-loop: L(L(x)) ~ x.",
+    "Physical frame: two systems + mapping = recursive isomorphism.",
+    "Abstract frame: one system + rotation = self-isomorphism.",
+    "Both frames are ~-related but not = or ≡-related."
+  ]
+}

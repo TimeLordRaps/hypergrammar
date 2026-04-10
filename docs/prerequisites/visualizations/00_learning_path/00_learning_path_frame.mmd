@@ -10,6 +10,7 @@ flowchart TD
   P08["08 Corrective Time Syntropy"]
   P09["09 Mensaclaused Metaretrocausality"]
   P10["10 Necessity Constraint Form"]
+  P12["11 Fractal Hypergrammar Compression"]
   P11["AGENTS/HUMANS/TIME Governance"]
   P00 -- "contains" --> P01
   P00 -- "contains" --> P02
@@ -21,6 +22,7 @@ flowchart TD
   P00 -- "contains" --> P08
   P00 -- "contains" --> P09
   P00 -- "contains" --> P10
+  P00 -- "contains" --> P12
   P01 -- "prerequisite for" --> P02
   P02 -- "prerequisite for" --> P03
   P03 -- "prerequisite for" --> P04
@@ -31,6 +33,8 @@ flowchart TD
   P08 -- "prerequisite for" --> P09
   P09 -- "computably defines" --> P10
   P10 -- "presupposes (closure return)" --> P01
+  P10 -- "is observed and collapsed by" --> P12
+  P12 -- "seeds the next fractal loop of" --> P01
   P11 -- "formal anchor" --> P03
   P11 -- "closure language anchor" --> P10
   P11 -- "contradiction logging context" --> P09

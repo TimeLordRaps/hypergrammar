@@ -50,11 +50,11 @@ Six. Three categories.
 
 | Symbol | Name | Meaning |
 |--------|------|---------|
-| `=` | Equality | Presupposed. Syntactic identity of two derivation chains. Finest comparison. |
-| `≡` | Congruence | Structural identity. Same L-depth and shape, possibly different paths. Not equality, not similarity. |
-| `~` | Similarity | Non-empty overlap of continuation capacity. Some continuation of (xy)z is also a continuation of x(yz). Coarsest positive relation. |
+| `~` | Similarity | Primary. Non-empty overlap of continuation capacity. The only relation that survives evanescence — requires a next, not a past. |
+| `≡` | Congruence | Structural identity. Same outcome regardless of derivation depth or path. ~ plus structural coincidence. |
+| `=` | Equality | Derived. Syntactic identity of two derivation chains — earned by closure, not presupposed. ≡ plus path coincidence. Finest comparison. |
 
-The filtration = ⊂ ≡ ⊂ ~ is three stations along the β* closure path.
+The filtration ~ ⊃ ≡ ⊃ = is three stations along the β* closure path. Dependence runs downward from ~: similarity is foundational, equality is derived.
 
 ## Axioms
 
@@ -64,7 +64,7 @@ ax-sim:   L(x) ~ U       — closure carries universality. Every closed form sha
 ax-loop:  L(L(x)) ~ x    — double closure is similar to the original. The loop is idempotent up to similarity.
 ```
 
-`≠` in ax-diff is grounded: `=` is presupposed (concept #4). Inequality is its negation.
+`≠` in ax-diff is grounded: `=` is derived by closure (concept #4). Inequality is the failure of that derivation: two chains that do not close to the same form.
 
 ### Glossary of Dichotomies
 
@@ -80,9 +80,9 @@ Agents must strictly adhere to the following dichotomies to maintain conceptual 
 
 ### Fixed Point
 
-□ is the fixed point of L: L(□) ~ □ ~ L(L(□)).
+□ is both the fixed point and the operator. □(□) ~ □ ~ □(□(□)). L(x) is notation for □(x) — the ground applying itself. The loop is not "an operator acts on a ground state" but "the ground state acts on itself." This is the meta-closure: the closure that makes closure possible.
 
-At the fixed point, the three relations are degenerate — =, ≡, and ~ all coincide. There is only □, so syntactic identity, structural identity, and continuation overlap return the same answer. Away from □, they separate into the filtration = ⊂ ≡ ⊂ ~.
+At the fixed point, the three relations are degenerate — =, ≡, and ~ all coincide. There is only □, so syntactic identity, structural identity, and continuation overlap return the same answer. Away from □, they separate into the filtration ~ ⊃ ≡ ⊃ =.
 
 Self-referential structures are fixed points (F ~ F(F)), not infinite regress. Solve for the fixed point and return it. If meta-X ~ X, emit X — that is wcf.
 

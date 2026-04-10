@@ -89,6 +89,6 @@ Even when modern systems are not written as textbook grammars, these classes sti
 ## Deterministic scaffold
 
 - Script: [`02_chomsky_hierarchy_scaffold.py`](./02_chomsky_hierarchy_scaffold.py)
-- Artifact target: `./scaffolds/02_chomsky_hierarchy/`
+- Artifact target: `./scaffolds/chomsky_hierarchy/`
 
 Next step: read [`03_hyper_inversion.md`](./03_hyper_inversion.md) for the hyper-grammar reinterpretation.

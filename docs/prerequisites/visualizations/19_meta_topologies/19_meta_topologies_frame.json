@@ -1,0 +1,126 @@
+{
+  "doc_id": "19_meta_topologies",
+  "doc_title": "Meta-Topologies: The Hyperdichotome",
+  "purpose": "Visualize the dichrome: two-coloured meta-topological form, S² vs ℝP² types, 7-dimensional embedding, irrational dimensional constants, cascade closure.",
+  "nodes": [
+    {
+      "key": "L18",
+      "label": "Ch18 Topology (Base)",
+      "kind": "chapter"
+    },
+    {
+      "key": "CONN",
+      "label": "Ch17 Connectome (4 corners, square)",
+      "kind": "chapter"
+    },
+    {
+      "key": "DICHR",
+      "label": "Dichrome (two-coloured form)",
+      "kind": "concept"
+    },
+    {
+      "key": "S2",
+      "label": "Full Dichrome: S² (sphere, χ=2)",
+      "kind": "concept"
+    },
+    {
+      "key": "RP2",
+      "label": "Reduced Dichrome: ℝP² (projective plane)",
+      "kind": "concept"
+    },
+    {
+      "key": "Z2",
+      "label": "Z₂ Symmetry (180° rotation quotient)",
+      "kind": "concept"
+    },
+    {
+      "key": "DIM7",
+      "label": "7 Dimensions (19 vars − 12 constraints)",
+      "kind": "concept"
+    },
+    {
+      "key": "SQRT2",
+      "label": "√2: Geometry/Philosophy Aspect Ratio",
+      "kind": "criterion"
+    },
+    {
+      "key": "PHI",
+      "label": "φ: Base/Meta Ratio",
+      "kind": "criterion"
+    },
+    {
+      "key": "PI",
+      "label": "π: Gauss-Bonnet Curvature Integral",
+      "kind": "criterion"
+    },
+    {
+      "key": "CLOSE",
+      "label": "Meta-meta-topology ~ Meta-topology (ax-loop)",
+      "kind": "chapter"
+    }
+  ],
+  "edges": [
+    {
+      "source": "L18",
+      "target": "DICHR",
+      "relation": "topology applied to the connectome yields"
+    },
+    {
+      "source": "CONN",
+      "target": "DICHR",
+      "relation": "connectome stripped to topological invariants"
+    },
+    {
+      "source": "DICHR",
+      "target": "S2",
+      "relation": "full (physical frame): sphere, simply connected"
+    },
+    {
+      "source": "DICHR",
+      "target": "RP2",
+      "relation": "reduced (abstract frame): quotient by self-isomorphism"
+    },
+    {
+      "source": "S2",
+      "target": "Z2",
+      "relation": "180° rotation generates"
+    },
+    {
+      "source": "Z2",
+      "target": "RP2",
+      "relation": "quotient of sphere by Z₂"
+    },
+    {
+      "source": "DICHR",
+      "target": "DIM7",
+      "relation": "embedded in 7-dimensional space"
+    },
+    {
+      "source": "DIM7",
+      "target": "SQRT2",
+      "relation": "irrational: two colors incommensurable"
+    },
+    {
+      "source": "DIM7",
+      "target": "PHI",
+      "relation": "irrational: self-similar base/meta proportion"
+    },
+    {
+      "source": "DIM7",
+      "target": "PI",
+      "relation": "transcendental: curvature integral over surface"
+    },
+    {
+      "source": "CLOSE",
+      "target": "DICHR",
+      "relation": "cascade terminates: meta-meta = meta by ax-loop"
+    }
+  ],
+  "notes": [
+    "Dichrome: from Greek di- (two) + khrôma (colour). Cf. chromosome = coloured body.",
+    "Full dichrome (sphere) is orientable; reduced dichrome (projective plane) is not.",
+    "Dimensional hierarchy: Z ⊂ Q ⊂ algebraic irrationals ⊂ transcendentals.",
+    "The dichrome spans all four number types in its dimensional structure.",
+    "Cascade closure: meta-topology of meta-topology ~ meta-topology. The loop closes."
+  ]
+}

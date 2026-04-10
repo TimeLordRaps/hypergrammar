@@ -1,0 +1,32 @@
+Meta-Philosophy [16_meta_philosophy]
+Previous: 15_philosophy
+Previous signature: c99c99ddc23f3f5c99ba32d0394eac241954f3cb6af7b40f820f435489fa58bc
+Deterministic seed: 00102326c0d6c27108a62713ae06e96b346cdded3c8f3b85ccc31aafbd8c9672
+Signature: 24d1002b32d347b56f5168c93ac0a9921c5a54f435572f9a3e55775bad44946c
+
+Constraints:
+- philosophy as operation not position: examining presuppositions
+- hidden axiom: the reasoning-object relationship has a fixed character
+- reasoning manifold: coherence metric ds² on presuppositional coordinates
+- cybernetic orders: first=homeostasis, second=homeorhesis, third=poly-subject
+- self-encoding theorem: system proves it encodes its own closure condition
+
+Nodes:
+- H0: 16_meta_philosophy hyperstructure (chapter)
+- H1: deterministic seed 00102326c0d6 (seed)
+- H2: inherits c99c99ddc23f (link)
+- H3: constraint manifold (constraint)
+- H4: future scaffold anchor (anchor)
+
+Edges:
+- H2 --[grounds]--> H0
+- H1 --[deterministically instantiates]--> H0
+- H0 --[encodes]--> H3
+- H3 --[provides coherent links for]--> H4
+
+Notes:
+- Now preceded by 15_philosophy as its base formalism.
+- Closes Ch14 open frame: meta-philosophy supplies the missing reasoning frame.
+- Three philosophical traditions = three curvature cases (analytic=flat, continental=curved, eastern=projective).
+- VSM mapping: System 5 = □ (identity/policy at the fixed point).
+- Anticipatory systems (Rosen): internal model generates present constraints from future closure.

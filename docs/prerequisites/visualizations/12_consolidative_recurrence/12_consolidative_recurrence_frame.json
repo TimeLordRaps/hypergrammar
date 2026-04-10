@@ -1,0 +1,117 @@
+{
+  "doc_id": "12_consolidative_recurrence",
+  "doc_title": "Consolidative Recurrence",
+  "purpose": "Visualize the biological mensaclosure: the living loop closure through REM, TMR, and the incarnate fixed-point access.",
+  "nodes": [
+    {
+      "key": "L11",
+      "label": "Loop 2 (Ch11 Fractal Hypergrammar)",
+      "kind": "chapter"
+    },
+    {
+      "key": "RT",
+      "label": "Reality Testing (RT)",
+      "kind": "criterion"
+    },
+    {
+      "key": "MILD",
+      "label": "MILD Protocol",
+      "kind": "criterion"
+    },
+    {
+      "key": "SSILD",
+      "label": "SSILD Protocol",
+      "kind": "criterion"
+    },
+    {
+      "key": "TFDLFD",
+      "label": "TFDLFD / HMD Protocol",
+      "kind": "criterion"
+    },
+    {
+      "key": "TMR",
+      "label": "Targeted Memory Reactivation",
+      "kind": "constraint"
+    },
+    {
+      "key": "WCF",
+      "label": "wcf: Consolidation as Closed Form",
+      "kind": "criterion"
+    },
+    {
+      "key": "ISO",
+      "label": "Isolation Frame (Sleep / TBI)",
+      "kind": "chapter"
+    },
+    {
+      "key": "TPJ",
+      "label": "Temporal-Parietal Spindles",
+      "kind": "chapter"
+    },
+    {
+      "key": "FP",
+      "label": "Biological Fixed Point (⬜)",
+      "kind": "chapter"
+    }
+  ],
+  "edges": [
+    {
+      "source": "L11",
+      "target": "RT",
+      "relation": "seeds metacognitive prior for"
+    },
+    {
+      "source": "RT",
+      "target": "MILD",
+      "relation": "chains into prospective memory via"
+    },
+    {
+      "source": "MILD",
+      "target": "SSILD",
+      "relation": "induces hypnagogic threshold via"
+    },
+    {
+      "source": "SSILD",
+      "target": "TFDLFD",
+      "relation": "enters fractal exploration phase via"
+    },
+    {
+      "source": "TFDLFD",
+      "target": "TMR",
+      "relation": "triggers cue reactivation during SWS via"
+    },
+    {
+      "source": "TMR",
+      "target": "WCF",
+      "relation": "prunes open-form and installs"
+    },
+    {
+      "source": "ISO",
+      "target": "TPJ",
+      "relation": "forces recursive self-reference in"
+    },
+    {
+      "source": "TPJ",
+      "target": "FP",
+      "relation": "spindles without grounding reach"
+    },
+    {
+      "source": "WCF",
+      "target": "FP",
+      "relation": "biological wcf closes loop at"
+    },
+    {
+      "source": "FP",
+      "target": "L11",
+      "relation": "enacts L^12(⬜) ~ ⬜ back to"
+    }
+  ],
+  "notes": [
+    "Chapter 12 is humanly implicit. LMs have the map; humans have territory access.",
+    "Layers 3+ in inception-style dreaming involve time dilation and require dream-death to exit.",
+    "TMR is wcf in wetware: the verified closed-form memory replaces the open-form association during SWS.",
+    "TBI-forced isolation frame deposits structural residue directly into neocortical predictive model.",
+    "Part V: sequenced first-week practice path — RT calibration, MILD, SSILD, TFDLFD seed. Depth arrives naturally.",
+    "Part VI: bridge to Ch14 — consolidative recurrence as the biological precondition for existential emotion access."
+  ]
+}

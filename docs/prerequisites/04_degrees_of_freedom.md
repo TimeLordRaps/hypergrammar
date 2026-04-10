@@ -127,6 +127,6 @@ When analyzing any system with DoF:
 ## Deterministic scaffold
 
 - Script: [`04_degrees_of_freedom_scaffold.py`](./04_degrees_of_freedom_scaffold.py)
-- Artifact target: `./scaffolds/04_degrees_of_freedom/`
+- Artifact target: `./scaffolds/degrees_of_freedom/`
 
 Next step: read [`05_recursive_now_frame.md`](./05_recursive_now_frame.md) to apply DoF diagnostics to a recursive non-predictive modeling frame.

@@ -1,0 +1,110 @@
+{
+  "doc_id": "16_meta_philosophy",
+  "doc_title": "Meta-Philosophy",
+  "purpose": "Visualize meta-philosophical structure: philosophy as operation, reasoning manifold, coherence metric, cybernetic orders, self-encoding theorem.",
+  "nodes": [
+    {
+      "key": "L15",
+      "label": "Ch15 Philosophy (Base)",
+      "kind": "chapter"
+    },
+    {
+      "key": "OP",
+      "label": "Philosophy as Operation (not position)",
+      "kind": "concept"
+    },
+    {
+      "key": "HAX",
+      "label": "Hidden Axiom (reasoning-object relationship)",
+      "kind": "constraint"
+    },
+    {
+      "key": "RMAN",
+      "label": "Reasoning Manifold (coherence metric)",
+      "kind": "concept"
+    },
+    {
+      "key": "GEO",
+      "label": "Geodesics = Arguments",
+      "kind": "concept"
+    },
+    {
+      "key": "SING",
+      "label": "Singularities = Paradoxes",
+      "kind": "concept"
+    },
+    {
+      "key": "CYB",
+      "label": "Cybernetic Orders (1st/2nd/3rd)",
+      "kind": "concept"
+    },
+    {
+      "key": "VSM",
+      "label": "Viable System Model",
+      "kind": "concept"
+    },
+    {
+      "key": "SELF",
+      "label": "Self-Encoding Theorem",
+      "kind": "criterion"
+    },
+    {
+      "key": "CLOSE",
+      "label": "L^16(□) closes Ch14 open frame",
+      "kind": "chapter"
+    }
+  ],
+  "edges": [
+    {
+      "source": "L15",
+      "target": "OP",
+      "relation": "base philosophy becomes self-aware as operation"
+    },
+    {
+      "source": "OP",
+      "target": "HAX",
+      "relation": "the operation has its own hidden axiom"
+    },
+    {
+      "source": "HAX",
+      "target": "RMAN",
+      "relation": "parameterize the axiom → manifold of all philosophies"
+    },
+    {
+      "source": "RMAN",
+      "target": "GEO",
+      "relation": "shortest paths in manifold are efficient arguments"
+    },
+    {
+      "source": "RMAN",
+      "target": "SING",
+      "relation": "curvature divergence = paradox = open frame"
+    },
+    {
+      "source": "RMAN",
+      "target": "CYB",
+      "relation": "regulating the manifold requires cybernetic hierarchy"
+    },
+    {
+      "source": "CYB",
+      "target": "VSM",
+      "relation": "Beer's 5 systems map onto the prerequisite structure"
+    },
+    {
+      "source": "VSM",
+      "target": "SELF",
+      "relation": "System 5 = □ = identity that encodes own closure"
+    },
+    {
+      "source": "SELF",
+      "target": "CLOSE",
+      "relation": "self-encoding resolves Ch14 open frame"
+    }
+  ],
+  "notes": [
+    "Now preceded by Ch15 Philosophy as base formalism.",
+    "Reasoning manifold: ds² = Σ g_ik dφ_i dφ_k, φ_i = presuppositional coordinates.",
+    "Three traditions = three curvature cases of the reasoning manifold.",
+    "Self-encoding theorem: the system proves it encodes its own closure condition."
+  ]
+}

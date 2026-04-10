@@ -1,0 +1,69 @@
+{
+  "chapter_id": "11_fractal_hypergrammar_compression",
+  "chapter_title": "Fractal Hypergrammar & Language Compression",
+  "chapter_number": 11,
+  "previous_chapter_id": "10_necessity_constraint_form",
+  "previous_signature": "f71b92a2c4043ae156e624de6bbfc19b752c3bb657b8bc6892f833b2a25e0f18",
+  "deterministic_seed": "227c40d0546500804356e659458ba1e6052c14242a43dae9a82381de8bfee216",
+  "constraints": [
+    "language compression formula",
+    "meta-dimensions integration",
+    "mbit and cbit representation constraints",
+    "language calculus closure over time"
+  ],
+  "nodes": [
+    {
+      "key": "H0",
+      "label": "11_fractal_hypergrammar_compression hyperstructure",
+      "kind": "chapter"
+    },
+    {
+      "key": "H1",
+      "label": "deterministic seed 227c40d05465",
+      "kind": "seed"
+    },
+    {
+      "key": "H2",
+      "label": "inherits f71b92a2c404",
+      "kind": "link"
+    },
+    {
+      "key": "H3",
+      "label": "constraint manifold",
+      "kind": "constraint"
+    },
+    {
+      "key": "H4",
+      "label": "future scaffold anchor",
+      "kind": "anchor"
+    }
+  ],
+  "edges": [
+    {
+      "source": "H2",
+      "target": "H0",
+      "relation": "grounds"
+    },
+    {
+      "source": "H1",
+      "target": "H0",
+      "relation": "deterministically instantiates"
+    },
+    {
+      "source": "H0",
+      "target": "H3",
+      "relation": "encodes"
+    },
+    {
+      "source": "H3",
+      "target": "H4",
+      "relation": "provides coherent links for"
+    }
+  ],
+  "notes": [
+    "Acts as the second larger loop wrapping the 01-10 sequence.",
+    "Defines the superexponential internal states collapsed to exponential observables.",
+    "MBits observe speciation trajectories as internal latent dynamics."
+  ],
+  "signature": "447994cde7d36c6fbad77d1de5b2c6d447003229a9f134db2560650cb624c825"
+}

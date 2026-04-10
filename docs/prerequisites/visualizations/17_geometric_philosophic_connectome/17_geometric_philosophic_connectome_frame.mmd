@@ -1,0 +1,22 @@
+flowchart TD
+  GEO["Geometry (base-geometric)"]
+  PHIL["Philosophy (base-philosophic)"]
+  MGEO["Meta-Geometry (expansion)"]
+  MPHIL["Meta-Philosophy (expansion)"]
+  CENTER["Center = □ (fixed point)"]
+  DIAG1["Diagonal: Geo↔Meta-Phil (Kant)"]
+  DIAG2["Diagonal: Phil↔Meta-Geo (Gödel)"]
+  RISO["Recursive Isomorphism (180° rotation)"]
+  VSM5["VSM System 5 = □"]
+  GEO -- "Edge 1: Geometric Philosophy" --> PHIL
+  PHIL -- "Edge 2: Philosophical Geometry" --> GEO
+  MGEO -- "Edge 3: Meta-Geometric Philosophy" --> MPHIL
+  MPHIL -- "Edge 4: Meta-Philosophical Geometry" --> MGEO
+  GEO -- "meta-leveling: geometry → meta-geometry" --> MGEO
+  PHIL -- "meta-leveling: philosophy → meta-philosophy" --> MPHIL
+  GEO -- "Diagonal 1: synthetic a priori (Kant)" --> MPHIL
+  PHIL -- "Diagonal 2: structural content (Gödel)" --> MGEO
+  DIAG1 -- "diagonals intersect at □" --> CENTER
+  DIAG2 -- "diagonals intersect at □" --> CENTER
+  RISO -- "rotation generates structure from fixed point" --> CENTER
+  CENTER -- "center = System 5 = identity/policy" --> VSM5

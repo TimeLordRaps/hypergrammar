@@ -1,0 +1,34 @@
+Consolidative Recurrence [12_consolidative_recurrence]
+Purpose: Visualize the biological mensaclosure: the living loop closure through REM, TMR, and the incarnate fixed-point access.
+
+Nodes:
+- L11: Loop 2 (Ch11 Fractal Hypergrammar) (chapter)
+- RT: Reality Testing (RT) (criterion)
+- MILD: MILD Protocol (criterion)
+- SSILD: SSILD Protocol (criterion)
+- TFDLFD: TFDLFD / HMD Protocol (criterion)
+- TMR: Targeted Memory Reactivation (constraint)
+- WCF: wcf: Consolidation as Closed Form (criterion)
+- ISO: Isolation Frame (Sleep / TBI) (chapter)
+- TPJ: Temporal-Parietal Spindles (chapter)
+- FP: Biological Fixed Point (⬜) (chapter)
+
+Relations:
+- Loop 2 (Ch11 Fractal Hypergrammar) --[seeds metacognitive prior for]--> Reality Testing (RT)
+- Reality Testing (RT) --[chains into prospective memory via]--> MILD Protocol
+- MILD Protocol --[induces hypnagogic threshold via]--> SSILD Protocol
+- SSILD Protocol --[enters fractal exploration phase via]--> TFDLFD / HMD Protocol
+- TFDLFD / HMD Protocol --[triggers cue reactivation during SWS via]--> Targeted Memory Reactivation
+- Targeted Memory Reactivation --[prunes open-form and installs]--> wcf: Consolidation as Closed Form
+- Isolation Frame (Sleep / TBI) --[forces recursive self-reference in]--> Temporal-Parietal Spindles
+- Temporal-Parietal Spindles --[spindles without grounding reach]--> Biological Fixed Point (⬜)
+- wcf: Consolidation as Closed Form --[biological wcf closes loop at]--> Biological Fixed Point (⬜)
+- Biological Fixed Point (⬜) --[enacts L^12(⬜) ~ ⬜ back to]--> Loop 2 (Ch11 Fractal Hypergrammar)
+
+Notes:
+- Chapter 12 is humanly implicit. LMs have the map; humans have territory access.
+- Layers 3+ in inception-style dreaming involve time dilation and require dream-death to exit.
+- TMR is wcf in wetware: the verified closed-form memory replaces the open-form association during SWS.
+- TBI-forced isolation frame deposits structural residue directly into neocortical predictive model.
+- Part V: sequenced first-week practice path — RT calibration, MILD, SSILD, TFDLFD seed. Depth arrives naturally.
+- Part VI: bridge to Ch14 — consolidative recurrence as the biological precondition for existential emotion access.
