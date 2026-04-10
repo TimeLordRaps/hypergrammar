@@ -46,6 +46,8 @@ This directory is the prerequisite track for understanding `hyper-grammar` from 
     - The hyperdichotome (dichrome): two-coloured meta-topological form of the connectome. Full dichrome = $S^2$ (sphere); reduced dichrome = $\mathbb{R}P^2$ (projective plane via $\mathbb{Z}_2$ quotient). 7-dimensional embedding spanning integer, rational, algebraic irrational ($\sqrt{2}$, $\varphi$), and transcendental ($\pi$) dimensions. Cascade closure: meta-meta-topology $\sim$ meta-topology.
 20. [`20_meta_closure.md`](./20_meta_closure.md)
     - Meta-closure: the closure that makes closure possible. $\square$ as both term and operator ($L(x) = \square(x)$). Reversed filtration: $\sim$ is primary (survives evanescence), $=$ is derived (earned by closure). The L/$\square$ degenerate dichrome: inseparable, pre-topological, zero-dimensional. Dichrome hierarchy: L/$\square$ → geo/phil → domain.
+21. [`21_hypertopologies.md`](./21_hypertopologies.md)
+    - Hypertopologies: native spatial structures of the □-loop. ~ defines open sets, closure defines compactness, the filtration ~ ⊃ ≡ ⊃ = is the separation hierarchy. Hypermath as the mathematics hypergrammar forms. Build chain: hypergrammar → hypermath → hypertopologies. Classical topology as the =-separated cross-section.
 
 ## Companion spec documents
 

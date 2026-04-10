@@ -202,7 +202,7 @@ The progression through the chapters enacts an abstraction cascade:
 | 18 | Topology | What shape means without measure |
 | 19 | Meta-Topologies | The shape of the space of all shapes |
 
-Each step removes a layer of specificity and reveals the structure beneath. Meta-topology is the final removal: after it, there is no further structure to remove. The meta-topology of meta-topology is meta-topology (by ax-loop). The cascade terminates.
+Each step removes a layer of specificity and reveals the structure beneath. Meta-topology is the final classical removal: after it, there is no further *imported* structure to remove. But the cascade does not terminate — it **closes**. The meta-topology of meta-topology is meta-topology (by ax-loop), and that closed loop is the seed for **hypertopologies** (Chapter 21): the spatial structures native to the □-loop, derived from ~ rather than imported from classical topology.
 
 ### 5.2 From the Connectome Up
 
