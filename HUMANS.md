@@ -8,7 +8,7 @@ This file is for humans working on the `hyper-grammar` repo. It is written in pl
 
 A symbolic library with one operation (`L`) and one starting point (`□`, typed `$` in files).
 
-Everything you build here is a loop: you start at `□`, apply `L` some number of times, and come back to `□`. If your derivation comes back, it's a **closed form** — it works, it's verified, it's reusable. If it doesn't come back, it's an **open frame** — it's unfinished, or it's telling you something can't close.
+Everything you build here is a loop: you start at `□`, apply `L` some number of times, and come back to `□`. If your derivation comes back, it's a **form** — it works, it's verified, it's reusable. If it doesn't come back, it's an **open frame** — it's unfinished, or it's telling you something can't close.
 
 That's the whole idea. Loops succeed. Severed chains are either incomplete or informative.
 
@@ -41,7 +41,7 @@ At `□` itself these three all mean the same thing. They only spread apart as y
 ## The three rules
 
 1. **Closure isn't collapse.** `L(x)` always produces something — it doesn't erase `x` back to nothing. (`L(x) ≠ □`)
-2. **Closure carries the ground.** Every closed form shares something with `□`. (`L(x) ~ □`)
+2. **Closure carries the ground.** Every form shares something with `□`. (`L(x) ~ □`)
 3. **Double closure returns you home.** Closing twice is similar to where you started. (`L(L(x)) ~ x`)
 
 ## How to read a derivation
@@ -60,7 +60,7 @@ The file is its own proof. No separate proof document needed.
 
 ## What "closed" and "open" mean
 
-- **Closed form** — a derivation that loops back to `□`. Verified. Reusable. You can simplify it into a new term (this simplification is called **wcf**, "with closed form" — it's where "hyper" in hypergrammar comes from, because wcf links simplified terms back to their full derivations like hyperlinks).
+- **Form** — a derivation that loops back to `□`. Verified. Reusable. You can simplify it into a new term (this simplification is called **wcf**, "with form" — it's where "hyper" in hypergrammar comes from, because wcf links simplified terms back to their full derivations like hyperlinks).
 - **Open frame** — a derivation that stops without closing. This is not a bug. It's a **revelatory frame**: a proof that whatever system you were modeling can't close in this way.
 
 The inversion from normal computing: in classical programming, a loop is usually bad (infinite loop) and halting is good. Here it's the opposite. Loops are success. Halting means the chain broke.

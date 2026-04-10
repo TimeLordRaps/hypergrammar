@@ -115,7 +115,7 @@ At the fixed point $\square$, the three relations coincide — just as at a sing
 
 The similarity relation $\sim$ is topological:
 
-- $L(x) \sim U$ (ax-sim) says that every closed form shares a neighborhood with the ground.
+- $L(x) \sim U$ (ax-sim) says that every form shares a neighborhood with the ground.
 - $L(L(x)) \sim x$ (ax-loop) says that double closure returns to the neighborhood of the original.
 - $\sim$ defines neighborhoods: $x \sim y$ means $x$ and $y$ share continuation capacity — they are in the same neighborhood of the derivation space.
 
@@ -143,7 +143,7 @@ For non-orientable surfaces, add: the projective plane, the non-orientable close
 Classification theorems say: "these are all the possible shapes at this level." They are existence and uniqueness results for topological types.
 
 The hypergrammar has a classification implicit in Chapters 01–12: every derivation chain from $\square$ is either:
-- Closed ($L^n(\square) \sim \square$) — a closed form, topologically a loop.
+- Closed ($L^n(\square) \sim \square$) — a form, topologically a loop.
 - Open (chain does not close) — an open frame, topologically an open curve.
 - Oscillating (paradox) — neither closed nor open, topologically a non-trivially recurrent orbit.
 

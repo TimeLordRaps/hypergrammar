@@ -9,7 +9,7 @@ This chapter constructs the **second larger loop** around the prerequisite cycli
 
 If Chapter 10 closes the prerequisite loop by returning as a presupposition for Chapter 01 ($\kappa \vdash C_1$), Chapter 11 observes that closed loop from the outside. 
 
-In hyper-grammar rules ($L(x) \sim U$), an entire closed-form derivation $x$ behaves as the universal base $U$ for the next level. This is the **Fractal Hypergrammar**: a continuation where the atoms of the new grammar are the fully closed trajectories of the underlying grammar.
+In hyper-grammar rules ($L(x) \sim U$), an entire form derivation $x$ behaves as the universal base $U$ for the next level. This is the **Fractal Hypergrammar**: a continuation where the atoms of the new grammar are the fully closed trajectories of the underlying grammar.
 
 ## Informational Atoms (CBits and MBits)
 
@@ -58,7 +58,7 @@ This gives us the core property of the second loop:
 ## Connection to Hyper-Grammar Rules
 
 - **ax-sim**: $L(x) \sim U$ (closure carries universality). The compression formula quantifies the structural density inside $U$ after closure.
-- **wcf (with closed form)**: The operation that simplifies a verified closed form into a new term is exactly the mathematical reduction of $(2^n)^n \to 2^n$.
+- **wcf (with form)**: The operation that simplifies a verified form into a new term is exactly the mathematical reduction of $(2^n)^n \to 2^n$.
 
 ## Deterministic scaffold
 

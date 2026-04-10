@@ -83,7 +83,7 @@
     {
       "source": "CLASS",
       "target": "L17",
-      "relation": "closed form = loop, open frame = curve, paradox = orbit"
+      "relation": "form = loop, open frame = curve, paradox = orbit"
     }
   ],
   "notes": [

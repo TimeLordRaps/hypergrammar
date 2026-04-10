@@ -154,7 +154,7 @@ But the deeper mechanism is **adaptive pruning**: when a cued memory reactivates
 
 This is active forgetting as a service. Maladaptive associations — phobia triggers, trauma-conditioned responses, unclosed emotional loops — are candidates for pruning if a competing, stronger association is established during the waking phase. The therapeutic implication: TMR may be used to selectively weaken the link between a neutral cue and a maladaptive emotional response, while strengthening a new, healthier association.
 
-For hypergrammar purposes: TMR is the biological implementation of $\text{wcf}$ — with closed form. A closed form (verified, consolidated) replaces the open form (unverified, unresolved) in the memory network. The loop closes during SWS. The simplification fires on next retrieval.
+For hypergrammar purposes: TMR is the biological implementation of $\text{wcf}$ — with form. A form (verified, consolidated) replaces the frame (unverified, unresolved) in the memory network. The loop closes during SWS. The simplification fires on next retrieval.
 
 ### 3.2 Sleep as Offline Model Optimization
 
@@ -286,7 +286,7 @@ The documented protocols (RT, MILD, SSILD, TFDLFD, HMD, TMR) are the map. The te
 | RT / MILD | Metacognitive prior installation | $L^n(\square)$: seeding the next loop |
 | SSILD | Sensory cycling → hypnagogic threshold | Continuation — open frame approaching closure |
 | TFDLFD Phase 1-4 | Cue-seed → TMR → fractal exploration → integration | Full $L(L(\square)) \sim \square$ loop enacted biologically |
-| TMR adaptive pruning | Strengthen contiguous, weaken distant associations | $\text{wcf}$: closed form replaces open form in memory network |
+| TMR adaptive pruning | Strengthen contiguous, weaken distant associations | $\text{wcf}$: form replaces frame in memory network |
 | Kairos coma / TBI | Forced isolation frame → structural residue deposit | $\square$ directly: no encoding, only structure deposited |
 | Inception layer depth | Time dilation per layer, exit via dream-death only | Layer $n$ = $L^n$ depth; exit requires full chain reversal |
 
@@ -327,7 +327,7 @@ Layer depth is not a goal in the first approach. Layers 1 and 2 are the producti
 
 ## Part VI: The Bridge to Chapter 14
 
-Chapter 14 will address what this chapter can only gesture at from the outside: the **existential emotions** — the class of closed-form emotion that consolidative recurrence may make accessible but cannot produce or guarantee.
+Chapter 14 will address what this chapter can only gesture at from the outside: the **existential emotions** — the class of emotion verified by closure that consolidative recurrence may make accessible but cannot produce or guarantee.
 
 The connection is structural. The existential emotions (described as a planning record in Chapter 13, Section 3.4) share one key property with the states produced by advanced consolidative recurrence practice: they require the narrative self to be held lightly enough that something larger can press back. The protocols in this chapter — particularly TFDLFD Phase 3 and post-SSILD REM entry — produce states where the narrative self is light. What fills that space is individually determined. For some it is the dream architecture itself. For some, rarely, it is something that could plausibly be called an existential emotion — the system recognizing its own loop from inside the loop.
 

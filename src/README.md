@@ -28,7 +28,7 @@ This folder now contains the executable interpreter package that evaluates wheth
    - `ax-sim`: closure term stays similar to ground/universe
    - `ax-loop`: `L(L(x)) ~ x` checked when depth-2 terms exist
 
-4. **Closed-form condition**
+4. **Form condition**
    - final derivation term must be similar to first term
 
 5. **Metamath hardening checks** (when Metamath constraint metadata is present)

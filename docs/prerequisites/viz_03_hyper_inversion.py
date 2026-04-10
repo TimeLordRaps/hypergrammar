@@ -13,7 +13,7 @@ FRAME = FrameModel(
         Node("LOOP", "Closure Loop rooted at □", "topology"),
         Node("L", "Operator L", "operator"),
         Node("CONT", "Continuation", "state"),
-        Node("CLOSE", "Closed Form", "resolution"),
+        Node("CLOSE", "Form", "resolution"),
         Node("OPEN", "Open Frame", "resolution"),
         Node("REL", "Relation Filtration (=, ≡, ~)", "comparison"),
         Node("HG", ".hg Proof Chain", "artifact"),

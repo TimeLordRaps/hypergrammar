@@ -7,7 +7,7 @@ Nodes:
 - LOOP: Closure Loop rooted at □ (topology)
 - L: Operator L (operator)
 - CONT: Continuation (state)
-- CLOSE: Closed Form (resolution)
+- CLOSE: Form (resolution)
 - OPEN: Open Frame (resolution)
 - REL: Relation Filtration (=, ≡, ~) (comparison)
 - HG: .hg Proof Chain (artifact)
@@ -18,10 +18,10 @@ Relations:
 - Cross-Sections --[samples of]--> Closure Loop rooted at □
 - Closure Loop rooted at □ --[advanced by]--> Operator L
 - Operator L --[generates]--> Continuation
-- Continuation --[if closes]--> Closed Form
+- Continuation --[if closes]--> Form
 - Continuation --[if non-closure]--> Open Frame
 - Relation Filtration (=, ≡, ~) --[organizes comparisons within]--> Closure Loop rooted at □
-- Closed Form --[encoded as]--> .hg Proof Chain
+- Form --[encoded as]--> .hg Proof Chain
 - Link Map / Source Trail --[grounds claim provenance]--> Cross-Sections
 
 Notes:

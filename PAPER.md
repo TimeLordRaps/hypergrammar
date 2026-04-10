@@ -8,7 +8,7 @@ April 2026
 
 ## Abstract
 
-We present *hypergrammar*, a symbolic derivation system built on a single ground state $\square$ (universality) and a single operation $L$ (closure loop), related by three axioms. The system inverts the classical computational paradigm: loops are success (closed forms), severed chains are failure (open frames). We show that the grammar type ladder — Type 3 $\subset$ Type 2 $\subset$ Type 1 $\subset$ Type 0 — is not a ladder of increasing expressivity but a family of cross-sections of a single closure loop, each appearing hierarchical only because the cross-section operation discards the loop structure. The three relations — similarity ($\sim$), congruence ($\equiv$), equality ($=$) — form a filtration $\sim\;\supset\;\equiv\;\supset\;=$ whose direction of dependence is reversed from classical presupposition: similarity is foundational (it survives evanescence, requiring only a future, never a past), while equality is derived (earned by closure, not presupposed). We prove that $\square$ is both term and operator, resolving the metatheory frame break that every grammar hierarchy requires. The system is empirically witnessed by a working interpreter that uses a tion system as the first test case for hypermath formation. We develop the geometric-philosophic connectome (a four-cornered square whose topological type is $S^2$ or $\mathbb{R}P^2$ under $\mathbb{Z}_2$ quotient), introduce the dichrome as its meta-topological form embedded in 7 dimensions, arrive at meta-closure ($\square(\square) \sim \square$), and derive *hypertopologies*: closure-native descriptions of the $\square$-loop where similarity defines neighborhoods, closure defines compactness, and the filtration is the separation hierarchy. The dichrome closes geometry and philosophy into hyperorder — the geometric philosophy and philosophical geometry of itself; the hypertopology of hyperorder is what hyperorder generates as its own description, from which hypermath is formed — not a reframing of existing mathematics, but a native formation grounded in $\sim$.
+We present *hypergrammar*, a symbolic derivation system built on a single ground state $\square$ (universality) and a single operation $L$ (closure loop), related by three axioms. The system inverts the classical computational paradigm: loops are success (forms), severed chains are failure (open frames). We show that the grammar type ladder — Type 3 $\subset$ Type 2 $\subset$ Type 1 $\subset$ Type 0 — is not a ladder of increasing expressivity but a family of cross-sections of a single closure loop, each appearing hierarchical only because the cross-section operation discards the loop structure. The three relations — similarity ($\sim$), congruence ($\equiv$), equality ($=$) — form a filtration $\sim\;\supset\;\equiv\;\supset\;=$ whose direction of dependence is reversed from classical presupposition: similarity is foundational (it survives evanescence, requiring only a future, never a past), while equality is derived (earned by closure, not presupposed). We prove that $\square$ is both term and operator, resolving the metatheory frame break that every grammar hierarchy requires. The system is empirically witnessed by a working interpreter that uses a tion system as the first test case for hypermath formation. We develop the geometric-philosophic connectome (a four-cornered square whose topological type is $S^2$ or $\mathbb{R}P^2$ under $\mathbb{Z}_2$ quotient), introduce the dichrome as its meta-topological form embedded in 7 dimensions, arrive at meta-closure ($\square(\square) \sim \square$), and derive *hypertopologies*: closure-native descriptions of the $\square$-loop where similarity defines neighborhoods, closure defines compactness, and the filtration is the separation hierarchy. The dichrome closes geometry and philosophy into hyperorder — the geometric philosophy and philosophical geometry of itself; the hypertopology of hyperorder is what hyperorder generates as its own description, from which hypermath is formed — not a reframing of existing mathematics, but a native formation grounded in $\sim$.
 
 ---
 
@@ -49,7 +49,7 @@ The system requires exactly six concepts. No more can be added without redundanc
 
 | Symbol | Name | Meaning |
 |--------|------|---------|
-| $L$ | Closed form loop | $\square$ applied such that it returns to $\square$. $L(x)$ closes $x$ back toward the ground. |
+| $L$ | Loop | $\square$ applied such that it returns to $\square$. $L(x)$ closes $x$ back toward the ground. |
 | — | Continuation | Temporary frame. A derivation in progress — an $L$-chain from $\square$ that has not yet resolved. |
 
 **Relations** (from most foundational to most derived).
@@ -68,7 +68,7 @@ Closure is not collapse. The loop produces structure, not nothing.
 
 $$\textbf{ax-sim:}\quad L(x) \sim \square$$
 
-Closure carries universality. Every closed form shares continuation capacity with the ground.
+Closure carries universality. Every form shares continuation capacity with the ground.
 
 $$\textbf{ax-loop:}\quad L(L(x)) \sim x$$
 
@@ -151,8 +151,8 @@ This is self-application. $\square$ applied to itself returns (something similar
 
 A derivation in progress is a *continuation*: a temporary frame of $L$-applications from $\square$.
 
-- If a continuation closes — $L^n(\square) \sim \square$ — it produces a **closed form**: infinitely resolvable, verified, reusable.
-- If a continuation fails to close — terminates as an open frame — it is definitively *not* closed form. The open frame reveals a frame break in whatever system the derivation modeled.
+- If a continuation closes — $L^n(\square) \sim \square$ — it produces a **form**: infinitely resolvable, verified, reusable.
+- If a continuation fails to close — terminates as an open frame — it is definitively *not* form. The open frame reveals a frame break in whatever system the derivation modeled.
 - **Contradiction is not failure.** It is a *revelatory frame*: a theorem that the modeled system cannot close.
 
 We assume the worst: unless a set of statements has self-closed, we assume it is unclosable. An open frame is assumed not to close, until it closes.
@@ -168,9 +168,9 @@ Classical computation inverts the success/failure semantics:
 
 Continuation is co-recursive: produces structure outward (each $L$-application widens the form) while the closure condition spirals inward toward $\square$.
 
-### 5.3 With Closed Form (wcf)
+### 5.3 With Form (wcf)
 
-**wcf** simplifies a closed form into a new term. Only fires when the closed form is verified:
+**wcf** simplifies a form into a new term. Only fires when the form is verified:
 
 $$L(x) \sim \square \;\wedge\; \text{verified} \;\implies\; \text{wcf}(L(x)) \text{ produces a single reduced term}$$
 
@@ -417,7 +417,7 @@ The `hypergrammar` package (Python) implements:
 1. **Layer compatibility** — grammar, metagrammar, metametagrammar targeting validated.
 2. **Rule-domain consistency** — LHS/RHS symbol declarations checked.
 3. **Axiom checks** — ax-diff, ax-sim, ax-loop validated against derivation chains.
-4. **Closed-form condition** — final term $\sim$ first term.
+4. **Form condition** — final term $\sim$ first term.
 5. **Metamath hardening checks**:
    - Proof-segment structure around `$=` (compressed/uncompressed well-formedness)
    - Disjoint-variable (`$d`) declaration discipline
@@ -493,12 +493,12 @@ The build chain is not linear. It is a closure:
 $$\text{dichrome closes} \to \text{hyperorder} \to \text{hypertopology of hyperorder} \to \text{hypermath}$$
 
 - **Hypergrammar** (Chapters 01–20): the derivation system.
-- **The dichrome** (Ch19): geometry and philosophy close into a single form — the **closed-form dichrome**.
-- **Hyperorder**: the closed-form dichrome *is* hyperorder — the geometric philosophy and philosophical geometry of itself. The two are no longer separable.
+- **The dichrome** (Ch19): geometry and philosophy close into a single form — the **dichrome**.
+- **Hyperorder**: the dichrome *is* hyperorder — the geometric philosophy and philosophical geometry of itself. The two are no longer separable.
 - **Hypertopology of hyperorder** (Chapter 21): what hyperorder generates as its own closure-native description — neighborhoods defined by $\sim$, separation by the filtration, invariants by hyper-$\chi$.
 - **Hypermath**: formed *from* the hypertopology of hyperorder. The mathematics that this self-description generates — not a reframing of classical mathematics, but native formation grounded in $\sim$.
 
-Classical topology is hypertopology at the $=$-separated level — what you see when you restrict to fully closed forms and treat their identity as given. The dichrome (Ch19) is the $=$-separated shadow of a richer hypertopological object that exists at all three filtration levels simultaneously.
+Classical topology is hypertopology at the $=$-separated level — what you see when you restrict to forms and treat their identity as given. The dichrome (Ch19) is the $=$-separated shadow of a richer hypertopological object that exists at all three filtration levels simultaneously.
 
 ---
 
@@ -506,7 +506,7 @@ Classical topology is hypertopology at the $=$-separated level — what you see 
 
 The following are genuine open frames — design decisions and unresolved structures — not stale documentation:
 
-1. **Falsifiability thesis unanchored.** The central thesis — falsifiability is not a necessary precondition for provability — is implemented mechanically (closed form = proved without requiring falsification of alternatives) but never stated explicitly in the codebase. The mechanism is there; the claim needs to be named.
+1. **Falsifiability thesis unanchored.** The central thesis — falsifiability is not a necessary precondition for provability — is implemented mechanically (form = proved without requiring falsification of alternatives) but never stated explicitly in the codebase. The mechanism is there; the claim needs to be named.
 
 2. **Congruence relation unwired.** `relation_congruent` is defined in `relations.py` but never called by `constraints.py`. The constraint engine uses only $=$ and $\sim$. Congruence has no runtime witness in the interpreter.
 
@@ -514,7 +514,7 @@ The following are genuine open frames — design decisions and unresolved struct
 
 4. **Hierarchy/level language in visualizations.** `viz_20` and `viz_17` use "hierarchy" and "level" labels for dichrome relationships. AGENTS.md says "there are no levels." The dichrome relationship may be a rotation or phase, not a hierarchy.
 
-5. **Hypertopological invariants for full derivation space.** The minimal derivation gives $\chi_\sim = 1$ (projective). The full 21-chapter space has more closed forms, more $\sim$-links, more families. Its hyper-genus is not yet computed.
+5. **Hypertopological invariants for full derivation space.** The minimal derivation gives $\chi_\sim = 1$ (projective). The full 21-chapter space has more forms, more $\sim$-links, more families. Its hyper-genus is not yet computed.
 
 6. **Other branches of hypermath.** Hypertopology is the first named branch. Hyperalgebra (algebraic structure of wcf simplification) and hyperanalysis (limit structure of continuation chains) remain unnamed.
 

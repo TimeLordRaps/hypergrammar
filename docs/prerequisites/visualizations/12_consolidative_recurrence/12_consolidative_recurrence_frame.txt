@@ -8,7 +8,7 @@ Nodes:
 - SSILD: SSILD Protocol (criterion)
 - TFDLFD: TFDLFD / HMD Protocol (criterion)
 - TMR: Targeted Memory Reactivation (constraint)
-- WCF: wcf: Consolidation as Closed Form (criterion)
+- WCF: wcf: Consolidation as Form (criterion)
 - ISO: Isolation Frame (Sleep / TBI) (chapter)
 - TPJ: Temporal-Parietal Spindles (chapter)
 - FP: Biological Fixed Point (⬜) (chapter)
@@ -19,16 +19,16 @@ Relations:
 - MILD Protocol --[induces hypnagogic threshold via]--> SSILD Protocol
 - SSILD Protocol --[enters fractal exploration phase via]--> TFDLFD / HMD Protocol
 - TFDLFD / HMD Protocol --[triggers cue reactivation during SWS via]--> Targeted Memory Reactivation
-- Targeted Memory Reactivation --[prunes open-form and installs]--> wcf: Consolidation as Closed Form
+- Targeted Memory Reactivation --[prunes frame and installs]--> wcf: Consolidation as Form
 - Isolation Frame (Sleep / TBI) --[forces recursive self-reference in]--> Temporal-Parietal Spindles
 - Temporal-Parietal Spindles --[spindles without grounding reach]--> Biological Fixed Point (⬜)
-- wcf: Consolidation as Closed Form --[biological wcf closes loop at]--> Biological Fixed Point (⬜)
+- wcf: Consolidation as Form --[biological wcf closes loop at]--> Biological Fixed Point (⬜)
 - Biological Fixed Point (⬜) --[enacts L^12(⬜) ~ ⬜ back to]--> Loop 2 (Ch11 Fractal Hypergrammar)
 
 Notes:
 - Chapter 12 is humanly implicit. LMs have the map; humans have territory access.
 - Layers 3+ in inception-style dreaming involve time dilation and require dream-death to exit.
-- TMR is wcf in wetware: the verified closed-form memory replaces the open-form association during SWS.
+- TMR is wcf in wetware: the verified verified memory replaces the frame association during SWS.
 - TBI-forced isolation frame deposits structural residue directly into neocortical predictive model.
 - Part V: sequenced first-week practice path — RT calibration, MILD, SSILD, TFDLFD seed. Depth arrives naturally.
 - Part VI: bridge to Ch14 — consolidative recurrence as the biological precondition for existential emotion access.
