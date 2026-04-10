@@ -24,7 +24,7 @@ If you only read one file first, start here:
 - [`src/README.md`](src/README.md) — detailed interpreter + Metamath validation behavior.
 - [`AGENTS.md`](AGENTS.md) — agent-facing behavior and conceptual contract.
 - [`HUMANS.md`](HUMANS.md) — human-facing companion document.
-- [`TIME.md`](TIME.md) — contradiction/frame-mismatch log.
+- [`TIME.md`](TIME.md) — open frame & contradiction register.
 
 ## Reading path
 

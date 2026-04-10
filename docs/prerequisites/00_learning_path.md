@@ -51,7 +51,7 @@ This directory is the prerequisite track for understanding `hyper-grammar` from 
 
 - [`../../AGENTS.md`](../../AGENTS.md) — formal source of truth for symbols and closure claims.
 - [`../../HUMANS.md`](../../HUMANS.md) — plain-language mirror.
-- [`../../TIME.md`](../../TIME.md) — contradiction register if explicit and implicit frames diverge.
+- [`../../TIME.md`](../../TIME.md) — open frame & contradiction register if explicit and implicit frames diverge.
 
 ## Deterministic scaffold layer
 
