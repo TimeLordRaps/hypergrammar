@@ -420,6 +420,7 @@
         "decode_error_count": 0,
         "final_stack_shape_mismatch_count": 0,
         "final_result_mismatch_count": 0,
+        "disjoint_variable_violation_count": 0,
         "all_valid": true,
         "samples": [
           {

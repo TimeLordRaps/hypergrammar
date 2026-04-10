@@ -48,6 +48,7 @@ From repo root:
 - `PYTHONPATH=src E:/real_repos/hyper-grammar/.venv/bin/python.exe -m hypergrammar.cli src/hypergrammar/examples/metamath_metagrammar.json --pretty`
 - `PYTHONPATH=src E:/real_repos/hyper-grammar/.venv/bin/python.exe src/hypergrammar/examples/build_metamath_slice_schema.py`
 - `PYTHONPATH=src E:/real_repos/hyper-grammar/.venv/bin/python.exe -m hypergrammar.cli src/hypergrammar/examples/source_trail/setmm_slice_360_470.mm --pretty`
+- `PYTHONPATH=src E:/real_repos/hyper-grammar/.venv/bin/python.exe -m hypergrammar.cli src/hypergrammar/examples/source_trail/setmm_extended_propositional.mm --pretty`
 
 Exit code is `0` when valid, `1` when errors are present.
 
@@ -148,13 +149,18 @@ This does **not** currently prove that:
 
 - all Metamath databases (e.g., full `set.mm`) satisfy hypergrammar,
 - all Metamath proof objects are semantically equivalent to hypergrammar closure proofs,
-- stack-level execution already covers full Metamath verifier semantics (especially disjoint-variable restrictions during substitution and compressed-subproof reuse semantics),
 - Metamath's complete proof-checking semantics have been rederived in hypergrammar.
 
 So the current result is a **positive structural compatibility witness**, not a total semantic equivalence claim.
 
-### Next empirical hardening steps
+### Empirical hardening progress
 
-- Add disjoint-variable restriction enforcement directly into stack-level substitution execution.
-- Add deeper compressed-subproof execution semantics (saved-subproof reuse parity with Metamath verifier behavior).
-- Validate larger theorem/hypothesis families with derivation chains generated from actual proof traces.
+- **Disjoint-variable restriction enforcement during substitution** — DONE. Stack-level proof execution now collects `$d` pairs into scopes, computes mandatory DV pairs for each assertion, and checks that substitution images have disjoint variable sets. Violation count is tracked and reported through the constraint engine.
+- **Compressed-subproof execution semantics** — VERIFIED. Save (Z) and recall operations follow Metamath verifier behavior: Z copies the current stack top into the saved-subproof list, and recall pushes a copy from saved subproofs back onto the stack. Index computation (`index - len(expanded_label_table) - 1`) is correct.
+- **Larger theorem/hypothesis families** — DONE. Extended test slice (`setmm_extended_propositional.mm`) exercises multi-step uncompressed proofs (a1i: 9 steps), DV-restricted assertions (dvel/dvth with `$d x y`), syntax builders (wn, wi), and all four propositional axioms (ax-mp, ax-1, ax-2, ax-3).
+
+### Remaining hardening targets
+
+- Extend test coverage to theorems with compressed proofs that use save/recall (Z) operations.
+- Validate against larger `set.mm` slices covering predicate calculus (quantifiers, `$d` between set and wff variables).
+- Cross-check with an independent Metamath verifier (e.g., mmverify.py) on the same slices.

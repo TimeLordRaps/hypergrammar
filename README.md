@@ -19,7 +19,7 @@ If you only read one file first, start here:
 
 ## Repository map
 
-- [`docs/prerequisites/`](docs/prerequisites/) — docs-first curriculum (chapters `00`–`10`), scaffolds, and visualizers.
+- [`docs/prerequisites/`](docs/prerequisites/) — docs-first curriculum (chapters `00`–`20`), scaffolds, and visualizers.
 - [`src/`](src/) — executable interpreter package and examples.
 - [`src/README.md`](src/README.md) — detailed interpreter + Metamath validation behavior.
 - [`AGENTS.md`](AGENTS.md) — agent-facing behavior and conceptual contract.
@@ -39,6 +39,16 @@ If you only read one file first, start here:
 - [`08_corrective_time_syntropy.md`](docs/prerequisites/08_corrective_time_syntropy.md)
 - [`09_mensaclaused_metaretrocausality.md`](docs/prerequisites/09_mensaclaused_metaretrocausality.md)
 - [`10_necessity_constraint_form.md`](docs/prerequisites/10_necessity_constraint_form.md)
+- [`11_fractal_hypergrammar_compression.md`](docs/prerequisites/11_fractal_hypergrammar_compression.md)
+- [`12_consolidative_recurrence.md`](docs/prerequisites/12_consolidative_recurrence.md)
+- [`13_geometry.md`](docs/prerequisites/13_geometry.md)
+- [`14_meta_geometry.md`](docs/prerequisites/14_meta_geometry.md)
+- [`15_philosophy.md`](docs/prerequisites/15_philosophy.md)
+- [`16_meta_philosophy.md`](docs/prerequisites/16_meta_philosophy.md)
+- [`17_geometric_philosophic_connectome.md`](docs/prerequisites/17_geometric_philosophic_connectome.md)
+- [`18_topology.md`](docs/prerequisites/18_topology.md)
+- [`19_meta_topologies.md`](docs/prerequisites/19_meta_topologies.md)
+- [`20_meta_closure.md`](docs/prerequisites/20_meta_closure.md)
 
 ## Interpreter and validation
 

@@ -46,22 +46,24 @@ def unwrap_loop(term: str, operator: str = "L") -> tuple[int, str]:
 
 
 def relation_congruent(left: str, right: str, operator: str = "L") -> bool:
-    left_depth, left_base = unwrap_loop(left, operator)
-    right_depth, right_base = unwrap_loop(right, operator)
-    return left_depth == right_depth and normalize_term(left_base) == normalize_term(right_base)
+    """Structural identity: same outcome regardless of derivation depth or path.
+    Per AGENTS.md corrected filtration (Ch20), ≡ is depth-free."""
+    _, left_base = unwrap_loop(left, operator)
+    _, right_base = unwrap_loop(right, operator)
+    return normalize_term(left_base) == normalize_term(right_base)
 
 
 def relation_similar(left: str, right: str, operator: str = "L") -> bool:
+    """Primary relation: non-empty overlap of continuation capacity.
+    Per AGENTS.md corrected filtration (Ch20), ~ is foundational. Survives evanescence."""
     left_tokens = tokenize_term(left)
     right_tokens = tokenize_term(right)
 
     if left_tokens & right_tokens:
         return True
 
-    left_depth, left_base = unwrap_loop(left, operator)
-    right_depth, right_base = unwrap_loop(right, operator)
-
-    if left_depth > 0 and right_depth > 0 and relation_congruent(left, right, operator):
-        return True
+    # Fall through to base-form comparison (continuation overlap via shared base).
+    _, left_base = unwrap_loop(left, operator)
+    _, right_base = unwrap_loop(right, operator)
 
     return normalize_term(left_base) == normalize_term(right_base)
