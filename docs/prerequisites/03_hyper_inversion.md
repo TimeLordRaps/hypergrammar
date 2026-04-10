@@ -1,4 +1,4 @@
-# Hyper Inversion: From Chomsky Ladder to Closure Loop
+# Hyper Inversion: From Grammar Type Ladder to Closure Loop
 
 This page explains how `hyper-grammar` reinterprets classical hierarchy thinking.
 
@@ -24,20 +24,20 @@ For the formal definitions used below, see:
 - [Concepts](../../AGENTS.md#concepts)
 - [Axioms](../../AGENTS.md#axioms)
 - [Continuation](../../AGENTS.md#continuation)
-- [The Hypergrammar (not Chomsky)](../../AGENTS.md#the-hypergrammar-not-chomsky)
+- [The Hypergrammar (not the grammar type ladder)](../../AGENTS.md#the-hypergrammar-not-the-grammar-type-ladder)
 - [File Format](../../AGENTS.md#file-format)
 
 ## The inversion in one sentence
 
 Classically, grammar classes are viewed as an expressivity ladder; in hyper-grammar, those views are treated as **cross-sections of a closure process** rooted at `□` and operated by `L`.
 
-See the formal loop statement in [The Hypergrammar (not Chomsky)](../../AGENTS.md#the-hypergrammar-not-chomsky).
+See the formal loop statement in [The Hypergrammar (not the grammar type ladder)](../../AGENTS.md#the-hypergrammar-not-the-grammar-type-ladder).
 
 ## Mapping table: classical view to hyper inversion
 
 | Classical frame | Hyper inversion framing | Primary links |
 |---|---|---|
-| Inclusion ladder ($\text{Type-3} \subset \text{Type-2} \subset \text{Type-1} \subset \text{Type-0}$) | Observational slices at different phases of one loop | [Hierarchy baseline](./02_chomsky_hierarchy.md#the-hierarchy-at-a-glance), [Hypergrammar loop](../../AGENTS.md#the-hypergrammar-not-chomsky) |
+| Inclusion ladder ($\text{Type-3} \subset \text{Type-2} \subset \text{Type-1} \subset \text{Type-0}$) | Observational slices at different phases of one loop | [Hierarchy baseline](./02_chomsky_hierarchy.md#the-hierarchy-at-a-glance), [Hypergrammar loop](../../AGENTS.md#the-hypergrammar-not-the-grammar-type-ladder) |
 | Derivation as rewrite progression | Continuation as frame-in-progress that either closes or reveals non-closure | [Derivations](./01_grammar_fundamentals.md#production-rules-and-derivations), [Continuation](../../AGENTS.md#continuation) |
 | Accept/reject as terminal parsing outcome | Closed form vs open frame (verification geometry) | [Parse/ambiguity](./01_grammar_fundamentals.md#parse-trees-and-ambiguity), [Continuation](../../AGENTS.md#continuation) |
 | Expressivity increase up hierarchy | Relation filtration and closure behavior around fixed point (`=`, `≡`, `~`) | [Concepts](../../AGENTS.md#concepts), [Axioms](../../AGENTS.md#axioms) |
@@ -84,7 +84,7 @@ Each claim below includes direct trace links.
 1. **Classical hierarchy statement**
    - Source: [Hierarchy at a glance](./02_chomsky_hierarchy.md#the-hierarchy-at-a-glance)
 2. **Hyper loop reinterpretation claim**
-   - Source: [The Hypergrammar (not Chomsky)](../../AGENTS.md#the-hypergrammar-not-chomsky)
+   - Source: [The Hypergrammar (not the grammar type ladder)](../../AGENTS.md#the-hypergrammar-not-the-grammar-type-ladder)
 3. **Continuation-based verification framing**
    - Sources: [Derivations](./01_grammar_fundamentals.md#production-rules-and-derivations), [Continuation](../../AGENTS.md#continuation)
 4. **Relation filtration reference (`= ⊂ ≡ ⊂ ~`)**
@@ -109,3 +109,11 @@ Each claim below includes direct trace links.
 - Artifact target: `./scaffolds/hyper_inversion/`
 
 If any mismatch between this page and [`../../AGENTS.md`](../../AGENTS.md) is found, log it in [`../../TIME.md`](../../TIME.md).
+
+---
+
+## Legend
+
+| Structural Term | Classical Cross-Reference |
+|----------------|---------------------------|
+| grammar type ladder | Chomsky hierarchy (Noam Chomsky, 1956) |

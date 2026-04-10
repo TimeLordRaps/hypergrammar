@@ -2,7 +2,7 @@
 
 > **Chapter relationship:** Chapters 01–14 built and generalized a geometric system. Before the system can examine its own reasoning (Chapter 16, Meta-Philosophy), it needs to state what philosophy *is* — what the system is about to meta-level. This chapter is the base formalism. It provides the vocabulary that meta-philosophy will generalize.
 
-> **Why here, not earlier:** Philosophical reasoning was implicitly present from Chapter 01 — choosing axioms is a philosophical act, the hyper-inversion is a philosophical method, and every derivation chain presupposes a coherent relationship between the reasoning agent and the formal object. But its explicit status as a discipline with methods, presuppositions, and known limitations was never stated. Meta-philosophy cannot generalize what has not been named.
+> **Why here, not earlier:** Philosophical reasoning was implicitly present from Chapter 01 — choosing axioms is a philosophical act, the hyper-inversion is a philosophical method, and every derivation chain presupposes a coherent relationship between the reasoning agent and the derivation-native object. But its explicit status as a discipline with methods, presuppositions, and known limitations was never stated. Meta-philosophy cannot generalize what has not been named.
 
 ---
 
@@ -10,7 +10,7 @@
 
 ### 1.1 The Subject Matter
 
-Philosophy is the formal study of **presuppositions** — the propositions a system must hold true in order to function but does not itself prove.
+Philosophy is the study of **presuppositions** — the propositions a system must hold true in order to function but does not itself prove.
 
 Every domain stands on hidden ground. Physics presupposes that measurement is repeatable. Mathematics presupposes that axioms do not contradict. Biology presupposes that organisms are distinguishable from their environment. Philosophy is the act of making that hidden ground visible, examining whether it holds, and tracing what follows if it doesn't.
 
@@ -26,7 +26,7 @@ Philosophy proceeds by:
 4. **Checking coherence.** Does the denial produce a contradiction, or a new consistent system?
 5. **Comparing.** If the denial is consistent, the original presupposition was not necessary — it was a parameter. If the denial is inconsistent, the presupposition is structurally required.
 
-This is the same method the hypergrammar calls *hyper-inversion* ([Chapter 03](./03_hyper_inversion.md)). Philosophy is the general practice; hyper-inversion is the specific formal tool. The connection was present but unnamed until now.
+This is the same method the hypergrammar calls *hyper-inversion* ([Chapter 03](./03_hyper_inversion.md)). Philosophy is the general practice; hyper-inversion is the specific derivation-native tool. The connection was present but unnamed until now.
 
 ### 1.3 What Philosophy Assumes
 
@@ -48,12 +48,12 @@ The last point is critical. Philosophy does not require truth — it requires co
 The analytic tradition treats philosophy as the clarification of propositions through logical analysis. Its core presupposition: **the reasoning-object relationship is representational**. Thought represents reality. Language represents thought. Good philosophy is the activity of making these representations precise and checking them for contradictions.
 
 Key features:
-- **Formal logic** as the primary tool.
+- **Deductive logic** as the primary tool.
 - **Propositions** as the primary objects — sentences that can be true or false.
 - **Analysis** — decomposing complex propositions into simple ones.
 - **The correspondence theory of truth** — a proposition is true if it corresponds to a state of affairs.
 
-The Euclidean geometry of philosophy: flat, clear, maximally navigable. Concepts move freely without distortion. The parallel postulate (two non-intersecting lines of reasoning remain non-intersecting) holds exactly.
+The flat geometry of philosophy: flat, clear, maximally navigable. Concepts move freely without distortion. The parallel postulate (two non-intersecting lines of reasoning remain non-intersecting) holds exactly.
 
 ### 2.2 Continental Philosophy
 
@@ -65,7 +65,7 @@ Key features:
 - **Historicity** — every philosophical stance emerges from a specific historical context and cannot be fully abstracted from it.
 - **Existentialism** — the individual reasoning agent is not a neutral observer but a participant whose existence shapes the reasoning.
 
-The curved geometry of philosophy: the space bends around the observer. Concepts do not move freely — they deform when transported from one context to another. Parallel lines of reasoning converge or diverge depending on the local curvature of meaning.
+The variable-curvature geometry of philosophy: the space bends around the observer. Concepts do not move freely — they deform when transported from one context to another. Parallel lines of reasoning converge or diverge depending on the local curvature of meaning.
 
 ### 2.3 Eastern Traditions
 
@@ -85,11 +85,11 @@ The three traditions are not competing answers. They are competing *axioms* abou
 
 | Tradition | Axiom | Geometric Analogue |
 |-----------|-------|--------------------|
-| Analytic | Representational (flat) | Euclidean: curvature = 0 |
-| Continental | Constitutive (curved) | Riemannian: curvature varies |
+| Analytic | Representational (flat) | Flat: curvature = 0 |
+| Continental | Constitutive (curved) | Variable-curvature: curvature varies |
 | Eastern | Dissolvable (metric-free) | Projective: no metric, only incidence |
 
-This table is not a metaphor. It is a structural isomorphism. Meta-philosophy (Chapter 16) will make it precise by parameterizing the reasoning-object relationship the same way Riemann parameterized curvature.
+This table is not a metaphor. It is a structural isomorphism. Meta-philosophy (Chapter 16) will make it precise by parameterizing the reasoning-object relationship the same way the manifold generalization parameterized curvature.
 
 ---
 
@@ -124,7 +124,7 @@ A paradox is a derivation that appears valid but produces a contradiction. The t
 
 **Self-reference:** "This sentence is false." If true, then false. If false, then true. The derivation chain oscillates without closing.
 
-**Set-theoretic:** Russell's paradox — the set of all sets that don't contain themselves. If it contains itself, it doesn't. If it doesn't, it does. Same oscillation, formalized.
+**Set-theoretic:** The self-membership paradox — the set of all sets that don't contain themselves. If it contains itself, it doesn't. If it doesn't, it does. Same oscillation, derivation-natively expressed.
 
 **Infinite regress:** "What justifies X?" "Y." "What justifies Y?" "Z." The chain of justification never terminates.
 
@@ -136,7 +136,7 @@ In hypergrammar: paradoxes are open frames. The derivation chain does not close 
 
 ### 4.1 Philosophy as Comprehension's Counterpart
 
-Chapter 13 established geometry as the comprehension arm — the spatial, structural, formal dimension. Philosophy is the understanding arm — the reasoning, presuppositional, interpretive dimension.
+Chapter 13 established geometry as the comprehension arm — the closure-native, structural, derivation-native dimension. Philosophy is the understanding arm — the reasoning, presuppositional, interpretive dimension.
 
 Together they form the base pair that Chapter 17 (Geometric-Philosophic Connectome) will connect. But separately, they are each half the story.
 
@@ -150,7 +150,7 @@ The two hidden parameters — geometric curvature and philosophical stance — a
 
 Every chapter of the hypergrammar prerequisites is a philosophical act:
 
-- Chapter 01 presupposes that formal language has structure (grammar).
+- Chapter 01 presupposes that derivation-native language has structure (grammar).
 - Chapter 02 presupposes that this structure has levels (hierarchy).
 - Chapter 03 presupposes that the levels can be inverted (hyper-inversion).
 - Each subsequent chapter presupposes the ones before it.
@@ -165,3 +165,14 @@ This dependency chain is itself a derivation — a philosophical argument for th
 - Artifact target: `./scaffolds/15_philosophy/`
 
 Next step: read [`16_meta_philosophy.md`](./16_meta_philosophy.md) to see what happens when philosophy becomes aware of its own hidden parameter.
+
+---
+
+## Legend
+
+| Structural Term | Classical Cross-Reference |
+|----------------|---------------------------|
+| flat geometry (philosophical analogue) | Euclidean geometry (Euclid, c. 300 BCE) |
+| variable-curvature geometry (philosophical analogue) | Riemannian geometry (Riemann, 1854) |
+| manifold generalization | Riemann’s 1854 Habilitationsschrift |
+| the self-membership paradox | Russell’s paradox (Russell, 1901) |

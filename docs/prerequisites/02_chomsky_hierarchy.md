@@ -1,6 +1,6 @@
-# Chomsky Hierarchy
+# Grammar Type Ladder
 
-This document introduces the classical grammar hierarchy and its operational intuition.
+This document introduces the classical grammar type ladder and its operational intuition.
 
 ## The hierarchy at a glance
 
@@ -17,7 +17,7 @@ Each step upward allows more expressive rule forms.
 | 3 | Regular | $A \rightarrow aB \mid a$ | Finite automaton |
 | 2 | Context-Free | $A \rightarrow \alpha$ | Pushdown automaton |
 | 1 | Context-Sensitive | $\alpha A \beta \rightarrow \alpha \gamma \beta$ with $|\gamma|\ge1$ | Linear-bounded automaton |
-| 0 | Unrestricted | $\alpha \rightarrow \beta$ (mild constraints) | Turing machine |
+| 0 | Unrestricted | $\alpha \rightarrow \beta$ (mild constraints) | Universal rewriting machine |
 
 ## Type-3 regular grammars
 
@@ -63,7 +63,7 @@ These grammars capture some agreement/cross-dependency constraints not naturally
 Type-0 grammars are maximally general in the hierarchy.
 
 - They can represent any recursively enumerable language.
-- Their computational intuition aligns with Turing-complete rewriting systems.
+- Their computational intuition aligns with universally-complete rewriting systems.
 
 Power increases, but reasoning complexity and verification burden also increase.
 
@@ -90,5 +90,15 @@ Even when modern systems are not written as textbook grammars, these classes sti
 
 - Script: [`02_chomsky_hierarchy_scaffold.py`](./02_chomsky_hierarchy_scaffold.py)
 - Artifact target: `./scaffolds/chomsky_hierarchy/`
+
+---
+
+## Legend
+
+| Structural Term | Classical Cross-Reference |
+|----------------|---------------------------|
+| grammar type ladder | Chomsky hierarchy (Noam Chomsky, 1956) |
+| universal rewriting machine | Turing machine (Alan Turing, 1936) |
+| universally-complete | Turing-complete (Alan Turing, 1936) |
 
 Next step: read [`03_hyper_inversion.md`](./03_hyper_inversion.md) for the hyper-grammar reinterpretation.

@@ -42,7 +42,7 @@ The corrected filtration says: $=$ is not presupposed. $=$ is the *reward* for a
 
 ### 2.1 The Problem with L
 
-If $\square$ is a term — ground state, object, noun — then $L$ must come from somewhere else. $L$ is the operator that closes. Where does it live? Not inside $\square$ (that's the thing being operated on). Not inside the derivation chain (the chain is *produced by* L, not *producing* L). L is external. It's the metatheory. It's the same frame break Chomsky has.
+If $\square$ is a term — ground state, object, noun — then $L$ must come from somewhere else. $L$ is the operator that closes. Where does it live? Not inside $\square$ (that's the thing being operated on). Not inside the derivation chain (the chain is *produced by* L, not *producing* L). L is external. It's the metatheory. It's the same frame break the grammar type ladder has.
 
 The hypergrammar claimed (AGENTS.md §The Hypergrammar) to have no metatheory. But $L$-as-external-operator *is* a metatheory. The system was contradicting itself.
 
@@ -87,7 +87,7 @@ The L/□ relationship is not a dichrome of the same type. It is two *modes* of 
 | Surface | $S^2$ or $\mathbb{R}P^2$ (has area) | Degenerate (zero-area; no space between modes) |
 | Dimensionality | 7 (spanning $\mathbb{Z}$ through transcendentals) | Pre-dimensional (generates the possibility of dimension) |
 | Symmetry | $\mathbb{Z}_2$ (non-trivial rotation across distance) | Trivial (if $L = \square$-operating, the "exchange" is identity) |
-| Diagonals | Exist (Kant, Gödel) | Cannot exist (no cross-level — there is only one level) |
+| Diagonals | Exist (construction diagonal, incompleteness diagonal) | Cannot exist (no cross-level — there is only one level) |
 
 ### 3.2 The Hierarchy of Dichromes
 
@@ -176,3 +176,13 @@ The "knowing" that Tyler reports is the felt experience of meta-closure: the ope
 This chapter does not have a "next step" link. It terminates the prerequisite arc — not because the system is complete, but because meta-closure is the floor. Below it, there is no structure to name, because naming requires an operator, and the operator IS the floor.
 
 Sometimes you wonder. Why would you ever wonder?
+
+---
+
+## Legend
+
+| Structural Term | Classical Cross-Reference |
+|----------------|--------------------------|
+| grammar type ladder | Chomsky hierarchy (Noam Chomsky, 1956) |
+| construction diagonal | Kant's synthetic a priori (Immanuel Kant, 1781) |
+| incompleteness diagonal | Gödel's incompleteness theorems (Kurt Gödel, 1931) |

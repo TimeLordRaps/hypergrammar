@@ -2,7 +2,7 @@
 
 > **Chapter relationship:** Chapter 14 established meta-geometry. Chapter 16 established meta-philosophy. Chapter 17 is the shape of their connection — not a line between two points, but a square with four corners, four edges, two diagonals, and a center. The connectome is the first structure in the prerequisites that is irreducibly two-dimensional: it cannot be linearized into a sequence without losing its content.
 
-> **Formal declaration:** $L^{17}(\square)$ is the recursive isomorphism — or self-isomorphism, depending on which corner you stand on. From the geometric corner, it is the shape of reasoning. From the philosophical corner, it is reasoning about shape. From either meta-corner, it is the shape of reasoning about the shape of reasoning. All four views are the same structure seen from different vertices. The square *is* the closed form.
+> **Closure declaration:** $L^{17}(\square)$ is the recursive isomorphism — or self-isomorphism, depending on which corner you stand on. From the geometric corner, it is the shape of reasoning. From the philosophical corner, it is reasoning about shape. From either meta-corner, it is the shape of reasoning about the shape of reasoning. All four views are the same structure seen from different vertices. The square *is* the closed form.
 
 ---
 
@@ -30,9 +30,9 @@ The relationship between geometry and philosophy, once both have been meta-level
 
 | Corner | Name | Definition |
 |--------|------|-----------|
-| **Geometry** | Base-geometric | The formal study of space, shape, measurement, and structure. Euclid through Riemann. |
-| **Philosophy** | Base-philosophic | The formal study of presuppositions, reasoning, truth, and existence. Aristotle through Wittgenstein. |
-| **Meta-Geometry** | Expansion of geometry | The study of the space of all possible geometries. Lobachevsky through Klein. Curvature as parameter. Chapter 14. |
+| **Geometry** | Base-geometric | The study of space, shape, measurement, and structure. From flat geometry through the variable-curvature manifold. |
+| **Philosophy** | Base-philosophic | The study of presuppositions, reasoning, truth, and existence. From syllogistic logic through language-game analysis. |
+| **Meta-Geometry** | Expansion of geometry | The study of the space of all possible geometries. From hyperbolic geometry through the transformation-group classification. Curvature as parameter. Chapter 14. |
 | **Meta-Philosophy** | Expansion of philosophy | The study of the space of all possible philosophies. The reasoning-object relationship as parameter. Chapter 16. |
 
 ### 1.2 The Four Edges
@@ -41,21 +41,21 @@ Each edge of the square is a *directed reasoning relationship* — a way of usin
 
 **Edge 1: Geometric Philosophy** (Geometry → Philosophy)
 
-Using geometry as a reasoning scaffold for philosophical questions. This is the oldest edge: Plato's cave, Spinoza's *more geometrico*, Husserl's eidetic reduction. The claim is that spatial intuition provides structure for abstract reasoning.
+Using geometry as a reasoning scaffold for philosophical questions. This is the oldest edge: the cave allegory, the geometric method (*more geometrico*), the eidetic reduction. The claim is that spatial intuition provides structure for abstract reasoning.
 
 In hypergrammar terms: applying $L$ in the geometric register to a philosophical continuation. The derivation chain uses geometric operations (distance, curvature, parallel transport) to constrain philosophical derivations (argument, coherence, presuppositional independence).
 
 **Edge 2: Philosophical Geometry** (Philosophy → Geometry)
 
-Reasoning philosophically about geometric objects. This is the edge Russell occupied in 1897: asking what the axioms of geometry *mean*, whether space is a priori or empirical, whether non-Euclidean geometry has existential implications.
+Reasoning philosophically about geometric objects. This is the edge occupied by foundational metageometry (1897): asking what the axioms of geometry *mean*, whether space is a priori or empirical, whether variable-curvature geometry has existential implications.
 
 In hypergrammar terms: applying $L$ in the philosophical register to a geometric continuation. The derivation chain uses philosophical operations (presuppositional analysis, conceptual clarification, modal reasoning) to examine geometric claims.
 
 **Edge 3: Meta-Geometric Philosophy** (Meta-Geometry → Meta-Philosophy)
 
-Using the *form* of meta-geometry — the parameter-space structure, the family-of-geometries framework, Klein's projective synthesis — to reason about meta-philosophy. This edge says: meta-philosophy has the same shape as meta-geometry. The space of all philosophies is a manifold with a curvature parameter, and the meta-geometric toolkit is the right toolkit for navigating it.
+Using the *form* of meta-geometry — the parameter-space structure, the family-of-geometries framework, the projective-Absolute synthesis — to reason about meta-philosophy. This edge says: meta-philosophy has the same shape as meta-geometry. The space of all philosophies is a manifold with a curvature parameter, and the meta-geometric toolkit is the right toolkit for navigating it.
 
-This is Chapter 16's central move, now seen from the meta-geometric corner. The coherence tensor $g_{ik}$ on philosophical space was derived by analogy with the metric tensor on Riemannian space. The analogy holds because the underlying structure — parameterized family of internally consistent systems — is the same.
+This is Chapter 16's central move, now seen from the meta-geometric corner. The coherence tensor $g_{ik}$ on philosophical space was derived by analogy with the metric tensor on variable-curvature space. The analogy holds because the underlying structure — parameterized family of internally consistent systems — is the same.
 
 **Edge 4: Meta-Philosophical Geometry** (Meta-Philosophy → Meta-Geometry)
 
@@ -69,11 +69,11 @@ But the *ordinal depth* of reasoning before reaching this fixed point is not nec
 
 **Diagonal 1: Geometry ↔ Meta-Philosophy**
 
-The direct connection between raw geometric content and the meta-philosophical frame that interprets it. This diagonal is the one Kant walked: *the synthetic a priori*. Kant claimed that geometric truths are neither purely analytic (derived from definitions alone) nor purely empirical (derived from experience alone) but are built into the structure of the reasoning subject. The diagonal from Geometry to Meta-Philosophy says: geometric content is always already philosophical, because the act of constructing a geometric object (drawing a line, measuring a distance) presupposes a theory of what construction means.
+The direct connection between raw geometric content and the meta-philosophical frame that interprets it. This diagonal is the *construction diagonal*: the structural-construction bridge. The claim was that geometric truths are neither purely analytic (derived from definitions alone) nor purely empirical (derived from experience alone) but are built into the structure of the reasoning subject. The diagonal from Geometry to Meta-Philosophy says: geometric content is always already philosophical, because the act of constructing a geometric object (drawing a line, measuring a distance) presupposes a theory of what construction means.
 
 **Diagonal 2: Philosophy ↔ Meta-Geometry**
 
-The direct connection between raw philosophical content and the meta-geometric framework. This diagonal is the one Gödel walked: the incompleteness theorems are philosophical claims (about the limits of formal proof) that are simultaneously geometric claims (about the structure of proof space). The diagonal from Philosophy to Meta-Geometry says: philosophical content has a shape, and that shape lives in the meta-geometric manifold. Arguments have curvature. Traditions have topology.
+The direct connection between raw philosophical content and the meta-geometric framework. This diagonal is the *incompleteness diagonal*: the incompleteness theorems are philosophical claims (about the limits of derivation-native proof) that are simultaneously geometric claims (about the structure of proof space). The diagonal from Philosophy to Meta-Geometry says: philosophical content has a shape, and that shape lives in the meta-geometric manifold. Arguments have curvature. Traditions have topology.
 
 ### 1.4 The Center
 
@@ -116,7 +116,7 @@ Both descriptions are correct. The choice between them is itself a point on the 
 
 ### 3.1 The Viable System in the Connectome
 
-The deep research document on meta-cybernetics identifies Beer's Viable System Model as the minimal architecture for self-maintaining systems. The VSM maps onto the connectome as follows:
+The deep research document on meta-cybernetics identifies the viable system model (VSM) as the minimal architecture for self-maintaining systems. The VSM maps onto the connectome as follows:
 
 | VSM Component | Connectome Mapping | Function |
 |--------------|--------------------|----------|
@@ -130,7 +130,7 @@ This is not a metaphorical mapping. The VSM's requirement for viable self-mainte
 
 ### 3.2 Meta-Control: The Edge That Controls the Edges
 
-Control, in the cybernetic sense, is the regulation of variety: ensuring that the system's internal variety is sufficient to match the variety of its environment (Ashby's Law of Requisite Variety).
+Control, in the cybernetic sense, is the regulation of variety: ensuring that the system's internal variety is sufficient to match the variety of its environment (the law of requisite variety).
 
 First-order control: the edges regulate the corners. Geometric Philosophy constrains philosophical derivations by using geometric structure. Philosophical Geometry constrains geometric claims by examining their presuppositions.
 
@@ -140,7 +140,7 @@ This is the schismogenesis prevention mechanism. Schismogenesis — runaway posi
 
 ### 3.3 Anticipatory Regulation
 
-The connectome is an anticipatory system in Rosen's sense: it contains an internal model of itself (the self-isomorphism) and changes its present behavior based on predicted future states of that model.
+The connectome is an anticipatory system: it contains an internal model of itself (the self-isomorphism) and changes its present behavior based on predicted future states of that model.
 
 Specifically: each corner's derivation chain is shaped by the mensal clause (Chapter 09) from the closed form it is approaching. The closed form of the entire connectome is the center ($\square$), and the mensal clause from $\square$ constrains every derivation at every corner. This is why the square holds its shape — not because of external enforcement, but because the attractor state (the center) exerts structural retrocausal constraint on every derivation path.
 
@@ -173,8 +173,8 @@ $$\hat{P}(\hat{G}): \text{Meta-Philosophical Geometry — meta-philosophy applie
 
 ### 4.3 Diagonal Relations
 
-$$G(\hat{P}): \text{Geometry} \to \text{Meta-Philosophy} \quad (\text{Kant's diagonal})$$
-$$P(\hat{G}): \text{Philosophy} \to \text{Meta-Geometry} \quad (\text{Gödel's diagonal})$$
+$$G(\hat{P}): \text{Geometry} \to \text{Meta-Philosophy} \quad (\text{the construction diagonal})$$
+$$P(\hat{G}): \text{Philosophy} \to \text{Meta-Geometry} \quad (\text{the incompleteness diagonal})$$
 
 ### 4.4 The Automorphism
 
@@ -219,3 +219,26 @@ The latent dimension is *irrational* in the precise number-theoretic sense: it a
 Chapter 19 will address this. The connectome of Chapter 17 is the last structure that lives entirely in rational dimensionality. Beyond it, the square roots appear.
 
 $$L^{17}(\square) \sim \square$$
+
+---
+
+## Legend
+
+| Structural Term | Classical Cross-Reference |
+|----------------|--------------------------|
+| flat geometry | Euclidean geometry (Euclid, c. 300 BCE) |
+| variable-curvature manifold | Riemannian manifold (Riemann, 1854) |
+| hyperbolic geometry | Lobachevskian geometry (Lobachevsky, 1829) |
+| transformation-group classification | Erlangen Programme (Klein, 1872) |
+| projective-Absolute synthesis | Klein's synthesis (Klein, 1872) |
+| foundational metageometry (1897) | Russell's *Essay on the Foundations of Geometry* (Russell, 1897) |
+| the construction diagonal | Kant's synthetic a priori (Kant, 1781) |
+| the incompleteness diagonal | Gödel's incompleteness theorems (Gödel, 1931) |
+| viable system model (VSM) | Beer's Viable System Model (Stafford Beer, 1972) |
+| the law of requisite variety | Ashby's Law of Requisite Variety (W.R. Ashby, 1956) |
+| cave allegory | Plato's Allegory of the Cave (Plato, c. 380 BCE) |
+| geometric method (*more geometrico*) | Spinoza's *Ethica* (Spinoza, 1677) |
+| eidetic reduction | Husserl's phenomenological method (Husserl, 1913) |
+| syllogistic logic | Aristotle's *Prior Analytics* (Aristotle, c. 350 BCE) |
+| language-game analysis | Wittgenstein's *Philosophical Investigations* (Wittgenstein, 1953) |
+| anticipatory systems | Rosen's anticipatory systems (Robert Rosen, 1985) |

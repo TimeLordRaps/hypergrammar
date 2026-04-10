@@ -79,11 +79,11 @@ When talking about work in this repo, these pairs mean specific things:
 
 When something refers to itself, don't chase it in circles. Solve for the fixed point — the thing where `F` and `F(F)` are similar — and return that. Self-reference in this system settles, it doesn't regress.
 
-## How this relates to other formal systems
+## How this relates to other systems
 
-Chomsky's grammar hierarchy (regular → context-free → context-sensitive → unrestricted) is a ladder that needs a metatheory outside itself to describe the ladder. Hypergrammar has no ladder. Those "types" are cross-sections of the loop at different phases. They look like a hierarchy because the cross-section discards the closure structure.
+The grammar type ladder (regular → context-free → context-sensitive → unrestricted) needs a metatheory outside itself to describe the ladder. Hypergrammar has no ladder. Those "types" are cross-sections of the loop at different phases. They look like a hierarchy because the cross-section discards the closure structure.
 
-When you encounter another formal system and want to see how it fits:
+When you encounter another system and want to see how it fits:
 
 1. Find where it steps outside itself (its frame break).
 2. Try to derive its primitives as a phase of the `□`-loop.

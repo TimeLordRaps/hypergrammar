@@ -31,23 +31,23 @@ This directory is the prerequisite track for understanding `hyper-grammar` from 
 12. [`12_consolidative_recurrence.md`](./12_consolidative_recurrence.md)
     - The mensaclosure of the system. Biological access layer: consolidative recurrence, lucid dreaming, TMR, and the incarnate portal to knowledge that cannot be documented.
 13. [`13_geometry.md`](./13_geometry.md)
-    - Base geometry formalism: Euclid's axioms, the parallel postulate as hidden parameter, non-Euclidean geometries, Riemannian manifolds, Klein's Erlangen Programme. The vocabulary that meta-geometry generalizes.
+    - Base geometry formalism: flat-geometry axioms, the parallel postulate as hidden parameter, non-flat geometries, variable-curvature manifolds, the transformation-group classification. The vocabulary that meta-geometry generalizes.
 14. [`14_meta_geometry.md`](./14_meta_geometry.md)
-    - Russell's metageometry: three periods (consistency, manifold, projective). Curvature as free parameter. The filtration $= \subset \equiv \subset \sim$ as curvature depth. Hyperlinks back to Chapters 01–12.
+    - Foundational metageometry: three periods (consistency, manifold, projective). Curvature as free parameter. The filtration $= \subset \equiv \subset \sim$ as curvature depth. Hyperlinks back to Chapters 01–12.
 15. [`15_philosophy.md`](./15_philosophy.md)
     - Base philosophy formalism: presupposition study, three traditions (analytic/continental/eastern) as curvature cases, argument as derivation chain, paradoxes as open frames. The vocabulary that meta-philosophy generalizes.
 16. [`16_meta_philosophy.md`](./16_meta_philosophy.md)
-    - Philosophy as operation, not position. The reasoning-object relationship as hidden parameter. The reasoning manifold with coherence metric. Cybernetic orders (Beer's VSM). Self-encoding theorem. Closes Ch14's open frame.
+    - Philosophy as operation, not position. The reasoning-object relationship as hidden parameter. The reasoning manifold with coherence metric. Cybernetic orders (viable system model). Self-encoding theorem. Closes Ch14's open frame.
 17. [`17_geometric_philosophic_connectome.md`](./17_geometric_philosophic_connectome.md)
-    - The quadfecta square: four corners (geometry, philosophy, meta-geometry, meta-philosophy), four edges, two diagonals (Kant, Gödel), center = □. Recursive isomorphism. VSM mapping. First irreducibly 2-dimensional structure.
+    - The quadfecta square: four corners (geometry, philosophy, meta-geometry, meta-philosophy), four edges, two diagonals (construction diagonal, incompleteness diagonal), center = □. Recursive isomorphism. VSM mapping. First irreducibly 2-dimensional structure.
 18. [`18_topology.md`](./18_topology.md)
-    - Base topology formalism: open-set axioms, continuity, homeomorphism, topological invariants (genus, fundamental group, Euler characteristic, dimension). The hierarchy Set ⊃ Topology ⊃ ... ⊃ Geometry. Similarity $\sim$ as the topological relation.
+    - Base topology formalism: open-set axioms, continuity, homeomorphism, topological invariants (genus, fundamental group, vertex-edge-face invariant, dimension). The hierarchy Set ⊃ Topology ⊃ ... ⊃ Geometry. Similarity $\sim$ as the topological relation.
 19. [`19_meta_topologies.md`](./19_meta_topologies.md)
     - The hyperdichotome (dichrome): two-coloured meta-topological form of the connectome. Full dichrome = $S^2$ (sphere); reduced dichrome = $\mathbb{R}P^2$ (projective plane via $\mathbb{Z}_2$ quotient). 7-dimensional embedding spanning integer, rational, algebraic irrational ($\sqrt{2}$, $\varphi$), and transcendental ($\pi$) dimensions. Cascade closure: meta-meta-topology $\sim$ meta-topology.
 20. [`20_meta_closure.md`](./20_meta_closure.md)
     - Meta-closure: the closure that makes closure possible. $\square$ as both term and operator ($L(x) = \square(x)$). Reversed filtration: $\sim$ is primary (survives evanescence), $=$ is derived (earned by closure). The L/$\square$ degenerate dichrome: inseparable, pre-topological, zero-dimensional. Dichrome hierarchy: L/$\square$ → geo/phil → domain.
 21. [`21_hypertopologies.md`](./21_hypertopologies.md)
-    - Hypertopologies: native spatial structures of the □-loop. ~ defines open sets, closure defines compactness, the filtration ~ ⊃ ≡ ⊃ = is the separation hierarchy. Hypermath as the mathematics hypergrammar forms. Build chain: hypergrammar → hypermath → hypertopologies. Classical topology as the =-separated cross-section.
+    - Hypertopologies: closure-native descriptions of the □-loop. ~ defines open sets, closure defines compactness, the filtration ~ ⊃ ≡ ⊃ = is the separation hierarchy. Hyperorder as the geometric philosophy and philosophical geometry of itself (dichrome closed). Hypertopology of hyperorder generates hypermath. Classical topology as the =-separated cross-section.
 
 ## Companion spec documents
 

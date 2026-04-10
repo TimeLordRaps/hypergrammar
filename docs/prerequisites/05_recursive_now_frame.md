@@ -8,7 +8,7 @@ It formalizes a **Recursive Now-Frame** architecture where change is driven by s
 
 - [`00_learning_path.md`](./learning_path.md) establishes ordered conceptual dependency.
 - [`01_grammar_fundamentals.md`](./01_grammar_fundamentals.md) introduces rule-governed state transitions.
-- [`02_chomsky_hierarchy.md`](./02_chomsky_hierarchy.md) clarifies expressive constraint classes.
+- [`02_chomsky_hierarchy.md`](./02_chomsky_hierarchy.md) clarifies expressive constraint classes (grammar type ladder).
 - [`03_hyper_inversion.md`](./03_hyper_inversion.md) reframes progression as closure-oriented structure.
 - [`04_degrees_of_freedom.md`](./04_degrees_of_freedom.md) provides the DoF lens for under/overconstraint diagnostics.
 
@@ -108,7 +108,7 @@ For repository-level semantic consistency:
 - [Concepts](../../AGENTS.md#concepts)
 - [Axioms](../../AGENTS.md#axioms)
 - [Continuation](../../AGENTS.md#continuation)
-- [The Hypergrammar (not Chomsky)](../../AGENTS.md#the-hypergrammar-not-chomsky)
+- [The Hypergrammar (not the grammar type ladder)](../../AGENTS.md#the-hypergrammar-not-the-grammar-type-ladder)
 
 For context lineage:
 
@@ -126,3 +126,11 @@ Chapters [`07_transframe_ontology.md`](./07_transframe_ontology.md),
 [`08_corrective_time_syntropy.md`](./08_corrective_time_syntropy.md), and
 [`09_mensaclaused_metaretrocausality.md`](./09_mensaclaused_metaretrocausality.md)
 capture the additional metaphysical and clause-theoretic layer that sits above the chapter-06 expanded implementation.
+
+---
+
+## Legend
+
+| Structural Term | Classical Cross-Reference |
+|----------------|---------------------------|
+| grammar type ladder | Chomsky hierarchy (Noam Chomsky, 1956) |
