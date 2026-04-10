@@ -104,7 +104,7 @@ The three relations in the hypergrammar form a filtration:
 $$= \;\subset\; \equiv \;\subset\; \sim$$
 
 - **Equality ($=$):** Syntactic identity. The finest comparison. Corresponds to the geometric level — full metric information preserved.
-- **Congruence ($\equiv$):** Structural identity. Same L-depth and shape, possibly different paths. Corresponds to the differentiable level — smooth structure preserved, metric discarded.
+- **Congruence ($\equiv$):** Structural identity. Same outcome regardless of derivation depth or path. Corresponds to the differentiable level — smooth structure preserved, metric discarded.
 - **Similarity ($\sim$):** Continuation overlap. The coarsest positive relation. Corresponds to the topological level — only neighborhoods (overlap of continuation capacity) preserved.
 
 The filtration $= \subset \equiv \subset \sim$ is the hypergrammar's recapitulation of the hierarchy Set ⊃ Topology ⊃ ... ⊃ Geometry, read in reverse: from finest to coarsest.

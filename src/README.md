@@ -52,19 +52,21 @@ From repo root:
 
 Exit code is `0` when valid, `1` when errors are present.
 
-## Metamath emphasis in this interpreter
+## Metamath as first embedding witness
 
-This interpreter supports two complementary Metamath tracks:
+Metamath is the first external formal system embedded as a subgrammar of the □-loop. It is evidence that the embedding mechanism works, not the destination. The interpreter proves that Metamath's proof machinery is a phase of hypergrammar, not that hypergrammar approximates Metamath.
+
+Two complementary tracks:
 
 1. **Modeled Metamath metagrammar**
    - Input: [`./hypergrammar/examples/metamath_metagrammar.json`](./hypergrammar/examples/metamath_metagrammar.json)
    - Purpose: hand-authored schema-level representation of core Metamath statement families.
-   - Emphasis: fast structural compatibility checks at the family/type level.
+   - Focus: fast structural compatibility checks at the family/type level.
 
 2. **Real-source Metamath slice parse**
    - Input: [`./hypergrammar/examples/source_trail/setmm_slice_360_470.mm`](./hypergrammar/examples/source_trail/setmm_slice_360_470.mm)
    - Parser output: [`./hypergrammar/examples/metamath_setmm_slice_parsed.json`](./hypergrammar/examples/metamath_setmm_slice_parsed.json)
-   - Emphasis: source-traceable hardening checks driven by extracted statements from `set.mm`.
+   - Focus: source-traceable hardening checks driven by extracted statements from `set.mm`.
 
 For Metamath-specific claims in this repo, treat the **real-source path** as the stronger evidence surface.
 

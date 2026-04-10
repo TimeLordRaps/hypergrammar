@@ -28,11 +28,13 @@ You only need six things. They fall into three groups.
 
 ### Three ways to compare things
 
-These go from strictest to loosest:
+These go from most foundational to most derived:
 
-- **= (equality)** — identical symbol-for-symbol. The finest comparison.
-- **≡ (congruence)** — same structure and depth, possibly built by different paths. Coarser than equality.
-- **~ (similarity)** — some overlap in what they can continue into. The loosest positive relation.
+- **~ (similarity)** — some overlap in what they can continue into. The primary relation. The only one that survives if you strip away all history — it requires a next, not a past.
+- **≡ (congruence)** — same outcome regardless of derivation depth or path. ~ plus structural coincidence.
+- **= (equality)** — identical symbol-for-symbol. The finest comparison, but derived — earned by closure, not presupposed. ≡ plus path coincidence.
+
+Dependence runs from ~, not =. Similarity is foundational; equality is the reward at the end.
 
 At `□` itself these three all mean the same thing. They only spread apart as you move away from the base.
 
