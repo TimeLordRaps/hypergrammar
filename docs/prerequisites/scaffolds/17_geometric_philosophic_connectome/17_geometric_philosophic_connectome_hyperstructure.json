@@ -1,0 +1,72 @@
+{
+  "chapter_id": "17_geometric_philosophic_connectome",
+  "chapter_title": "The Geometric-Philosophic Connectome",
+  "chapter_number": 17,
+  "previous_chapter_id": "16_meta_philosophy",
+  "previous_signature": "24d1002b32d347b56f5168c93ac0a9921c5a54f435572f9a3e55775bad44946c",
+  "deterministic_seed": "76530b3de4bd4121159bb715c6faac7fced26a805fff2f8f50c0b70bd90cafee",
+  "constraints": [
+    "four corners: geometry, philosophy, meta-geometry, meta-philosophy",
+    "four edges: directed reasoning relationships between adjacent corners",
+    "two diagonals: Kant (geo↔meta-phil), Gödel (phil↔meta-geo)",
+    "center = □: fixed point where all four corners are indistinguishable",
+    "recursive isomorphism: 180° rotation generates the structure, ax-loop"
+  ],
+  "nodes": [
+    {
+      "key": "H0",
+      "label": "17_geometric_philosophic_connectome hyperstructure",
+      "kind": "chapter"
+    },
+    {
+      "key": "H1",
+      "label": "deterministic seed 76530b3de4bd",
+      "kind": "seed"
+    },
+    {
+      "key": "H2",
+      "label": "inherits 24d1002b32d3",
+      "kind": "link"
+    },
+    {
+      "key": "H3",
+      "label": "constraint manifold",
+      "kind": "constraint"
+    },
+    {
+      "key": "H4",
+      "label": "future scaffold anchor",
+      "kind": "anchor"
+    }
+  ],
+  "edges": [
+    {
+      "source": "H2",
+      "target": "H0",
+      "relation": "grounds"
+    },
+    {
+      "source": "H1",
+      "target": "H0",
+      "relation": "deterministically instantiates"
+    },
+    {
+      "source": "H0",
+      "target": "H3",
+      "relation": "encodes"
+    },
+    {
+      "source": "H3",
+      "target": "H4",
+      "relation": "provides coherent links for"
+    }
+  ],
+  "notes": [
+    "First irreducibly 2-dimensional structure in the prerequisites.",
+    "VSM mapping: corners=System 1, edges=System 2, diagonals=System 3, meta-edge=System 4, center=System 5.",
+    "Physical frame: recursive isomorphism (two systems, structural mapping).",
+    "Abstract frame: self-isomorphism (one system, rotation).",
+    "The two frames are ~-related but not =-related or ≡-related."
+  ],
+  "signature": "a24d7ac56fad0b7cf1e80f2a9a1917b3a7aaf3342814119ca023a8fd2d402d28"
+}

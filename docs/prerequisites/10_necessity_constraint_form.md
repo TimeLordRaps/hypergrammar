@@ -87,7 +87,7 @@ It encodes the learning-track closure edge as a formalized necessity constraint.
 ## Deterministic scaffold
 
 - Script: [`10_necessity_constraint_form_scaffold.py`](./10_necessity_constraint_form_scaffold.py)
-- Artifact target: `./scaffolds/10_necessity_constraint_form/`
+- Artifact target: `./scaffolds/necessity_constraint_form/`
 - Batch runner: [`build_all_scaffolds.py`](./build_all_scaffolds.py)
 
 ## Next step

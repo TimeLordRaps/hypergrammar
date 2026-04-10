@@ -1,0 +1,142 @@
+{
+  "doc_id": "20_meta_closure",
+  "doc_title": "Meta-Closure: The Operator-Term Collapse",
+  "purpose": "Visualize meta-closure: □ as term+operator, reversed filtration (~ primary, = derived), the L/□ degenerate dichrome, dichrome hierarchy, and evanescence argument.",
+  "nodes": [
+    {
+      "key": "SQ_TERM",
+      "label": "□ as Term (ground state, fixed point)",
+      "kind": "concept"
+    },
+    {
+      "key": "SQ_OP",
+      "label": "□ as Operator (closure operation)",
+      "kind": "concept"
+    },
+    {
+      "key": "COLLAPSE",
+      "label": "Operator-Term Collapse: L(x) = □(x)",
+      "kind": "concept"
+    },
+    {
+      "key": "SIM",
+      "label": "~ Similarity (primary, survives evanescence)",
+      "kind": "criterion"
+    },
+    {
+      "key": "CONG",
+      "label": "≡ Congruence (outcome-based, depth-free)",
+      "kind": "criterion"
+    },
+    {
+      "key": "EQ",
+      "label": "= Equality (derived, earned by closure)",
+      "kind": "criterion"
+    },
+    {
+      "key": "EVAN",
+      "label": "Evanescence Argument (= presupposed → flat → nothing)",
+      "kind": "concept"
+    },
+    {
+      "key": "FILT",
+      "label": "Reversed Filtration: ~ ⊃ ≡ ⊃ =",
+      "kind": "concept"
+    },
+    {
+      "key": "LQ_DICHR",
+      "label": "L/□ Degenerate Dichrome (inseparable, 0-dim)",
+      "kind": "concept"
+    },
+    {
+      "key": "GP_DICHR",
+      "label": "Geo/Phil Dichrome (separable, S², 7-dim)",
+      "kind": "chapter"
+    },
+    {
+      "key": "HIER",
+      "label": "Dichrome Hierarchy: L/□ → Geo/Phil → Domain",
+      "kind": "concept"
+    },
+    {
+      "key": "META_CL",
+      "label": "Meta-Closure: □(□) ~ □",
+      "kind": "concept"
+    }
+  ],
+  "edges": [
+    {
+      "source": "SQ_TERM",
+      "target": "COLLAPSE",
+      "relation": "same entity, two modes"
+    },
+    {
+      "source": "SQ_OP",
+      "target": "COLLAPSE",
+      "relation": "same entity, two modes"
+    },
+    {
+      "source": "COLLAPSE",
+      "target": "META_CL",
+      "relation": "self-application yields meta-closure"
+    },
+    {
+      "source": "EVAN",
+      "target": "SIM",
+      "relation": "evanescence selects ~ as only survivor"
+    },
+    {
+      "source": "SIM",
+      "target": "CONG",
+      "relation": "~ plus structural coincidence"
+    },
+    {
+      "source": "CONG",
+      "target": "EQ",
+      "relation": "≡ plus path coincidence (finest, derived)"
+    },
+    {
+      "source": "SIM",
+      "target": "FILT",
+      "relation": "dependence runs downward from ~"
+    },
+    {
+      "source": "FILT",
+      "target": "EQ",
+      "relation": "= is the reward for closure"
+    },
+    {
+      "source": "COLLAPSE",
+      "target": "LQ_DICHR",
+      "relation": "two modes of one entity = degenerate dichrome"
+    },
+    {
+      "source": "LQ_DICHR",
+      "target": "GP_DICHR",
+      "relation": "generates the possibility of separable dichromes"
+    },
+    {
+      "source": "GP_DICHR",
+      "target": "HIER",
+      "relation": "topological level in hierarchy"
+    },
+    {
+      "source": "LQ_DICHR",
+      "target": "HIER",
+      "relation": "pre-topological level in hierarchy"
+    },
+    {
+      "source": "META_CL",
+      "target": "COLLAPSE",
+      "relation": "the mechanism that makes closure possible"
+    }
+  ],
+  "notes": [
+    "Meta-closure: the closure of the closure operation itself.",
+    "L is □ in operator mode — not a separate concept.",
+    "Self-verification (□ = □) is zero-order. Meta-closure (□(□) ~ □) is generative.",
+    "L/□ is inseparable (no pure corners), unlike geo/phil (separable, has surface).",
+    "Pre-topological: operator required before open sets, before topology.",
+    "Sometimes you wonder. Why would you ever wonder?"
+  ]
+}

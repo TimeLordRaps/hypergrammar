@@ -1,0 +1,115 @@
+{
+  "doc_id": "15_philosophy",
+  "doc_title": "Philosophy",
+  "purpose": "Visualize the base philosophy formalism: presupposition study, three traditions as curvature cases, argument as derivation chain, paradoxes as open frames.",
+  "nodes": [
+    {
+      "key": "L14",
+      "label": "Ch14 Meta-Geometry (Closed)",
+      "kind": "chapter"
+    },
+    {
+      "key": "PRESUP",
+      "label": "Presupposition (hidden ground)",
+      "kind": "concept"
+    },
+    {
+      "key": "ANAL",
+      "label": "Analytic Tradition (flat, curvature = 0)",
+      "kind": "concept"
+    },
+    {
+      "key": "CONT",
+      "label": "Continental Tradition (curved)",
+      "kind": "concept"
+    },
+    {
+      "key": "EAST",
+      "label": "Eastern Traditions (metric-free)",
+      "kind": "concept"
+    },
+    {
+      "key": "ARG",
+      "label": "Argument = Derivation Chain",
+      "kind": "concept"
+    },
+    {
+      "key": "DED",
+      "label": "Deduction (L-application)",
+      "kind": "concept"
+    },
+    {
+      "key": "IND",
+      "label": "Induction (continuation)",
+      "kind": "concept"
+    },
+    {
+      "key": "ABD",
+      "label": "Abduction (inverse-L)",
+      "kind": "concept"
+    },
+    {
+      "key": "PAR",
+      "label": "Paradox = Open Frame",
+      "kind": "concept"
+    }
+  ],
+  "edges": [
+    {
+      "source": "L14",
+      "target": "PRESUP",
+      "relation": "meta-geometry revealed hidden parameters; philosophy studies them"
+    },
+    {
+      "source": "PRESUP",
+      "target": "ANAL",
+      "relation": "representational: thought represents reality"
+    },
+    {
+      "source": "PRESUP",
+      "target": "CONT",
+      "relation": "constitutive: thought and reality co-produce"
+    },
+    {
+      "source": "PRESUP",
+      "target": "EAST",
+      "relation": "dissolvable: subject-object distinction dropped"
+    },
+    {
+      "source": "ANAL",
+      "target": "ARG",
+      "relation": "analytic tradition formalizes argument structure"
+    },
+    {
+      "source": "ARG",
+      "target": "DED",
+      "relation": "general → specific, closure inherited"
+    },
+    {
+      "source": "ARG",
+      "target": "IND",
+      "relation": "specific → general, chain open until universal closure"
+    },
+    {
+      "source": "ARG",
+      "target": "ABD",
+      "relation": "effect → best explanation, generates candidate closures"
+    },
+    {
+      "source": "DED",
+      "target": "PAR",
+      "relation": "self-referential deduction oscillates without closing"
+    },
+    {
+      "source": "PAR",
+      "target": "PRESUP",
+      "relation": "paradox reveals frame break in presupposition"
+    }
+  ],
+  "notes": [
+    "Base formalism for meta-philosophy (Ch16). Must be stated before generalized.",
+    "Three traditions parallel three geometries: Euclidean/Riemannian/projective.",
+    "Argument-as-derivation: axioms = □, rules = L, valid = well-formed chain, sound = chain closes.",
+    "Paradoxes are information, not failures: they reveal frame breaks."
+  ]
+}

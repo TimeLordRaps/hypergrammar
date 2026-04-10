@@ -1,0 +1,32 @@
+Philosophy [15_philosophy]
+Previous: 14_meta_geometry
+Previous signature: 57edb75d8337e8b942e442973ce8f1efd6e8d68a626058e979ff9dedc6f082cd
+Deterministic seed: 4da132aed42ebe454726151f8faa99a3fd73416a5d50ed44f9711423a632fed6
+Signature: c99c99ddc23f3f5c99ba32d0394eac241954f3cb6af7b40f820f435489fa58bc
+
+Constraints:
+- philosophy = formal study of presuppositions
+- three traditions: analytic (flat), continental (curved), eastern (projective/metric-free)
+- argument = derivation chain; axioms = ground state; inference rules = L
+- deduction/induction/abduction map to L-application/continuation/inverse-L
+- paradoxes = open frames: oscillating derivation chains that do not close
+
+Nodes:
+- H0: 15_philosophy hyperstructure (chapter)
+- H1: deterministic seed 4da132aed42e (seed)
+- H2: inherits 57edb75d8337 (link)
+- H3: constraint manifold (constraint)
+- H4: future scaffold anchor (anchor)
+
+Edges:
+- H2 --[grounds]--> H0
+- H1 --[deterministically instantiates]--> H0
+- H0 --[encodes]--> H3
+- H3 --[provides coherent links for]--> H4
+
+Notes:
+- Base formalism for meta-philosophy (Ch16). Must precede, not follow.
+- Philosophy was implicitly present since Ch01 (choosing axioms is philosophical).
+- The three traditions parallel the three geometries: Euclidean/Riemannian/projective.
+- Table: analytic=curvature 0, continental=curvature varies, eastern=no metric.
+- The hidden parameter of philosophy: the reasoning-object relationship.

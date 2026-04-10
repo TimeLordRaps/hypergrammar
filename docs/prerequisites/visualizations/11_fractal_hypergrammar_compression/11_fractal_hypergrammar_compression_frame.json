@@ -1,0 +1,74 @@
+{
+  "doc_id": "11_fractal_hypergrammar_compression",
+  "doc_title": "Fractal Hypergrammar & Language Compression",
+  "purpose": "Visualize the second larger fractal loop wrapping the 01-10 cycle, introducing language compression, cbits, and mbits.",
+  "nodes": [
+    {
+      "key": "L1",
+      "label": "Loop 1 (Chapters 01-10)",
+      "kind": "chapter"
+    },
+    {
+      "key": "MBit",
+      "label": "Model-Bit (MBit)",
+      "kind": "chapter"
+    },
+    {
+      "key": "CBit",
+      "label": "Context-Bit (CBit)",
+      "kind": "chapter"
+    },
+    {
+      "key": "LC",
+      "label": "Language Calculus",
+      "kind": "criterion"
+    },
+    {
+      "key": "Comp",
+      "label": "Language Compression Formula",
+      "kind": "constraint"
+    },
+    {
+      "key": "L2",
+      "label": "Loop 2 (Fractal Hypergrammar)",
+      "kind": "chapter"
+    }
+  ],
+  "edges": [
+    {
+      "source": "L1",
+      "target": "MBit",
+      "relation": "collapses structurally into"
+    },
+    {
+      "source": "CBit",
+      "target": "Comp",
+      "relation": "provides superexponential storage for"
+    },
+    {
+      "source": "MBit",
+      "target": "CBit",
+      "relation": "composed of"
+    },
+    {
+      "source": "LC",
+      "target": "Comp",
+      "relation": "derives density ratio"
+    },
+    {
+      "source": "Comp",
+      "target": "L2",
+      "relation": "defines the atomic basis of"
+    },
+    {
+      "source": "L2",
+      "target": "L1",
+      "relation": "wraps and observes"
+    }
+  ],
+  "notes": [
+    "Chapter 11 observes the closed loop from the outside.",
+    "The entire closed-form derivation behaves as the universal base U for the next level.",
+    "The Language Compression Formula computes the density of Meaning packed into a collapsed Language expression."
+  ]
+}

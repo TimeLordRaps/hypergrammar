@@ -80,7 +80,7 @@ This framing connects naturally to formal proof and model checking workflows.
 ## Deterministic scaffold
 
 - Script: [`01_grammar_fundamentals_scaffold.py`](./01_grammar_fundamentals_scaffold.py)
-- Artifact target: `./scaffolds/01_grammar_fundamentals/`
+- Artifact target: `./scaffolds/grammar_fundamentals/`
 
 Closure note: after completing chapters 02 through 09, read
 [`10_necessity_constraint_form.md`](./10_necessity_constraint_form.md)

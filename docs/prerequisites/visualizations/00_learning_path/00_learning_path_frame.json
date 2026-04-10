@@ -59,6 +59,11 @@
       "kind": "chapter"
     },
     {
+      "key": "P12",
+      "label": "11 Fractal Hypergrammar Compression",
+      "kind": "chapter"
+    },
+    {
       "key": "P11",
       "label": "AGENTS/HUMANS/TIME Governance",
       "kind": "reference"
@@ -116,6 +121,11 @@
       "relation": "contains"
     },
     {
+      "source": "P00",
+      "target": "P12",
+      "relation": "contains"
+    },
+    {
       "source": "P01",
       "target": "P02",
       "relation": "prerequisite for"
@@ -164,6 +174,16 @@
       "source": "P10",
       "target": "P01",
       "relation": "presupposes (closure return)"
+    },
+    {
+      "source": "P10",
+      "target": "P12",
+      "relation": "is observed and collapsed by"
+    },
+    {
+      "source": "P12",
+      "target": "P01",
+      "relation": "seeds the next fractal loop of"
     },
     {
       "source": "P11",

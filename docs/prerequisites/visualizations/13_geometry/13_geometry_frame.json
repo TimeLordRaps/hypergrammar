@@ -1,0 +1,110 @@
+{
+  "doc_id": "13_geometry",
+  "doc_title": "Geometry",
+  "purpose": "Visualize the base geometry formalism: Euclid's axioms, the parallel postulate crack, non-Euclidean generalization, and the Erlangen Programme mapping to hypergrammar relations.",
+  "nodes": [
+    {
+      "key": "L12",
+      "label": "Ch12 Consolidative Recurrence (Closed)",
+      "kind": "chapter"
+    },
+    {
+      "key": "EUC",
+      "label": "Euclidean Geometry (curvature = 0)",
+      "kind": "concept"
+    },
+    {
+      "key": "PP",
+      "label": "Parallel Postulate (hidden parameter)",
+      "kind": "constraint"
+    },
+    {
+      "key": "HYP",
+      "label": "Hyperbolic Geometry (curvature < 0)",
+      "kind": "concept"
+    },
+    {
+      "key": "ELL",
+      "label": "Elliptic Geometry (curvature > 0)",
+      "kind": "concept"
+    },
+    {
+      "key": "RIEM",
+      "label": "Riemannian Manifold (curvature varies)",
+      "kind": "concept"
+    },
+    {
+      "key": "PROJ",
+      "label": "Projective Geometry (no metric)",
+      "kind": "concept"
+    },
+    {
+      "key": "ERL",
+      "label": "Erlangen Programme (geometry = group)",
+      "kind": "concept"
+    },
+    {
+      "key": "FILT",
+      "label": "Filtration = ⊂ ≡ ⊂ ~",
+      "kind": "criterion"
+    }
+  ],
+  "edges": [
+    {
+      "source": "L12",
+      "target": "EUC",
+      "relation": "derivation space has flat geometry by default"
+    },
+    {
+      "source": "EUC",
+      "target": "PP",
+      "relation": "distinguished by the parameter-shaped axiom"
+    },
+    {
+      "source": "PP",
+      "target": "HYP",
+      "relation": "deny → infinitely many parallels"
+    },
+    {
+      "source": "PP",
+      "target": "ELL",
+      "relation": "deny → no parallels"
+    },
+    {
+      "source": "HYP",
+      "target": "RIEM",
+      "relation": "constant negative → variable curvature"
+    },
+    {
+      "source": "ELL",
+      "target": "RIEM",
+      "relation": "constant positive → variable curvature"
+    },
+    {
+      "source": "EUC",
+      "target": "RIEM",
+      "relation": "zero → variable curvature"
+    },
+    {
+      "source": "RIEM",
+      "target": "PROJ",
+      "relation": "discard metric, retain incidence"
+    },
+    {
+      "source": "ERL",
+      "target": "FILT",
+      "relation": "transformation group determines invariant level"
+    },
+    {
+      "source": "PROJ",
+      "target": "ERL",
+      "relation": "Klein unification: all geometries as subgroups"
+    }
+  ],
+  "notes": [
+    "Base formalism for meta-geometry (Ch14). Must be stated before it can be generalized.",
+    "The parallel postulate is parameter-shaped, not axiom-shaped — this is the crack.",
+    "Erlangen link: L is the transformation group; =, ≡, ~ are three invariant levels.",
+    "Riemannian geometry makes curvature a variable — the key move Ch14 will generalize."
+  ]
+}

@@ -1,0 +1,20 @@
+flowchart TD
+  L12["Ch12 Consolidative Recurrence (Closed)"]
+  EUC["Euclidean Geometry (curvature = 0)"]
+  PP["Parallel Postulate (hidden parameter)"]
+  HYP["Hyperbolic Geometry (curvature < 0)"]
+  ELL["Elliptic Geometry (curvature > 0)"]
+  RIEM["Riemannian Manifold (curvature varies)"]
+  PROJ["Projective Geometry (no metric)"]
+  ERL["Erlangen Programme (geometry = group)"]
+  FILT["Filtration = ⊂ ≡ ⊂ ~"]
+  L12 -- "derivation space has flat geometry by default" --> EUC
+  EUC -- "distinguished by the parameter-shaped axiom" --> PP
+  PP -- "deny → infinitely many parallels" --> HYP
+  PP -- "deny → no parallels" --> ELL
+  HYP -- "constant negative → variable curvature" --> RIEM
+  ELL -- "constant positive → variable curvature" --> RIEM
+  EUC -- "zero → variable curvature" --> RIEM
+  RIEM -- "discard metric, retain incidence" --> PROJ
+  ERL -- "transformation group determines invariant level" --> FILT
+  PROJ -- "Klein unification: all geometries as subgroups" --> ERL

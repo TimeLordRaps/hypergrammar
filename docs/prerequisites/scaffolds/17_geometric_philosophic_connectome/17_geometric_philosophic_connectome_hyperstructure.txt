@@ -1,0 +1,32 @@
+The Geometric-Philosophic Connectome [17_geometric_philosophic_connectome]
+Previous: 16_meta_philosophy
+Previous signature: 24d1002b32d347b56f5168c93ac0a9921c5a54f435572f9a3e55775bad44946c
+Deterministic seed: 76530b3de4bd4121159bb715c6faac7fced26a805fff2f8f50c0b70bd90cafee
+Signature: a24d7ac56fad0b7cf1e80f2a9a1917b3a7aaf3342814119ca023a8fd2d402d28
+
+Constraints:
+- four corners: geometry, philosophy, meta-geometry, meta-philosophy
+- four edges: directed reasoning relationships between adjacent corners
+- two diagonals: Kant (geo↔meta-phil), Gödel (phil↔meta-geo)
+- center = □: fixed point where all four corners are indistinguishable
+- recursive isomorphism: 180° rotation generates the structure, ax-loop
+
+Nodes:
+- H0: 17_geometric_philosophic_connectome hyperstructure (chapter)
+- H1: deterministic seed 76530b3de4bd (seed)
+- H2: inherits 24d1002b32d3 (link)
+- H3: constraint manifold (constraint)
+- H4: future scaffold anchor (anchor)
+
+Edges:
+- H2 --[grounds]--> H0
+- H1 --[deterministically instantiates]--> H0
+- H0 --[encodes]--> H3
+- H3 --[provides coherent links for]--> H4
+
+Notes:
+- First irreducibly 2-dimensional structure in the prerequisites.
+- VSM mapping: corners=System 1, edges=System 2, diagonals=System 3, meta-edge=System 4, center=System 5.
+- Physical frame: recursive isomorphism (two systems, structural mapping).
+- Abstract frame: self-isomorphism (one system, rotation).
+- The two frames are ~-related but not =-related or ≡-related.

@@ -1,0 +1,35 @@
+Meta-Topologies: The Hyperdichotome [19_meta_topologies]
+Purpose: Visualize the dichrome: two-coloured meta-topological form, S² vs ℝP² types, 7-dimensional embedding, irrational dimensional constants, cascade closure.
+
+Nodes:
+- L18: Ch18 Topology (Base) (chapter)
+- CONN: Ch17 Connectome (4 corners, square) (chapter)
+- DICHR: Dichrome (two-coloured form) (concept)
+- S2: Full Dichrome: S² (sphere, χ=2) (concept)
+- RP2: Reduced Dichrome: ℝP² (projective plane) (concept)
+- Z2: Z₂ Symmetry (180° rotation quotient) (concept)
+- DIM7: 7 Dimensions (19 vars − 12 constraints) (concept)
+- SQRT2: √2: Geometry/Philosophy Aspect Ratio (criterion)
+- PHI: φ: Base/Meta Ratio (criterion)
+- PI: π: Gauss-Bonnet Curvature Integral (criterion)
+- CLOSE: Meta-meta-topology ~ Meta-topology (ax-loop) (chapter)
+
+Relations:
+- Ch18 Topology (Base) --[topology applied to the connectome yields]--> Dichrome (two-coloured form)
+- Ch17 Connectome (4 corners, square) --[connectome stripped to topological invariants]--> Dichrome (two-coloured form)
+- Dichrome (two-coloured form) --[full (physical frame): sphere, simply connected]--> Full Dichrome: S² (sphere, χ=2)
+- Dichrome (two-coloured form) --[reduced (abstract frame): quotient by self-isomorphism]--> Reduced Dichrome: ℝP² (projective plane)
+- Full Dichrome: S² (sphere, χ=2) --[180° rotation generates]--> Z₂ Symmetry (180° rotation quotient)
+- Z₂ Symmetry (180° rotation quotient) --[quotient of sphere by Z₂]--> Reduced Dichrome: ℝP² (projective plane)
+- Dichrome (two-coloured form) --[embedded in 7-dimensional space]--> 7 Dimensions (19 vars − 12 constraints)
+- 7 Dimensions (19 vars − 12 constraints) --[irrational: two colors incommensurable]--> √2: Geometry/Philosophy Aspect Ratio
+- 7 Dimensions (19 vars − 12 constraints) --[irrational: self-similar base/meta proportion]--> φ: Base/Meta Ratio
+- 7 Dimensions (19 vars − 12 constraints) --[transcendental: curvature integral over surface]--> π: Gauss-Bonnet Curvature Integral
+- Meta-meta-topology ~ Meta-topology (ax-loop) --[cascade terminates: meta-meta = meta by ax-loop]--> Dichrome (two-coloured form)
+
+Notes:
+- Dichrome: from Greek di- (two) + khrôma (colour). Cf. chromosome = coloured body.
+- Full dichrome (sphere) is orientable; reduced dichrome (projective plane) is not.
+- Dimensional hierarchy: Z ⊂ Q ⊂ algebraic irrationals ⊂ transcendentals.
+- The dichrome spans all four number types in its dimensional structure.
+- Cascade closure: meta-topology of meta-topology ~ meta-topology. The loop closes.

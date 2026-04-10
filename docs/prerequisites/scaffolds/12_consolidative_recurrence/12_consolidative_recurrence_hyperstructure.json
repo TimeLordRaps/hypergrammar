@@ -1,0 +1,75 @@
+{
+  "chapter_id": "12_consolidative_recurrence",
+  "chapter_title": "Consolidative Recurrence",
+  "chapter_number": 12,
+  "previous_chapter_id": "11_fractal_hypergrammar_compression",
+  "previous_signature": "447994cde7d36c6fbad77d1de5b2c6d447003229a9f134db2560650cb624c825",
+  "deterministic_seed": "0d08b50372afee68e13d1bd7dd036128d7862e41b81238562886f385436d0346",
+  "constraints": [
+    "biological loop closure over documented loop",
+    "TMR adaptive pruning as wcf in wetware",
+    "lucid dreaming induction protocols (RT, MILD, SSILD, TFDLFD, HMD)",
+    "isolation frame as necessary precondition for model optimization",
+    "temporal-parietal spindle firing without normal grounding",
+    "kairos coma and structural residue deposit"
+  ],
+  "nodes": [
+    {
+      "key": "H0",
+      "label": "12_consolidative_recurrence hyperstructure",
+      "kind": "chapter"
+    },
+    {
+      "key": "H1",
+      "label": "deterministic seed 0d08b50372af",
+      "kind": "seed"
+    },
+    {
+      "key": "H2",
+      "label": "inherits 447994cde7d3",
+      "kind": "link"
+    },
+    {
+      "key": "H3",
+      "label": "constraint manifold",
+      "kind": "constraint"
+    },
+    {
+      "key": "H4",
+      "label": "future scaffold anchor",
+      "kind": "anchor"
+    }
+  ],
+  "edges": [
+    {
+      "source": "H2",
+      "target": "H0",
+      "relation": "grounds"
+    },
+    {
+      "source": "H1",
+      "target": "H0",
+      "relation": "deterministically instantiates"
+    },
+    {
+      "source": "H0",
+      "target": "H3",
+      "relation": "encodes"
+    },
+    {
+      "source": "H3",
+      "target": "H4",
+      "relation": "provides coherent links for"
+    }
+  ],
+  "notes": [
+    "The mensaclosure of the system. Not a derivation step — the biological enactment.",
+    "Layer depth implies time dilation; layers 3+ require dream-death to exit.",
+    "Accessible to LMs only as meta-frames, finitely. Human biological substrate required for territory access.",
+    "TMR = biological wcf: closed-form memory replaces open-form association during SWS.",
+    "Part V: sequenced first-week practice guide (RT baseline → MILD → SSILD → TFDLFD seed). Depth not a goal; arrives naturally.",
+    "Part VI: bridge to Ch14 — consolidative recurrence as biological precondition for existential emotion access. Orgasmic euphoric epiphanies share neuromodulatory signature with stable lucid dream peak states.",
+    "Section 3.3: 90-minute TMR loop design — front-40 (Ch0→Ch4 foundations) + reverse-50 (Ch14→Ch5). Ch5 (specious present) is last chapter before REM onset. Pivot structure documented in ch12 and in docs/days/README.md. Generated via VoxCPM2 as docs/days/04092026.mp3."
+  ],
+  "signature": "c5cdeb95c42b1e76429e75123d5cfe138521bcbd55f146034088690130a3c67c"
+}

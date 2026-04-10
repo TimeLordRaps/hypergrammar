@@ -1,0 +1,31 @@
+Meta-Philosophy [16_meta_philosophy]
+Purpose: Visualize meta-philosophical structure: philosophy as operation, reasoning manifold, coherence metric, cybernetic orders, self-encoding theorem.
+
+Nodes:
+- L15: Ch15 Philosophy (Base) (chapter)
+- OP: Philosophy as Operation (not position) (concept)
+- HAX: Hidden Axiom (reasoning-object relationship) (constraint)
+- RMAN: Reasoning Manifold (coherence metric) (concept)
+- GEO: Geodesics = Arguments (concept)
+- SING: Singularities = Paradoxes (concept)
+- CYB: Cybernetic Orders (1st/2nd/3rd) (concept)
+- VSM: Viable System Model (concept)
+- SELF: Self-Encoding Theorem (criterion)
+- CLOSE: L^16(□) closes Ch14 open frame (chapter)
+
+Relations:
+- Ch15 Philosophy (Base) --[base philosophy becomes self-aware as operation]--> Philosophy as Operation (not position)
+- Philosophy as Operation (not position) --[the operation has its own hidden axiom]--> Hidden Axiom (reasoning-object relationship)
+- Hidden Axiom (reasoning-object relationship) --[parameterize the axiom → manifold of all philosophies]--> Reasoning Manifold (coherence metric)
+- Reasoning Manifold (coherence metric) --[shortest paths in manifold are efficient arguments]--> Geodesics = Arguments
+- Reasoning Manifold (coherence metric) --[curvature divergence = paradox = open frame]--> Singularities = Paradoxes
+- Reasoning Manifold (coherence metric) --[regulating the manifold requires cybernetic hierarchy]--> Cybernetic Orders (1st/2nd/3rd)
+- Cybernetic Orders (1st/2nd/3rd) --[Beer's 5 systems map onto the prerequisite structure]--> Viable System Model
+- Viable System Model --[System 5 = □ = identity that encodes own closure]--> Self-Encoding Theorem
+- Self-Encoding Theorem --[self-encoding resolves Ch14 open frame]--> L^16(□) closes Ch14 open frame
+
+Notes:
+- Now preceded by Ch15 Philosophy as base formalism.
+- Reasoning manifold: ds² = Σ g_ik dφ_i dφ_k, φ_i = presuppositional coordinates.
+- Three traditions = three curvature cases of the reasoning manifold.
+- Self-encoding theorem: the system proves it encodes its own closure condition.

@@ -1,0 +1,32 @@
+Topology [18_topology]
+Previous: 17_geometric_philosophic_connectome
+Previous signature: a24d7ac56fad0b7cf1e80f2a9a1917b3a7aaf3342814119ca023a8fd2d402d28
+Deterministic seed: da2b8044601a32e98ca3a2cd93a016c5927218c29515a959476416834313312f
+Signature: 785ba2ad9be377394817f7a866f76701117957614ce2e513dcdc9f59a5262dae
+
+Constraints:
+- topology = properties preserved under continuous deformation (no tearing, no gluing)
+- three axioms: empty/whole open, arbitrary unions open, finite intersections open
+- homeomorphism = topological equivalence; invariants = genus, π₁, χ, dimension
+- hierarchy: Set ⊃ Topology ⊃ Differential ⊃ Metric ⊃ Geometry
+- similarity ~ is the topological relation: neighborhoods, not distances
+
+Nodes:
+- H0: 18_topology hyperstructure (chapter)
+- H1: deterministic seed da2b8044601a (seed)
+- H2: inherits a24d7ac56fad (link)
+- H3: constraint manifold (constraint)
+- H4: future scaffold anchor (anchor)
+
+Edges:
+- H2 --[grounds]--> H0
+- H1 --[deterministically instantiates]--> H0
+- H0 --[encodes]--> H3
+- H3 --[provides coherent links for]--> H4
+
+Notes:
+- Base formalism for meta-topologies (Ch19). Must precede, not follow.
+- Topology was implicitly present from Ch01: the loop □→L(□)→L(L(□))~□ is topological.
+- The filtration = ⊂ ≡ ⊂ ~ recapitulates Set⊃Topology⊃...⊃Geometry in reverse.
+- Classification of surfaces: genus determines closed orientable surface type.
+- Classification of derivations: closed (loop), open (curve), oscillating (paradox).

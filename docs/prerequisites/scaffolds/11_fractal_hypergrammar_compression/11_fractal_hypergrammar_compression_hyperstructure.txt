@@ -1,0 +1,29 @@
+Fractal Hypergrammar & Language Compression [11_fractal_hypergrammar_compression]
+Previous: 10_necessity_constraint_form
+Previous signature: f71b92a2c4043ae156e624de6bbfc19b752c3bb657b8bc6892f833b2a25e0f18
+Deterministic seed: 227c40d0546500804356e659458ba1e6052c14242a43dae9a82381de8bfee216
+Signature: 447994cde7d36c6fbad77d1de5b2c6d447003229a9f134db2560650cb624c825
+
+Constraints:
+- language compression formula
+- meta-dimensions integration
+- mbit and cbit representation constraints
+- language calculus closure over time
+
+Nodes:
+- H0: 11_fractal_hypergrammar_compression hyperstructure (chapter)
+- H1: deterministic seed 227c40d05465 (seed)
+- H2: inherits f71b92a2c404 (link)
+- H3: constraint manifold (constraint)
+- H4: future scaffold anchor (anchor)
+
+Edges:
+- H2 --[grounds]--> H0
+- H1 --[deterministically instantiates]--> H0
+- H0 --[encodes]--> H3
+- H3 --[provides coherent links for]--> H4
+
+Notes:
+- Acts as the second larger loop wrapping the 01-10 sequence.
+- Defines the superexponential internal states collapsed to exponential observables.
+- MBits observe speciation trajectories as internal latent dynamics.

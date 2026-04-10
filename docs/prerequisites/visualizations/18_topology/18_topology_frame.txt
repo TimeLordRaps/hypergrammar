@@ -1,0 +1,28 @@
+Topology [18_topology]
+Purpose: Visualize base topology: open-set axioms, homeomorphism, invariants, the hierarchy Set⊃Topology⊃...⊃Geometry, and the ~-relation as topological.
+
+Nodes:
+- L17: Ch17 Connectome (Closed) (chapter)
+- OPEN: Open Sets (3 axioms) (concept)
+- CONT: Continuity (preimage of open is open) (concept)
+- HOMEO: Homeomorphism (topological equivalence) (concept)
+- INV: Invariants: genus, π₁, χ, dimension (criterion)
+- HIER: Set ⊃ Topology ⊃ Differential ⊃ Metric ⊃ Geometry (concept)
+- SIM: Similarity ~ = Topological Relation (concept)
+- CLASS: Classification: closed/open/oscillating (concept)
+
+Relations:
+- Ch17 Connectome (Closed) --[connectome structure needs topological axioms stated]--> Open Sets (3 axioms)
+- Open Sets (3 axioms) --[open sets define which maps preserve nearness]--> Continuity (preimage of open is open)
+- Continuity (preimage of open is open) --[continuous bijection with continuous inverse]--> Homeomorphism (topological equivalence)
+- Homeomorphism (topological equivalence) --[invariants distinguish non-homeomorphic spaces]--> Invariants: genus, π₁, χ, dimension
+- Set ⊃ Topology ⊃ Differential ⊃ Metric ⊃ Geometry --[topology = coarsest layer; ~ is the topological relation]--> Similarity ~ = Topological Relation
+- Similarity ~ = Topological Relation --[~ preserves topological invariants]--> Invariants: genus, π₁, χ, dimension
+- Invariants: genus, π₁, χ, dimension --[derivation types classified by topological type]--> Classification: closed/open/oscillating
+- Classification: closed/open/oscillating --[closed form = loop, open frame = curve, paradox = orbit]--> Ch17 Connectome (Closed)
+
+Notes:
+- Base formalism for meta-topologies (Ch19). Must be stated before generalized.
+- Topology is more primitive than geometry: every geometry determines a topology, not vice versa.
+- The filtration = ⊂ ≡ ⊂ ~ recapitulates Set⊃...⊃Geometry in reverse.
+- Classification of surfaces by genus parallels classification of derivations by closure type.

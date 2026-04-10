@@ -1,0 +1,34 @@
+The Geometric-Philosophic Connectome [17_geometric_philosophic_connectome]
+Purpose: Visualize the quadfecta square: 4 corners, 4 edges, 2 diagonals, center = □, recursive isomorphism, VSM mapping.
+
+Nodes:
+- GEO: Geometry (base-geometric) (chapter)
+- PHIL: Philosophy (base-philosophic) (chapter)
+- MGEO: Meta-Geometry (expansion) (chapter)
+- MPHIL: Meta-Philosophy (expansion) (chapter)
+- CENTER: Center = □ (fixed point) (criterion)
+- DIAG1: Diagonal: Geo↔Meta-Phil (Kant) (concept)
+- DIAG2: Diagonal: Phil↔Meta-Geo (Gödel) (concept)
+- RISO: Recursive Isomorphism (180° rotation) (concept)
+- VSM5: VSM System 5 = □ (concept)
+
+Relations:
+- Geometry (base-geometric) --[Edge 1: Geometric Philosophy]--> Philosophy (base-philosophic)
+- Philosophy (base-philosophic) --[Edge 2: Philosophical Geometry]--> Geometry (base-geometric)
+- Meta-Geometry (expansion) --[Edge 3: Meta-Geometric Philosophy]--> Meta-Philosophy (expansion)
+- Meta-Philosophy (expansion) --[Edge 4: Meta-Philosophical Geometry]--> Meta-Geometry (expansion)
+- Geometry (base-geometric) --[meta-leveling: geometry → meta-geometry]--> Meta-Geometry (expansion)
+- Philosophy (base-philosophic) --[meta-leveling: philosophy → meta-philosophy]--> Meta-Philosophy (expansion)
+- Geometry (base-geometric) --[Diagonal 1: synthetic a priori (Kant)]--> Meta-Philosophy (expansion)
+- Philosophy (base-philosophic) --[Diagonal 2: structural content (Gödel)]--> Meta-Geometry (expansion)
+- Diagonal: Geo↔Meta-Phil (Kant) --[diagonals intersect at □]--> Center = □ (fixed point)
+- Diagonal: Phil↔Meta-Geo (Gödel) --[diagonals intersect at □]--> Center = □ (fixed point)
+- Recursive Isomorphism (180° rotation) --[rotation generates structure from fixed point]--> Center = □ (fixed point)
+- Center = □ (fixed point) --[center = System 5 = identity/policy]--> VSM System 5 = □
+
+Notes:
+- First irreducibly 2-dimensional structure in the prerequisites.
+- 180° rotation: Geo↔Meta-Phil, Phil↔Meta-Geo. This IS ax-loop: L(L(x)) ~ x.
+- Physical frame: two systems + mapping = recursive isomorphism.
+- Abstract frame: one system + rotation = self-isomorphism.
+- Both frames are ~-related but not = or ≡-related.

@@ -1,0 +1,26 @@
+flowchart TD
+  SQ_TERM["□ as Term (ground state, fixed point)"]
+  SQ_OP["□ as Operator (closure operation)"]
+  COLLAPSE["Operator-Term Collapse: L(x) = □(x)"]
+  SIM["~ Similarity (primary, survives evanescence)"]
+  CONG["≡ Congruence (outcome-based, depth-free)"]
+  EQ["= Equality (derived, earned by closure)"]
+  EVAN["Evanescence Argument (= presupposed → flat → nothing)"]
+  FILT["Reversed Filtration: ~ ⊃ ≡ ⊃ ="]
+  LQ_DICHR["L/□ Degenerate Dichrome (inseparable, 0-dim)"]
+  GP_DICHR["Geo/Phil Dichrome (separable, S², 7-dim)"]
+  HIER["Dichrome Hierarchy: L/□ → Geo/Phil → Domain"]
+  META_CL["Meta-Closure: □(□) ~ □"]
+  SQ_TERM -- "same entity, two modes" --> COLLAPSE
+  SQ_OP -- "same entity, two modes" --> COLLAPSE
+  COLLAPSE -- "self-application yields meta-closure" --> META_CL
+  EVAN -- "evanescence selects ~ as only survivor" --> SIM
+  SIM -- "~ plus structural coincidence" --> CONG
+  CONG -- "≡ plus path coincidence (finest, derived)" --> EQ
+  SIM -- "dependence runs downward from ~" --> FILT
+  FILT -- "= is the reward for closure" --> EQ
+  COLLAPSE -- "two modes of one entity = degenerate dichrome" --> LQ_DICHR
+  LQ_DICHR -- "generates the possibility of separable dichromes" --> GP_DICHR
+  GP_DICHR -- "topological level in hierarchy" --> HIER
+  LQ_DICHR -- "pre-topological level in hierarchy" --> HIER
+  META_CL -- "the mechanism that makes closure possible" --> COLLAPSE

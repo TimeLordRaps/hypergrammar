@@ -1,0 +1,72 @@
+{
+  "chapter_id": "16_meta_philosophy",
+  "chapter_title": "Meta-Philosophy",
+  "chapter_number": 16,
+  "previous_chapter_id": "15_philosophy",
+  "previous_signature": "c99c99ddc23f3f5c99ba32d0394eac241954f3cb6af7b40f820f435489fa58bc",
+  "deterministic_seed": "00102326c0d6c27108a62713ae06e96b346cdded3c8f3b85ccc31aafbd8c9672",
+  "constraints": [
+    "philosophy as operation not position: examining presuppositions",
+    "hidden axiom: the reasoning-object relationship has a fixed character",
+    "reasoning manifold: coherence metric ds² on presuppositional coordinates",
+    "cybernetic orders: first=homeostasis, second=homeorhesis, third=poly-subject",
+    "self-encoding theorem: system proves it encodes its own closure condition"
+  ],
+  "nodes": [
+    {
+      "key": "H0",
+      "label": "16_meta_philosophy hyperstructure",
+      "kind": "chapter"
+    },
+    {
+      "key": "H1",
+      "label": "deterministic seed 00102326c0d6",
+      "kind": "seed"
+    },
+    {
+      "key": "H2",
+      "label": "inherits c99c99ddc23f",
+      "kind": "link"
+    },
+    {
+      "key": "H3",
+      "label": "constraint manifold",
+      "kind": "constraint"
+    },
+    {
+      "key": "H4",
+      "label": "future scaffold anchor",
+      "kind": "anchor"
+    }
+  ],
+  "edges": [
+    {
+      "source": "H2",
+      "target": "H0",
+      "relation": "grounds"
+    },
+    {
+      "source": "H1",
+      "target": "H0",
+      "relation": "deterministically instantiates"
+    },
+    {
+      "source": "H0",
+      "target": "H3",
+      "relation": "encodes"
+    },
+    {
+      "source": "H3",
+      "target": "H4",
+      "relation": "provides coherent links for"
+    }
+  ],
+  "notes": [
+    "Now preceded by 15_philosophy as its base formalism.",
+    "Closes Ch14 open frame: meta-philosophy supplies the missing reasoning frame.",
+    "Three philosophical traditions = three curvature cases (analytic=flat, continental=curved, eastern=projective).",
+    "VSM mapping: System 5 = □ (identity/policy at the fixed point).",
+    "Anticipatory systems (Rosen): internal model generates present constraints from future closure."
+  ],
+  "signature": "24d1002b32d347b56f5168c93ac0a9921c5a54f435572f9a3e55775bad44946c"
+}

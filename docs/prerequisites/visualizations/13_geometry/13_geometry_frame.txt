@@ -1,0 +1,31 @@
+Geometry [13_geometry]
+Purpose: Visualize the base geometry formalism: Euclid's axioms, the parallel postulate crack, non-Euclidean generalization, and the Erlangen Programme mapping to hypergrammar relations.
+
+Nodes:
+- L12: Ch12 Consolidative Recurrence (Closed) (chapter)
+- EUC: Euclidean Geometry (curvature = 0) (concept)
+- PP: Parallel Postulate (hidden parameter) (constraint)
+- HYP: Hyperbolic Geometry (curvature < 0) (concept)
+- ELL: Elliptic Geometry (curvature > 0) (concept)
+- RIEM: Riemannian Manifold (curvature varies) (concept)
+- PROJ: Projective Geometry (no metric) (concept)
+- ERL: Erlangen Programme (geometry = group) (concept)
+- FILT: Filtration = ⊂ ≡ ⊂ ~ (criterion)
+
+Relations:
+- Ch12 Consolidative Recurrence (Closed) --[derivation space has flat geometry by default]--> Euclidean Geometry (curvature = 0)
+- Euclidean Geometry (curvature = 0) --[distinguished by the parameter-shaped axiom]--> Parallel Postulate (hidden parameter)
+- Parallel Postulate (hidden parameter) --[deny → infinitely many parallels]--> Hyperbolic Geometry (curvature < 0)
+- Parallel Postulate (hidden parameter) --[deny → no parallels]--> Elliptic Geometry (curvature > 0)
+- Hyperbolic Geometry (curvature < 0) --[constant negative → variable curvature]--> Riemannian Manifold (curvature varies)
+- Elliptic Geometry (curvature > 0) --[constant positive → variable curvature]--> Riemannian Manifold (curvature varies)
+- Euclidean Geometry (curvature = 0) --[zero → variable curvature]--> Riemannian Manifold (curvature varies)
+- Riemannian Manifold (curvature varies) --[discard metric, retain incidence]--> Projective Geometry (no metric)
+- Erlangen Programme (geometry = group) --[transformation group determines invariant level]--> Filtration = ⊂ ≡ ⊂ ~
+- Projective Geometry (no metric) --[Klein unification: all geometries as subgroups]--> Erlangen Programme (geometry = group)
+
+Notes:
+- Base formalism for meta-geometry (Ch14). Must be stated before it can be generalized.
+- The parallel postulate is parameter-shaped, not axiom-shaped — this is the crack.
+- Erlangen link: L is the transformation group; =, ≡, ~ are three invariant levels.
+- Riemannian geometry makes curvature a variable — the key move Ch14 will generalize.

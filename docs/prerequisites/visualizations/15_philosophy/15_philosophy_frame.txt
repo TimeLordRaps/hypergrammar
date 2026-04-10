@@ -1,0 +1,32 @@
+Philosophy [15_philosophy]
+Purpose: Visualize the base philosophy formalism: presupposition study, three traditions as curvature cases, argument as derivation chain, paradoxes as open frames.
+
+Nodes:
+- L14: Ch14 Meta-Geometry (Closed) (chapter)
+- PRESUP: Presupposition (hidden ground) (concept)
+- ANAL: Analytic Tradition (flat, curvature = 0) (concept)
+- CONT: Continental Tradition (curved) (concept)
+- EAST: Eastern Traditions (metric-free) (concept)
+- ARG: Argument = Derivation Chain (concept)
+- DED: Deduction (L-application) (concept)
+- IND: Induction (continuation) (concept)
+- ABD: Abduction (inverse-L) (concept)
+- PAR: Paradox = Open Frame (concept)
+
+Relations:
+- Ch14 Meta-Geometry (Closed) --[meta-geometry revealed hidden parameters; philosophy studies them]--> Presupposition (hidden ground)
+- Presupposition (hidden ground) --[representational: thought represents reality]--> Analytic Tradition (flat, curvature = 0)
+- Presupposition (hidden ground) --[constitutive: thought and reality co-produce]--> Continental Tradition (curved)
+- Presupposition (hidden ground) --[dissolvable: subject-object distinction dropped]--> Eastern Traditions (metric-free)
+- Analytic Tradition (flat, curvature = 0) --[analytic tradition formalizes argument structure]--> Argument = Derivation Chain
+- Argument = Derivation Chain --[general → specific, closure inherited]--> Deduction (L-application)
+- Argument = Derivation Chain --[specific → general, chain open until universal closure]--> Induction (continuation)
+- Argument = Derivation Chain --[effect → best explanation, generates candidate closures]--> Abduction (inverse-L)
+- Deduction (L-application) --[self-referential deduction oscillates without closing]--> Paradox = Open Frame
+- Paradox = Open Frame --[paradox reveals frame break in presupposition]--> Presupposition (hidden ground)
+
+Notes:
+- Base formalism for meta-philosophy (Ch16). Must be stated before generalized.
+- Three traditions parallel three geometries: Euclidean/Riemannian/projective.
+- Argument-as-derivation: axioms = □, rules = L, valid = well-formed chain, sound = chain closes.
+- Paradoxes are information, not failures: they reveal frame breaks.

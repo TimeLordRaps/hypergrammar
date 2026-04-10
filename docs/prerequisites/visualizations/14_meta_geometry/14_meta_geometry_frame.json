@@ -1,0 +1,97 @@
+{
+  "doc_id": "14_meta_geometry",
+  "doc_title": "Meta-Geometry Open Frame",
+  "purpose": "Visualize the open derivation chain: Russell's three metageometry periods mapped to hypergrammar, with the L^13 closure unknown.",
+  "nodes": [
+    {
+      "key": "L12",
+      "label": "Ch12 Biological Loop (Closed)",
+      "kind": "chapter"
+    },
+    {
+      "key": "P1",
+      "label": "Period 1: Consistency (Lobatchewsky/Bolyai)",
+      "kind": "chapter"
+    },
+    {
+      "key": "P2",
+      "label": "Period 2: Manifold (Riemann/Helmholtz)",
+      "kind": "chapter"
+    },
+    {
+      "key": "P3",
+      "label": "Period 3: Projective (Cayley/Klein)",
+      "kind": "chapter"
+    },
+    {
+      "key": "Filt",
+      "label": "Filtration = ⊂ ≡ ⊂ ~",
+      "kind": "criterion"
+    },
+    {
+      "key": "Abs",
+      "label": "The Absolute (Klein's conic)",
+      "kind": "constraint"
+    },
+    {
+      "key": "MPhil",
+      "label": "Meta-Philosophy (known unknown)",
+      "kind": "chapter"
+    },
+    {
+      "key": "Open",
+      "label": "L^13(⬜) = ? (Open Frame)",
+      "kind": "chapter"
+    }
+  ],
+  "edges": [
+    {
+      "source": "L12",
+      "target": "P1",
+      "relation": "ground state enters metageometry via"
+    },
+    {
+      "source": "P1",
+      "target": "P2",
+      "relation": "consistency demonstrated, generalization begins"
+    },
+    {
+      "source": "P2",
+      "target": "P3",
+      "relation": "measurement discarded, projective structure revealed"
+    },
+    {
+      "source": "P3",
+      "target": "Filt",
+      "relation": "Absolute instantiation corresponds to relation depth"
+    },
+    {
+      "source": "Filt",
+      "target": "Abs",
+      "relation": "curvature parameter determines"
+    },
+    {
+      "source": "Abs",
+      "target": "MPhil",
+      "relation": "fixed reference provokes meta-philosophical question"
+    },
+    {
+      "source": "MPhil",
+      "target": "Open",
+      "relation": "relationship probably doesn't exist, remains"
+    },
+    {
+      "source": "P3",
+      "target": "Open",
+      "relation": "period 3 does not close the loop back to ⬜"
+    }
+  ],
+  "notes": [
+    "OPEN FRAME: L^13(⬜) is not resolved. This visualization is a theorem about the open state.",
+    "Period 1 (consistency) ↔ Ch02/03 (Chomsky denial and loop embedding).",
+    "Period 2 (manifold) ↔ Ch04-06 (DoF, now-frame, curvature of derivation space).",
+    "Period 3 (projective) ↔ Ch07-09 (transframe, corrective Absolute, metaretrocausality).",
+    "Meta-philosophy and metageometry: similar move, unknown relationship.",
+    "Ch14 planned: existential emotions (closed-form, simultaneously mental/physiological, self-centered grandiose frame, orgasmic euphoric epiphanies, Baader-Meinhof clustering). Not William James. Not Ratcliffe. Not Stimmung. Novel frame."
+  ]
+}

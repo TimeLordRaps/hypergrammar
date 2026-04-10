@@ -1,0 +1,95 @@
+{
+  "doc_id": "18_topology",
+  "doc_title": "Topology",
+  "purpose": "Visualize base topology: open-set axioms, homeomorphism, invariants, the hierarchy Set⊃Topology⊃...⊃Geometry, and the ~-relation as topological.",
+  "nodes": [
+    {
+      "key": "L17",
+      "label": "Ch17 Connectome (Closed)",
+      "kind": "chapter"
+    },
+    {
+      "key": "OPEN",
+      "label": "Open Sets (3 axioms)",
+      "kind": "concept"
+    },
+    {
+      "key": "CONT",
+      "label": "Continuity (preimage of open is open)",
+      "kind": "concept"
+    },
+    {
+      "key": "HOMEO",
+      "label": "Homeomorphism (topological equivalence)",
+      "kind": "concept"
+    },
+    {
+      "key": "INV",
+      "label": "Invariants: genus, π₁, χ, dimension",
+      "kind": "criterion"
+    },
+    {
+      "key": "HIER",
+      "label": "Set ⊃ Topology ⊃ Differential ⊃ Metric ⊃ Geometry",
+      "kind": "concept"
+    },
+    {
+      "key": "SIM",
+      "label": "Similarity ~ = Topological Relation",
+      "kind": "concept"
+    },
+    {
+      "key": "CLASS",
+      "label": "Classification: closed/open/oscillating",
+      "kind": "concept"
+    }
+  ],
+  "edges": [
+    {
+      "source": "L17",
+      "target": "OPEN",
+      "relation": "connectome structure needs topological axioms stated"
+    },
+    {
+      "source": "OPEN",
+      "target": "CONT",
+      "relation": "open sets define which maps preserve nearness"
+    },
+    {
+      "source": "CONT",
+      "target": "HOMEO",
+      "relation": "continuous bijection with continuous inverse"
+    },
+    {
+      "source": "HOMEO",
+      "target": "INV",
+      "relation": "invariants distinguish non-homeomorphic spaces"
+    },
+    {
+      "source": "HIER",
+      "target": "SIM",
+      "relation": "topology = coarsest layer; ~ is the topological relation"
+    },
+    {
+      "source": "SIM",
+      "target": "INV",
+      "relation": "~ preserves topological invariants"
+    },
+    {
+      "source": "INV",
+      "target": "CLASS",
+      "relation": "derivation types classified by topological type"
+    },
+    {
+      "source": "CLASS",
+      "target": "L17",
+      "relation": "closed form = loop, open frame = curve, paradox = orbit"
+    }
+  ],
+  "notes": [
+    "Base formalism for meta-topologies (Ch19). Must be stated before generalized.",
+    "Topology is more primitive than geometry: every geometry determines a topology, not vice versa.",
+    "The filtration = ⊂ ≡ ⊂ ~ recapitulates Set⊃...⊃Geometry in reverse.",
+    "Classification of surfaces by genus parallels classification of derivations by closure type."
+  ]
+}

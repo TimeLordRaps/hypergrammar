@@ -106,6 +106,6 @@ Each claim below includes direct trace links.
 ## Deterministic scaffold
 
 - Script: [`03_hyper_inversion_scaffold.py`](./03_hyper_inversion_scaffold.py)
-- Artifact target: `./scaffolds/03_hyper_inversion/`
+- Artifact target: `./scaffolds/hyper_inversion/`
 
 If any mismatch between this page and [`../../AGENTS.md`](../../AGENTS.md) is found, log it in [`../../TIME.md`](../../TIME.md).

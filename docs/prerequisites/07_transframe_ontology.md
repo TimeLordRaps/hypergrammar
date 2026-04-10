@@ -56,7 +56,7 @@ This chapter records a modeling stance and postulate set, not an empirically clo
 ## Deterministic scaffold
 
 - Script: [`07_transframe_ontology_scaffold.py`](./07_transframe_ontology_scaffold.py)
-- Artifact target: `./scaffolds/07_transframe_ontology/`
+- Artifact target: `./scaffolds/transframe_ontology/`
 
 ## Next step
 

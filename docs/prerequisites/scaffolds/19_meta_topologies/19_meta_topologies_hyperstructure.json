@@ -1,0 +1,72 @@
+{
+  "chapter_id": "19_meta_topologies",
+  "chapter_title": "Meta-Topologies: The Hyperdichotome",
+  "chapter_number": 19,
+  "previous_chapter_id": "18_topology",
+  "previous_signature": "785ba2ad9be377394817f7a866f76701117957614ce2e513dcdc9f59a5262dae",
+  "deterministic_seed": "48ffb4ef1bf84ecff3f92a1621cd88ccadc458f343f5582079706fe645535dfe",
+  "constraints": [
+    "dichrome = two-coloured meta-topological form (geometry + philosophy colorings)",
+    "full dichrome = S² (sphere, χ=2, genus 0, simply connected)",
+    "reduced dichrome = ℝP² (projective plane, Z₂ quotient, non-orientable)",
+    "7 dimensions: 19 variables − 12 constraints; spans Z→Q→algebraic→transcendental",
+    "dimensional constants: √2 (aspect ratio), φ (base/meta ratio), π (Gauss-Bonnet curvature)"
+  ],
+  "nodes": [
+    {
+      "key": "H0",
+      "label": "19_meta_topologies hyperstructure",
+      "kind": "chapter"
+    },
+    {
+      "key": "H1",
+      "label": "deterministic seed 48ffb4ef1bf8",
+      "kind": "seed"
+    },
+    {
+      "key": "H2",
+      "label": "inherits 785ba2ad9be3",
+      "kind": "link"
+    },
+    {
+      "key": "H3",
+      "label": "constraint manifold",
+      "kind": "constraint"
+    },
+    {
+      "key": "H4",
+      "label": "future scaffold anchor",
+      "kind": "anchor"
+    }
+  ],
+  "edges": [
+    {
+      "source": "H2",
+      "target": "H0",
+      "relation": "grounds"
+    },
+    {
+      "source": "H1",
+      "target": "H0",
+      "relation": "deterministically instantiates"
+    },
+    {
+      "source": "H0",
+      "target": "H3",
+      "relation": "encodes"
+    },
+    {
+      "source": "H3",
+      "target": "H4",
+      "relation": "provides coherent links for"
+    }
+  ],
+  "notes": [
+    "Hyperdichotome / dichrome: from Greek di- (two) + khrôma (colour). Cf. chromosome.",
+    "Meta-topology = topology of the space of all topologies on the connectome.",
+    "Physical frame = sphere; abstract frame (quotiented by self-isomorphism) = projective plane.",
+    "Irrational dimensions: geometry/philosophy ratio = √2, not rational.",
+    "Cascade closes: meta-meta-topology ~ meta-topology by ax-loop."
+  ],
+  "signature": "d838d33e6ccf7084bc607343b02a0c5b060808b5c9ba659bf2f5e835500568e1"
+}

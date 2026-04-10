@@ -13,6 +13,16 @@ SCAFFOLD_SCRIPTS = [
     "08_corrective_time_syntropy_scaffold.py",
     "09_mensaclaused_metaretrocausality_scaffold.py",
     "10_necessity_constraint_form_scaffold.py",
+    "11_fractal_hypergrammar_compression_scaffold.py",
+    "12_consolidative_recurrence_scaffold.py",
+    "13_geometry_scaffold.py",
+    "14_meta_geometry_scaffold.py",
+    "15_philosophy_scaffold.py",
+    "16_meta_philosophy_scaffold.py",
+    "17_geometric_philosophic_connectome_scaffold.py",
+    "18_topology_scaffold.py",
+    "19_meta_topologies_scaffold.py",
+    "20_meta_closure_scaffold.py",
 ]
 
 

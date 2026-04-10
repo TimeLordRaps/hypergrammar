@@ -1,0 +1,33 @@
+Meta-Closure: The Operator-Term Collapse [20_meta_closure]
+Previous: 19_meta_topologies
+Previous signature: d838d33e6ccf7084bc607343b02a0c5b060808b5c9ba659bf2f5e835500568e1
+Deterministic seed: 71ce138ef37efe5b4ec444143090123c7e17441c61c1bd10c40080c5c601b4cc
+Signature: 53d3ff9ec2427f80ba23a6510a06af47c5b8a1d7d74edec6348d4aed4dc64060
+
+Constraints:
+- □ is both term and operator: L(x) = □(x), self-application
+- ~ is primary (survives evanescence); = is derived (earned by closure)
+- ≡ is depth-free: same outcome regardless of path, no past presupposed
+- filtration reverses dependence: ~ ⊃ ≡ ⊃ = (built down from ~)
+- L/□ dichrome is degenerate: inseparable, pre-topological, zero-dimensional
+
+Nodes:
+- H0: 20_meta_closure hyperstructure (chapter)
+- H1: deterministic seed 71ce138ef37e (seed)
+- H2: inherits d838d33e6ccf (link)
+- H3: constraint manifold (constraint)
+- H4: future scaffold anchor (anchor)
+
+Edges:
+- H2 --[grounds]--> H0
+- H1 --[deterministically instantiates]--> H0
+- H0 --[encodes]--> H3
+- H3 --[provides coherent links for]--> H4
+
+Notes:
+- Meta-closure = the closure that makes closure possible.
+- Evanescence argument: presupposing = makes everything immortal → flat → nothing.
+- L is not a sixth concept — it is □ in operator mode.
+- Dichrome hierarchy: L/□ (pre-topological) → geo/phil (topological, S²) → domain.
+- Self-verification is zero-order; meta-closure is generative.
+- The fixed-point equation revised: □(□) ~ □ ~ □(□(□)).
