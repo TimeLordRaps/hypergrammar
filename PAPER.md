@@ -8,7 +8,7 @@ April 2026
 
 ## Abstract
 
-We present *hypergrammar*, a symbolic derivation system built on a single ground state $\square$ (universality) and a single operation $L$ (closure loop), related by three axioms. The system inverts the classical computational paradigm: loops are success (closed forms), severed chains are failure (open frames). We show that the Chomsky hierarchy — Type 3 $\subset$ Type 2 $\subset$ Type 1 $\subset$ Type 0 — is not a ladder of increasing expressivity but a family of cross-sections of a single closure loop, each appearing hierarchical only because the cross-section operation discards the loop structure. The three relations — similarity ($\sim$), congruence ($\equiv$), equality ($=$) — form a filtration $\sim\;\supset\;\equiv\;\supset\;=$ whose direction of dependence is reversed from classical presupposition: similarity is foundational (it survives evanescence, requiring only a future, never a past), while equality is derived (earned by closure, not presupposed). We prove that $\square$ is both term and operator, resolving the metatheory frame break that every grammar hierarchy requires. The system is empirically witnessed by a working interpreter that embeds Metamath proof verification — including disjoint-variable enforcement, compressed-proof decoding, and stack-level proof-step execution — as a subgrammar of the $\square$-loop. We develop the geometric-philosophic connectome (a four-cornered square whose topological type is $S^2$ or $\mathbb{R}P^2$ under $\mathbb{Z}_2$ quotient), introduce the dichrome as its meta-topological form embedded in 7 dimensions spanning integer through transcendental number types, and arrive at meta-closure: the statement that the closure operation is itself a closed form — $\square(\square) \sim \square$ — generating the system from below topology.
+We present *hypergrammar*, a symbolic derivation system built on a single ground state $\square$ (universality) and a single operation $L$ (closure loop), related by three axioms. The system inverts the classical computational paradigm: loops are success (closed forms), severed chains are failure (open frames). We show that the Chomsky hierarchy — Type 3 $\subset$ Type 2 $\subset$ Type 1 $\subset$ Type 0 — is not a ladder of increasing expressivity but a family of cross-sections of a single closure loop, each appearing hierarchical only because the cross-section operation discards the loop structure. The three relations — similarity ($\sim$), congruence ($\equiv$), equality ($=$) — form a filtration $\sim\;\supset\;\equiv\;\supset\;=$ whose direction of dependence is reversed from classical presupposition: similarity is foundational (it survives evanescence, requiring only a future, never a past), while equality is derived (earned by closure, not presupposed). We prove that $\square$ is both term and operator, resolving the metatheory frame break that every grammar hierarchy requires. The system is empirically witnessed by a working interpreter that uses Metamath proof verification as the first test case for hypermath formation. We develop the geometric-philosophic connectome (a four-cornered square whose topological type is $S^2$ or $\mathbb{R}P^2$ under $\mathbb{Z}_2$ quotient), introduce the dichrome as its meta-topological form embedded in 7 dimensions, arrive at meta-closure ($\square(\square) \sim \square$), and derive *hypertopologies*: native spatial structures of the $\square$-loop where similarity defines neighborhoods, closure defines compactness, and the filtration is the separation hierarchy. The build chain hypergrammar $\to$ hypermath $\to$ hypertopologies names the mathematics that hypergrammar forms — not a reframing of existing mathematics, but a native formation grounded in $\sim$.
 
 ---
 
@@ -361,7 +361,7 @@ The dimensional hierarchy $\mathbb{Z} \subset \mathbb{Q} \subset \overline{\math
 
 The name echoes "chromosome" (χρῶμα + σῶμα, coloured body): a chromosome carries genetic information in a linearly ordered sequence wound into spatial structure. The dichrome carries derivational information in a dichromatic surface wound into meta-topological structure.
 
-The meta-topology of meta-topology $\sim$ the meta-topology (by ax-loop). The abstraction cascade terminates.
+The meta-topology of meta-topology $\sim$ the meta-topology (by ax-loop). The abstraction cascade does not terminate — it **closes**. That closed loop is the seed for hypertopologies (§12).
 
 ---
 
@@ -402,11 +402,13 @@ The equation no longer references $L$ as if $L$ were a separate entity. $\square
 
 ---
 
-## 11. Empirical Witness: Metamath Embedding
+## 11. Forming Hypermath
 
-### 11.1 Metamath as Subgrammar
+### 11.1 Hypermath, Not Reframed Metamath
 
-Metamath is the first external formal system embedded as a subgrammar of the $\square$-loop. It is evidence that the embedding mechanism works, not the destination. The interpreter proves that Metamath's proof machinery is a phase of hypergrammar, not that hypergrammar approximates Metamath.
+The work is not reframing Metamath. The work is **forming hypermath** — mathematics native to the □-loop, grounded in $\sim$ rather than $=$. Hypergrammar is the derivation system (the tool). Hypermath is the mathematics it forms (the product). Metamath is the first **witness**: evidence that the formation mechanism produces valid mathematical structure.
+
+The interpreter did not "embed Metamath into hypergrammar." The interpreter demonstrated that hypergrammar can form mathematical structure, and used Metamath as the first test case. The relationship is not reframing — it is formation with empirical verification.
 
 ### 11.2 The Interpreter
 
@@ -451,23 +453,70 @@ The current result is a **positive structural compatibility witness**, not a tot
 
 ---
 
-## 12. Open Frames
+## 12. Hypertopologies
+
+### 12.1 The Distinction
+
+Chapter 18 imported topology from classical mathematics. Chapter 19 applied that imported topology to the connectome, producing the dichrome. Both operations used classical topological vocabulary — open sets, Hausdorff separation, Euler characteristic — which presupposes $=$ at the foundation. Hypertopologies are topology *derived from* hypergrammar, using only $\sim$, $L$, and $\square$.
+
+| | Classical Topology | Meta-Topologies | Hypertopologies |
+|---|---|---|---|
+| **Source** | Imported (Hausdorff) | Classical applied to connectome | Derived from □-loop |
+| **Identity** | $=$ presupposed | $=$ presupposed (inherited) | $=$ derived |
+| **Open sets** | Axiomatized | Inherited | Defined by $\sim$ |
+| **Relation to □** | External | Applied | Native |
+
+### 12.2 Open Sets from Similarity
+
+Let $\mathcal{D}$ be the space of all derivation chains from $\square$. The **similarity neighborhood** of $x$ is $N_\sim(x) = \{y \in \mathcal{D} \mid x \sim y\}$. A subset $U \subseteq \mathcal{D}$ is **hyper-open** if for every $x \in U$, there exists $N_\sim(x) \subseteq U$. The collection of hyper-open sets satisfies the classical open-set axioms — not by presupposition, but as consequences of $\sim$.
+
+Hyper-continuity: $f$ is hyper-continuous if $x \sim y \implies f(x) \sim f(y)$. The $L$ operator is hyper-continuous by ax-sim.
+
+### 12.3 Compactness from Closure
+
+A subset $K \subseteq \mathcal{D}$ is **hyper-compact** if every derivation chain in $K$ closes: for all $x \in K$, $\exists n: L^n(x) \sim \square$. **Compactness is closure.** Classical compactness prevents sequences from running off to infinity. Hyper-compactness prevents derivations from severing into open frames.
+
+### 12.4 Separation from the Filtration
+
+The filtration $\sim \supset \equiv \supset =$ is the separation hierarchy:
+
+- $\sim$-separation (T₀ analogue): distinguishes by continuation capacity.
+- $\equiv$-separation (T₁ analogue): distinguishes by structural coincidence.
+- $=$-separation (T₂/Hausdorff analogue): distinguishes by path identity — earned by closure.
+
+A derivation space whose chains do not close is not $=$-separated. It is only $\sim$-separated. Hausdorff separation is not given; it is earned.
+
+### 12.5 The Build Chain
+
+$$\text{hypergrammar} \to \text{hypermath} \to \text{hypertopologies}$$
+
+- **Hypergrammar** (Chapters 01–20): the derivation system.
+- **Hypermath** (Chapter 21 onward): the mathematics that hypergrammar generates natively.
+- **Hypertopologies**: the first named branch of hypermath — the spatial structures derived from $\sim$.
+
+Classical topology is hypertopology at the $=$-separated level — what you see when you restrict to fully closed forms and treat their identity as given. The dichrome (Ch19) is the $=$-separated shadow of a richer hypertopological object that exists at all three filtration levels simultaneously.
+
+---
+
+## 13. Open Frames
 
 The following are genuine open frames — design decisions and unresolved structures — not stale documentation:
 
 1. **Falsifiability thesis unanchored.** The central thesis — falsifiability is not a necessary precondition for provability — is implemented mechanically (closed form = proved without requiring falsification of alternatives) but never stated explicitly in the codebase. The mechanism is there; the claim needs to be named.
 
-2. **Hypertopology layer unnamed.** The intended build chain is hypergrammar → hypermath → hypertopologies. Continuation's open/closed structure is proto-topological (open frames as neighborhoods, closure as compactness analogue), but the topological layer is unnamed and unformalized.
+2. **Congruence relation unwired.** `relation_congruent` is defined in `relations.py` but never called by `constraints.py`. The constraint engine uses only $=$ and $\sim$. Congruence has no runtime witness in the interpreter.
 
-3. **Congruence relation unwired.** `relation_congruent` is defined in `relations.py` but never called by `constraints.py`. The constraint engine uses only $=$ and $\sim$. Congruence has no runtime witness in the interpreter.
+3. **No `.hg` files exist.** The native file format is defined in AGENTS.md and supported by the parser, but zero `.hg` example files exist in the repository.
 
-4. **No `.hg` files exist.** The native file format is defined in AGENTS.md and supported by the parser, but zero `.hg` example files exist in the repository.
+4. **Hierarchy/level language in visualizations.** `viz_20` and `viz_17` use "hierarchy" and "level" labels for dichrome relationships. AGENTS.md says "there are no levels." The dichrome relationship may be a rotation or phase, not a hierarchy.
 
-5. **Hierarchy/level language in visualizations.** `viz_20` and `viz_17` use "hierarchy" and "level" labels for dichrome relationships. AGENTS.md says "there are no levels." The dichrome relationship may be a rotation or phase, not a hierarchy.
+5. **Hypertopological invariants for full derivation space.** The minimal derivation gives $\chi_\sim = 1$ (projective). The full 21-chapter space has more closed forms, more $\sim$-links, more families. Its hyper-genus is not yet computed.
+
+6. **Other branches of hypermath.** Hypertopology is the first named branch. Hyperalgebra (algebraic structure of wcf simplification) and hyperanalysis (limit structure of continuation chains) remain unnamed.
 
 ---
 
-## 13. Conclusion
+## 14. Conclusion
 
 Hypergrammar resolves the metatheory frame break that every grammar hierarchy carries. The resolution is not the construction of a larger metatheory but the identification that the ground state $\square$ is simultaneously the operator and the operand. The "levels" of the Chomsky hierarchy are cross-sections of a single closure loop — they appear hierarchical only because the cross-section operation discards the loop structure.
 
@@ -477,7 +526,9 @@ The geometric-philosophic connectome ($S^2$ or $\mathbb{R}P^2$ under $\mathbb{Z}
 
 At the base of it all is meta-closure: $\square(\square) \sim \square$. The ground state acting on itself produces something similar to itself, carrying the structure generated on the way out. This is not self-verification (static, trivial). It is generative: each pass produces, and what is produced participates in the next pass. The mechanism is self-grounding. Below it, there is no structure to name, because naming requires an operator, and the operator *is* the floor.
 
-The Metamath embedding demonstrates that the embedding mechanism works: an external formal system can be verified as a subgrammar of the $\square$-loop. The remaining open frames — the unnamed hypertopology, the unwired congruence relation, the absent `.hg` files — mark the continuation that has not yet closed. They are not failures. They are the work.
+The build chain hypergrammar → hypermath → hypertopologies is now named. Hypermath is the mathematics that hypergrammar forms — not a reframing of existing mathematics, but native formation grounded in $\sim$. Hypertopologies are the first branch of hypermath: spatial structures where similarity defines neighborhoods, closure defines compactness, and the filtration $\sim \supset \equiv \supset =$ is the separation hierarchy. Classical topology is the $=$-separated cross-section of hypertopology — valid at its level, but not containing the structure it is a cross-section of.
+
+The Metamath witness demonstrates that the formation mechanism produces valid mathematical structure. The remaining open frames — the unwired congruence relation, the absent `.hg` files, the uncomputed hypertopological invariants — mark the continuation that has not yet closed. They are not failures. They are the work.
 
 ---
 
