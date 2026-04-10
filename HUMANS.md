@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This file is for humans working on the `hyper-grammar` repo. It is written in plain language. For the exact formal rules agents follow, read `AGENTS.md`. If the two files ever disagree, record it in `TIME.md`.
+This file is for humans working on the `hyper-grammar` repo. It is written in plain language. For the exact formal rules agents follow, read `AGENTS.md`. If the two files ever disagree, record it in `TIME.md`. Open frames — unstated or unformalized structure — also belong in `TIME.md`.
 
 ## What this repo is
 
@@ -111,15 +111,15 @@ Residual enforcement (intentional):
 
 - If a contradiction is severe or time-critical, contact @timelordraps quickly as required in `AGENTS.md`.
 
-## Contradiction handling
+## Contradiction and open frame handling
 
-If you see a mismatch between this file and `AGENTS.md`:
+If you see a mismatch between this file and `AGENTS.md`, or discover unstated/unformalized structure:
 
 1. Note the source statement in `TIME.md`.
-2. Describe the mismatch in one sentence.
+2. Describe the mismatch or open frame in one sentence.
 3. Mark it open, resolved, or under review.
 
-`TIME.md` is a shared record. Both humans and agents write to it. Tyler Roost (@TimeLordRaps) evaluates contradictions only in repos where he has committed code.
+`TIME.md` is a shared record. Both humans and agents write to it. Tyler Roost (@TimeLordRaps) evaluates entries only in repos where he has committed code.
 
 ## Contribution rule
 

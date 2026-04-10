@@ -17,17 +17,17 @@ This repository follows a three-document paradigm:
 
 - `AGENTS.md`: clear, complete agent-facing rules and expectations.
 - `HUMANS.md`: simple, understandable guidance for any human collaborator.
-- `TIME.md`: recorded contradictions and frame mismatches discovered by humans or agents.
+- `TIME.md`: recorded open frames and contradictions discovered by humans or agents.
 
-Agents should use `AGENTS.md` for behavior, consult `HUMANS.md` for human-facing clarity, and help surface contradictions into `TIME.md` when the two representations diverge.
+Agents should use `AGENTS.md` for behavior, consult `HUMANS.md` for human-facing clarity, and help surface open frames and contradictions into `TIME.md` when the two representations diverge or when unstated/unformalized structure is discovered.
 
-`TIME.md` is a shared record of contradictions and will only be evaluated by @timelordraps in repositories that @timelordraps has contributed code to, not issues, not discussion, literally only code that has been committed that @timelordraps requested to be added. Other's may use this paradigm, however there is no promise that @timelordraps will evaluate it for resolution of contradictions.
+`TIME.md` is a shared record of open frames and contradictions and will only be evaluated by @timelordraps in repositories that @timelordraps has contributed code to, not issues, not discussion, literally only code that has been committed that @timelordraps requested to be added. Other's may use this paradigm, however there is no promise that @timelordraps will evaluate it for resolution.
 
-When a contradiction is identified in one of the repositories @timelordraps has committed to:
+When an open frame or contradiction is identified in one of the repositories @timelordraps has committed to:
 
 1. capture the source statement from `AGENTS.md` or `HUMANS.md` that represents @timelordraps contribution.
-2. describe the contradiction in `TIME.md`.
-3. Contact @timelordraps through some means you expect him to see in a timely manner representative of the severity of the contradiction.
+2. describe the open frame or contradiction in `TIME.md`.
+3. Contact @timelordraps through some means you expect him to see in a timely manner representative of the severity.
 
 ## Concepts
 
