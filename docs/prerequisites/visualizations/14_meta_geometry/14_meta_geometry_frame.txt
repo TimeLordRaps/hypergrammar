@@ -27,4 +27,4 @@ Notes:
 - Period 2 (manifold) ↔ Ch04-06 (DoF, now-frame, curvature of derivation space).
 - Period 3 (projective) ↔ Ch07-09 (transframe, corrective Absolute, metaretrocausality).
 - Meta-philosophy and metageometry: similar move, unknown relationship.
-- Ch14 planned: existential emotions (closed-form, simultaneously mental/physiological, self-centered grandiose frame, orgasmic euphoric epiphanies, Baader-Meinhof clustering). Not William James. Not Ratcliffe. Not Stimmung. Novel frame.
+- Ch14 planned: existential emotions (form, simultaneously mental/physiological, self-centered grandiose frame, orgasmic euphoric epiphanies, Baader-Meinhof clustering). Not William James. Not Ratcliffe. Not Stimmung. Novel frame.

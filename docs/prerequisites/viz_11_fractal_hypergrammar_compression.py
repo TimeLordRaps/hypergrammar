@@ -25,7 +25,7 @@ FRAME = FrameModel(
     ],
     notes=[
         "Chapter 11 observes the closed loop from the outside.",
-        "The entire closed-form derivation behaves as the universal base U for the next level.",
+        "The entire form derivation behaves as the universal base U for the next level.",
         "The Language Compression Formula computes the density of Meaning packed into a collapsed Language expression."
     ],
 )

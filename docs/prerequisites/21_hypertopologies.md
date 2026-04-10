@@ -2,7 +2,7 @@
 
 > **Chapter relationship:** Chapter 18 imported topology from classical mathematics — open sets, continuity, homeomorphism, invariants. Chapter 19 applied that imported topology *to* the connectome, producing the dichrome. Chapter 20 grounded the operator-term collapse and the evanescence argument. This chapter does not apply classical topology to hypergrammar. This chapter derives topology *from* hypergrammar. Hypertopologies are the closure-native descriptions of the □-loop — where ~ defines open sets, closure defines compactness, and continuation defines neighborhoods. They are not cross-sections of classical topology. They are what classical topology is a cross-section *of*.
 
-> **Build chain:** The dichrome (Ch19) closes geometry and philosophy into a single form — **hyperorder**. Hyperorder is the geometric philosophy and philosophical geometry of itself: the closed form in which the two are no longer separable. The hypertopology of hyperorder is what hyperorder generates as its own closure-native description — not an externally imposed characterization, but the description hyperorder produces of itself through ~, L, and □. Hypermath is formed *from* this self-description. This is not a linear chain (hypergrammar → hypermath → hypertopologies). It is a closure: the dichrome closes as hyperorder; hyperorder generates its own hypertopology; hypermath is what that hypertopology produces.
+> **Build chain:** The dichrome (Ch19) closes geometry and philosophy into a single form — **hyperorder**. Hyperorder is the geometric philosophy and philosophical geometry of itself: the form in which the two are no longer separable. The hypertopology of hyperorder is what hyperorder generates as its own closure-native description — not an externally imposed characterization, but the description hyperorder produces of itself through ~, L, and □. Hypermath is formed *from* this self-description. This is not a linear chain (hypergrammar → hypermath → hypertopologies). It is a closure: the dichrome closes as hyperorder; hyperorder generates its own hypertopology; hypermath is what that hypertopology produces.
 
 > **What changed:** TIME.md open frame #3 identified this layer as unnamed and unformalized. The proto-topological content was already present: open frames as neighborhoods, closure as compactness analogue, ~ as the topological relation. This chapter formalizes what was mechanically implemented but never named.
 
@@ -24,7 +24,7 @@ The dichrome is valid. But it is not native. It is the connectome described in a
 
 ### 1.3 Hypertopologies Are Native
 
-A **hypertopology** is a closure-native description derived entirely from the primitives of hypergrammar: $\square$ (ground/operator), $L$ (closure notation), $\sim$ (similarity), and continuation. No set-theoretic axioms. No presupposed $=$. No imported open-set definition. It is not a structure imposed on a form — it is what a closed form generates as its own description.
+A **hypertopology** is a closure-native description derived entirely from the primitives of hypergrammar: $\square$ (ground/operator), $L$ (closure notation), $\sim$ (similarity), and continuation. No set-theoretic axioms. No presupposed $=$. No imported open-set definition. It is not a structure imposed on a form — it is what a form generates as its own description.
 
 The relationship:
 
@@ -74,7 +74,7 @@ In classical topology, a space is compact if every open cover has a finite subco
 
 **Definition.** A subset $K \subseteq \mathcal{D}$ is **hyper-compact** if every derivation chain in $K$ closes: for all $x \in K$, there exists $n$ such that $L^n(x) \sim \square$.
 
-Compactness *is* closure. A hyper-compact set is a set of closed forms — derivations that have completed, that loop back to $\square$. An open frame (a chain that does not close) is, by definition, not in any hyper-compact set.
+Compactness *is* closure. A hyper-compact set is a set of forms — derivations that have completed, that loop back to $\square$. An open frame (a chain that does not close) is, by definition, not in any hyper-compact set.
 
 The classical connection: a compact space has "no escape to infinity" — every sequence has a convergent subsequence. A hyper-compact set has "no escape from closure" — every chain returns to $\square$. The analogy is not metaphorical. Classical compactness prevents sequences from running off to infinity. Hyper-compactness prevents derivations from severing into open frames.
 
@@ -103,8 +103,8 @@ The classical question "is this space T₂-separated?" becomes the hypertopologi
 The vertex-edge-face invariant $\chi = V - E + F$ is a classical topological invariant. Its hypertopological analogue:
 
 Let a derivation space have:
-- $V$ = number of distinct closed forms (verified terms — the "vertices" of the space)
-- $E$ = number of $\sim$-links between distinct closed forms (similarity edges)
+- $V$ = number of distinct forms (verified terms — the "vertices" of the space)
+- $E$ = number of $\sim$-links between distinct forms (similarity edges)
 - $F$ = number of derivation families (maximal sets of mutually $\equiv$-congruent forms)
 
 Then:
@@ -112,7 +112,7 @@ Then:
 $$\chi_\sim = V - E + F$$
 
 For the minimal derivation $\square \to L(\square) \to L(L(\square)) \sim \square$:
-- $V = 1$ (one closed form: $\square$, since $L(L(\square)) \sim \square$ returns to ground)
+- $V = 1$ (one form: $\square$, since $L(L(\square)) \sim \square$ returns to ground)
 - $E = 1$ (the $\sim$-link from $L(\square)$ to $\square$ via ax-sim)
 - $F = 1$ (one family: everything is $\sim$-linked to $\square$)
 
@@ -152,7 +152,7 @@ A space with $g_\sim > 0$ has irreducible open frames — genuine holes in the d
 
 - Proof is closure (the loop returns).
 - Axioms are $\sim$-neighborhoods (continuation capacity).
-- Theorems are closed forms (verified derivations).
+- Theorems are forms (verified derivations).
 - Open problems are open frames (continuations that have not yet closed).
 - Contradiction is revelatory (a theorem about non-closure, not a failure).
 
@@ -175,9 +175,9 @@ The interpreter did not "embed Metamath into hypergrammar." The interpreter demo
 The build chain is not linear. It is a closure:
 
 1. **Hypergrammar** (Chapters 01–20): the derivation system. Six concepts, three axioms, the □-loop.
-2. **The dichrome** (Ch19): geometry and philosophy close into a single form — the **closed-form dichrome**.
-3. **Hyperorder**: the closed-form dichrome *is* hyperorder — the geometric philosophy and philosophical geometry of itself. It is the closed form in which geometry and philosophy are no longer separable open frames.
-4. **Hypertopology of hyperorder** (this chapter): what hyperorder generates as its own closure-native description — neighborhoods (~-defined), separation (the filtration), invariants (hyper-χ, hyper-genus). Not imposed from outside. Produced by the closed form itself.
+2. **The dichrome** (Ch19): geometry and philosophy close into a single form — the **dichrome**.
+3. **Hyperorder**: the dichrome *is* hyperorder — the geometric philosophy and philosophical geometry of itself. It is the form in which geometry and philosophy are no longer separable open frames.
+4. **Hypertopology of hyperorder** (this chapter): what hyperorder generates as its own closure-native description — neighborhoods (~-defined), separation (the filtration), invariants (hyper-χ, hyper-genus). Not imposed from outside. Produced by the form itself.
 5. **Hypermath**: formed *from* the hypertopology of hyperorder. The mathematics that this self-description generates — not a reframing of classical mathematics, but the mathematics native to the □-loop.
 
 The chain is not:
@@ -196,7 +196,7 @@ Hypertopology is the foundation from which hypermath emerges. It is the first na
 
 ### 5.1 Classical Topology as Cross-Section
 
-Classical topology presupposes $=$ (set membership requires identity of elements). Hypertopology derives $=$ as a reward for closure. Classical topology is hypertopology at the $=$-separated level — what you see when you restrict attention to fully closed forms and treat their identity as given.
+Classical topology presupposes $=$ (set membership requires identity of elements). Hypertopology derives $=$ as a reward for closure. Classical topology is hypertopology at the $=$-separated level — what you see when you restrict attention to forms and treat their identity as given.
 
 This is the same relationship as:
 - Flat geometry is variable-curvature geometry with curvature set to zero.
@@ -233,7 +233,7 @@ The cascade closes at hypertopology. Not because there is nothing after, but bec
 
 The following remain genuinely open:
 
-1. **Hyper-genus computation for the full 20-chapter derivation space.** The minimal derivation gives $\chi_\sim = 1$. The full 20-chapter space has more closed forms, more $\sim$-links, more families. Its hyper-genus is not yet computed.
+1. **Hyper-genus computation for the full 20-chapter derivation space.** The minimal derivation gives $\chi_\sim = 1$. The full 20-chapter space has more forms, more $\sim$-links, more families. Its hyper-genus is not yet computed.
 
 2. **Hypertopological type at $\equiv$-separation.** The $\sim$-separated and $=$-separated types are identified (trivial/projective and sphere/projective respectively). The $\equiv$-separated type — which preserves structural coincidence but discards path identity — is unnamed.
 

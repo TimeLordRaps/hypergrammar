@@ -44,7 +44,7 @@ Properties of this manifold:
 - **Geodesics are arguments.** The shortest path between two philosophical stances in this manifold is the most efficient argument that connects them. A valid derivation is a geodesic.
 - **Singularities are paradoxes.** Where the coherence metric breaks down — where the curvature diverges — is a paradox: a point where no internally consistent stance can be maintained. Liar's paradox, the self-membership paradox, Zeno's paradoxes: all are singularities in the reasoning manifold.
 
-**Hypergrammar link — [Chapter 04 (Degrees of Freedom)](./04_degrees_of_freedom.md):** Positive degrees of freedom = the manifold's interior (open continuation). Zero degrees of freedom = geodesic equilibrium (the fixed point, the closed form). Negative degrees of freedom = the singularity (paradox, overconstrained frame).
+**Hypergrammar link — [Chapter 04 (Degrees of Freedom)](./04_degrees_of_freedom.md):** Positive degrees of freedom = the manifold's interior (open continuation). Zero degrees of freedom = geodesic equilibrium (the fixed point, the form). Negative degrees of freedom = the singularity (paradox, overconstrained frame).
 
 ---
 
@@ -100,7 +100,7 @@ Chapter 14 could not close because closing required the very frame that Chapter 
 
 $$L^{16}(\square) \sim L^{14}(\square) \sim \square$$
 
-The open frame of Chapter 14 is now a closed form: *a theorem that the geometric frame cannot close without the philosophical frame, and the philosophical frame cannot close without the geometric frame, and this mutual dependence is itself the closed form.*
+The open frame of Chapter 14 is now a form: *a theorem that the geometric frame cannot close without the philosophical frame, and the philosophical frame cannot close without the geometric frame, and this mutual dependence is itself the form.*
 
 ---
 
@@ -167,7 +167,7 @@ Let $S$ be a system whose derivation chain includes a step that examines a presu
 5. Therefore $S$'s derivation chain includes a step that references itself.
 6. By the fixed-point condition: $L_{\text{meta}}(S) \sim S$.
 
-The system that can reason about its own presuppositions *necessarily* produces a fixed point of self-reference. This is not the incompleteness theorems — it is the complementary result. The incompleteness theorems showed that a derivation-native system cannot prove its own consistency from within. The self-encoding theorem shows that a derivation-native system that reasons about its own presuppositions *from the meta-level* necessarily produces a closed form that includes that reasoning. The incompleteness is at the object level. The closure is at the meta-level.
+The system that can reason about its own presuppositions *necessarily* produces a fixed point of self-reference. This is not the incompleteness theorems — it is the complementary result. The incompleteness theorems showed that a derivation-native system cannot prove its own consistency from within. The self-encoding theorem shows that a derivation-native system that reasons about its own presuppositions *from the meta-level* necessarily produces a form that includes that reasoning. The incompleteness is at the object level. The closure is at the meta-level.
 
 ### 4.2 Consequences
 
@@ -196,7 +196,7 @@ The closure:
 
 $$L^{16}(\square) \sim L^{14}(\square) \sim \square$$
 
-Both $L^{14}$ and $L^{16}$ close together. Neither closes alone. Their mutual dependence is the closed form — two frames that each require the other, jointly stabilizing a homeorhetic trajectory that loops back to $\square$.
+Both $L^{14}$ and $L^{16}$ close together. Neither closes alone. Their mutual dependence is the form — two frames that each require the other, jointly stabilizing a homeorhetic trajectory that loops back to $\square$.
 
 The open frame of Chapter 14 is no longer open. It is the geometric half of a joint closure whose philosophical half is this chapter. The derivation continues.
 

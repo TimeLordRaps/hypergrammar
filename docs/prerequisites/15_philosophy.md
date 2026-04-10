@@ -114,7 +114,7 @@ In hypergrammar terms: an argument is a derivation chain. Each step is an L-appl
 **Abduction** moves from effect to best explanation. If B is observed, and A would explain B better than alternatives, then (provisionally) A. The conclusion is a hypothesis.
 
 In hypergrammar terms:
-- Deduction is an L-application: given a closed form, derive a specific instance. The closure is inherited.
+- Deduction is an L-application: given a form, derive a specific instance. The closure is inherited.
 - Induction is a continuation: accumulating instances, not yet closed. The chain is open until universal closure is established.
 - Abduction is a reverse L-application: given the output, guess the input. This is the inverse problem. It does not close; it generates candidate closures to be tested.
 

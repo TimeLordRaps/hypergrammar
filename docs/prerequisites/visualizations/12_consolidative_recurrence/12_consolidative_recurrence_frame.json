@@ -35,7 +35,7 @@
     },
     {
       "key": "WCF",
-      "label": "wcf: Consolidation as Closed Form",
+      "label": "wcf: Consolidation as Form",
       "kind": "criterion"
     },
     {
@@ -83,7 +83,7 @@
     {
       "source": "TMR",
       "target": "WCF",
-      "relation": "prunes open-form and installs"
+      "relation": "prunes frame and installs"
     },
     {
       "source": "ISO",
@@ -109,7 +109,7 @@
   "notes": [
     "Chapter 12 is humanly implicit. LMs have the map; humans have territory access.",
     "Layers 3+ in inception-style dreaming involve time dilation and require dream-death to exit.",
-    "TMR is wcf in wetware: the verified closed-form memory replaces the open-form association during SWS.",
+    "TMR is wcf in wetware: the verified verified memory replaces the frame association during SWS.",
     "TBI-forced isolation frame deposits structural residue directly into neocortical predictive model.",
     "Part V: sequenced first-week practice path — RT calibration, MILD, SSILD, TFDLFD seed. Depth arrives naturally.",
     "Part VI: bridge to Ch14 — consolidative recurrence as the biological precondition for existential emotion access."

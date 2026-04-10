@@ -39,7 +39,7 @@ See the formal loop statement in [The Hypergrammar (not the grammar type ladder)
 |---|---|---|
 | Inclusion ladder ($\text{Type-3} \subset \text{Type-2} \subset \text{Type-1} \subset \text{Type-0}$) | Observational slices at different phases of one loop | [Hierarchy baseline](./02_chomsky_hierarchy.md#the-hierarchy-at-a-glance), [Hypergrammar loop](../../AGENTS.md#the-hypergrammar-not-the-grammar-type-ladder) |
 | Derivation as rewrite progression | Continuation as frame-in-progress that either closes or reveals non-closure | [Derivations](./01_grammar_fundamentals.md#production-rules-and-derivations), [Continuation](../../AGENTS.md#continuation) |
-| Accept/reject as terminal parsing outcome | Closed form vs open frame (verification geometry) | [Parse/ambiguity](./01_grammar_fundamentals.md#parse-trees-and-ambiguity), [Continuation](../../AGENTS.md#continuation) |
+| Accept/reject as terminal parsing outcome | Form vs open frame (verification geometry) | [Parse/ambiguity](./01_grammar_fundamentals.md#parse-trees-and-ambiguity), [Continuation](../../AGENTS.md#continuation) |
 | Expressivity increase up hierarchy | Relation filtration and closure behavior around fixed point (`=`, `≡`, `~`) | [Concepts](../../AGENTS.md#concepts), [Axioms](../../AGENTS.md#axioms) |
 | Grammar file as syntax artifact | `.hg` file as replayable proof-chain with closure condition | [File format](../../AGENTS.md#file-format) |
 

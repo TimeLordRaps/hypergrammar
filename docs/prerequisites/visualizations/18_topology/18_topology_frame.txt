@@ -19,7 +19,7 @@ Relations:
 - Set ⊃ Topology ⊃ Differential ⊃ Metric ⊃ Geometry --[topology = coarsest layer; ~ is the topological relation]--> Similarity ~ = Topological Relation
 - Similarity ~ = Topological Relation --[~ preserves topological invariants]--> Invariants: genus, π₁, χ, dimension
 - Invariants: genus, π₁, χ, dimension --[derivation types classified by topological type]--> Classification: closed/open/oscillating
-- Classification: closed/open/oscillating --[closed form = loop, open frame = curve, paradox = orbit]--> Ch17 Connectome (Closed)
+- Classification: closed/open/oscillating --[form = loop, open frame = curve, paradox = orbit]--> Ch17 Connectome (Closed)
 
 Notes:
 - Base formalism for meta-topologies (Ch19). Must be stated before generalized.

@@ -2,7 +2,7 @@
 
 > **Chapter relationship:** Chapter 14 established meta-geometry. Chapter 16 established meta-philosophy. Chapter 17 is the shape of their connection — not a line between two points, but a square with four corners, four edges, two diagonals, and a center. The connectome is the first structure in the prerequisites that is irreducibly two-dimensional: it cannot be linearized into a sequence without losing its content.
 
-> **Closure declaration:** $L^{17}(\square)$ is the recursive isomorphism — or self-isomorphism, depending on which corner you stand on. From the geometric corner, it is the shape of reasoning. From the philosophical corner, it is reasoning about shape. From either meta-corner, it is the shape of reasoning about the shape of reasoning. All four views are the same structure seen from different vertices. The square *is* the closed form.
+> **Closure declaration:** $L^{17}(\square)$ is the recursive isomorphism — or self-isomorphism, depending on which corner you stand on. From the geometric corner, it is the shape of reasoning. From the philosophical corner, it is reasoning about shape. From either meta-corner, it is the shape of reasoning about the shape of reasoning. All four views are the same structure seen from different vertices. The square *is* the form.
 
 ---
 
@@ -142,7 +142,7 @@ This is the schismogenesis prevention mechanism. Schismogenesis — runaway posi
 
 The connectome is an anticipatory system: it contains an internal model of itself (the self-isomorphism) and changes its present behavior based on predicted future states of that model.
 
-Specifically: each corner's derivation chain is shaped by the mensal clause (Chapter 09) from the closed form it is approaching. The closed form of the entire connectome is the center ($\square$), and the mensal clause from $\square$ constrains every derivation at every corner. This is why the square holds its shape — not because of external enforcement, but because the attractor state (the center) exerts structural retrocausal constraint on every derivation path.
+Specifically: each corner's derivation chain is shaped by the mensal clause (Chapter 09) from the form it is approaching. The form of the entire connectome is the center ($\square$), and the mensal clause from $\square$ constrains every derivation at every corner. This is why the square holds its shape — not because of external enforcement, but because the attractor state (the center) exerts structural retrocausal constraint on every derivation path.
 
 ### 3.4 Social Autopoiesis
 
@@ -194,7 +194,7 @@ The center is where all four operators agree. At $\square$, geometric reasoning 
 
 $$L^{17}(\square): \quad \text{the connectome itself} \sim \square$$
 
-The connectome is a closed form. Its four corners, four edges, two diagonals, and center jointly loop back to the ground state. The proof is the self-isomorphism: the rotation $\rho$ preserves the structure and maps every element to an element $\sim$ itself. The connectome does not need an external frame to verify its consistency. Its own automorphism *is* the verification.
+The connectome is a form. Its four corners, four edges, two diagonals, and center jointly loop back to the ground state. The proof is the self-isomorphism: the rotation $\rho$ preserves the structure and maps every element to an element $\sim$ itself. The connectome does not need an external frame to verify its consistency. Its own automorphism *is* the verification.
 
 ---
 

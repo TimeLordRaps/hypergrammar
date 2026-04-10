@@ -25,7 +25,7 @@ FRAME = FrameModel(
         Edge("HIER", "SIM", "topology = coarsest layer; ~ is the topological relation"),
         Edge("SIM", "INV", "~ preserves topological invariants"),
         Edge("INV", "CLASS", "derivation types classified by topological type"),
-        Edge("CLASS", "L17", "closed form = loop, open frame = curve, paradox = orbit"),
+        Edge("CLASS", "L17", "form = loop, open frame = curve, paradox = orbit"),
     ],
     notes=[
         "Base formalism for meta-topologies (Ch19). Must be stated before generalized.",

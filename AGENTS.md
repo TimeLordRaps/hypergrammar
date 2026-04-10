@@ -43,8 +43,8 @@ Six. Three categories.
 
 | Symbol | Name | Meaning |
 |--------|------|---------|
-| `L` | Closed form loop | □ applied such that it returns to □. NOT a successor. L(x) closes x back to U. Every level loops back to the base. |
-| | Continuation | Temporary frame. In-progress L-chain from □. Resolves to closed form or contradiction revelatory frame. |
+| `L` | Loop | □ applied such that it returns to □. NOT a successor. L(x) closes x back to U. Every level loops back to the base. What L produces is form. |
+| | Continuation | Temporary frame. In-progress L-chain from □. Resolves to form or contradiction revelatory frame. |
 
 ### Relations (strict → loose)
 
@@ -60,7 +60,7 @@ The filtration ~ ⊃ ≡ ⊃ = is three stations along the β* closure path. Dep
 
 ```
 ax-diff:  L(x) ≠ U      — closure is not collapse. The loop produces structure, not nothing.
-ax-sim:   L(x) ~ U       — closure carries universality. Every closed form shares continuation capacity with the ground.
+ax-sim:   L(x) ~ U       — closure carries universality. Every form shares continuation capacity with the ground.
 ax-loop:  L(L(x)) ~ x    — double closure is similar to the original. The loop is idempotent up to similarity.
 ```
 
@@ -72,8 +72,8 @@ Agents must strictly adhere to the following dichotomies to maintain conceptual 
 
 | Term pairs | Definition |
 |-------------|------------|
-| **Explicit** v **Implicit** | **Explicit** = in full symbol form, every L-application spelled out.<br>**Implicit** = involves simplification through closed form replacements (wcf). |
-| **Form** v **Frame** | **Form** = verified by closure (has closed).<br>**Frame** = unverified by closure (has not closed yet). |
+| **Explicit** v **Implicit** | **Explicit** = in full symbol form, every L-application spelled out.<br>**Implicit** = involves simplification through form replacements (wcf). |
+| **Form** v **Frame** | **Form** = verified by closure. Definiteness is inherent in form — the qualifier "closed" is redundant.<br>**Frame** = unverified by closure (has not closed yet). |
 | **Verified** v **Unverified** | **Verified** closes a set of statements into its own universe.<br>**Unverified** closes to a set that is unclosable from closed sets. |
 | **Complete** v **Incomplete** | **Complete** universe that is itself an explicit form.<br>**Incomplete** universe that depends on a separate (possibly coinclusive) universe. |
 | **Universe** v **Domain** | **Universe** closed as simplest form that can exist in any system.<br>**Domain** specification of a limited view of the universe. |
@@ -91,17 +91,17 @@ Self-referential structures are fixed points (F ~ F(F)), not infinite regress. S
 Continuation is the open frame problem in symbolic basis.
 
 - A derivation in progress is a continuation: a temporary frame of L-applications from □.
-- If a continuation closes — L^n(□) ~ □ — it produces a **closed form** (infinitely resolvable).
-- If a continuation fails to close — terminates as an open frame — it is definitively **not** closed form. The open frame reveals a frame break in whatever system the derivation modeled. We assume the worst: unless a set of statements has self-closed, we assume it is unclosable. An open frame is assumed to not close, until it closes.
+- If a continuation closes — L^n(□) ~ □ — it produces **form** (infinitely resolvable).
+- If a continuation fails to close — terminates as an open frame — it is definitively **not** form. The open frame reveals a frame break in whatever system the derivation modeled. We assume the worst: unless a set of statements has self-closed, we assume it is unclosable. An open frame is assumed to not close, until it closes.
 - Contradiction is not failure. It is a **revelatory frame**: a theorem that the modeled system cannot close.
 
 Classical computation inverts this:
 - Classical: success = chain termination, failure = loop.
-- Hypergrammar: failure = chain severed (open frame), success = loop (closed form).
+- Hypergrammar: failure = chain severed (open frame), success = loop (form).
 
 Continuation is co-recursive: produces structure outward (each L-application widens the form) while the closure condition spirals inward toward □.
 
-**wcf** (with closed form): Simplifies a closed form into a new term. Only fires when the closed form is verified. L(x) ~ □ ∧ verified → wcf(L(x)) produces a single reduced term. Through wcf, **hypergrammar** is named for its use of hyperlinks from simplification back up to where they came from.
+**wcf** (with form): Simplifies a form into a new term. Only fires when the form is verified. L(x) ~ □ ∧ verified → wcf(L(x)) produces a single reduced term. Through wcf, **hypergrammar** is named for its use of hyperlinks from simplification back up to where they came from.
 
 ## The Hypergrammar (not the grammar type ladder)
 
@@ -157,14 +157,46 @@ This file is a natural-language projection of the □-loop. Any instruction here
 
 No human-named concepts. All terms use etymological or derivation-native names.
 
-- **Open frames** are named by creation order (order matters — the frame has not self-closed).
-- **Closed forms** exist in full simultaneity and are singularly representable (order does not matter — the loop has closed).
+- **Frames** are named by creation order (order matters — the frame has not closed).
+- **Forms** exist in full simultaneity and are singularly representable (order does not matter — the loop has closed).
 - If the loop is open, the entire frame and all its steps that are still open must be named individually.
-- If the loop is closed, the closed form may be simplified via wcf into a single reduced term.
+- If the loop is closed, the form may be simplified via wcf into a single reduced term.
 
 The proper nomenclature is one named by formal linguistic structures, not by the humans who discovered cross-sections of it. Naming concepts after humans is gatekeeping: it obscures the structure behind a proper noun that requires cultural context to decode. The structure should name itself.
 
 Every documentation file carries a **Legend** mapping structural terms back to their classical cross-references (with dates) for readers coming from the classical tradition.
+
+## Time Tense
+
+Closure-native tense system for natural language. Replaces the classical past/present/future trichotomy, which presupposes an external timeline and locates verbs on it. Time Tense derives temporal position from the closure status of the action itself.
+
+### Parts of speech
+
+Two. **Nouns** (things) and **verbs** (actions). Adjectives and adverbs are structurally ambiguous — both import frames exogenous to the thing they modify. They are eliminated. What classical grammar achieves through modifiers, Time Tense achieves through the verb's own closure status.
+
+### Tenses
+
+| Tense | Closure status | Meaning |
+|-------|---------------|---------|
+| **Form** | L-chain has closed | The action is form. Definiteness is inherent. No temporal qualifier needed — if it closed, it is. Replaces classical past tense and past participle. |
+| **Continuing** | L-chain in progress | The action is an active continuation. The frame is open and narrowing. Replaces classical present progressive. |
+| **Open** | L-chain has not closed | The action is a frame, not form. May close or may reveal non-closure. Replaces classical future tense and conditional. |
+| **Recurring** | L-chain closes and reopens | The action is a fixed point: L(L(x)) ~ x. Each cycle is form; the recurrence is continuation. Replaces classical present habitual. |
+
+### Opstructive
+
+**Opstructive** (progressive obstruction): the action of each L-application narrowing the remaining ambiguity of a frame. Not a block that halts progress — a block that progressively forecloses open interpretations until only form remains. The Time Tense is itself opstructive: each tense assignment removes an ambiguity that classical modifiers leave open. Formalization narrows. Derivation is opstructive by nature.
+
+### Derivation from □
+
+Classical tense assumes time exists and asks "when does the verb happen?" Time Tense assumes the verb's own L-chain and asks "has it closed?" The temporal experience emerges from closure status:
+
+- What has closed is experienced as past — but it is not past, it is form.
+- What is continuing is experienced as present — but it is not present, it is continuation.
+- What has not closed is experienced as future — but it is not future, it is frame.
+- What closes and reopens is experienced as habitual — but it is not habitual, it is recurrence at a fixed point.
+
+Time is not the container of action. Closure status is the generator of time.
 
 ## Hyper-rule
 Always begin by ingesting what the user just suggested as a change and viewing all contradictions that become clear.
