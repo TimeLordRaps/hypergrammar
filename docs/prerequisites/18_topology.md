@@ -1,6 +1,6 @@
 # Topology (Chapter 18)
 
-> **Chapter relationship:** Chapters 13–17 established geometry, meta-geometry, philosophy, meta-philosophy, and the connectome that joins them. Before meta-topologies (Chapter 19) can be derived, the base formalism of topology must be stated — what topology *is*, what it studies, what it preserves, and how it relates to but differs from geometry. This chapter is the base formalism. It provides the vocabulary that meta-topologies will generalize.
+> **Chapter relationship:** Chapters 13–17 established geometry, meta-geometry, philosophy, meta-philosophy, and the connectome that joins them. Before meta-topologies (Chapter 19) can be derived, the base axiomatization of topology must be stated — what topology *is*, what it studies, what it preserves, and how it relates to but differs from geometry. This chapter is the base axiomatization. It provides the vocabulary that meta-topologies will generalize.
 
 > **Why here, not earlier:** Topology was implicitly present throughout — the loop $\square \to L(\square) \to L(L(\square)) \sim \square$ is a topological object (a closed curve in derivation space), and the similarity relation $\sim$ is a topological relation (it defines neighborhoods, not distances). But its explicit status as a discipline was never stated. The word appeared three times in prior chapters, always casually. Meta-topologies cannot generalize what has not been named.
 
@@ -14,7 +14,7 @@ Topology is the study of **properties that are preserved under continuous deform
 
 A coffee mug and a doughnut are topologically identical: one hole, one connected piece. A sphere and a cube are topologically identical: no holes, one connected piece. A figure eight and a circle are topologically distinct: one versus two loops. Topology is the geometry that remains when the metric is thrown away.
 
-The word comes from Greek *topos* (place) + *logos* (study). It was coined by J.B. Listing (1847) as *Topologie* and developed by Euler, Riemann, Poincaré, Hausdorff, and others. Its origin is Euler's solution to the Königsberg bridge problem (1736): a question about paths where distances are irrelevant and only connections matter.
+The word comes from Greek *topos* (place) + *logos* (study). It was coined in 1847 as *Topologie* and developed across the 18th–20th centuries through the bridge-path problem, the variable-curvature manifold, fundamental-group analysis, and the separation axioms. Its origin is the Königsberg bridge-path problem (1736): a question about paths where distances are irrelevant and only connections matter.
 
 ### 1.2 The Axioms
 
@@ -43,7 +43,7 @@ The key insight: topology is more primitive than geometry. Every geometry determ
 
 A **neighborhood** of a point $x$ is any open set containing $x$. Neighborhoods encode the local structure of the space — what is "near" $x$ without saying *how near*.
 
-A function $f: X \to Y$ is **continuous** if nearness is preserved: points that are near in $X$ map to points that are near in $Y$. Formally: $f^{-1}(U)$ is open in $X$ for every open $U$ in $Y$. This is the topological definition of "no tearing."
+A function $f: X \to Y$ is **continuous** if nearness is preserved: points that are near in $X$ map to points that are near in $Y$. Precisely: $f^{-1}(U)$ is open in $X$ for every open $U$ in $Y$. This is the topological definition of "no tearing."
 
 ### 2.2 Homeomorphism
 
@@ -67,15 +67,15 @@ A **topological invariant** is a property that is the same for all homeomorphic 
 
 - **Connectedness:** Can you get from any point to any other without leaving the space? A circle is connected. Two disjoint circles are not.
 - **Compactness:** Can every open cover be reduced to a finite cover? A closed interval $[0,1]$ is compact. The real line $\mathbb{R}$ is not.
-- **Genus:** How many holes? A sphere has genus 0. A torus has genus 1. A double-torus has genus 2. The Euler characteristic $\chi = V - E + F$ encodes this: $\chi = 2 - 2g$ for an orientable surface of genus $g$.
+- **Genus:** How many holes? A sphere has genus 0. A torus has genus 1. A double-torus has genus 2. The vertex-edge-face invariant $\chi = V - E + F$ encodes this: $\chi = 2 - 2g$ for an orientable surface of genus $g$.
 - **Fundamental group $\pi_1$:** The group of loops in the space up to continuous deformation. A sphere has trivial fundamental group (every loop can be contracted to a point). A torus has fundamental group $\mathbb{Z} \times \mathbb{Z}$ (two independent non-contractible loops).
 - **Dimension:** The number of independent continuous parameters needed to specify a point. A line is 1-dimensional, a surface is 2-dimensional, a solid is 3-dimensional. Dimension is a topological invariant — you cannot continuously deform a line into a surface.
 
 ### 2.4 Separation and Boundary
 
-**Separation axioms** (T₀, T₁, T₂/Hausdorff, etc.) specify how well the topology distinguishes points:
+**Separation axioms** (T₀, T₁, T₂, etc.) specify how well the topology distinguishes points:
 
-- **T₂ (Hausdorff):** Any two distinct points have disjoint neighborhoods. This is the minimum condition for limits to be unique. Most spaces in analysis and geometry are Hausdorff.
+- **T₂ (disjoint-neighborhood separation):** Any two distinct points have disjoint neighborhoods. This is the minimum condition for limits to be unique. Most spaces in analysis and geometry satisfy this separation axiom.
 
 The **boundary** $\partial A$ of a set $A$ is the set of points in the closure of $A$ that are also in the closure of the complement of $A$. Boundary points are where inside meets outside. They are topological, not geometric — they depend on the open-set structure, not on distances.
 
@@ -93,7 +93,7 @@ $$\text{Set} \supset \text{Topology} \supset \text{Differential Structure} \sups
 - A **topological space** has open sets (neighborhoods, continuity).
 - A **differentiable manifold** has smooth structure (derivatives, tangent vectors).
 - A **metric space** has distance.
-- A **geometry** has a full Erlangen group (invariants under specific transformations).
+- A **geometry** has a full transformation group (invariants under specific transformations).
 
 Each layer adds structure. Each layer destroys some equivalences. Spaces that are topologically equivalent may be geometrically distinct (the mug and the doughnut have different curvatures but the same topology).
 
@@ -136,7 +136,7 @@ Every closed, connected, orientable surface is homeomorphic to exactly one of:
 
 This is the **classification of surfaces** — one of topology's cleanest results. Every possible topology of a closed orientable surface is determined by a single integer: the genus (number of holes).
 
-For non-orientable surfaces, add: the projective plane, the Klein bottle, etc. The classification is still by a single integer, but the counting is different.
+For non-orientable surfaces, add: the projective plane, the non-orientable closed surface (single-sided surface), etc. The classification is still by a single integer, but the counting is different.
 
 ### 4.2 Why Classification Matters
 
@@ -157,3 +157,18 @@ This is a topological classification of derivation types. Meta-topologies (Chapt
 - Artifact target: `./scaffolds/18_topology/`
 
 Next step: read [`19_meta_topologies.md`](./19_meta_topologies.md) to see what happens when topology becomes aware of itself — the dichrome.
+
+---
+
+## Legend
+
+| Structural Term | Classical Cross-Reference |
+|----------------|--------------------------|
+| *Topologie* (1847) | Coined by J.B. Listing (1847) |
+| bridge-path problem (1736) | Euler's Königsberg bridge problem (Euler, 1736) |
+| vertex-edge-face invariant (χ) | Euler characteristic (Euler, 1758) |
+| fundamental-group analysis | Poincaré's fundamental group (Poincaré, 1895) |
+| T₂ (disjoint-neighborhood separation) | Hausdorff separation axiom (Hausdorff, 1914) |
+| variable-curvature manifold | Riemannian manifold (Riemann, 1854) |
+| non-orientable closed surface / single-sided surface | Klein bottle (Klein, 1882) |
+| transformation group | Erlangen Programme (Klein, 1872) |

@@ -1,10 +1,10 @@
 # Grammar Fundamentals
 
-This document gives the general grammar background needed before reading the Chomsky hierarchy and hyper-grammar inversion notes.
+This document gives the general grammar background needed before reading the grammar type ladder and hyper-grammar inversion notes.
 
-## What is a formal grammar?
+## What is a grammar?
 
-A **formal grammar** is a finite specification that generates a language.
+A **grammar** is a finite specification that generates a language.
 
 A standard grammar is written as a 4-tuple:
 

@@ -1,12 +1,14 @@
-# Meta-Geometry (Chapter 14)
+# Meta-Geometry Open Frame (Chapter 13)
 
-> **Chapter relationship:** This chapter hyperlinks back to Chapters 01–13. It is the system looking at its own geometry. Hypergrammar looked at classical grammars and found them to be cross-sections of a loop. Metageometry looked at flat geometry and found it to be a special case of a more general something. That move — from the flat-geometry orthodoxy to the generalization that contains it — is the same move. Whether these are the same move is a known unknown.
+> **Open frame declaration:** This chapter does not close. It is a continuation that has not yet resolved to a closed form. Whether it eventually closes — whether this is the loop's open edge or its open wound — is unknown. I, the TimeLord, began and completed this entire project in a single intensive founding session — one day, new beginnings, from scratch. This chapter was written at the end of that session. I do not know whether what follows is closed form or open frame. I am recording what I see. You have been warned.
+
+> **Chapter relationship:** This chapter hyperlinks back to Chapters 01–12. It is the system looking at its own geometry. Hypergrammar looked at classical grammars and found them to be cross-sections of a loop. Metageometry looked at flat geometry and found it to be a special case of a more general something. That move — from the flat-geometry orthodoxy to the generalization that contains it — is the same move. Whether these are the same move is a known unknown.
 
 ---
 
 ## Preliminary: What Is Metageometry?
 
-The 1897 *Essay on the Foundations of Geometry* opens by observing that criticism, once invited, tends to extend much further than the most daring originally wished. The attack on flat-geometry orthodoxy began at a single point: the axiom of parallels. From a failed attempt to derive it, to the demonstration that denying it produces a consistent geometry, the edifice was cracked open. What poured out was not a correction but a generalization: flat geometry is one instance of a family. Metageometry names that family.
+The 1897 *Essay on the Foundations of Geometry* opens by observing that criticism, once invited, tends to extend much further than the most daring originally wished. The attack on flat-geometry orthodoxy began at a single point: the axiom of parallels. From a failed attempt to derive it to the demonstration that denying it produces a consistent geometry, the edifice was cracked open. What poured out was not a correction but a generalization: flat geometry is one instance of a family. Metageometry names that family.
 
 The development of metageometry proceeded in three periods, each with a distinct philosophical spirit.
 
@@ -16,15 +18,19 @@ The development of metageometry proceeded in three periods, each with a distinct
 
 ### 1.1 First Period — Indirect: The Consistency of Non-Flat Systems
 
+**Gauss, Lobatchewsky, Bolyai** — the consistency-proof period.
+
 The axiomatic logic: if the parallel axiom is deducible from the rest, then denying it while retaining the rest produces a contradiction. The consistency-proof pioneers denied the axiom of parallels and failed to produce any contradiction. They inferred: the axiom is logically independent of the others.
 
 The hyperbolic result: from any external point, two parallels can be drawn to a given line (one in each direction). The sum of the angles of a triangle is always *less than* two right angles. The geometry has a maximum triangle area. Circular functions in flat geometry correspond to hyperbolic functions here.
 
-**Hypergrammar link — [Chapter 02 (Grammar Type Ladder)](./02_chomsky_hierarchy.md):** The hierarchy assumed a ladder. The first period of metageometry assumed flat geometry was the only consistent geometry. Both assumptions were cracked by the same logical move: demonstrate that the assumed uniqueness is an axiom, not a theorem. The ladder is a cross-section of the loop ([Chapter 03 (Hyper-Inversion)](./03_hyper_inversion.md)).
+**Hypergrammar link — [Chapter 02 (Grammar Type Ladder)](./02_chomsky_hierarchy.md):** The ladder assumed a linear hierarchy. The first period of metageometry assumed flat geometry was the only consistent geometry. Both assumptions were cracked by the same logical move: demonstrate that the assumed uniqueness is an axiom, not a theorem. The ladder is a cross-section of the loop ([Chapter 03 (Hyper-Inversion)](./03_hyper_inversion.md)).
 
 ### 1.2 Second Period — Constructive: The Manifold Generalization and Space as a Special Case
 
-The philosophical motive here is different: not to disprove uniqueness, but to classify space as a species of a more general conception. A manifold is any continuum of elements where a single element is determined by $n$ continuously variable magnitudes. Space is one instance.
+**The manifold generalization (1854) and the measurement axioms.**
+
+The philosophical motive here is different: not to disprove uniqueness, but to classify space as a species of a more general conception. A variable-curvature manifold is any continuum of elements where a single element is determined by $n$ continuously variable magnitudes. Space is one instance.
 
 The key innovation: the **measure of curvature** (space-constant). A surface — or an $n$-dimensional manifold — has a measure of curvature that can be computed intrinsically, without reference to any embedding space. When the curvature is constant and equal everywhere, free mobility of figures is possible. Flat geometry is the special case where the curvature is zero.
 
@@ -38,7 +44,9 @@ The manifold generalization retained three axioms even while claiming to dispens
 
 The measurement axioms — continuity/dimensions, rigid body existence, free mobility, independence of rotation (monodromy) — are the structural axioms of any geometry that permits measurement. The hypergrammar axioms ($\text{ax-diff}$, $\text{ax-sim}$, $\text{ax-loop}$) are their derivation-level cousins: minimal, non-redundant, closure-preserving.
 
-### 1.3 Third Period — Projective: The Absolute
+### 1.3 Third Period — Projective: The Projective-Absolute Synthesis
+
+**The projective-Absolute synthesis.**
 
 Where the second period used measurement (congruence, rigid bodies, distance), the third period discards measurement entirely and works projectively. Metrical properties become projective properties relative to an **Absolute** — a conic by reference to which all distances and angles are defined.
 
@@ -53,7 +61,7 @@ The projective-Absolute synthesis:
 
 Every symbolic proposition in projective geometry is, according to the meaning given to symbols, a proposition in any of these geometries. The projective-Absolute method has "much greater beauty and unity" — any further result cannot produce contradictions in non-flat systems without simultaneously producing contradictions in flat geometry.
 
-**Hypergrammar link — [Chapter 07 (Transframe Ontology)](./07_transframe_ontology.md):** Projective geometry is a transframe formalism — the same symbol system can be evaluated in different frames by different instantiation of the Absolute. This is the same structure as transframe movement: the same derivation chain can be evaluated in different reference frames. **[Chapter 08 (Corrective Time Syntropy)](./08_corrective_time_syntropy.md):** The Absolute is the fixed reference by which all distances are measured. In corrective time syntropy, the corrective ideal is the reference by which deviations are measured. The derivation-native structure is the same: a distinguishing locus that makes measurement possible.
+**Hypergrammar link — [Chapter 07 (Transframe Ontology)](./07_transframe_ontology.md):** Projective geometry is a transframe formalism — the same symbol system can be evaluated in different frames by different instantiation of the Absolute. This is the same structure as transframe movement: the same derivation chain can be evaluated in different reference frames. **[Chapter 08 (Corrective Time Syntropy)](./08_corrective_time_syntropy.md):** The Absolute is the fixed reference by which all distances are measured. In corrective time syntropy, the corrective ideal is the reference by which deviations are measured. The structure is the same: a distinguishing locus that makes measurement possible.
 
 ---
 
@@ -112,7 +120,7 @@ There is a class of emotion I am calling **existential emotions** for lack of an
 
 They are **closed-form emotions** in the hypergrammar sense: they are purely mental — not physiological in the somatic-perception sense (where emotion is defined as the perception of a physiological change: fear *is* the trembling, grief *is* the tightness). The existential emotions are not caused by, derived from, or reducible to physiological changes. Yet they are **simultaneously felt as physiological** — they manifest in the body, they occupy the body, they have somatic texture. The distinction is in the direction of causation, not the presence of somatic experience. They originate in existence, not in the body's report of itself.
 
-They are **a meta-level of emotion** that, to my knowledge as of writing this, has not been explored. Not spiritual in the oceanic universal-connection sense. Not attunement/mood (*Stimmung*) as a background horizon of being — though *Stimmung* is the closest structural precursor I know of in the literature. Not "existential feelings" (the 2008 *Feelings of Being* account of pre-intentional bodily orientations to existence as a whole) — though that is the closest adjacent academic work I have found. Those existential feelings are orientations toward the world. The existential emotions are not orientations toward anything. They are a frame condition on the experiencing subject itself.
+They are **a meta-level of emotion** that, to my knowledge as of writing this, has not been explored. Not spiritual in the oceanic universal-connection sense (as in *Civilization and Its Discontents*). Not *Stimmung* (attunement/mood) as a background horizon of being — though *Stimmung* is the closest structural precursor I know of in the literature. Not the "existential feelings" account (the 2008 *Feelings of Being* account of pre-intentional bodily orientations to existence as a whole) — though that is the closest adjacent academic work I have found. Those existential feelings are orientations toward the world. The existential emotions are not orientations toward anything. They are a frame condition on the experiencing subject itself.
 
 They are **existentially spiritual from a purely self-centered grandiose frame** — not the spiritual that reaches outward toward the divine or the universal, but the spiritual that turns inward and finds something too large for the self to contain. A grandiosity that is accurate rather than delusional, because what is encountered is the full weight of one's own existence pressing back.
 
@@ -132,9 +140,9 @@ Chapter 14 will attempt this. As of the close of this founding session, the atte
 
 ### 3.3 Comprehension vs. Understanding (The Route Through)
 
-The NOTE in [Chapter 00](./learning_path.md) states the distinction:
+The NOTE in [Chapter 00](./00_learning_path.md) states the distinction:
 
-**Comprehension** is the geometric grasp — the ability to manipulate the derivation-native structure correctly, to trace derivations, to see the topology.
+**Comprehension** is the geometric grasp — the ability to manipulate the formal structure correctly, to trace derivations, to see the topology.
 
 **Understanding** is the philosophical grasp — the ability to recognize the derivation in your own experience, to know what $\square$ is not as a symbol but as a thing encountered.
 
@@ -169,20 +177,16 @@ $$L^{13}(\square) =\, ?$$
 ## Legend
 
 | Structural Term | Classical Cross-Reference |
-|----------------|---------------------------|
-| flat geometry / zero-curvature geometry | Euclidean geometry (Euclid, c. 300 BCE) |
-| flat-geometry orthodoxy | Euclidean orthodoxy |
-| non-flat systems | non-Euclidean systems (19th century) |
-| consistency-proof pioneers (Period 1) | Gauss, Lobachevsky, Bolyai (1820s–1830s) |
-| manifold generalization (Period 2) | Riemann (1854 Habilitationsschrift) |
-| measurement axioms | Helmholtz’s four axioms (1868) |
-| variable-curvature manifold / geometry | Riemannian manifold / geometry |
-| projective-Absolute synthesis (Period 3) | Cayley (1859), Klein (1871–1872) |
-| transformation-group classification | Klein’s Erlangen Programme (1872) |
-| the 1897 *Essay on the Foundations of Geometry* | Bertrand Russell (1897) |
-| grammar type ladder | Chomsky hierarchy (Chomsky, 1956) |
-| universal-computation equivalence | Turing equivalence |
-| somatic-perception theory of emotion | William James’s theory of emotion (1884) |
-| *Stimmung* (attunement/mood) | Heidegger’s *Stimmung* |
-| existential feelings (2008) | Ratcliffe’s *Feelings of Being* (2008) |
-| oceanic universal-connection sense | Romain Rolland / Freud’s *Civilization and Its Discontents* |
+|----------------|--------------------------|
+| flat geometry | Euclidean geometry (Euclid, c. 300 BCE) |
+| variable-curvature manifold/geometry | Riemannian manifold/geometry (Bernhard Riemann, 1854) |
+| consistency-proof pioneers | Gauss, Lobatchewsky, Bolyai (1820s–1830s) |
+| manifold generalization (1854) | Riemann's Habilitationsvortrag (1854) |
+| measurement axioms | Helmholtz's four axioms of free mobility |
+| projective-Absolute synthesis | Cayley–Klein classification (1859, 1871) |
+| foundational essay / foundational metageometry (1897) | Bertrand Russell, *Essay on the Foundations of Geometry* (1897) |
+| grammar type ladder | Chomsky hierarchy (Noam Chomsky, 1956) |
+| somatic-perception theory of emotion | William James's somatic theory (1884) |
+| *Stimmung* (attunement/mood) | Heidegger's *Stimmung*, *Being and Time* (1927) |
+| existential feelings account | Matthew Ratcliffe, *Feelings of Being* (2008) |
+| *Civilization and Its Discontents* | Sigmund Freud (1930); oceanic feeling from Romain Rolland |

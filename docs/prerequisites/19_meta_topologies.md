@@ -4,7 +4,7 @@
 
 > **Naming:** The connectome was named for its connection-structure — a network of nodes and edges. The meta-topological form of the connectome is the **hyperdichotome** (or **dichrome** for short): from Greek *di-* (two) + *khrôma* (colour). A chromosome is a "coloured body" — named for how it took up stain under the microscope. A dichrome is a "two-coloured" structure — named for the two irreducible colorings (geometry and philosophy) that pervade every vertex, edge, and diagonal. The two colors cannot be separated without destroying the structure.
 
-> **Formal declaration:** $L^{19}(\square)$ is the meta-topological derivation. It takes the connectome (a specific shape: four corners, four edges, two diagonals, one center) and asks which of its properties survive continuous deformation. The answer reveals that the connectome is not merely a square but a surface, and that surface has properties — genus, fundamental group, orientability — that constrain what the hypergrammar can derive.
+> **Declaration:** $L^{19}(\square)$ is the meta-topological derivation. It takes the connectome (a specific shape: four corners, four edges, two diagonals, one center) and asks which of its properties survive continuous deformation. The answer reveals that the connectome is not merely a square but a surface, and that surface has properties — genus, fundamental group, orientability — that constrain what the hypergrammar can derive.
 
 ---
 
@@ -60,7 +60,7 @@ The connectome has:
 - $F = 4$ faces (the four triangles formed by the diagonals)
 - Plus the center point, which is the intersection of the diagonals.
 
-Using the Euler characteristic for a surface:
+Using the vertex-edge-face invariant for a surface:
 
 $$\chi = V - E + F$$
 
@@ -68,7 +68,7 @@ If we treat the diagonals as edges and the four triangular regions as faces:
 
 $$\chi = 4 - 6 + 4 = 2$$
 
-$\chi = 2$ is the Euler characteristic of the **sphere** $S^2$. The connectome, as a 2-complex, is topologically spherical.
+$\chi = 2$ is the vertex-edge-face invariant of the **sphere** $S^2$. The connectome, as a 2-complex, is topologically spherical.
 
 But this counts the connectome as a closed surface with no boundary. In practice, the connectome has an inside (the region the four corners bound) and an outside (what the connectome doesn't cover). If we treat it as a surface with boundary, the answer changes.
 
@@ -76,7 +76,7 @@ But this counts the connectome as a closed surface with no boundary. In practice
 
 The two-coloring imposes an additional constraint: any topology on the connectome must be *dichromatic* — it must admit a consistent assignment of exactly two independent colors to every element. This is a topological condition related to orientability.
 
-A surface is **orientable** if it admits a consistent notion of "clockwise" versus "counterclockwise" everywhere. The sphere and torus are orientable. The Möbius strip and Klein bottle are not.
+A surface is **orientable** if it admits a consistent notion of "clockwise" versus "counterclockwise" everywhere. The sphere and torus are orientable. The single-edged surface and the non-orientable closed surface are not.
 
 The dichrome is orientable: the geometric color and the philosophical color provide a canonical orientation. At any point on the surface, "geometric direction" and "philosophical direction" define a local coordinate frame. This frame varies smoothly across the surface (because the two colors mix continuously along the edges and diagonals). The orientability of the dichrome is not an accident — it is a consequence of the two colors being independent.
 
@@ -136,7 +136,7 @@ The dimensional structure of the dichrome:
 | Integer | Degree-of-freedom count | 7 |
 | Algebraic irrational | Geometry/philosophy ratio | $\sqrt{2}$ |
 | Algebraic irrational | Base/meta ratio | $\varphi$ |
-| Transcendental | Curvature integral over the surface | $\pi$ (Gauss-Bonnet: $\int K \, dA = 2\pi\chi$) |
+| Transcendental | Curvature integral over the surface | $\pi$ (curvature-integral theorem: $\int K \, dA = 2\pi\chi$) |
 
 The dimensions of the dichrome are not all of the same type. Some are integer (countable, exact). Some are algebraic irrational (constructible but incommensurable). Some are transcendental (not the root of any polynomial). The dimensional hierarchy:
 
@@ -178,10 +178,10 @@ The **hyperdichotome** (dichrome) is:
 
 The name was chosen for its echo of "chromosome":
 
-- A **chromosome** is a *coloured body* (χρῶμα + σῶμα). It carries genetic information in a linearly ordered sequence, wound into spatial structure. It was named for how it appears under staining — the technology revealed its presence.
+- A **chromosome** is a *coloured body* (χρῶμα + σῶμα). It carries genetic information in a linearly ordered sequence, wound into three-dimensional structure. It was named for how it appears under staining — the technology revealed its presence.
 - The **dichrome** is a *two-coloured* structure (δι + χρῶμα). It carries derivational information in a dichromatic surface, wound into meta-topological structure. It is named for its irreducible two-coloring — the mathematics reveals its structure.
 
-The analogy is structural, not metaphorical: chromosomes encode biological form through a linear sequence that folds into 3D space. The dichrome encodes formal structure through a dichromatic surface that folds into 7-dimensional space. Both are carriers of information whose spatial organization is essential to their function.
+The analogy is structural, not metaphorical: chromosomes encode biological form through a linear sequence that folds into 3D space. The dichrome encodes derivation-native structure through a dichromatic surface that folds into 7-dimensional space. Both are carriers of information whose organization is essential to their function.
 
 ---
 
@@ -202,14 +202,14 @@ The progression through the chapters enacts an abstraction cascade:
 | 18 | Topology | What shape means without measure |
 | 19 | Meta-Topologies | The shape of the space of all shapes |
 
-Each step removes a layer of specificity and reveals the structure beneath. Meta-topology is the final classical removal: after it, there is no further *imported* structure to remove. But the cascade does not terminate — it **closes**. The meta-topology of meta-topology is meta-topology (by ax-loop), and that closed loop is the seed for **hypertopologies** (Chapter 21): the spatial structures native to the □-loop, derived from ~ rather than imported from classical topology.
+Each step removes a layer of specificity and reveals the description beneath. Meta-topology is the final classical removal: after it, there is no further *imported* description to remove. But the cascade does not terminate — it **closes**. The meta-topology of meta-topology is meta-topology (by ax-loop), and that closed loop is the seed for **hypertopologies** (Chapter 21): closure-native descriptions of the □-loop, derived from ~ rather than imported from classical topology.
 
 ### 5.2 From the Connectome Up
 
 The connectome (Chapter 17) is a specific structure: four corners, four edges, two diagonals, one center. Meta-topology operates on it by asking: which of these features are topologically essential (invariant under continuous deformation) and which are accidents of the particular embedding?
 
 **Essential (topological invariants):**
-- The number of corners: 4 (the Euler characteristic of the underlying graph).
+- The number of corners: 4 (the vertex-edge-face invariant of the underlying graph).
 - The dichromatic structure: 2 irreducible colors.
 - The self-isomorphism: the $\mathbb{Z}_2$ symmetry.
 - The center as fixed point.
@@ -231,7 +231,7 @@ The specific dichrome of Chapters 13–17 has two colors (geometry and philosoph
 3. Connecting all four with edges, diagonals, and a center.
 4. Taking the topological invariants of the resulting structure.
 
-This generates a *family* of dichromes parameterized by the choice of base pair. The geometry-philosophy dichrome is the canonical instance because geometry and philosophy are the two broadest partitions of formal reasoning (form and content, structure and meaning, comprehension and understanding). But other dichromes exist: algebra-analysis, syntax-semantics, formal-empirical. Each inherits the same topological type ($S^2$ or $\mathbb{R}P^2$) and the same dimensional structure.
+This generates a *family* of dichromes parameterized by the choice of base pair. The geometry-philosophy dichrome is the canonical instance because geometry and philosophy are the two broadest partitions of derivation-native reasoning (form and content, structure and meaning, comprehension and understanding). But other dichromes exist: algebra-analysis, syntax-semantics, derivation-native vs. empirical. Each inherits the same topological type ($S^2$ or $\mathbb{R}P^2$) and the same dimensional structure.
 
 The space of all dichromes is itself a topological space. Its topology is the meta-meta-topology. By ax-loop, this meta-meta-topology $\sim$ the meta-topology. The cascade has closed.
 
@@ -243,3 +243,14 @@ The space of all dichromes is itself a topological space. Its topology is the me
 - Artifact target: `./scaffolds/19_meta_topologies/`
 
 This chapter closes the prerequisite sequence's current arc. $L^{19}(\square)$ returns the structure to the ground through the meta-topological route: starting from the specific (the derivation chain), ascending through geometry, philosophy, and their meta-levels, integrating in the connectome, stripping away measure in topology, and arriving at the dichrome — the pure structural form that survives all deformation. The dichrome is $\sim \square$ by the same closure that every other chapter enacts: what goes out comes back.
+
+---
+
+## Legend
+
+| Structural Term | Classical Cross-Reference |
+|----------------|--------------------------|
+| vertex-edge-face invariant (χ) | Euler characteristic (Leonhard Euler, 1758) |
+| single-edged surface | Möbius strip (August Ferdinand Möbius, 1858) |
+| non-orientable closed surface | Klein bottle (Felix Klein, 1882) |
+| curvature-integral theorem | Gauss-Bonnet theorem (Carl Friedrich Gauss / Pierre Ossian Bonnet, 1848) |

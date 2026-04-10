@@ -46,7 +46,7 @@ The narration is not in chapter-number order. It is structured in two halves:
 [FRONT 40 MIN — ~5,200 words — Foundations]
   Ch0:  learning path + worthiness note
   Ch1:  grammar fundamentals (symbol, rule, derivation)
-  Ch2:  Chomsky hierarchy mapped to loop phases
+  Ch2:  grammar type ladder mapped to loop phases
   Ch3:  hyper-inversion (the loop move)
   Ch4:  degrees of freedom
           ↕ PIVOT ↕

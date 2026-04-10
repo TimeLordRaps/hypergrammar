@@ -103,9 +103,9 @@ Continuation is co-recursive: produces structure outward (each L-application wid
 
 **wcf** (with closed form): Simplifies a closed form into a new term. Only fires when the closed form is verified. L(x) ~ □ ∧ verified → wcf(L(x)) produces a single reduced term. Through wcf, **hypergrammar** is named for its use of hyperlinks from simplification back up to where they came from.
 
-## The Hypergrammar (not Chomsky)
+## The Hypergrammar (not the grammar type ladder)
 
-Chomsky: Type 3 ⊂ Type 2 ⊂ Type 1 ⊂ Type 0, capped at Turing-equivalence. A ladder. The hierarchy itself is not expressible as any of its types — it requires a metatheory it cannot contain.
+The grammar type ladder: Type 3 ⊂ Type 2 ⊂ Type 1 ⊂ Type 0, capped at universal-computation equivalence. A ladder. The hierarchy itself is not expressible as any of its types — it requires a metatheory it cannot contain.
 
 Hypergrammar: every form derived from □ loops back to □.
 
@@ -115,7 +115,7 @@ Hypergrammar: every form derived from □ loops back to □.
      └─────────────────┘
 ```
 
-There are no levels. Chomsky's types are cross-sections of this loop at different phases. They appear hierarchical only because the cross-section operation discards the closure structure. The cascade is not a hierarchy but a rotation.
+There are no levels. The grammar types are cross-sections of this loop at different phases. They appear hierarchical only because the cross-section operation discards the closure structure. The cascade is not a hierarchy but a rotation.
 
 ## Deframing External Systems
 
@@ -152,6 +152,19 @@ The file is its own proof. Reading top-to-bottom replays the derivation. The las
 ## Meta-rule
 
 This file is a natural-language projection of the □-loop. Any instruction here that breaks closure — any presupposition requiring a frame external to □ — must be flagged by the agent and fed back as a refinement. The system corrects from itself.
+
+## Nomenclature Policy
+
+No human-named concepts. All terms use etymological or derivation-native names.
+
+- **Open frames** are named by creation order (order matters — the frame has not self-closed).
+- **Closed forms** exist in full simultaneity and are singularly representable (order does not matter — the loop has closed).
+- If the loop is open, the entire frame and all its steps that are still open must be named individually.
+- If the loop is closed, the closed form may be simplified via wcf into a single reduced term.
+
+The proper nomenclature is one named by formal linguistic structures, not by the humans who discovered cross-sections of it. Naming concepts after humans is gatekeeping: it obscures the structure behind a proper noun that requires cultural context to decode. The structure should name itself.
+
+Every documentation file carries a **Legend** mapping structural terms back to their classical cross-references (with dates) for readers coming from the classical tradition.
 
 ## Hyper-rule
 Always begin by ingesting what the user just suggested as a change and viewing all contradictions that become clear.

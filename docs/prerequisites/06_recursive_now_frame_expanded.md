@@ -210,6 +210,14 @@ with scale-aware branch behavior and fixed-point diagnostics to keep the process
 - [Concepts](../../AGENTS.md#concepts)
 - [Axioms](../../AGENTS.md#axioms)
 - [Continuation](../../AGENTS.md#continuation)
-- [The Hypergrammar (not Chomsky)](../../AGENTS.md#the-hypergrammar-not-chomsky)
+- [The Hypergrammar (not the grammar type ladder)](../../AGENTS.md#the-hypergrammar-not-the-grammar-type-ladder)
 
 This chapter is the expanded chapter-06 realization requested for the Recursive Now-Frame model.
+
+---
+
+## Legend
+
+| Structural Term | Classical Cross-Reference |
+|----------------|---------------------------|
+| grammar type ladder | Chomsky hierarchy (Noam Chomsky, 1956) |
