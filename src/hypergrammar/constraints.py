@@ -463,6 +463,9 @@ class HypergrammarConstraintEngine:
                 final_result_mismatch_count = self._safe_int(
                     stack_execution.get("final_result_mismatch_count")
                 )
+                disjoint_variable_violation_count = self._safe_int(
+                    stack_execution.get("disjoint_variable_violation_count")
+                )
 
                 if invalid_theorem_count > 0:
                     stack_ok = False
@@ -562,6 +565,15 @@ class HypergrammarConstraintEngine:
                         "metamath.stack_execution.final_result_mismatch",
                         "Final proof result does not match theorem statement body for one or more theorems.",
                         final_result_mismatch_count=final_result_mismatch_count,
+                    )
+
+                if disjoint_variable_violation_count > 0:
+                    stack_ok = False
+                    result.add_issue(
+                        IssueSeverity.ERROR,
+                        "metamath.stack_execution.disjoint_variable_violation",
+                        "Substitution application violated disjoint-variable restrictions.",
+                        disjoint_variable_violation_count=disjoint_variable_violation_count,
                     )
 
         result.checks["metamath_proof_segments"] = proof_ok

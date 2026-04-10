@@ -9,6 +9,8 @@ SCAFFOLD_SCRIPTS = [
     "02_chomsky_hierarchy_scaffold.py",
     "03_hyper_inversion_scaffold.py",
     "04_degrees_of_freedom_scaffold.py",
+    "05_recursive_now_frame_scaffold.py",
+    "06_recursive_now_frame_expanded_scaffold.py",
     "07_transframe_ontology_scaffold.py",
     "08_corrective_time_syntropy_scaffold.py",
     "09_mensaclaused_metaretrocausality_scaffold.py",

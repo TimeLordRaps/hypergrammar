@@ -547,6 +547,7 @@ def _new_metamath_scope() -> dict[str, Any]:
         "v": set(),
         "f": [],
         "e": [],
+        "d": [],
         "labels": {},
     }
 
@@ -556,6 +557,7 @@ def _active_scope_snapshot(scope_stack: list[dict[str, Any]]) -> dict[str, Any]:
     active_f_entries: list[dict[str, Any]] = []
     active_e_entries: list[dict[str, Any]] = []
     active_labels: dict[str, str] = {}
+    active_d_pairs: set[tuple[str, str]] = set()
 
     for scope in scope_stack:
         active_vars.update(str(token) for token in scope.get("v", set()))
@@ -564,12 +566,17 @@ def _active_scope_snapshot(scope_stack: list[dict[str, Any]]) -> dict[str, Any]:
         labels = scope.get("labels", {})
         for label, kind in labels.items():
             active_labels[str(label)] = str(kind)
+        for pair in scope.get("d", []):
+            if isinstance(pair, (list, tuple)) and len(pair) == 2:
+                a, b = str(pair[0]), str(pair[1])
+                active_d_pairs.add((min(a, b), max(a, b)))
 
     return {
         "v": active_vars,
         "f_entries": active_f_entries,
         "e_entries": active_e_entries,
         "labels": active_labels,
+        "d_pairs": active_d_pairs,
     }
 
 
@@ -604,6 +611,25 @@ def _build_mandatory_hypothesis_labels(
             mandatory_e_labels.append(label)
 
     return mandatory_f_labels + mandatory_e_labels
+
+
+def _build_mandatory_dv_pairs(
+    mandatory_vars: set[str],
+    active_d_pairs: set[tuple[str, str]],
+) -> set[tuple[str, str]]:
+    """Return the subset of active $d pairs where both variables are mandatory."""
+    return {
+        (a, b) for a, b in active_d_pairs
+        if a in mandatory_vars and b in mandatory_vars
+    }
+
+
+def _extract_variables_from_expr(
+    expr: list[str] | tuple[str, ...],
+    declared_vars: set[str],
+) -> set[str]:
+    """Return declared variables that appear in an expression."""
+    return {token for token in expr if token in declared_vars}
 
 
 def _analyze_compressed_payload_decoding(statements: list[dict[str, Any]]) -> dict[str, Any]:
@@ -837,6 +863,7 @@ def _analyze_stack_level_proof_execution(statements: list[dict[str, Any]]) -> di
     decode_error_count = 0
     final_stack_shape_mismatch_count = 0
     final_result_mismatch_count = 0
+    disjoint_variable_violation_count = 0
 
     samples: list[dict[str, Any]] = []
     invalid_samples: list[dict[str, Any]] = []
@@ -885,15 +912,32 @@ def _analyze_stack_level_proof_execution(statements: list[dict[str, Any]]) -> di
                 scope_stack[-1]["labels"][label] = "$e"
             continue
 
+        if kind == "$d":
+            scope_stack[-1]["d"].extend(_pairwise_pairs(body_tokens))
+            continue
+
         if kind in {"$a", "$p"}:
             active_snapshot = _active_scope_snapshot(scope_stack)
             mandatory_hypotheses = _build_mandatory_hypothesis_labels(body_tokens, active_snapshot)
+
+            mandatory_vars: set[str] = set()
+            for hyp_label in mandatory_hypotheses:
+                hyp_def = definitions.get(hyp_label)
+                if hyp_def and hyp_def.get("kind") == "$f":
+                    hyp_body = hyp_def.get("body", [])
+                    if len(hyp_body) >= 2:
+                        mandatory_vars.add(str(hyp_body[-1]))
+
+            mandatory_dv_pairs = _build_mandatory_dv_pairs(
+                mandatory_vars, active_snapshot.get("d_pairs", set())
+            )
 
             assertion_definition = {
                 "kind": kind,
                 "label": label,
                 "body": body_tokens,
                 "mandatory_hypotheses": mandatory_hypotheses,
+                "mandatory_dv_pairs": mandatory_dv_pairs,
             }
 
             if kind == "$p":
@@ -982,6 +1026,7 @@ def _analyze_stack_level_proof_execution(statements: list[dict[str, Any]]) -> di
                     nonlocal substitution_conflict_count
                     nonlocal floating_type_mismatch_count
                     nonlocal essential_hypothesis_mismatch_count
+                    nonlocal disjoint_variable_violation_count
 
                     definition = definitions.get(label_name)
                     if definition is None:
@@ -1072,6 +1117,24 @@ def _analyze_stack_level_proof_execution(statements: list[dict[str, Any]]) -> di
 
                             theorem_valid = False
                             theorem_errors.append(f"invalid_hypothesis_kind:{hyp_kind}")
+
+                        dv_pairs = definition.get("mandatory_dv_pairs", set())
+                        if dv_pairs:
+                            all_declared_vars = _active_scope_snapshot(scope_stack).get("v", set())
+                            for dv_a, dv_b in dv_pairs:
+                                if dv_a in substitution and dv_b in substitution:
+                                    vars_a = _extract_variables_from_expr(
+                                        substitution[dv_a], all_declared_vars
+                                    )
+                                    vars_b = _extract_variables_from_expr(
+                                        substitution[dv_b], all_declared_vars
+                                    )
+                                    if vars_a & vars_b:
+                                        disjoint_variable_violation_count += 1
+                                        theorem_valid = False
+                                        theorem_errors.append(
+                                            f"dv_violation:{dv_a}:{dv_b}:{','.join(sorted(vars_a & vars_b))}"
+                                        )
 
                         result_expr = _apply_substitution(
                             [str(token) for token in definition.get("body", [])],
@@ -1220,6 +1283,7 @@ def _analyze_stack_level_proof_execution(statements: list[dict[str, Any]]) -> di
             and decode_error_count == 0
             and final_stack_shape_mismatch_count == 0
             and final_result_mismatch_count == 0
+            and disjoint_variable_violation_count == 0
         )
     )
 
@@ -1237,6 +1301,7 @@ def _analyze_stack_level_proof_execution(statements: list[dict[str, Any]]) -> di
         "decode_error_count": decode_error_count,
         "final_stack_shape_mismatch_count": final_stack_shape_mismatch_count,
         "final_result_mismatch_count": final_result_mismatch_count,
+        "disjoint_variable_violation_count": disjoint_variable_violation_count,
         "all_valid": all_valid,
         "samples": samples,
         "invalid_samples": invalid_samples,
