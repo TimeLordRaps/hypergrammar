@@ -6,9 +6,9 @@ This file is for humans working on the `hyper-grammar` repo. It is written in pl
 
 ## What this repo is
 
-A symbolic library with one operation (`L`) and one starting point (`□`, typed `$` in files).
+A symbolic library with one operation (`□`) and one starting point (`□`, typed `$` in files).
 
-Everything you build here is a loop: you start at `□`, apply `L` some number of times, and come back to `□`. If your derivation comes back, it's a **form** — it works, it's verified, it's reusable. If it doesn't come back, it's an **open frame** — it's unfinished, or it's telling you something can't close.
+Everything you build here is a loop: you start at `□`, apply `□` some number of times, and come back to `□`. If your derivation comes back, it's a **form** — it works, it's verified, it's reusable. If it doesn't come back, it's an **open frame** — it's unfinished, or it's telling you something can't close.
 
 That's the whole idea. Loops succeed. Severed chains are either incomplete or informative.
 
@@ -22,7 +22,7 @@ You only need six things. They fall into three groups.
 
 ### Operation and states
 
-**L (closure loop)** — the one operation. `L(x)` closes `x` back toward `□`. It's not a step forward; it's a step back toward the base. Every layer loops home.
+**□ (closure loop)** — the one operation. `□(x)` closes `x` back toward `□`. It's not a step forward; it's a step back toward the base. Every layer loops home.
 
 **Continuation** — work in progress. A derivation you haven't finished yet. It either closes (becomes a form) or stays open (becomes an open frame).
 
@@ -40,18 +40,18 @@ At `□` itself these three all mean the same thing. They only spread apart as y
 
 ## The three rules
 
-1. **Closure isn't collapse.** `L(x)` always produces something — it doesn't erase `x` back to nothing. (`L(x) ≠ □`)
-2. **Closure carries the ground.** Every form shares something with `□`. (`L(x) ~ □`)
-3. **Double closure returns you home.** Closing twice is similar to where you started. (`L(L(x)) ~ x`)
+1. **Closure isn't collapse.** `□(x)` always produces something — it doesn't erase `x` back to nothing. (`□(x) ≠ □`)
+2. **Closure carries the ground.** Every form shares something with `□`. (`□(x) ~ □`)
+3. **Double closure returns you home.** Closing twice is similar to where you started. (`□(□(x)) ~ x`)
 
 ## How to read a derivation
 
-Derivation files use the `.hg` extension. Each line is one `L`-application. Read top to bottom to replay the derivation.
+Derivation files use the `.hg` extension. Each line is one □-application. Read top to bottom to replay the derivation.
 
 ```
 $            -- start: ground state
-L($)         -- first closure
-L(L($))      -- second closure: ~ $ by rule 3
+□($)         -- first closure
+□(□($))      -- second closure: ~ $ by rule 3
 ```
 
 `$` is how you type `□` in a file. The last line should be `~` the first line. If it isn't, the file is either unfinished or a proof that something external can't close.
@@ -69,7 +69,7 @@ The inversion from normal computing: in classical programming, a loop is usually
 
 When talking about work in this repo, these pairs mean specific things:
 
-- **Explicit vs. implicit** — explicit means every `L` is spelled out; implicit means you've simplified using wcf.
+- **Explicit vs. implicit** — explicit means every `□` is spelled out; implicit means you've simplified using wcf.
 - **Form vs. frame** — a form has closed; a frame hasn't yet.
 - **Verified vs. unverified** — verified means a set of statements closes into its own universe; unverified means it doesn't, or can't.
 - **Complete vs. incomplete** — complete means the universe is itself an explicit form; incomplete means it depends on something outside itself.
