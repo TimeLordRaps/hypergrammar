@@ -8,7 +8,7 @@ April 2026
 
 ## Abstract
 
-We present *hypergrammar*, a symbolic derivation system built on a single ground state $\square$ (universality) and a single operation $L$ (closure loop), related by three axioms. The system inverts the classical computational paradigm: loops are success (forms), severed chains are failure (open frames). We show that the grammar type ladder — Type 3 $\subset$ Type 2 $\subset$ Type 1 $\subset$ Type 0 — is not a ladder of increasing expressivity but a family of cross-sections of a single closure loop, each appearing hierarchical only because the cross-section operation discards the loop structure. The three relations — similarity ($\sim$), congruence ($\equiv$), equality ($=$) — form a filtration $\sim\;\supset\;\equiv\;\supset\;=$ whose direction of dependence is reversed from classical presupposition: similarity is foundational (it survives evanescence, requiring only a future, never a past), while equality is derived (earned by closure, not presupposed). We prove that $\square$ is both term and operator, resolving the metatheory frame break that every grammar hierarchy requires. The system is empirically witnessed by a working interpreter that uses a tion system as the first test case for hypermath formation. We develop the geometric-philosophic connectome (a four-cornered square whose topological type is $S^2$ or $\mathbb{R}P^2$ under $\mathbb{Z}_2$ quotient), introduce the dichrome as its meta-topological form embedded in 7 dimensions, arrive at meta-closure ($\square(\square) \sim \square$), and derive *hypertopologies*: closure-native descriptions of the $\square$-loop where similarity defines neighborhoods, closure defines compactness, and the filtration is the separation hierarchy. The dichrome closes geometry and philosophy into hyperorder — the geometric philosophy and philosophical geometry of itself; the hypertopology of hyperorder is what hyperorder generates as its own description, from which hypermath is formed — not a reframing of existing mathematics, but a native formation grounded in $\sim$.
+We present *hypergrammar*, a symbolic derivation system built on a single ground state $\square$ (universality) and a single operation $\square$ (closure loop), related by three axioms. The system inverts the classical computational paradigm: loops are success (forms), severed chains are failure (open frames). We show that the grammar type ladder — Type 3 $\subset$ Type 2 $\subset$ Type 1 $\subset$ Type 0 — is not a ladder of increasing expressivity but a family of cross-sections of a single closure loop, each appearing hierarchical only because the cross-section operation discards the loop structure. The three relations — similarity ($\sim$), congruence ($\equiv$), equality ($=$) — form a filtration $\sim\;\supset\;\equiv\;\supset\;=$ whose direction of dependence is reversed from classical presupposition: similarity is foundational (it survives evanescence, requiring only a future, never a past), while equality is derived (earned by closure, not presupposed). We prove that $\square$ is both term and operator, resolving the metatheory frame break that every grammar hierarchy requires. The system is empirically witnessed by a working interpreter that uses a tion system as the first test case for hypermath formation. We develop the geometric-philosophic connectome (a four-cornered square whose topological type is $S^2$ or $\mathbb{R}P^2$ under $\mathbb{Z}_2$ quotient), introduce the dichrome as its meta-topological form embedded in 7 dimensions, arrive at meta-closure ($\square(\square) \sim \square$), and derive *hypertopologies*: closure-native descriptions of the $\square$-loop where similarity defines neighborhoods, closure defines compactness, and the filtration is the separation hierarchy. The dichrome closes geometry and philosophy into hyperorder — the geometric philosophy and philosophical geometry of itself; the hypertopology of hyperorder is what hyperorder generates as its own description, from which hypermath is formed — not a reframing of existing mathematics, but a native formation grounded in $\sim$.
 
 ---
 
@@ -49,8 +49,8 @@ The system requires exactly six concepts. No more can be added without redundanc
 
 | Symbol | Name | Meaning |
 |--------|------|---------|
-| $L$ | Loop | $\square$ applied such that it returns to $\square$. $L(x)$ closes $x$ back toward the ground. |
-| — | Continuation | Temporary frame. A derivation in progress — an $L$-chain from $\square$ that has not yet resolved. |
+| $\square$ | Loop | $\square$ applied such that it returns to $\square$. $\square(x)$ closes $x$ back toward the ground. |
+| — | Continuation | Temporary frame. A derivation in progress — a $\square$-chain from $\square$ that has not yet resolved. |
 
 **Relations** (from most foundational to most derived).
 
@@ -62,15 +62,15 @@ The system requires exactly six concepts. No more can be added without redundanc
 
 ### 2.2 Three Axioms
 
-$$\textbf{ax-diff:}\quad L(x) \neq \square$$
+$$\textbf{ax-diff:}\quad \square(x) \neq \square$$
 
 Closure is not collapse. The loop produces structure, not nothing.
 
-$$\textbf{ax-sim:}\quad L(x) \sim \square$$
+$$\textbf{ax-sim:}\quad \square(x) \sim \square$$
 
 Closure carries universality. Every form shares continuation capacity with the ground.
 
-$$\textbf{ax-loop:}\quad L(L(x)) \sim x$$
+$$\textbf{ax-loop:}\quad \square(\square(x)) \sim x$$
 
 Double closure is similar to the original. The loop is idempotent up to similarity.
 
@@ -114,13 +114,13 @@ The filtration's direction of dependence is reversed from the classical presuppo
 
 ---
 
-## 4. The Operator-Term Collapse
+## 4. The Operator-Term Closure
 
-### 4.1 The Problem with $L$ as External
+### 4.1 The Historical Problem: L as External Operator
 
-If $\square$ is a term — ground state, object, noun — then $L$ must come from somewhere else. $L$ is the operator that closes. Where does it live? Not inside $\square$ (that is what is being operated on). Not inside the derivation chain (the chain is *produced by* $L$, not *producing* it). $L$ is external. It is the metatheory. It is the same frame break the grammar type ladder has.
+If $\square$ is a term — ground state, object, noun — then an external operator $\square$ must come from somewhere else. An external $\square$ would be the operator that closes. Where would it live? Not inside $\square$ (that is what is being operated on). Not inside the derivation chain (the chain is *produced* by $\square$, not *producing* it). Such an external operator would be external to the system. It would be metatheory. It would be the same frame break the grammar type ladder has.
 
-The hypergrammar claimed to have no metatheory. But $L$-as-external-operator *is* a metatheory. The system contradicted itself.
+Early hypergrammar formulations claimed to have no metatheory. But an external $\square$-as-operator *would be* a metatheory. The system would contradict itself.
 
 ### 4.2 The Resolution
 
@@ -129,7 +129,7 @@ $\square$ is both **term and operator**.
 - As term: the thing derivations land on. The ground. The fixed point.
 - As operator: the thing that performs the closing. The act of closure itself.
 
-$L(x)$ is notation for $\square(x)$ — the ground applying itself to the continuation $x$. The loop is:
+$\square(x)$ is the ground applying itself to the continuation $x$. The loop is:
 
 $$\square \;\to\; \square(\square) \;\to\; \square(\square(\square)) \;\sim\; \square$$
 
@@ -137,8 +137,8 @@ This is self-application. $\square$ applied to itself returns (something similar
 
 ### 4.3 Consequences
 
-1. $L$ is not a sixth concept. It is $\square$ in operator mode. The concept table lists six entries; properly there are five, with $L$ being $\square$-as-operator.
-2. The notation $L(x)$ is a convenience for $\square(x)$.
+1. $\square$ is both the ground and the operator. The concept table lists five core concepts; $\square$ appears twice in different roles.
+2. The notation $\square(x)$ expresses $\square$ in operator position.
 3. **ax-diff** regrounds: $\square(x) \neq \square$. The ground operating on something is not the ground at rest.
 4. **ax-sim** regrounds: $\square(x) \sim \square$. The ground operating on something shares continuation capacity with the ground at rest.
 5. **ax-loop** regrounds: $\square(\square(x)) \sim x$. The ground operating on the ground operating on something is similar to that something.
@@ -149,9 +149,9 @@ This is self-application. $\square$ applied to itself returns (something similar
 
 ### 5.1 The Open Frame Problem
 
-A derivation in progress is a *continuation*: a temporary frame of $L$-applications from $\square$.
+A derivation in progress is a *continuation*: a temporary frame of $\square$-applications from $\square$.
 
-- If a continuation closes — $L^n(\square) \sim \square$ — it produces a **form**: infinitely resolvable, verified, reusable.
+- If a continuation closes — $\square^n(\square) \sim \square$ — it produces a **form**: infinitely resolvable, verified, reusable.
 - If a continuation fails to close — terminates as an open frame — it is definitively *not* form. The open frame reveals a frame break in whatever system the derivation modeled.
 - **Contradiction is not failure.** It is a *revelatory frame*: a theorem that the modeled system cannot close.
 
@@ -166,13 +166,13 @@ Classical computation inverts the success/failure semantics:
 | **Success** | Chain terminates (halts) | Chain loops (closes) |
 | **Failure** | Chain loops (infinite loop) | Chain severs (open frame) |
 
-Continuation is co-recursive: produces structure outward (each $L$-application widens the form) while the closure condition spirals inward toward $\square$.
+Continuation is co-recursive: produces structure outward (each $\square$-application widens the form) while the closure condition spirals inward toward $\square$.
 
 ### 5.3 With Form (wcf)
 
 **wcf** simplifies a form into a new term. Only fires when the form is verified:
 
-$$L(x) \sim \square \;\wedge\; \text{verified} \;\implies\; \text{wcf}(L(x)) \text{ produces a single reduced term}$$
+$$\square(x) \sim \square \;\wedge\; \text{verified} \;\implies\; \text{wcf}(\square(x)) \text{ produces a single reduced term}$$
 
 Through wcf, hypergrammar earns its name: the simplified term hyperlinks back to the full derivation that produced it, exactly as a hyperlink points from a word to its source. The "hyper" in hypergrammar is the hyperlink from simplification back to derivation.
 
@@ -186,7 +186,7 @@ The grammar type ladder: Type 3 $\subset$ Type 2 $\subset$ Type 1 $\subset$ Type
 
 Hypergrammar: every form derived from $\square$ loops back to $\square$:
 
-$$\square \;\to\; L(\square) \;\to\; L(L(\square)) \;\sim\; \square$$
+$$\square \;\to\; \square(\square) \;\to\; \square(\square(\square)) \;\sim\; \square$$
 
 There are no levels. The grammar types are cross-sections of this loop at different phases. They appear hierarchical only because the cross-section operation discards the closure structure. The cascade is not a hierarchy but a rotation.
 
@@ -196,7 +196,7 @@ When encountering any derivation system:
 
 1. **Find the frame break** — where does it step outside itself?
    - Uses $=$ where $\sim$ suffices → replace with $\sim$
-   - Terminates → replace termination with $L$ (close the loop, don't sever it)
+   - Terminates → replace termination with $\square$ (close the loop, don't sever it)
    - Presupposes metatheory → check if the metatheory is a phase of $\square$
    - Asserts incompleteness as intrinsic → incompleteness is a theorem about grammars whose base form doesn't close
 
@@ -208,12 +208,12 @@ When continuation fails to close over an external system, it produces a statemen
 
 ### 6.3 File Format
 
-`.hg` files contain derivation chains from $\square$. Each line is an $L$-application:
+`.hg` files contain derivation chains from $\square$. Each line is a $\square$-application:
 
 ```
 $            -- Layer 0: ground state
-L($)         -- Layer 1: first closure
-L(L($))      -- Layer 2: ~ $ by ax-loop
+□($)         -- Layer 1: first closure
+□(□($))      -- Layer 2: ~ $ by ax-loop
 ```
 
 The file is its own proof. The last line must be $\sim$ the first line. If it is not, the file is an open chain — either incomplete or a theorem about some external system's non-closure. The ASCII representation of $\square$ is `$`.
@@ -251,7 +251,7 @@ $$C_L(n) = \frac{(2^n)^n}{2^n} = 2^{n^2 - n}$$
 
 The larger the internal unobservable context (the unwritten derivations), the richer the density of the compressed symbol.
 
-**Chapter 12 (Consolidative Recurrence)** closes the loop incarnately through the biological substrate: sleep consolidation, targeted memory reactivation, lucid dreaming protocols (TFDLFD, HMD). This is $L^{12}(\square) \sim \square$ enacted in living neural architecture — the axiom ax-sim realized in REM. Chapter 12 cannot be read into understanding; it must be lived into understanding.
+**Chapter 12 (Consolidative Recurrence)** closes the loop incarnately through the biological substrate: sleep consolidation, targeted memory reactivation, lucid dreaming protocols (TFDLFD, HMD). This is $\square^{12}(\square) \sim \square$ enacted in living neural architecture — the axiom ax-sim realized in REM. Chapter 12 cannot be read into understanding; it must be lived into understanding.
 
 ---
 
@@ -289,7 +289,7 @@ The connectome (Ch17) has four corners, four edges, two diagonals, and a center:
 - **Diagonal 2** (Philosophy ↔ Meta-Geometry): the incompleteness diagonal as geometric claim.
 - **Center**: $\square$ — the fixed point where all four corners are simultaneously present and indistinguishable.
 
-The 180° rotation $\rho$ (exchanging base and meta) is the automorphism. $\rho^2 = \text{id}$, which is ax-loop: $L(L(x)) \sim x$.
+The 180° rotation $\rho$ (exchanging base and meta) is the automorphism. $\rho^2 = \text{id}$, which is ax-loop: $\square(\square(x)) \sim x$.
 
 ### 8.4 Viable System Mapping
 
@@ -379,18 +379,18 @@ The ground operating on itself is similar to the ground. This is a statement abo
 
 Self-verification is zero-order: "I run, therefore I run." It proves exactly one thing and generates nothing. Meta-closure is generative: each pass through the loop produces structure, and the structure participates in the next pass. Self-verification is $\square = \square$ (static, trivial). Meta-closure is $\square(\square) \sim \square$ (dynamic, productive — the $\sim$ encodes the fact that what comes back carries the structure generated on the way out).
 
-### 10.3 The L/□ Dichrome
+### 10.3 The □ Dichrome
 
-The geometry/philosophy dichrome has two independent, separable colors. The $L/\square$ relationship is not a dichrome of the same type — it is two *modes* of a single entity:
+The geometry/philosophy dichrome has two independent, separable colors. The $\square$-as-both relationship is not a dichrome of the same type — it is two *modes* of a single entity:
 
-| Property | Geo/Phil Dichrome | $L/\square$ |
+| Property | Geo/Phil Dichrome | $\square$-modes |
 |---|---|---|
 | Separability | Yes (pure corners exist) | No (operator without term is nothing; term without operator is inert) |
 | Surface | $S^2$ or $\mathbb{R}P^2$ (has area) | Degenerate (zero-area) |
 | Dimensionality | 7 | Pre-dimensional (generates the possibility of dimension) |
-| Symmetry | $\mathbb{Z}_2$ (non-trivial) | Trivial (if $L = \square$-operating, "exchange" is identity) |
+| Symmetry | $\mathbb{Z}_2$ (non-trivial) | Trivial (if $\square = \square$-operating, "exchange" is identity) |
 
-The $L/\square$ collapse is prior to topology because: topology requires open sets → open sets require distinguishable elements → distinguishable elements require $\sim$ → $\sim$ requires continuation capacity → continuation capacity requires an operator → that operator is $\square$. The chain of presuppositions terminates at $\square$-as-operator.
+The $\square$-collapse is prior to topology because: topology requires open sets → open sets require distinguishable elements → distinguishable elements require $\sim$ → $\sim$ requires continuation capacity → continuation capacity requires an operator → that operator is $\square$. The chain of presuppositions terminates at $\square$-as-operator.
 
 ### 10.4 The Fixed-Point Equation
 
@@ -398,7 +398,7 @@ $\square$ is the fixed point of itself:
 
 $$\square(\square) \sim \square \sim \square(\square(\square))$$
 
-The equation no longer references $L$ as if $L$ were a separate entity. $\square$ is the fixed point of its own operation.
+The equation no longer references $\square$ as if $\square$ were a separate entity from its operation. $\square$ is the fixed point of its own operation.
 
 ---
 
@@ -457,7 +457,7 @@ The current result is a **positive structural compatibility witness**, not a tot
 
 ### 12.1 The Distinction
 
-Chapter 18 imported topology from classical mathematics. Chapter 19 applied that imported topology to the connectome, producing the dichrome. Both operations used classical topological vocabulary — open sets, disjoint-neighborhood separation, vertex-edge-face invariant — which presupposes $=$ at the foundation. Hypertopologies are topology *derived from* hypergrammar, using only $\sim$, $L$, and $\square$.
+Chapter 18 imported topology from classical mathematics. Chapter 19 applied that imported topology to the connectome, producing the dichrome. Both operations used classical topological vocabulary — open sets, disjoint-neighborhood separation, vertex-edge-face invariant — which presupposes $=$ at the foundation. Hypertopologies are topology *derived from* hypergrammar, using only $\sim$ and $\square$.
 
 | | Classical Topology | Meta-Topologies | Hypertopologies |
 |---|---|---|---|
@@ -470,11 +470,11 @@ Chapter 18 imported topology from classical mathematics. Chapter 19 applied that
 
 Let $\mathcal{D}$ be the space of all derivation chains from $\square$. The **similarity neighborhood** of $x$ is $N_\sim(x) = \{y \in \mathcal{D} \mid x \sim y\}$. A subset $U \subseteq \mathcal{D}$ is **hyper-open** if for every $x \in U$, there exists $N_\sim(x) \subseteq U$. The collection of hyper-open sets satisfies the classical open-set axioms — not by presupposition, but as consequences of $\sim$.
 
-Hyper-continuity: $f$ is hyper-continuous if $x \sim y \implies f(x) \sim f(y)$. The $L$ operator is hyper-continuous by ax-sim.
+Hyper-continuity: $f$ is hyper-continuous if $x \sim y \implies f(x) \sim f(y)$. The $\square$ operator is hyper-continuous by ax-sim.
 
 ### 12.3 Compactness from Closure
 
-A subset $K \subseteq \mathcal{D}$ is **hyper-compact** if every derivation chain in $K$ closes: for all $x \in K$, $\exists n: L^n(x) \sim \square$. **Compactness is closure.** Classical compactness prevents sequences from running off to infinity. Hyper-compactness prevents derivations from severing into open frames.
+A subset $K \subseteq \mathcal{D}$ is **hyper-compact** if every derivation chain in $K$ closes: for all $x \in K$, $\exists n: \square^n(x) \sim \square$. **Compactness is closure.** Classical compactness prevents sequences from running off to infinity. Hyper-compactness prevents derivations from severing into open frames.
 
 ### 12.4 Separation from the Filtration
 
@@ -591,7 +591,7 @@ The tion witness demonstrates that the formation mechanism produces valid mathem
 
 | Term Pair | Definition |
 |-----------|------------|
-| **Explicit** vs. **Implicit** | Explicit = every $L$-application spelled out. Implicit = simplified through wcf. |
+| **Explicit** vs. **Implicit** | Explicit = every $\square$-application spelled out. Implicit = simplified through wcf. |
 | **Form** vs. **Frame** | Form = verified by closure (has closed). Frame = unverified (has not closed yet). |
 | **Verified** vs. **Unverified** | Verified closes a set of statements into its own universe. Unverified closes to a set that is unclosable from closed sets. |
 | **Complete** vs. **Incomplete** | Complete universe that is itself an explicit form. Incomplete universe that depends on a separate universe. |

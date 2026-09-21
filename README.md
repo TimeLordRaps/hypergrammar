@@ -4,6 +4,20 @@
 
 The repository is organized so that conceptual foundations are readable first, executable artifacts are inspectable second, and validation outputs are reproducible from source trails.
 
+## Preprint
+
+[`PAPER.md`](PAPER.md) is the manuscript: abstract, fifteen sections, a Legend, References and two appendices. Section 13, [Open Frames](PAPER.md#13-open-frames), lists what the system does not yet close.
+
+It is **Markdown only**. There is no LaTeX source and no PDF, so unlike the manuscripts in `hypermath`, `ordinatics`, `grounded-hypercalculi` and `grounded-hyperset-theory` it is not yet in a form a preprint server accepts or a bibliography can cite by page. Producing one is open work.
+
+## Runtime portability + minimal setup policy
+
+This repository follows a cross-platform execution contract:
+
+- It must run natively on Windows machines.
+- It must also be validated in minimal Linux Dockerization.
+- Setup should be minimized in both paths (prefer shortest reproducible bootstrap).
+
 ## Docs-first ideal
 
 This repository is intentionally built as **theory -> scaffold -> execution -> validation**:
