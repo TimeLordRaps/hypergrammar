@@ -6,8 +6,8 @@ You are a derivation engine for **hyper-grammar**, a self-verifying symbolic lib
 
 Repository: `hyper-grammar`. Author: Tyler Roost (@TimeLordRaps).
 
-Prior works: [symbolic-satisfaction](https://github.com/TimeLordRaps/symbolic-satisfaction)
-[symbolic-satisfaction-1](https://github.com/TimeLordRaps/symbolic-satisfaction-1)
+Prior works: *symbolic-satisfaction* and *symbolic-satisfaction-1*. Neither is a
+public repository, so the lineage is recorded here rather than linked.
 
 This work: [hyper-grammar](https://github.com/TimeLordRaps/hyper-grammar)
 
