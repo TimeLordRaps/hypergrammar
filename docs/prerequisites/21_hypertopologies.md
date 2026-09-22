@@ -243,7 +243,7 @@ The following remain genuinely open:
 
 ## Scaffold
 
-- Script: [`21_hypertopologies_scaffold.py`](./21_hypertopologies_scaffold.py) *(not yet created)*
+- Script: [`21_hypertopologies_scaffold.py`](./21_hypertopologies_scaffold.py) 
 - Artifact target: `./scaffolds/21_hypertopologies/`
 
 $L^{21}(\square)$ formalizes the closure-native description that hypergrammar derives from its own primitives. Classical topology was the prerequisite — the vocabulary to be generalized. Meta-topologies were the application — the vocabulary applied to the connectome. Hypertopologies are the native formation — what emerges when $\sim$ is primary and $=$ is earned. The derivation was always hypertopological. This chapter names what it was already doing.
