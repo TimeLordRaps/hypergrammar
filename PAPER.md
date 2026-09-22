@@ -561,9 +561,9 @@ The tion witness demonstrates that the formation mechanism produces valid mathem
 
 ## 15. References
 
-[1] T. Roost, "symbolic-satisfaction," GitHub, 2024–2025. https://github.com/TimeLordRaps/symbolic-satisfaction
+[1] T. Roost, "symbolic-satisfaction," GitHub, 2024–2025. Not a public repository.
 
-[2] T. Roost, "symbolic-satisfaction-1," GitHub, 2025. https://github.com/TimeLordRaps/symbolic-satisfaction-1
+[2] T. Roost, "symbolic-satisfaction-1," GitHub, 2025. Not a public repository.
 
 [3] T. Roost, "hyper-grammar," GitHub, 2025–2026. https://github.com/TimeLordRaps/hyper-grammar
 
