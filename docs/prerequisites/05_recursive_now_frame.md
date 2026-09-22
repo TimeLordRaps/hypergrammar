@@ -6,7 +6,7 @@ It formalizes a **Recursive Now-Frame** architecture where change is driven by s
 
 ## Why this is the natural expansion of 00–04
 
-- [`00_learning_path.md`](./learning_path.md) establishes ordered conceptual dependency.
+- [`00_learning_path.md`](./00_learning_path.md) establishes ordered conceptual dependency.
 - [`01_grammar_fundamentals.md`](./01_grammar_fundamentals.md) introduces rule-governed state transitions.
 - [`02_chomsky_hierarchy.md`](./02_chomsky_hierarchy.md) clarifies expressive constraint classes (grammar type ladder).
 - [`03_hyper_inversion.md`](./03_hyper_inversion.md) reframes progression as closure-oriented structure.

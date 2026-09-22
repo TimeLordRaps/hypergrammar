@@ -77,7 +77,8 @@ def _find_previous_signature(base_dir: Path, chapter_id: str) -> str | None:
 def _mermaid(nodes: Sequence[HyperNode], edges: Sequence[HyperEdge]) -> str:
     lines = ["flowchart TD"]
     for node in nodes:
-        lines.append(f"  {node.key}[\"{node.label.replace('"', "'")}\"]")
+        label = node.label.replace('"', "'")
+        lines.append(f"  {node.key}[\"{label}\"]")
     for edge in edges:
         rel = edge.relation.replace('"', "'")
         lines.append(f"  {edge.source} -- \"{rel}\" --> {edge.target}")
