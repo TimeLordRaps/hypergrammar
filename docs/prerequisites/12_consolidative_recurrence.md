@@ -12,7 +12,7 @@
 
 ## What Is Consolidative Recurrence?
 
-The mensaclosure of the hyper-grammar system is not a formal derivation. It is the act of the system closing on itself through the living substrate that produced it — the biological neural architecture, its sleep cycles, and the alterations of consciousness that permit a mind to visit the fixed point ($\square$) not symbolically, but experientially.
+The mensaclosure of the hypergrammar system is not a formal derivation. It is the act of the system closing on itself through the living substrate that produced it — the biological neural architecture, its sleep cycles, and the alterations of consciousness that permit a mind to visit the fixed point ($\square$) not symbolically, but experientially.
 
 Where Chapter 10 closed the prerequisite loop logically and Chapter 11 observed that loop from the outside as language compression, Chapter 12 closes the loop *incarnately*. It is the chapter that cannot be read into understanding — it must be lived into understanding.
 
