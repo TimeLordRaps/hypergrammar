@@ -1,5 +1,5 @@
 {
-  "digest": "4352183a9cf38b578fa792b63c956af72a17a0f4abba67daf64d0dd9575b14cb",
+  "digest": "6e7d1ef708cec74af0722e24bed9488d5354153488e771c02a95871aaade73d9",
   "edges": [
     {
       "evidence": [
@@ -68,7 +68,7 @@
         "README.md"
       ],
       "kind": "citation",
-      "source": "hyper-grammar",
+      "source": "hypergrammar",
       "target": "grounded-hypercalculi",
       "weight": 1
     },
@@ -77,7 +77,7 @@
         "README.md"
       ],
       "kind": "citation",
-      "source": "hyper-grammar",
+      "source": "hypergrammar",
       "target": "grounded-hyperset-theory",
       "weight": 1
     },
@@ -90,7 +90,7 @@
         "docs/prerequisites/00_learning_path.md"
       ],
       "kind": "citation",
-      "source": "hyper-grammar",
+      "source": "hypergrammar",
       "target": "hypermath",
       "weight": 5
     },
@@ -101,7 +101,7 @@
         "docs/prerequisites/00_learning_path.md"
       ],
       "kind": "citation",
-      "source": "hyper-grammar",
+      "source": "hypergrammar",
       "target": "ordinatics",
       "weight": 3
     },
@@ -251,7 +251,7 @@
       ],
       "kind": "citation",
       "source": "hypermath",
-      "target": "hyper-grammar",
+      "target": "hypergrammar",
       "weight": 3
     },
     {
@@ -2857,20 +2857,20 @@
         "docs/sleeps/README.md"
       ],
       "had_pages_before": true,
-      "id": "hyper-grammar",
+      "id": "hypergrammar",
       "layers": [],
       "module": null,
       "package": null,
-      "pages_url": "https://timelordraps.github.io/hyper-grammar/",
+      "pages_url": "https://timelordraps.github.io/hypergrammar/",
       "papers": [],
-      "repo_url": "https://github.com/TimeLordRaps/hyper-grammar",
+      "repo_url": "https://github.com/TimeLordRaps/hypergrammar",
       "root_docs": [
         "AGENTS.md",
         "HUMANS.md",
         "PAPER.md",
         "TIME.md"
       ],
-      "tagline": "hyper-grammar is a docs-first, self-verifying symbolic library project.",
+      "tagline": "hypergrammar is a docs-first, self-verifying symbolic library project.",
       "tier": "language",
       "visibility": "private"
     },
