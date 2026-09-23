@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This file is for humans working on the `hyper-grammar` repo. It is written in plain language. For the exact formal rules agents follow, read `AGENTS.md`. If the two files ever disagree, record it in `TIME.md`. Open frames — unstated or unformalized structure — also belong in `TIME.md`.
+This file is for humans working on the `hypergrammar` repo. It is written in plain language. For the exact formal rules agents follow, read `AGENTS.md`. If the two files ever disagree, record it in `TIME.md`. Open frames — unstated or unformalized structure — also belong in `TIME.md`.
 
 ## What this repo is
 
