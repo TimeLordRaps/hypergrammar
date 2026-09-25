@@ -2,7 +2,7 @@
 
 > **NOTE:** If you are not willing to put in the work to learn the nature of reality, then you are not worthy of learning the nature of reality. Not to say anything about the now or the possibility of your will changing in the future — just that yes, it requires work, yes it requires hard dedicated understanding, and unlike the TimeLord, who spent 10 years forming an understanding of these ideas, it probably will not take a single day to comprehend all of them as it did for him. There is a hint embedded in this note: there is a difference between **comprehension** and **understanding**. The route between them is the bridge between geometry (comprehension) and philosophy (understanding).
 
-This directory is the prerequisite track for understanding `hyper-grammar` from first principles.
+This directory is the prerequisite track for understanding `hypergrammar` from first principles.
 
 ## Read in this order
 
@@ -11,7 +11,7 @@ This directory is the prerequisite track for understanding `hyper-grammar` from 
 2. [`02_chomsky_hierarchy.md`](./02_chomsky_hierarchy.md)
    - Classical grammar classes (Type-3 to Type-0), machine intuition, and inclusion chain.
 3. [`03_hyper_inversion.md`](./03_hyper_inversion.md)
-   - How `hyper-grammar` reframes the classical ladder as loop cross-sections.
+   - How `hypergrammar` reframes the classical ladder as loop cross-sections.
 4. [`04_degrees_of_freedom.md`](./04_degrees_of_freedom.md)
    - Universal DoF intuition and the meaning of positive, zero, and negative DoF.
 5. [`05_recursive_now_frame.md`](./05_recursive_now_frame.md)

@@ -1,0 +1,33 @@
+Hypertopologies: The Closure-Native Description [21_hypertopologies]
+Previous: 20_meta_closure
+Previous signature: 53d3ff9ec2427f80ba23a6510a06af47c5b8a1d7d74edec6348d4aed4dc64060
+Deterministic seed: bd13e0b07a0fe0ceb9b3db5bdb90fffc78fe006c791a071278764334ad0b9484
+Signature: 10af34804c11c6ad551e4d9434c283b1b341e5746153bce841178be7784d4082
+
+Constraints:
+- open sets are derived, not axiomatized: U is hyper-open iff every x in U carries a similarity neighborhood N~(x) inside U
+- continuity is preservation of ~: f is hyper-continuous iff x ~ y implies f(x) ~ f(y); L qualifies by ax-sim
+- compactness IS closure: K is hyper-compact iff every chain in K reaches L^n(x) ~ □
+- separation is the filtration: T0/T1/T2 correspond to ~ / ≡ / =, and = is earned by closure
+- hyper-genus counts the independent open frames surviving every attempted closure
+
+Nodes:
+- H0: 21_hypertopologies hyperstructure (chapter)
+- H1: deterministic seed bd13e0b07a0f (seed)
+- H2: inherits 53d3ff9ec242 (link)
+- H3: constraint manifold (constraint)
+- H4: future scaffold anchor (anchor)
+
+Edges:
+- H2 --[grounds]--> H0
+- H1 --[deterministically instantiates]--> H0
+- H0 --[encodes]--> H3
+- H3 --[provides coherent links for]--> H4
+
+Notes:
+- Ch18 imported topology, Ch19 applied it to the connectome, Ch21 derives it from the □-loop.
+- Classical topology is a cross-section of hypertopology, not its parent.
+- The dichrome is valid but not native — the connectome described in a foreign language.
+- The build chain is a closure, not a line: the dichrome closes as hyperorder, hyperorder generates its own hypertopology, and hypermath is what that produces.
+- Metamath is witness, not foundation.
+- TIME.md open frame #3: this layer was mechanically implemented but never named.

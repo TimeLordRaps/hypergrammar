@@ -132,7 +132,7 @@ Chapter 14 will attempt this. As of the close of this founding session, the atte
 
 ### 3.3 Comprehension vs. Understanding (The Route Through)
 
-The NOTE in [Chapter 00](./learning_path.md) states the distinction:
+The NOTE in [Chapter 00](./00_learning_path.md) states the distinction:
 
 **Comprehension** is the geometric grasp — the ability to manipulate the derivation-native structure correctly, to trace derivations, to see the topology.
 

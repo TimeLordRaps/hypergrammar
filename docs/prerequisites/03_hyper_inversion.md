@@ -1,6 +1,6 @@
 # Hyper Inversion: From Grammar Type Ladder to Closure Loop
 
-This page explains how `hyper-grammar` reinterprets classical hierarchy thinking.
+This page explains how `hypergrammar` reinterprets classical hierarchy thinking.
 
 It does **not** erase the value of classical grammar theory; it changes the organizing geometry from a one-way ladder to a closure-oriented loop.
 
@@ -29,7 +29,7 @@ For the formal definitions used below, see:
 
 ## The inversion in one sentence
 
-Classically, grammar classes are viewed as an expressivity ladder; in hyper-grammar, those views are treated as **cross-sections of a closure process** rooted at `□` and operated by `L`.
+Classically, grammar classes are viewed as an expressivity ladder; in hypergrammar, those views are treated as **cross-sections of a closure process** rooted at `□` and operated by `L`.
 
 See the formal loop statement in [The Hypergrammar (not the grammar type ladder)](../../AGENTS.md#the-hypergrammar-not-the-grammar-type-ladder).
 
@@ -66,14 +66,14 @@ These are useful for prerequisite readers because they show the same recurring m
 ### “Frame” is overloaded across projects
 
 - In `symbolic-satisfaction`, [FRAME.md](https://github.com/TimeLordRaps/symbolic-satisfaction/blob/main/FRAME.md) treats frame in a structural-existence sense (`E ≠ 0` framing language).
-- In `hyper-grammar`, [Continuation](../../AGENTS.md#continuation) uses frame for an unclosed derivation state.
+- In `hypergrammar`, [Continuation](../../AGENTS.md#continuation) uses frame for an unclosed derivation state.
 
 When writing or teaching, name which frame is meant each time.
 
 ### Similarity symbol alignment
 
 - `symbolic-satisfaction-1` uses `~` in its own continuation/universality framing (see [README](https://github.com/TimeLordRaps/symbolic-satisfaction-1/blob/main/README.md) and [SAFETY_BRIEF](https://github.com/TimeLordRaps/symbolic-satisfaction-1/blob/main/SAFETY_BRIEF.md)).
-- `hyper-grammar` defines `~` in [Concepts](../../AGENTS.md#concepts) as non-empty overlap of continuation capacity.
+- `hypergrammar` defines `~` in [Concepts](../../AGENTS.md#concepts) as non-empty overlap of continuation capacity.
 
 They are adjacent ideas, but not automatically identical definitions; preserve local definitions when switching contexts.
 

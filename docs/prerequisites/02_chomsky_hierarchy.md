@@ -101,4 +101,4 @@ Even when modern systems are not written as textbook grammars, these classes sti
 | universal rewriting machine | Turing machine (Alan Turing, 1936) |
 | universally-complete | Turing-complete (Alan Turing, 1936) |
 
-Next step: read [`03_hyper_inversion.md`](./03_hyper_inversion.md) for the hyper-grammar reinterpretation.
+Next step: read [`03_hyper_inversion.md`](./03_hyper_inversion.md) for the hypergrammar reinterpretation.

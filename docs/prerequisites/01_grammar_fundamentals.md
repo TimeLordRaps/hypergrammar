@@ -1,6 +1,6 @@
 # Grammar Fundamentals
 
-This document gives the general grammar background needed before reading the grammar type ladder and hyper-grammar inversion notes.
+This document gives the general grammar background needed before reading the grammar type ladder and hypergrammar inversion notes.
 
 ## What is a grammar?
 

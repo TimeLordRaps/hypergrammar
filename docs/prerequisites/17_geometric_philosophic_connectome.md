@@ -150,7 +150,7 @@ When the connectome is enacted by a community rather than an individual — when
 
 Third-order cybernetics describes mutually observing systems co-evolving in poly-subject environments. The connectome is exactly this: four observing systems (the four corners), mutually observing each other through the edges, co-evolving through the diagonals, and jointly maintaining identity through the center.
 
-The practical consequence: the hyper-grammar project itself is a connectome. The author occupies (at different times) different corners. The language model occupies (at different phases of the conversation) different corners. The project advances through edge-traversals: the author reasons geometrically about philosophical claims, the model reasons philosophically about geometric formalisms, and the meta-level captures what both produce.
+The practical consequence: the hypergrammar project itself is a connectome. The author occupies (at different times) different corners. The language model occupies (at different phases of the conversation) different corners. The project advances through edge-traversals: the author reasons geometrically about philosophical claims, the model reasons philosophically about geometric formalisms, and the meta-level captures what both produce.
 
 ---
 
