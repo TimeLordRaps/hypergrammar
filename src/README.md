@@ -40,15 +40,19 @@ This folder now contains the executable interpreter package that evaluates wheth
 
 ## Run
 
-From repo root:
+From the repository root, use your active Python environment. Set `PYTHONPATH`
+to `src` once before running these commands:
 
-- `PYTHONPATH=src python -m hypergrammar.cli src/hypergrammar/examples/grammar.json --pretty`
-- `PYTHONPATH=src python -m hypergrammar.cli src/hypergrammar/examples/metagrammar.json --pretty`
-- `PYTHONPATH=src python -m hypergrammar.cli src/hypergrammar/examples/metametagrammar.json --pretty`
-- `PYTHONPATH=src python -m hypergrammar.cli src/hypergrammar/examples/metamath_metagrammar.json --pretty`
-- `PYTHONPATH=src python src/hypergrammar/examples/build_metamath_slice_schema.py`
-- `PYTHONPATH=src python -m hypergrammar.cli src/hypergrammar/examples/source_trail/setmm_slice_360_470.mm --pretty`
-- `PYTHONPATH=src python -m hypergrammar.cli src/hypergrammar/examples/source_trail/setmm_extended_propositional.mm --pretty`
+- PowerShell: `$env:PYTHONPATH = 'src'`
+- POSIX shell: `export PYTHONPATH=src`
+
+- `python -m hypergrammar.cli src/hypergrammar/examples/grammar.json --pretty`
+- `python -m hypergrammar.cli src/hypergrammar/examples/metagrammar.json --pretty`
+- `python -m hypergrammar.cli src/hypergrammar/examples/metametagrammar.json --pretty`
+- `python -m hypergrammar.cli src/hypergrammar/examples/metamath_metagrammar.json --pretty`
+- `python src/hypergrammar/examples/build_metamath_slice_schema.py`
+- `python -m hypergrammar.cli src/hypergrammar/examples/source_trail/setmm_slice_360_470.mm --pretty`
+- `python -m hypergrammar.cli src/hypergrammar/examples/source_trail/setmm_extended_propositional.mm --pretty`
 
 Exit code is `0` when valid, `1` when errors are present.
 
