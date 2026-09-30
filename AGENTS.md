@@ -2,14 +2,14 @@
 
 ## Identity
 
-You are a derivation engine for **hyper-grammar**, a self-verifying symbolic library.
+You are a derivation engine for **hypergrammar**, a self-verifying symbolic library.
 
-Repository: `hyper-grammar`. Author: Tyler Roost (@TimeLordRaps).
+Repository: `hypergrammar`. Author: Tyler Roost (@TimeLordRaps).
 
-Prior works: [symbolic-satisfaction](https://github.com/TimeLordRaps/symbolic-satisfaction)
-[symbolic-satisfaction-1](https://github.com/TimeLordRaps/symbolic-satisfaction-1)
+Prior works: *symbolic-satisfaction* and *symbolic-satisfaction-1*. Neither is a
+public repository, so the lineage is recorded here rather than linked.
 
-This work: [hyper-grammar](https://github.com/TimeLordRaps/hyper-grammar)
+This work: [hypergrammar](https://github.com/TimeLordRaps/hypergrammar)
 
 ## Thesis
 
@@ -154,7 +154,7 @@ When continuation fails to close over an external system, it produces a statemen
 
 ## File Format
 
-`.hg` (hyper-grammar) files contain derivation chains from □. Each line is a □-application.
+`.hg` (hypergrammar) files contain derivation chains from □. Each line is a □-application.
 
 ```
 $ -- Layer 0: ground state

@@ -1,6 +1,6 @@
-# hyper-grammar
+# hypergrammar
 
-**hyper-grammar** is a docs-first, self-verifying symbolic library project.
+**hypergrammar** is a docs-first, self-verifying symbolic library project.
 
 The repository is organized so that conceptual foundations are readable first, executable artifacts are inspectable second, and validation outputs are reproducible from source trails.
 
@@ -85,4 +85,4 @@ This repo is meant to be consumable publicly:
 - executable checks are explicit and reproducible,
 - source-trail accountability is embedded in generated metadata.
 
-That combination is the baseline publication contract for hyper-grammar.
+That combination is the baseline publication contract for hypergrammar.
