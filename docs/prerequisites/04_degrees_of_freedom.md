@@ -101,9 +101,9 @@ This does not mean the system has "minus one physical knobs." It means your cons
 | Zero | Exactly determined | Fixed solution or rigid local behavior |
 | Negative | Overdetermined | Inconsistency, infeasibility, contradiction signal |
 
-## Connection to hyper-grammar terminology
+## Connection to hypergrammar terminology
 
-In `hyper-grammar`, constraints appear as closure requirements over continuation structure (see [`../../AGENTS.md`](../../AGENTS.md)).
+In `hypergrammar`, constraints appear as closure requirements over continuation structure (see [`../../AGENTS.md`](../../AGENTS.md)).
 
 - Positive-like regime: multiple continuation paths still available.
 - Zero-like regime: closure condition determines a specific resolved form.
