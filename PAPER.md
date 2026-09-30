@@ -561,11 +561,11 @@ The tion witness demonstrates that the formation mechanism produces valid mathem
 
 ## 15. References
 
-[1] T. Roost, "symbolic-satisfaction," GitHub, 2024–2025. https://github.com/TimeLordRaps/symbolic-satisfaction
+[1] T. Roost, "symbolic-satisfaction," GitHub, 2024–2025. Not a public repository.
 
-[2] T. Roost, "symbolic-satisfaction-1," GitHub, 2025. https://github.com/TimeLordRaps/symbolic-satisfaction-1
+[2] T. Roost, "symbolic-satisfaction-1," GitHub, 2025. Not a public repository.
 
-[3] T. Roost, "hyper-grammar," GitHub, 2025–2026. https://github.com/TimeLordRaps/hyper-grammar
+[3] T. Roost, "hypergrammar," GitHub, 2025–2026. https://github.com/TimeLordRaps/hypergrammar
 
 [4] N. Chomsky, "Three models for the description of language," *IRE Transactions on Information Theory*, vol. 2, no. 3, pp. 113–124, 1956.
 

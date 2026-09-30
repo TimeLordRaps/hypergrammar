@@ -9,7 +9,7 @@ This chapter constructs the **second larger loop** around the prerequisite cycli
 
 If Chapter 10 closes the prerequisite loop by returning as a presupposition for Chapter 01 ($\kappa \vdash C_1$), Chapter 11 observes that closed loop from the outside. 
 
-In hyper-grammar rules ($L(x) \sim U$), an entire form derivation $x$ behaves as the universal base $U$ for the next level. This is the **Fractal Hypergrammar**: a continuation where the atoms of the new grammar are the fully closed trajectories of the underlying grammar.
+In hypergrammar rules ($L(x) \sim U$), an entire form derivation $x$ behaves as the universal base $U$ for the next level. This is the **Fractal Hypergrammar**: a continuation where the atoms of the new grammar are the fully closed trajectories of the underlying grammar.
 
 ## Informational Atoms (CBits and MBits)
 
@@ -44,7 +44,7 @@ $$ M_{\text{total}} = \int_0^\infty \frac{dM}{dL} dL $$
 
 ## The Language Compression Formula
 
-When a full hyper-grammar derivation concludes ($L^n(U) \sim U$), it collapses the superexponential internal states of the traversal into a single observable symbol (an MBit). The observer (the MBit) records not just the thought, but the trajectory of how the thought formed in latent space.
+When a full hypergrammar derivation concludes ($L^n(U) \sim U$), it collapses the superexponential internal states of the traversal into a single observable symbol (an MBit). The observer (the MBit) records not just the thought, but the trajectory of how the thought formed in latent space.
 
 The **Language Compression Formula** computes the density of Meaning packed into a collapsed Language expression within this fractal structure. It is the ratio of internal structural relations to classical observable forms at depth $n$:
 
