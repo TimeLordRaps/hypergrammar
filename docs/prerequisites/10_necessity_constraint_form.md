@@ -74,7 +74,7 @@ Treat the system as open-frame unless all of the following are true:
 
 If any check fails, closure is not yet established.
 
-## Connection to hyper-grammar closure language
+## Connection to hypergrammar closure language
 
 This chapter is the prerequisite-track analogue of closure semantics in:
 
